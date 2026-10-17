@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "comparison": "Full source equality after exactly three permitted replacements; CRLF and CR normalized to LF only.",
+  "allowedChanges": [
+    "Two local entrance script tags after the original Three.js CDN tag.",
+    "Original facade material, facade geometry and gold band replaced by createMaisonEntrance(T,scene,renderer).",
+    "Original door construction replaced by const doors=entrance.doors."
+  ],
+  "unchanged": {
+    "documentCssAndInterfaceMarkup": {
+      "unchanged": true,
+      "bytes": 5248,
+      "sha256": "0bbe4c39b621b839822e953694ae45f2c1e34c3763768cad2c051cc4ebec47bd"
+    },
+    "dataTexturesEngineAndMaterials": {
+      "unchanged": true,
+      "bytes": 4508,
+      "sha256": "778eeaacbf1856430f3df0a70bb35a27dad2dc64c73f35662b57b165f393781f"
+    },
+    "interiorBeforeFacade": {
+      "unchanged": true,
+      "bytes": 954,
+      "sha256": "d51c5dcc85981b52bd73308870e0e9051783dd15971a161a19c150611e36ddac"
+    },
+    "sign": {
+      "unchanged": true,
+      "bytes": 721,
+      "sha256": "0a654eedbae8b1d174a240006b138795ad52857a4a4ae4103387a1158b38f036"
+    },
+    "ceilingStrips": {
+      "unchanged": true,
+      "bytes": 140,
+      "sha256": "1d15fae12052c4cef886bdab2f5c98338710dfb91d1404483b0ceb76d1e598db"
+    },
+    "vitrineAndInterface": {
+      "unchanged": true,
+      "bytes": 5045,
+      "sha256": "34ed303a88e4d8c691f4cd5348371ef6adbce2e713f6c7da4d325192b0d747a5"
+    },
+    "cameraResizeAndFrame": {
+      "unchanged": true,
+      "bytes": 1813,
+      "sha256": "0e0f34bbe43a2937d70b7971272b350a5ecd6a04fa30ea6dda63fc74afaf1235"
+    }
+  },
+  "sourceHashes": {
+    "originalHtml": "ff84caf06ad5a271ce6dc0cb043b70d7a61318e77ff07e3273d84fd3d02cea5e",
+    "currentHtml": "485d0bc30b18a8181305d148319cd68c0eee3f8726232bf47a65600600950d7e",
+    "reproducedExpectedHtml": "485d0bc30b18a8181305d148319cd68c0eee3f8726232bf47a65600600950d7e",
+    "originalInlineScript": "0a5a18b8d51fde5bdf6b70257a70274a482930d5f1b8f39114a2fa1b5e0a9ad7",
+    "currentInlineScript": "68ffe36129aca1f7895b48ad72d5319f1a63a229c796fbdbe312821a57b9c310",
+    "entranceScript": "09b9d2e7f16da64110f1607c800cd7e48b107152a990061361e374ff9bedd659",
+    "entranceTexturesScript": "94824db91d84572844989e4c09e90e18a342d889134cbc8b72d433e05d3b08ac"
+  },
+  "originalGeometry": {
+    "aperture": {
+      "minX": -1.2,
+      "maxX": 1.2,
+      "minY": 0,
+      "maxY": 3,
+      "facadeZ": 8
+    },
+    "doorCount": 2,
+    "hinges": [
+      [
+        -1.15,
+        0,
+        8.1
+      ],
+      [
+        1.15,
+        0,
+        8.1
+      ]
+    ],
+    "pane": {
+      "width": 1.1,
+      "height": 2.9,
+      "depth": 0.03
+    },
+    "openingRadians": [
+      1.45,
+      -1.45
+    ],
+    "cameraStopsZ": [
+      11,
+      3.5,
+      -3,
+      -9,
+      -15,
+      -21,
+      -27
+    ]
+  }
+}

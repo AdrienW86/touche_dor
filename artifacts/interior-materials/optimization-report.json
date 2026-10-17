@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "asset": "Marble016",
+      "source": "downloads\\Marble016\\Marble016_2K-JPG_Color.jpg",
+      "file": "marble-color.webp",
+      "role": "color",
+      "width": 2048,
+      "height": 2048,
+      "sourceBytes": 3984090,
+      "bytes": 1323890,
+      "sha256": "e9a79de52d33ec9a5258ec53c6a53f10a99fe260231d21ee19fde9abdb22894b",
+      "encoding": "sRGB",
+      "transformation": "WebP quality 93"
+    },
+    {
+      "asset": "Marble016",
+      "source": "downloads\\Marble016\\Marble016_2K-JPG_NormalGL.jpg",
+      "file": "marble-normal.webp",
+      "role": "normal",
+      "width": 1024,
+      "height": 1024,
+      "sourceBytes": 1320243,
+      "bytes": 290734,
+      "sha256": "a89d02908a6a077c56813c6c9199a2506d771a314ca1a716d3747feff169d68a",
+      "encoding": "linear data; OpenGL normal convention",
+      "transformation": "WebP lossless, 1024px"
+    },
+    {
+      "asset": "Marble016",
+      "source": "downloads\\Marble016\\Marble016_2K-JPG_Roughness.jpg",
+      "file": "marble-roughness.webp",
+      "role": "roughness",
+      "width": 1024,
+      "height": 1024,
+      "sourceBytes": 1220798,
+      "bytes": 320296,
+      "sha256": "9a23c37a7095a094b0d7d3937b92dc160f910049ff7a90491f326a92dedf06b8",
+      "encoding": "linear data; OpenGL normal convention",
+      "transformation": "WebP lossless, 1024px"
+    },
+    {
+      "asset": "Plaster001",
+      "source": "downloads\\Plaster001\\Plaster001_1K-JPG_Color.jpg",
+      "file": "plaster-color.webp",
+      "role": "color",
+      "width": 1024,
+      "height": 1024,
+      "sourceBytes": 828790,
+      "bytes": 200764,
+      "sha256": "026f7f3acdce7a0f4fa9680cbf012213d641a8739bcf3c5593ef8d23dd9f811e",
+      "encoding": "sRGB",
+      "transformation": "WebP quality 93"
+    },
+    {
+      "asset": "Plaster001",
+      "source": "downloads\\Plaster001\\Plaster001_1K-JPG_NormalGL.jpg",
+      "file": "plaster-normal.webp",
+      "role": "normal",
+      "width": 512,
+      "height": 512,
+      "sourceBytes": 2091491,
+      "bytes": 519982,
+      "sha256": "b483edfbcfb7c0216703a2ab6640bced4bdeb5f4395d05e948d94d59045fc259",
+      "encoding": "linear data; OpenGL normal convention",
+      "transformation": "WebP lossless, 512px"
+    },
+    {
+      "asset": "Plaster001",
+      "source": "downloads\\Plaster001\\Plaster001_1K-JPG_Roughness.jpg",
+      "file": "plaster-roughness.webp",
+      "role": "roughness",
+      "width": 1024,
+      "height": 1024,
+      "sourceBytes": 367391,
+      "bytes": 318348,
+      "sha256": "63cccaf301f2b4fa678e15c2ad798e306585ab5305dc49e53713fc1edba5ec20",
+      "encoding": "linear data; OpenGL normal convention",
+      "transformation": "WebP lossless, 1024px"
+    }
+  ],
+  "sourceBytes": 9812803,
+  "servedBytes": 2974014
+}

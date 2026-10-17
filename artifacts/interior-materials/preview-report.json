@@ -1,0 +1,604 @@
+{
+  "mode": "final",
+  "url": "http://localhost:3000",
+  "viewport": {
+    "width": 1780,
+    "height": 883
+  },
+  "browserPreferences": {
+    "reducedMotion": "reduce",
+    "reason": "Existing production reduced-motion behavior gives deterministic scroll checkpoints under software rendering."
+  },
+  "loadedSources": {
+    "http://localhost:3000/prototype/maison-noire.html": {
+      "sha256": "cc87379f1acdec8e41d49bb08caa0e6d0fa5a2600211f7d0cb4f6bda6ccad7f8",
+      "diskSha256": "cc87379f1acdec8e41d49bb08caa0e6d0fa5a2600211f7d0cb4f6bda6ccad7f8",
+      "matchesDisk": true,
+      "sourceVegetationPresent": false
+    },
+    "http://localhost:3000/prototype/entrance-textures.js": {
+      "sha256": "94824db91d84572844989e4c09e90e18a342d889134cbc8b72d433e05d3b08ac",
+      "diskSha256": "94824db91d84572844989e4c09e90e18a342d889134cbc8b72d433e05d3b08ac",
+      "matchesDisk": true,
+      "sourceVegetationPresent": false
+    },
+    "http://localhost:3000/prototype/entrance.js": {
+      "sha256": "b30e82d42df52c08378f97465b9eb897fcaf7559c89a8e5d51a8baf1c4195eac",
+      "diskSha256": "b30e82d42df52c08378f97465b9eb897fcaf7559c89a8e5d51a8baf1c4195eac",
+      "matchesDisk": true,
+      "sourceVegetationPresent": false
+    },
+    "http://localhost:3000/prototype/interior-materials.js": {
+      "sha256": "30cee61e3535e210e36a3a6792731a8d95183bcc7d18a283414f4a4d8468597e",
+      "diskSha256": "30cee61e3535e210e36a3a6792731a8d95183bcc7d18a283414f4a4d8468597e",
+      "matchesDisk": true,
+      "sourceVegetationPresent": false
+    }
+  },
+  "assetResources": {
+    "http://localhost:3000/prototype/assets/interior/marble-roughness.webp": {
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    "http://localhost:3000/prototype/assets/interior/marble-normal.webp": {
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    "http://localhost:3000/prototype/assets/interior/marble-color.webp": {
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    "http://localhost:3000/prototype/assets/interior/plaster-color.webp": {
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    "http://localhost:3000/prototype/assets/interior/plaster-roughness.webp": {
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    "http://localhost:3000/prototype/assets/interior/plaster-normal.webp": {
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    "http://localhost:3000/prototype/assets/interior/studio_small_09_1k.hdr": {
+      "status": 200,
+      "mimeType": "application/octet-stream"
+    }
+  },
+  "errors": [],
+  "resourceErrors": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "url": "http://localhost:3000/favicon.ico"
+    }
+  ],
+  "networkFailures": [],
+  "consoleWarnings": [
+    "[.WebGL-0x2c3400426e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x2c3400426e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x2c3400426e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x2c3400426e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  ],
+  "checkpoints": {
+    "closed": {
+      "scrollY": 0,
+      "scrollFraction": 0,
+      "camera": {
+        "position": [
+          0,
+          1.541552,
+          11
+        ],
+        "quaternion": [
+          -0.003463,
+          0,
+          0,
+          0.999994
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.17,
+              0.025,
+              8.064
+            ],
+            "max": [
+              -0.03,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.03,
+              0.025,
+              8.064
+            ],
+            "max": [
+              1.17,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 93,
+        "calls": 232,
+        "triangles": 21474,
+        "points": 220,
+        "lines": 72
+      },
+      "memory": {
+        "geometries": 216,
+        "textures": 26
+      },
+      "scene": {
+        "meshes": 225,
+        "lights": 5,
+        "materials": 54,
+        "geometries": 207,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 1,
+        "cardOpacity": 0,
+        "cardTitle": "",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      },
+      "screenshot": "preview-closed.png"
+    },
+    "open": {
+      "scrollY": 392,
+      "scrollFraction": 0.05549263873159683,
+      "camera": {
+        "position": [
+          0,
+          1.556636,
+          9.753393
+        ],
+        "quaternion": [
+          -0.00472,
+          0,
+          0,
+          0.999989
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.448358,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.18573,
+              0.025,
+              6.984721
+            ],
+            "max": [
+              -0.978466,
+              2.985,
+              8.123514
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.448358,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.978466,
+              0.025,
+              6.984721
+            ],
+            "max": [
+              1.18573,
+              2.985,
+              8.123514
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 101,
+        "calls": 232,
+        "triangles": 21474,
+        "points": 220,
+        "lines": 72
+      },
+      "memory": {
+        "geometries": 216,
+        "textures": 26
+      },
+      "scene": {
+        "meshes": 225,
+        "lights": 5,
+        "materials": 54,
+        "geometries": 207,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 1,
+        "cardOpacity": 0,
+        "cardTitle": "",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      },
+      "screenshot": "preview-open.png"
+    },
+    "firstVitrine": {
+      "scrollY": 1177,
+      "scrollFraction": 0.16661947904869762,
+      "camera": {
+        "position": [
+          -0.799411,
+          1.540803,
+          3.5
+        ],
+        "quaternion": [
+          -0.006333,
+          0.050539,
+          0.00032,
+          0.998702
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.185738,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              -0.980278,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.980278,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              1.185738,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 113,
+        "calls": 199,
+        "triangles": 18138,
+        "points": 220,
+        "lines": 72
+      },
+      "memory": {
+        "geometries": 216,
+        "textures": 26
+      },
+      "scene": {
+        "meshes": 225,
+        "lights": 5,
+        "materials": 54,
+        "geometries": 207,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 0,
+        "cardOpacity": 1,
+        "cardTitle": "Bague Aurore",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      },
+      "screenshot": "preview-first-vitrine.png"
+    }
+  },
+  "composition": {
+    "desktop1780": {
+      "viewport": {
+        "width": 1780,
+        "height": 883
+      },
+      "documentWidth": 1765,
+      "intro": {
+        "x": 124.59375,
+        "y": 520.171875,
+        "left": 124.59375,
+        "top": 520.171875,
+        "right": 418.28125,
+        "bottom": 777.046875,
+        "width": 293.6875,
+        "height": 256.875
+      },
+      "heading": {
+        "x": 124.59375,
+        "y": 554.359375,
+        "left": 124.59375,
+        "top": 554.359375,
+        "right": 418.28125,
+        "bottom": 659.015625,
+        "width": 293.6875,
+        "height": 104.65625
+      },
+      "headingText": {
+        "x": 124.59375,
+        "y": 551.359375,
+        "left": 124.59375,
+        "top": 551.359375,
+        "right": 418.28125,
+        "bottom": 661.6875,
+        "width": 293.6875,
+        "height": 110.328125
+      },
+      "paragraph": {
+        "x": 124.59375,
+        "y": 675.015625,
+        "left": 124.59375,
+        "top": 675.015625,
+        "right": 418.28125,
+        "bottom": 741.25,
+        "width": 293.6875,
+        "height": 66.234375
+      },
+      "paragraphText": {
+        "x": 124.59375,
+        "y": 675.015625,
+        "left": 124.59375,
+        "top": 675.015625,
+        "right": 417.28125,
+        "bottom": 741.171875,
+        "width": 292.6875,
+        "height": 66.15625
+      },
+      "headingStyle": {
+        "fontSize": "49.84px",
+        "lineHeight": "52.332px"
+      },
+      "doorway": {
+        "left": 482.64875936344134,
+        "right": 1297.3512406365587,
+        "top": -94.09933899811246,
+        "bottom": 954.2527937688095
+      }
+    }
+  },
+  "checks": {}
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Maison noire — vitrines et stabilité",
+  "slider": true,
+  "images": [
+    {
+      "src": "after-gpu-station-4-close.png",
+      "loaded": true
+    },
+    {
+      "src": "before-gpu-station-4-close.png",
+      "loaded": true
+    },
+    {
+      "src": "after-gpu-station-1-close.png",
+      "loaded": true
+    },
+    {
+      "src": "after-gpu-station-2-close.png",
+      "loaded": true
+    },
+    {
+      "src": "after-gpu-station-3-close.png",
+      "loaded": true
+    },
+    {
+      "src": "after-gpu-station-4-close.png",
+      "loaded": true
+    },
+    {
+      "src": "after-gpu-station-5-close.png",
+      "loaded": true
+    },
+    {
+      "src": "after-gpu-station-6-close.png",
+      "loaded": true
+    },
+    {
+      "src": "after-gpu-overview-review.png",
+      "loaded": true
+    }
+  ],
+  "videos": [
+    {
+      "source": "before-gpu-original-motion.webm",
+      "ready": 4,
+      "width": 1780
+    },
+    {
+      "source": "after-gpu-corrected-motion.webm",
+      "ready": 4,
+      "width": 1780
+    }
+  ],
+  "synchronizedPlayback": true
+}

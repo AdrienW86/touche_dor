@@ -1,0 +1,2264 @@
+[
+  {
+    "uri": "https://api.sketchfab.com/v3/models/8d8938dd1f954a50b6736e39ea5cbaa7",
+    "uid": "8d8938dd1f954a50b6736e39ea5cbaa7",
+    "name": "VR Gallery",
+    "staffpickedAt": null,
+    "viewCount": 9569,
+    "likeCount": 294,
+    "animationCount": 0,
+    "viewerUrl": "https://sketchfab.com/3d-models/none-8d8938dd1f954a50b6736e39ea5cbaa7",
+    "embedUrl": "https://sketchfab.com/models/8d8938dd1f954a50b6736e39ea5cbaa7/embed",
+    "commentCount": 1,
+    "isDownloadable": true,
+    "publishedAt": "2021-11-11T22:01:53.249682",
+    "tags": [
+      {
+        "name": "room",
+        "slug": "room",
+        "uri": "https://api.sketchfab.com/v3/tags/room"
+      },
+      {
+        "name": "concrete",
+        "slug": "concrete",
+        "uri": "https://api.sketchfab.com/v3/tags/concrete"
+      },
+      {
+        "name": "webgl",
+        "slug": "webgl",
+        "uri": "https://api.sketchfab.com/v3/tags/webgl"
+      },
+      {
+        "name": "vr",
+        "slug": "vr",
+        "uri": "https://api.sketchfab.com/v3/tags/vr"
+      },
+      {
+        "name": "exhibition",
+        "slug": "exhibition",
+        "uri": "https://api.sketchfab.com/v3/tags/exhibition"
+      },
+      {
+        "name": "showcase",
+        "slug": "showcase",
+        "uri": "https://api.sketchfab.com/v3/tags/showcase"
+      },
+      {
+        "name": "presentation",
+        "slug": "presentation",
+        "uri": "https://api.sketchfab.com/v3/tags/presentation"
+      },
+      {
+        "name": "virtualreality",
+        "slug": "virtualreality",
+        "uri": "https://api.sketchfab.com/v3/tags/virtualreality"
+      },
+      {
+        "name": "gallery",
+        "slug": "gallery",
+        "uri": "https://api.sketchfab.com/v3/tags/gallery"
+      },
+      {
+        "name": "museum",
+        "slug": "museum",
+        "uri": "https://api.sketchfab.com/v3/tags/museum"
+      },
+      {
+        "name": "showroom",
+        "slug": "showroom",
+        "uri": "https://api.sketchfab.com/v3/tags/showroom"
+      },
+      {
+        "name": "minimalistic",
+        "slug": "minimalistic",
+        "uri": "https://api.sketchfab.com/v3/tags/minimalistic"
+      },
+      {
+        "name": "vive",
+        "slug": "vive",
+        "uri": "https://api.sketchfab.com/v3/tags/vive"
+      },
+      {
+        "name": "architecture",
+        "slug": "architecture",
+        "uri": "https://api.sketchfab.com/v3/tags/architecture"
+      },
+      {
+        "name": "interior",
+        "slug": "interior",
+        "uri": "https://api.sketchfab.com/v3/tags/interior"
+      }
+    ],
+    "categories": [
+      {
+        "name": "architecture"
+      },
+      {
+        "name": "art-abstract"
+      }
+    ],
+    "thumbnails": {
+      "images": [
+        {
+          "uid": "e246e567eb434132836504f394d7ff8a",
+          "size": 406451,
+          "width": 1920,
+          "url": "https://media.sketchfab.com/models/8d8938dd1f954a50b6736e39ea5cbaa7/thumbnails/e79c754707de4a9f9c59a1f55fbe614b/1009c5a5036f4ea0bd21e0aa4b9cd9e7.jpeg",
+          "height": 1080
+        },
+        {
+          "uid": "703a090aee054afbaba4b873b88df032",
+          "size": 47498,
+          "width": 1024,
+          "url": "https://media.sketchfab.com/models/8d8938dd1f954a50b6736e39ea5cbaa7/thumbnails/e79c754707de4a9f9c59a1f55fbe614b/85dbf10fdcce409292bed0dd466025af.jpeg",
+          "height": 576
+        },
+        {
+          "uid": "f3ba93f1de7746629657d54bf352023e",
+          "size": 23382,
+          "width": 720,
+          "url": "https://media.sketchfab.com/models/8d8938dd1f954a50b6736e39ea5cbaa7/thumbnails/e79c754707de4a9f9c59a1f55fbe614b/7e8a60bcccd149c091168102f116792f.jpeg",
+          "height": 405
+        },
+        {
+          "uid": "12b739beb96446b8822de28589c9602a",
+          "size": 4872,
+          "width": 256,
+          "url": "https://media.sketchfab.com/models/8d8938dd1f954a50b6736e39ea5cbaa7/thumbnails/e79c754707de4a9f9c59a1f55fbe614b/e994b690b9a647189d171c2d80cb96d6.jpeg",
+          "height": 144
+        },
+        {
+          "uid": "cc2c54c20b7042b68388dff3ff4ca940",
+          "size": 1195,
+          "width": 64,
+          "url": "https://media.sketchfab.com/models/8d8938dd1f954a50b6736e39ea5cbaa7/thumbnails/e79c754707de4a9f9c59a1f55fbe614b/e2bb64fa7eb54f7ebd1d17c71498a504.jpeg",
+          "height": 36
+        }
+      ]
+    },
+    "user": {
+      "uid": "a1d51f2ff09844d5a1521b8821716cb8",
+      "username": "mvrc.art",
+      "displayName": "Maxim Mavrichev",
+      "profileUrl": "https://sketchfab.com/mvrc.art",
+      "account": "basic",
+      "avatar": {
+        "uri": "https://api.sketchfab.com/v3/avatars/dccf9f01f70e4eaf8a3bffd78feb242c",
+        "images": [
+          {
+            "size": 726,
+            "width": 32,
+            "url": "https://media.sketchfab.com/avatars/dccf9f01f70e4eaf8a3bffd78feb242c/a454de65fbd248f3b9856666a1050928.jpeg",
+            "height": 32
+          },
+          {
+            "size": 1102,
+            "width": 48,
+            "url": "https://media.sketchfab.com/avatars/dccf9f01f70e4eaf8a3bffd78feb242c/a4e48f6a3ad349f8800cf66ab269be39.jpeg",
+            "height": 48
+          },
+          {
+            "size": 2582,
+            "width": 90,
+            "url": "https://media.sketchfab.com/avatars/dccf9f01f70e4eaf8a3bffd78feb242c/c213b2bec9864595ab6bcc47a9e7b91f.jpeg",
+            "height": 90
+          },
+          {
+            "size": 2989,
+            "width": 100,
+            "url": "https://media.sketchfab.com/avatars/dccf9f01f70e4eaf8a3bffd78feb242c/d7d18b0bbd114752aec17df0a1b6176d.jpeg",
+            "height": 100
+          }
+        ]
+      },
+      "uri": "https://api.sketchfab.com/v3/users/a1d51f2ff09844d5a1521b8821716cb8"
+    },
+    "description": "VR low poly gallery made for product showcase and art exhibitions.",
+    "faceCount": 5420,
+    "createdAt": "2021-11-11T18:32:09.520381",
+    "vertexCount": 3450,
+    "isAgeRestricted": false,
+    "archives": {
+      "glb": {
+        "textureCount": 2,
+        "size": 21898640,
+        "type": "glb",
+        "textureMaxResolution": 4096,
+        "faceCount": 5420,
+        "vertexCount": 5682
+      },
+      "gltf": {
+        "textureCount": 2,
+        "size": 21600397,
+        "type": "gltf",
+        "textureMaxResolution": 4096,
+        "faceCount": 5420,
+        "vertexCount": 5682
+      },
+      "source": {
+        "textureCount": null,
+        "size": 21906729,
+        "type": "source",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      },
+      "usdz": {
+        "textureCount": null,
+        "size": 2582759,
+        "type": "usdz",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      }
+    },
+    "license": {
+      "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution"
+    },
+    "archivePath": "glbs/000-021/8d8938dd1f954a50b6736e39ea5cbaa7.glb"
+  },
+  {
+    "uri": "https://api.sketchfab.com/v3/models/bff483f2d08b4dc8a2313751fd010d00",
+    "uid": "bff483f2d08b4dc8a2313751fd010d00",
+    "name": "Toy Story Showcase. Riverside Museum. Glasgow.",
+    "staffpickedAt": null,
+    "viewCount": 224,
+    "likeCount": 3,
+    "animationCount": 0,
+    "viewerUrl": "https://sketchfab.com/3d-models/none-bff483f2d08b4dc8a2313751fd010d00",
+    "embedUrl": "https://sketchfab.com/models/bff483f2d08b4dc8a2313751fd010d00/embed",
+    "commentCount": 0,
+    "isDownloadable": true,
+    "publishedAt": "2022-03-19T15:46:56.690014",
+    "tags": [
+      {
+        "name": "toy",
+        "slug": "toy",
+        "uri": "https://api.sketchfab.com/v3/tags/toy"
+      },
+      {
+        "name": "toys",
+        "slug": "toys",
+        "uri": "https://api.sketchfab.com/v3/tags/toys"
+      },
+      {
+        "name": "trnio",
+        "slug": "trnio",
+        "uri": "https://api.sketchfab.com/v3/tags/trnio"
+      },
+      {
+        "name": "glasgow",
+        "slug": "glasgow",
+        "uri": "https://api.sketchfab.com/v3/tags/glasgow"
+      },
+      {
+        "name": "trnioplus",
+        "slug": "trnioplus",
+        "uri": "https://api.sketchfab.com/v3/tags/trnioplus"
+      },
+      {
+        "name": "riversidemuseum",
+        "slug": "riversidemuseum",
+        "uri": "https://api.sketchfab.com/v3/tags/riversidemuseum"
+      }
+    ],
+    "categories": [
+      {
+        "name": "cultural-heritage-history"
+      },
+      {
+        "name": "electronics-gadgets"
+      }
+    ],
+    "thumbnails": {
+      "images": [
+        {
+          "uid": "349abba9e1b347e19c7f49b7874c33ee",
+          "size": 343539,
+          "width": 1920,
+          "url": "https://media.sketchfab.com/models/bff483f2d08b4dc8a2313751fd010d00/thumbnails/00aa579358dd43a88d016c7d6dfb0b05/3f300782cb4347cfbf82c96910e7c482.jpeg",
+          "height": 1080
+        },
+        {
+          "uid": "59dcd06f9f504eb1822906afc64066b5",
+          "size": 116073,
+          "width": 1024,
+          "url": "https://media.sketchfab.com/models/bff483f2d08b4dc8a2313751fd010d00/thumbnails/00aa579358dd43a88d016c7d6dfb0b05/fa139b1dc91a4eaeaa46a31be386c779.jpeg",
+          "height": 576
+        },
+        {
+          "uid": "8d2eebaa34774f7b91ad69368e1dba76",
+          "size": 67679,
+          "width": 720,
+          "url": "https://media.sketchfab.com/models/bff483f2d08b4dc8a2313751fd010d00/thumbnails/00aa579358dd43a88d016c7d6dfb0b05/55b5b3b046d14a36a0843e0323a7342e.jpeg",
+          "height": 405
+        },
+        {
+          "uid": "d821dce01e5e424fb06240b34c204eee",
+          "size": 12716,
+          "width": 256,
+          "url": "https://media.sketchfab.com/models/bff483f2d08b4dc8a2313751fd010d00/thumbnails/00aa579358dd43a88d016c7d6dfb0b05/9bd8e16a6e3b44908d7be590522523a9.jpeg",
+          "height": 144
+        },
+        {
+          "uid": "493b59bdf8124b649a804bad1f17f280",
+          "size": 1790,
+          "width": 64,
+          "url": "https://media.sketchfab.com/models/bff483f2d08b4dc8a2313751fd010d00/thumbnails/00aa579358dd43a88d016c7d6dfb0b05/c79823c05c384cd08889dd8e2e090db0.jpeg",
+          "height": 36
+        }
+      ]
+    },
+    "user": {
+      "uid": "21af09de40884a2fbb769f40795b8b74",
+      "username": "albert_sierra",
+      "displayName": "albertsierra",
+      "profileUrl": "https://sketchfab.com/albert_sierra",
+      "account": "basic",
+      "avatar": {
+        "uri": "https://api.sketchfab.com/v3/avatars/81392895f74349caad611c7ea12861dd",
+        "images": [
+          {
+            "size": 4734,
+            "width": 32,
+            "url": "https://media.sketchfab.com/avatars/81392895f74349caad611c7ea12861dd/2cf4ce6c89154360b41dacd2a6175827.png",
+            "height": 32
+          },
+          {
+            "size": 6831,
+            "width": 48,
+            "url": "https://media.sketchfab.com/avatars/81392895f74349caad611c7ea12861dd/00a97e0c68f941d6af0a5ccf1d3b1701.png",
+            "height": 48
+          },
+          {
+            "size": 16000,
+            "width": 90,
+            "url": "https://media.sketchfab.com/avatars/81392895f74349caad611c7ea12861dd/a0f0a82d4c844fb0b4ef96d826d118c4.png",
+            "height": 90
+          },
+          {
+            "size": 19072,
+            "width": 100,
+            "url": "https://media.sketchfab.com/avatars/81392895f74349caad611c7ea12861dd/89d3e5ed424c468cbfd985c38d49d276.png",
+            "height": 100
+          }
+        ]
+      },
+      "uri": "https://api.sketchfab.com/v3/users/21af09de40884a2fbb769f40795b8b74"
+    },
+    "description": "The Riverside Museum shows the history of transport in Glasgow and lots of life bits around it. This showcase is dedicated to toys.\n\nCaptured with Trnio Plus.",
+    "faceCount": 249994,
+    "createdAt": "2022-03-18T21:06:52.895240",
+    "vertexCount": 139481,
+    "isAgeRestricted": false,
+    "archives": {
+      "glb": {
+        "textureCount": 3,
+        "size": 35334028,
+        "type": "glb",
+        "textureMaxResolution": 8192,
+        "faceCount": 249994,
+        "vertexCount": 157380
+      },
+      "gltf": {
+        "textureCount": 3,
+        "size": 30040140,
+        "type": "gltf",
+        "textureMaxResolution": 8192,
+        "faceCount": 249994,
+        "vertexCount": 157380
+      },
+      "source": {
+        "textureCount": null,
+        "size": 24986368,
+        "type": "source",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      },
+      "usdz": {
+        "textureCount": null,
+        "size": 7977507,
+        "type": "usdz",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      }
+    },
+    "license": {
+      "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution"
+    },
+    "archivePath": "glbs/000-032/bff483f2d08b4dc8a2313751fd010d00.glb"
+  },
+  {
+    "uri": "https://api.sketchfab.com/v3/models/b68cc93dc44440f5862258d04d212934",
+    "uid": "b68cc93dc44440f5862258d04d212934",
+    "name": "Display Case",
+    "staffpickedAt": null,
+    "viewCount": 7928,
+    "likeCount": 99,
+    "animationCount": 0,
+    "viewerUrl": "https://sketchfab.com/3d-models/none-b68cc93dc44440f5862258d04d212934",
+    "embedUrl": "https://sketchfab.com/models/b68cc93dc44440f5862258d04d212934/embed",
+    "commentCount": 1,
+    "isDownloadable": true,
+    "publishedAt": "2021-11-03T21:32:57.364602",
+    "tags": [
+      {
+        "name": "case",
+        "slug": "case",
+        "uri": "https://api.sketchfab.com/v3/tags/case"
+      },
+      {
+        "name": "display",
+        "slug": "display",
+        "uri": "https://api.sketchfab.com/v3/tags/display"
+      },
+      {
+        "name": "cabinet",
+        "slug": "cabinet",
+        "uri": "https://api.sketchfab.com/v3/tags/cabinet"
+      },
+      {
+        "name": "glass",
+        "slug": "glass",
+        "uri": "https://api.sketchfab.com/v3/tags/glass"
+      }
+    ],
+    "categories": [
+      {
+        "name": "furniture-home"
+      }
+    ],
+    "thumbnails": {
+      "images": [
+        {
+          "uid": "19faa90e6daa4e2db2beb0e311048347",
+          "size": 65290,
+          "width": 1920,
+          "url": "https://media.sketchfab.com/models/b68cc93dc44440f5862258d04d212934/thumbnails/39f41d490af8414c8939a8a755852294/8725501f0c6b4f9f8742f44b69ffbe2a.jpeg",
+          "height": 1080
+        },
+        {
+          "uid": "1d2ba5af64774f4fa82aa2e69629ce9a",
+          "size": 20820,
+          "width": 1024,
+          "url": "https://media.sketchfab.com/models/b68cc93dc44440f5862258d04d212934/thumbnails/39f41d490af8414c8939a8a755852294/bb316a8fde75487584e7547f25a698c1.jpeg",
+          "height": 576
+        },
+        {
+          "uid": "b2fbe7ef5e684e43aacd700da01664aa",
+          "size": 12122,
+          "width": 720,
+          "url": "https://media.sketchfab.com/models/b68cc93dc44440f5862258d04d212934/thumbnails/39f41d490af8414c8939a8a755852294/5693fecc4bab41e4b668cfaaae1d11f1.jpeg",
+          "height": 405
+        },
+        {
+          "uid": "20ec7443905d4b75b899c92accff6318",
+          "size": 3049,
+          "width": 256,
+          "url": "https://media.sketchfab.com/models/b68cc93dc44440f5862258d04d212934/thumbnails/39f41d490af8414c8939a8a755852294/b56b57fad1c944c0b4ca87263da34766.jpeg",
+          "height": 144
+        },
+        {
+          "uid": "674104665037452bbf7908587bcedd35",
+          "size": 969,
+          "width": 64,
+          "url": "https://media.sketchfab.com/models/b68cc93dc44440f5862258d04d212934/thumbnails/39f41d490af8414c8939a8a755852294/7302307418af430c807a8611ac4f0626.jpeg",
+          "height": 36
+        }
+      ]
+    },
+    "user": {
+      "uid": "be7c4cd374534d9e89213645182a79f4",
+      "username": "StephanTTM",
+      "displayName": "StephanTTM",
+      "profileUrl": "https://sketchfab.com/StephanTTM",
+      "account": "basic",
+      "avatar": {
+        "uri": "https://api.sketchfab.com/v3/avatars/6d5512b837364eb7b5c2aa880c523437",
+        "images": [
+          {
+            "size": 2429,
+            "width": 32,
+            "url": "https://media.sketchfab.com/avatars/6d5512b837364eb7b5c2aa880c523437/d6d59684b73646828b5af3ebfecf5912.png",
+            "height": 32
+          },
+          {
+            "size": 4391,
+            "width": 48,
+            "url": "https://media.sketchfab.com/avatars/6d5512b837364eb7b5c2aa880c523437/72dc93b3a61a458a97e41fec9749749f.png",
+            "height": 48
+          },
+          {
+            "size": 10070,
+            "width": 90,
+            "url": "https://media.sketchfab.com/avatars/6d5512b837364eb7b5c2aa880c523437/edf04b0692044bb2ba4db76319efc80b.png",
+            "height": 90
+          },
+          {
+            "size": 11441,
+            "width": 100,
+            "url": "https://media.sketchfab.com/avatars/6d5512b837364eb7b5c2aa880c523437/be70c3837b65425892ade49f49f4db00.png",
+            "height": 100
+          }
+        ]
+      },
+      "uri": "https://api.sketchfab.com/v3/users/be7c4cd374534d9e89213645182a79f4"
+    },
+    "description": "Glass display cabinet.",
+    "faceCount": 38116,
+    "createdAt": "2021-11-03T21:19:24.056910",
+    "vertexCount": 19090,
+    "isAgeRestricted": false,
+    "archives": {
+      "glb": {
+        "textureCount": 4,
+        "size": 18617184,
+        "type": "glb",
+        "textureMaxResolution": 2048,
+        "faceCount": 38116,
+        "vertexCount": 29384
+      },
+      "gltf": {
+        "textureCount": 4,
+        "size": 17769378,
+        "type": "gltf",
+        "textureMaxResolution": 2048,
+        "faceCount": 38116,
+        "vertexCount": 29384
+      },
+      "source": {
+        "textureCount": null,
+        "size": 55807900,
+        "type": "source",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      },
+      "usdz": {
+        "textureCount": null,
+        "size": 9206761,
+        "type": "usdz",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      }
+    },
+    "license": {
+      "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution"
+    },
+    "archivePath": "glbs/000-065/b68cc93dc44440f5862258d04d212934.glb"
+  },
+  {
+    "uri": "https://api.sketchfab.com/v3/models/867570f94d654385bb9750248849892b",
+    "uid": "867570f94d654385bb9750248849892b",
+    "name": "Canarian Cafe - cake display",
+    "staffpickedAt": null,
+    "viewCount": 7990,
+    "likeCount": 313,
+    "animationCount": 0,
+    "viewerUrl": "https://sketchfab.com/3d-models/none-867570f94d654385bb9750248849892b",
+    "embedUrl": "https://sketchfab.com/models/867570f94d654385bb9750248849892b/embed",
+    "commentCount": 2,
+    "isDownloadable": true,
+    "publishedAt": "2021-08-23T16:46:19.020372",
+    "tags": [
+      {
+        "name": "cafe",
+        "slug": "cafe",
+        "uri": "https://api.sketchfab.com/v3/tags/cafe"
+      },
+      {
+        "name": "cake",
+        "slug": "cake",
+        "uri": "https://api.sketchfab.com/v3/tags/cake"
+      },
+      {
+        "name": "display",
+        "slug": "display",
+        "uri": "https://api.sketchfab.com/v3/tags/display"
+      },
+      {
+        "name": "fridge",
+        "slug": "fridge",
+        "uri": "https://api.sketchfab.com/v3/tags/fridge"
+      }
+    ],
+    "categories": [
+      {
+        "name": "food-drink"
+      }
+    ],
+    "thumbnails": {
+      "images": [
+        {
+          "uid": "89813b03399044fa922622ef4b2d2cba",
+          "size": 297347,
+          "width": 1920,
+          "url": "https://media.sketchfab.com/models/867570f94d654385bb9750248849892b/thumbnails/2cb5a4278aec46db8c170fbeda3bb65f/da25655df9b04f06b13a6438e8cc7f11.jpeg",
+          "height": 1080
+        },
+        {
+          "uid": "7075214e044049909d0eb05caac35f35",
+          "size": 49481,
+          "width": 1024,
+          "url": "https://media.sketchfab.com/models/867570f94d654385bb9750248849892b/thumbnails/2cb5a4278aec46db8c170fbeda3bb65f/855c689a953a4910ae441ec9b98bf470.jpeg",
+          "height": 576
+        },
+        {
+          "uid": "84d11483c1254539bd092748347a7447",
+          "size": 28344,
+          "width": 720,
+          "url": "https://media.sketchfab.com/models/867570f94d654385bb9750248849892b/thumbnails/2cb5a4278aec46db8c170fbeda3bb65f/501541ac2c594d82921f554baea2af58.jpeg",
+          "height": 405
+        },
+        {
+          "uid": "2d7b2233c01b4fca9a6885b5a23c90df",
+          "size": 6004,
+          "width": 256,
+          "url": "https://media.sketchfab.com/models/867570f94d654385bb9750248849892b/thumbnails/2cb5a4278aec46db8c170fbeda3bb65f/2514195ef4da47b0a561cfe550a30d74.jpeg",
+          "height": 144
+        },
+        {
+          "uid": "7ad2cf35acae4b2d9d9c8ab02b94043b",
+          "size": 1274,
+          "width": 64,
+          "url": "https://media.sketchfab.com/models/867570f94d654385bb9750248849892b/thumbnails/2cb5a4278aec46db8c170fbeda3bb65f/050c3acd327541ad95e7dc6c2cdee6df.jpeg",
+          "height": 36
+        }
+      ]
+    },
+    "user": {
+      "uid": "e1d28197f324439694d40c5a6799ba86",
+      "username": "lanzaboy",
+      "displayName": "Lanzaman",
+      "profileUrl": "https://sketchfab.com/lanzaboy",
+      "account": "basic",
+      "avatar": {
+        "uri": "https://api.sketchfab.com/v3/avatars/d4a5e443bedd4cd3ad6df14d4ef1b425",
+        "images": [
+          {
+            "size": 1106,
+            "width": 32,
+            "url": "https://media.sketchfab.com/avatars/d4a5e443bedd4cd3ad6df14d4ef1b425/8e8bd33ea25c48c6a5e96fef518400ea.jpeg",
+            "height": 32
+          },
+          {
+            "size": 1562,
+            "width": 48,
+            "url": "https://media.sketchfab.com/avatars/d4a5e443bedd4cd3ad6df14d4ef1b425/1602d71fd3c941d59713635d7f10c4c1.jpeg",
+            "height": 48
+          },
+          {
+            "size": 3732,
+            "width": 90,
+            "url": "https://media.sketchfab.com/avatars/d4a5e443bedd4cd3ad6df14d4ef1b425/807a1cc0be4d4fa4862a3a2a0e36c9d0.jpeg",
+            "height": 90
+          },
+          {
+            "size": 4359,
+            "width": 100,
+            "url": "https://media.sketchfab.com/avatars/d4a5e443bedd4cd3ad6df14d4ef1b425/8d31f0bebaaf489281567c308ebef6c7.jpeg",
+            "height": 100
+          }
+        ]
+      },
+      "uri": "https://api.sketchfab.com/v3/users/e1d28197f324439694d40c5a6799ba86"
+    },
+    "description": "A refrigerated cake display, also used to cool many other items. The split in the glass cover is deliberate.\n(If anyone knows how to get the glass shelves to show through the glass cover I would be grateful)",
+    "faceCount": 13418,
+    "createdAt": "2021-08-23T16:18:16.788555",
+    "vertexCount": 6727,
+    "isAgeRestricted": false,
+    "archives": {
+      "glb": {
+        "textureCount": 4,
+        "size": 4128564,
+        "type": "glb",
+        "textureMaxResolution": 2048,
+        "faceCount": 13170,
+        "vertexCount": 10512
+      },
+      "gltf": {
+        "textureCount": 4,
+        "size": 3103634,
+        "type": "gltf",
+        "textureMaxResolution": 2048,
+        "faceCount": 13170,
+        "vertexCount": 10512
+      },
+      "source": {
+        "textureCount": null,
+        "size": 27074620,
+        "type": "source",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      },
+      "usdz": {
+        "textureCount": null,
+        "size": 2523754,
+        "type": "usdz",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      }
+    },
+    "license": {
+      "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution"
+    },
+    "archivePath": "glbs/000-004/867570f94d654385bb9750248849892b.glb"
+  },
+  {
+    "uri": "https://api.sketchfab.com/v3/models/d4a5d5293c564a1daed12a922ecac2f8",
+    "uid": "d4a5d5293c564a1daed12a922ecac2f8",
+    "name": "Zombie in glass case",
+    "staffpickedAt": null,
+    "viewCount": 273,
+    "likeCount": 8,
+    "animationCount": 0,
+    "viewerUrl": "https://sketchfab.com/3d-models/none-d4a5d5293c564a1daed12a922ecac2f8",
+    "embedUrl": "https://sketchfab.com/models/d4a5d5293c564a1daed12a922ecac2f8/embed",
+    "commentCount": 0,
+    "isDownloadable": true,
+    "publishedAt": "2022-08-21T16:06:00.967223",
+    "tags": [
+      {
+        "name": "green",
+        "slug": "green",
+        "uri": "https://api.sketchfab.com/v3/tags/green"
+      },
+      {
+        "name": "apocalyptic",
+        "slug": "apocalyptic",
+        "uri": "https://api.sketchfab.com/v3/tags/apocalyptic"
+      },
+      {
+        "name": "mob",
+        "slug": "mob",
+        "uri": "https://api.sketchfab.com/v3/tags/mob"
+      },
+      {
+        "name": "apocalypse",
+        "slug": "apocalypse",
+        "uri": "https://api.sketchfab.com/v3/tags/apocalypse"
+      },
+      {
+        "name": "blockbench",
+        "slug": "blockbench",
+        "uri": "https://api.sketchfab.com/v3/tags/blockbench"
+      },
+      {
+        "name": "glass",
+        "slug": "glass",
+        "uri": "https://api.sketchfab.com/v3/tags/glass"
+      },
+      {
+        "name": "minecraft",
+        "slug": "minecraft",
+        "uri": "https://api.sketchfab.com/v3/tags/minecraft"
+      },
+      {
+        "name": "horror",
+        "slug": "horror",
+        "uri": "https://api.sketchfab.com/v3/tags/horror"
+      },
+      {
+        "name": "zombie",
+        "slug": "zombie",
+        "uri": "https://api.sketchfab.com/v3/tags/zombie"
+      },
+      {
+        "name": "commandblock",
+        "slug": "commandblock",
+        "uri": "https://api.sketchfab.com/v3/tags/commandblock"
+      }
+    ],
+    "categories": [],
+    "thumbnails": {
+      "images": [
+        {
+          "uid": "2548ccef901d4c3a89411b172ab9e032",
+          "size": 47668,
+          "width": 1920,
+          "url": "https://media.sketchfab.com/models/d4a5d5293c564a1daed12a922ecac2f8/thumbnails/749e46daea014a5d818fb9e7c60c5d2c/7ddbb5c2fb524c588e012f5b994445b5.jpeg",
+          "height": 1080
+        },
+        {
+          "uid": "38da009fa9034c989ecfa36859204be4",
+          "size": 16756,
+          "width": 1024,
+          "url": "https://media.sketchfab.com/models/d4a5d5293c564a1daed12a922ecac2f8/thumbnails/749e46daea014a5d818fb9e7c60c5d2c/e870bf07d3134e3798b0b8158df178f9.jpeg",
+          "height": 576
+        },
+        {
+          "uid": "6f6a5a342bf34060959f682853074748",
+          "size": 10158,
+          "width": 720,
+          "url": "https://media.sketchfab.com/models/d4a5d5293c564a1daed12a922ecac2f8/thumbnails/749e46daea014a5d818fb9e7c60c5d2c/8be7c71101454e1fbcad91f096029468.jpeg",
+          "height": 405
+        },
+        {
+          "uid": "1957eeb4e41a41aeacb63d157e43f6af",
+          "size": 2707,
+          "width": 256,
+          "url": "https://media.sketchfab.com/models/d4a5d5293c564a1daed12a922ecac2f8/thumbnails/749e46daea014a5d818fb9e7c60c5d2c/fde52b7df05149da9fa0a8125a34c6c0.jpeg",
+          "height": 144
+        },
+        {
+          "uid": "a94e4d29e5724b359cb55585a79702a2",
+          "size": 1002,
+          "width": 64,
+          "url": "https://media.sketchfab.com/models/d4a5d5293c564a1daed12a922ecac2f8/thumbnails/749e46daea014a5d818fb9e7c60c5d2c/fb22f3ecdb464be282da9cc15db795e0.jpeg",
+          "height": 36
+        }
+      ]
+    },
+    "user": {
+      "uid": "4d4009e254044e03916f4741ea162fdc",
+      "username": "Nightfoxymc",
+      "displayName": "Nightfoxy3D",
+      "profileUrl": "https://sketchfab.com/Nightfoxymc",
+      "account": "basic",
+      "avatar": {
+        "uri": "https://api.sketchfab.com/v3/avatars/d78d8283adc245a3a82ff170aabf3d03",
+        "images": [
+          {
+            "size": 851,
+            "width": 32,
+            "url": "https://media.sketchfab.com/avatars/d78d8283adc245a3a82ff170aabf3d03/a637890c7cb648f68edfe91e8c6f0e80.jpeg",
+            "height": 32
+          },
+          {
+            "size": 1054,
+            "width": 48,
+            "url": "https://media.sketchfab.com/avatars/d78d8283adc245a3a82ff170aabf3d03/16ad26b66803489cb5cc6fc6f6258497.jpeg",
+            "height": 48
+          },
+          {
+            "size": 1763,
+            "width": 90,
+            "url": "https://media.sketchfab.com/avatars/d78d8283adc245a3a82ff170aabf3d03/dba72af7da174d829396edcb449a9df2.jpeg",
+            "height": 90
+          },
+          {
+            "size": 2016,
+            "width": 100,
+            "url": "https://media.sketchfab.com/avatars/d78d8283adc245a3a82ff170aabf3d03/81ec5dab6d74449fb779eab809e7636e.jpeg",
+            "height": 100
+          }
+        ]
+      },
+      "uri": "https://api.sketchfab.com/v3/users/4d4009e254044e03916f4741ea162fdc"
+    },
+    "description": "This is 1 of my zombies trapped in a glass case.\nhttps://sketchfab.com/3d-models/zombiewithsplithead-9cfcdce6bd83456ca89cef8a003afec7\n(Thats the Zombie in the glass case!)\n\nIncluded blocks: 2 commandblocks, 4 Light green glass\nIt is not displayed due to a render error!",
+    "faceCount": 756,
+    "createdAt": "2022-08-21T16:03:25.543952",
+    "vertexCount": 504,
+    "isAgeRestricted": false,
+    "archives": {
+      "glb": {
+        "textureCount": 1,
+        "size": 113368,
+        "type": "glb",
+        "textureMaxResolution": 128,
+        "faceCount": 756,
+        "vertexCount": 1512
+      },
+      "gltf": {
+        "textureCount": 1,
+        "size": 18050,
+        "type": "gltf",
+        "textureMaxResolution": 128,
+        "faceCount": 756,
+        "vertexCount": 1512
+      },
+      "source": {
+        "textureCount": null,
+        "size": 143547,
+        "type": "source",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      },
+      "usdz": {
+        "textureCount": null,
+        "size": 56207,
+        "type": "usdz",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      }
+    },
+    "license": {
+      "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution"
+    },
+    "archivePath": "glbs/000-115/d4a5d5293c564a1daed12a922ecac2f8.glb"
+  },
+  {
+    "uri": "https://api.sketchfab.com/v3/models/4e02811d415943d39715c131acb387a7",
+    "uid": "4e02811d415943d39715c131acb387a7",
+    "name": "Kerma Culture Burial (~2050-1750 BC)",
+    "staffpickedAt": null,
+    "viewCount": 2133,
+    "likeCount": 71,
+    "animationCount": 0,
+    "viewerUrl": "https://sketchfab.com/3d-models/none-4e02811d415943d39715c131acb387a7",
+    "embedUrl": "https://sketchfab.com/models/4e02811d415943d39715c131acb387a7/embed",
+    "commentCount": 2,
+    "isDownloadable": true,
+    "publishedAt": "2017-07-31T22:22:26.469152",
+    "tags": [
+      {
+        "name": "grave",
+        "slug": "grave",
+        "uri": "https://api.sketchfab.com/v3/tags/grave"
+      },
+      {
+        "name": "britishmuseum",
+        "slug": "britishmuseum",
+        "uri": "https://api.sketchfab.com/v3/tags/britishmuseum"
+      },
+      {
+        "name": "agisoft",
+        "slug": "agisoft",
+        "uri": "https://api.sketchfab.com/v3/tags/agisoft"
+      },
+      {
+        "name": "archaeology",
+        "slug": "archaeology",
+        "uri": "https://api.sketchfab.com/v3/tags/archaeology"
+      },
+      {
+        "name": "bones",
+        "slug": "bones",
+        "uri": "https://api.sketchfab.com/v3/tags/bones"
+      }
+    ],
+    "categories": [
+      {
+        "name": "cultural-heritage-history"
+      },
+      {
+        "name": "science-technology"
+      }
+    ],
+    "thumbnails": {
+      "images": [
+        {
+          "uid": "1b8c43f3cd2947b1af25ddb1860d8383",
+          "size": 380862,
+          "width": 1920,
+          "url": "https://media.sketchfab.com/models/4e02811d415943d39715c131acb387a7/thumbnails/ae4df483e3d04d3aa637820bbb6268f8/1920x1080.jpeg",
+          "height": 1080
+        },
+        {
+          "uid": "cfbbd38aa74d4d8b89a02b168b35e4b5",
+          "size": 107606,
+          "width": 1024,
+          "url": "https://media.sketchfab.com/models/4e02811d415943d39715c131acb387a7/thumbnails/ae4df483e3d04d3aa637820bbb6268f8/1024x576.jpeg",
+          "height": 576
+        },
+        {
+          "uid": "26002d1a615247b6a2e0264f88af3264",
+          "size": 55077,
+          "width": 720,
+          "url": "https://media.sketchfab.com/models/4e02811d415943d39715c131acb387a7/thumbnails/ae4df483e3d04d3aa637820bbb6268f8/720x405.jpeg",
+          "height": 405
+        },
+        {
+          "uid": "bdd52f71ed9945e985048a9604fbd0da",
+          "size": 8275,
+          "width": 256,
+          "url": "https://media.sketchfab.com/models/4e02811d415943d39715c131acb387a7/thumbnails/ae4df483e3d04d3aa637820bbb6268f8/256x144.jpeg",
+          "height": 144
+        },
+        {
+          "uid": "65850b6343384d9e80f8b75be25629a0",
+          "size": 1362,
+          "width": 64,
+          "url": "https://media.sketchfab.com/models/4e02811d415943d39715c131acb387a7/thumbnails/ae4df483e3d04d3aa637820bbb6268f8/64x36.jpeg",
+          "height": 36
+        }
+      ]
+    },
+    "user": {
+      "uid": "50836450d4e845a9825eda88d6c24e6d",
+      "username": "nate_sid",
+      "displayName": "nate_siddle",
+      "profileUrl": "https://sketchfab.com/nate_sid",
+      "account": "pro",
+      "avatar": {
+        "uri": "https://api.sketchfab.com/v3/avatars/298e517a6ad24a6680c00b5c11cba7ca",
+        "images": [
+          {
+            "size": 4000,
+            "width": 100,
+            "url": "https://media.sketchfab.com/avatars/298e517a6ad24a6680c00b5c11cba7ca/ac7ebb00026b4af483384be31a797a25.jpeg",
+            "height": 100
+          },
+          {
+            "size": 3388,
+            "width": 90,
+            "url": "https://media.sketchfab.com/avatars/298e517a6ad24a6680c00b5c11cba7ca/89150b3b73c54384972a78138b2665a4.jpeg",
+            "height": 90
+          },
+          {
+            "size": 1268,
+            "width": 48,
+            "url": "https://media.sketchfab.com/avatars/298e517a6ad24a6680c00b5c11cba7ca/1d4bfeedf14b457f9ee6724e6327bc2c.jpeg",
+            "height": 48
+          },
+          {
+            "size": 788,
+            "width": 32,
+            "url": "https://media.sketchfab.com/avatars/298e517a6ad24a6680c00b5c11cba7ca/c4b0ef7f96454c25bb7dad1adcd96a0e.jpeg",
+            "height": 32
+          }
+        ]
+      },
+      "uri": "https://api.sketchfab.com/v3/users/50836450d4e845a9825eda88d6c24e6d"
+    },
+    "description": "Scanned at the British Museum from behind a glass display case.\n\nPlaque Reads:\n\n\"This reconstructed burial shows a typical Kerma culture grave from a cemetery in northern Sudan. The man has been placed in a crouched position on his right side, his head to the east, facing north. Sacrificed sheep/goats are by his feet, with pottery vessels and joints of meat to one side. Such ritual practices suggest that these people believed in some form of afterlife. Analysis of the skeleton showed that these are the remains of an adult male who was ~1.75m tall. He died between the ages of 35 & 50 & his teeth are heavily worn. This has led to dental disease and his upper jaw (maxilla) has a large abscess above one of the incisors. The healed fractures on his feet, ribs and long bones suggest an active or violent life. The fracture on his right ulna -called a parry fracture - usually occurs when the arm is lifted to deflect a blow to the head. The meat offerings from the sheep &/or goats, are all from young animals\"",
+    "faceCount": 494034,
+    "createdAt": "2017-07-30T01:06:58.081084",
+    "vertexCount": 247596,
+    "isAgeRestricted": false,
+    "archives": {
+      "glb": {
+        "textureCount": 1,
+        "size": 29154400,
+        "type": "glb",
+        "textureMaxResolution": 8192,
+        "faceCount": 494034,
+        "vertexCount": 327231
+      },
+      "gltf": {
+        "textureCount": 1,
+        "size": 23082006,
+        "type": "gltf",
+        "textureMaxResolution": 8192,
+        "faceCount": 494034,
+        "vertexCount": 327231
+      },
+      "source": {
+        "textureCount": null,
+        "size": 41403364,
+        "type": "source",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      },
+      "usdz": {
+        "textureCount": null,
+        "size": 13822919,
+        "type": "usdz",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      }
+    },
+    "license": {
+      "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution"
+    },
+    "archivePath": "glbs/000-048/4e02811d415943d39715c131acb387a7.glb"
+  },
+  {
+    "uri": "https://api.sketchfab.com/v3/models/a8992db29f0e40e6b5b4a988feb7bcd5",
+    "uid": "a8992db29f0e40e6b5b4a988feb7bcd5",
+    "name": "Computer Case (V2.0)",
+    "staffpickedAt": null,
+    "viewCount": 333,
+    "likeCount": 2,
+    "animationCount": 0,
+    "viewerUrl": "https://sketchfab.com/3d-models/none-a8992db29f0e40e6b5b4a988feb7bcd5",
+    "embedUrl": "https://sketchfab.com/models/a8992db29f0e40e6b5b4a988feb7bcd5/embed",
+    "commentCount": 0,
+    "isDownloadable": true,
+    "publishedAt": "2021-05-18T20:56:52.197773",
+    "tags": [
+      {
+        "name": "computer",
+        "slug": "computer",
+        "uri": "https://api.sketchfab.com/v3/tags/computer"
+      },
+      {
+        "name": "pc",
+        "slug": "pc",
+        "uri": "https://api.sketchfab.com/v3/tags/pc"
+      },
+      {
+        "name": "case",
+        "slug": "case",
+        "uri": "https://api.sketchfab.com/v3/tags/case"
+      },
+      {
+        "name": "eletronics",
+        "slug": "eletronics",
+        "uri": "https://api.sketchfab.com/v3/tags/eletronics"
+      }
+    ],
+    "categories": [
+      {
+        "name": "electronics-gadgets"
+      }
+    ],
+    "thumbnails": {
+      "images": [
+        {
+          "uid": "3c7581e723ef437f85d714cd3ba6deb0",
+          "size": 31888,
+          "width": 1920,
+          "url": "https://media.sketchfab.com/models/a8992db29f0e40e6b5b4a988feb7bcd5/thumbnails/4e7b7547f84a4f52b9b01b92067f3cdf/0c988dbea2844460aaae7786d8d5c268.jpeg",
+          "height": 1080
+        },
+        {
+          "uid": "a9f9f45a03284eca9f47fbb69ace7aee",
+          "size": 10670,
+          "width": 1024,
+          "url": "https://media.sketchfab.com/models/a8992db29f0e40e6b5b4a988feb7bcd5/thumbnails/4e7b7547f84a4f52b9b01b92067f3cdf/6967b435fbec4cb988cd38fb0727d411.jpeg",
+          "height": 576
+        },
+        {
+          "uid": "1431db7186d940a29f85279cc15c6bab",
+          "size": 6669,
+          "width": 720,
+          "url": "https://media.sketchfab.com/models/a8992db29f0e40e6b5b4a988feb7bcd5/thumbnails/4e7b7547f84a4f52b9b01b92067f3cdf/f5d29a7b82534188818042c80a9cff8a.jpeg",
+          "height": 405
+        },
+        {
+          "uid": "9db6dedc93844ef29afe78d46107c600",
+          "size": 1848,
+          "width": 256,
+          "url": "https://media.sketchfab.com/models/a8992db29f0e40e6b5b4a988feb7bcd5/thumbnails/4e7b7547f84a4f52b9b01b92067f3cdf/2e1cb6b5b9f54b75a15938d7cd398699.jpeg",
+          "height": 144
+        },
+        {
+          "uid": "eb0262fca6884bb09546cd482c2d4058",
+          "size": 617,
+          "width": 64,
+          "url": "https://media.sketchfab.com/models/a8992db29f0e40e6b5b4a988feb7bcd5/thumbnails/4e7b7547f84a4f52b9b01b92067f3cdf/3befd197a633476c9345a729fb3b00f3.jpeg",
+          "height": 36
+        }
+      ]
+    },
+    "user": {
+      "uid": "d2d376963dcc480aa9a691247a615f11",
+      "username": "NumTenhoNome",
+      "displayName": "Setya",
+      "profileUrl": "https://sketchfab.com/NumTenhoNome",
+      "account": "basic",
+      "avatar": {
+        "uri": "https://api.sketchfab.com/v3/avatars/54996944b12d4a4ba3c36952afbf0640",
+        "images": [
+          {
+            "size": 1107,
+            "width": 32,
+            "url": "https://media.sketchfab.com/avatars/54996944b12d4a4ba3c36952afbf0640/ce871085a779459ca72c1eafa4e5d573.jpeg",
+            "height": 32
+          },
+          {
+            "size": 1594,
+            "width": 48,
+            "url": "https://media.sketchfab.com/avatars/54996944b12d4a4ba3c36952afbf0640/14fbbcf008804d91a172911ab9091c53.jpeg",
+            "height": 48
+          },
+          {
+            "size": 3527,
+            "width": 90,
+            "url": "https://media.sketchfab.com/avatars/54996944b12d4a4ba3c36952afbf0640/02309d280e9349deb8f12d0ecb699097.jpeg",
+            "height": 90
+          },
+          {
+            "size": 4127,
+            "width": 100,
+            "url": "https://media.sketchfab.com/avatars/54996944b12d4a4ba3c36952afbf0640/6ab1122acce248c2831dc3c2a70d3aa6.jpeg",
+            "height": 100
+          }
+        ]
+      },
+      "uri": "https://api.sketchfab.com/v3/users/d2d376963dcc480aa9a691247a615f11"
+    },
+    "description": "the white parts are actually a glass material, but Sketchfab is unable to display properly ...\n\nbasically my current computer case...\n\nfinal render: https://imgur.com/a/dIjVkfR",
+    "faceCount": 196396,
+    "createdAt": "2021-05-18T20:55:42.766601",
+    "vertexCount": 85818,
+    "isAgeRestricted": false,
+    "archives": {
+      "glb": {
+        "textureCount": 0,
+        "size": 9453288,
+        "type": "glb",
+        "textureMaxResolution": 0,
+        "faceCount": 196336,
+        "vertexCount": 254777
+      },
+      "gltf": {
+        "textureCount": 0,
+        "size": 1720556,
+        "type": "gltf",
+        "textureMaxResolution": 0,
+        "faceCount": 196336,
+        "vertexCount": 254777
+      },
+      "source": {
+        "textureCount": null,
+        "size": 28156243,
+        "type": "source",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      },
+      "usdz": {
+        "textureCount": null,
+        "size": 6299533,
+        "type": "usdz",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      }
+    },
+    "license": {
+      "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution"
+    },
+    "archivePath": "glbs/000-084/a8992db29f0e40e6b5b4a988feb7bcd5.glb"
+  },
+  {
+    "uri": "https://api.sketchfab.com/v3/models/b28d5a0a56754f3a94af77fc581726a7",
+    "uid": "b28d5a0a56754f3a94af77fc581726a7",
+    "name": "Red dragon ridge tile",
+    "staffpickedAt": null,
+    "viewCount": 406,
+    "likeCount": 32,
+    "animationCount": 0,
+    "viewerUrl": "https://sketchfab.com/3d-models/none-b28d5a0a56754f3a94af77fc581726a7",
+    "embedUrl": "https://sketchfab.com/models/b28d5a0a56754f3a94af77fc581726a7/embed",
+    "commentCount": 5,
+    "isDownloadable": true,
+    "publishedAt": "2021-11-26T17:42:29.318698",
+    "tags": [
+      {
+        "name": "rooftile",
+        "slug": "rooftile",
+        "uri": "https://api.sketchfab.com/v3/tags/rooftile"
+      },
+      {
+        "name": "truro",
+        "slug": "truro",
+        "uri": "https://api.sketchfab.com/v3/tags/truro"
+      },
+      {
+        "name": "dragon",
+        "slug": "dragon",
+        "uri": "https://api.sketchfab.com/v3/tags/dragon"
+      },
+      {
+        "name": "noai",
+        "slug": "noai",
+        "uri": "https://api.sketchfab.com/v3/tags/noai"
+      }
+    ],
+    "categories": [
+      {
+        "name": "cultural-heritage-history"
+      }
+    ],
+    "thumbnails": {
+      "images": [
+        {
+          "uid": "e3e863c001eb4f5dba414839daaa7fc2",
+          "size": 189328,
+          "width": 1920,
+          "url": "https://media.sketchfab.com/models/b28d5a0a56754f3a94af77fc581726a7/thumbnails/69bd583833434a3fb7745ec8af6d9ddd/d5e12d1caa544eaeb1856853292f5644.jpeg",
+          "height": 1080
+        },
+        {
+          "uid": "96c5e46667814fc78e6bd4fc9798cad1",
+          "size": 37679,
+          "width": 1024,
+          "url": "https://media.sketchfab.com/models/b28d5a0a56754f3a94af77fc581726a7/thumbnails/69bd583833434a3fb7745ec8af6d9ddd/8d32ce68ba7c4f158d7d67cc93722655.jpeg",
+          "height": 576
+        },
+        {
+          "uid": "3ab84687dba64fef8e4ebb8e94595f47",
+          "size": 21301,
+          "width": 720,
+          "url": "https://media.sketchfab.com/models/b28d5a0a56754f3a94af77fc581726a7/thumbnails/69bd583833434a3fb7745ec8af6d9ddd/c90d743c6c474395b97116936b8bcc2b.jpeg",
+          "height": 405
+        },
+        {
+          "uid": "e17046ec99dd4496a53568039ca373e6",
+          "size": 4501,
+          "width": 256,
+          "url": "https://media.sketchfab.com/models/b28d5a0a56754f3a94af77fc581726a7/thumbnails/69bd583833434a3fb7745ec8af6d9ddd/9036550dfbb24909a8ba04646933b729.jpeg",
+          "height": 144
+        },
+        {
+          "uid": "3bce34e821b64915b81f2eb47f9ca4d1",
+          "size": 1161,
+          "width": 64,
+          "url": "https://media.sketchfab.com/models/b28d5a0a56754f3a94af77fc581726a7/thumbnails/69bd583833434a3fb7745ec8af6d9ddd/63c9fffac2214d0b8b534eb8813e74c5.jpeg",
+          "height": 36
+        }
+      ]
+    },
+    "user": {
+      "uid": "fc6c11dd71cf4bcda0ab0fca97e9d4ea",
+      "username": "tomgoskar",
+      "displayName": "Tom Goskar",
+      "profileUrl": "https://sketchfab.com/tomgoskar",
+      "account": "pro",
+      "avatar": {
+        "uri": "https://api.sketchfab.com/v3/avatars/0623e8ec4fc2487fb9d8bc4d94c87c8a",
+        "images": [
+          {
+            "size": 11450,
+            "width": 32,
+            "url": "https://media.sketchfab.com/avatars/0623e8ec4fc2487fb9d8bc4d94c87c8a/e4c8f44bbe7b414091d798ec65fe90fa.jpeg",
+            "height": 32
+          },
+          {
+            "size": 12132,
+            "width": 48,
+            "url": "https://media.sketchfab.com/avatars/0623e8ec4fc2487fb9d8bc4d94c87c8a/0341a3fe2323441491765e7c1c065eee.jpeg",
+            "height": 48
+          },
+          {
+            "size": 14605,
+            "width": 90,
+            "url": "https://media.sketchfab.com/avatars/0623e8ec4fc2487fb9d8bc4d94c87c8a/db2003cca6c0482b81e0d1eca743f9b9.jpeg",
+            "height": 90
+          },
+          {
+            "size": 15282,
+            "width": 100,
+            "url": "https://media.sketchfab.com/avatars/0623e8ec4fc2487fb9d8bc4d94c87c8a/73df3519a9ce48ee8eb9812d407c3760.jpeg",
+            "height": 100
+          }
+        ]
+      },
+      "uri": "https://api.sketchfab.com/v3/users/fc6c11dd71cf4bcda0ab0fca97e9d4ea"
+    },
+    "description": "A splendidly detailed terracotta dragon roof ridge decoration from Truro, Cornwall, UK. On display in [Royal Cornwall Museum](https://www.royalcornwallmuseum.org.uk) (TRURI : 2004.44). This was originally on the roof of the appropriately named Red Dragon Hotel in the city.\n\nScanned through a glass case with @Polycam - retopologized with texture fixes in Blender.",
+    "faceCount": 50000,
+    "createdAt": "2021-11-26T17:32:32.676820",
+    "vertexCount": 25001,
+    "isAgeRestricted": false,
+    "archives": {
+      "glb": {
+        "textureCount": 1,
+        "size": 8099164,
+        "type": "glb",
+        "textureMaxResolution": 8192,
+        "faceCount": 50000,
+        "vertexCount": 26904
+      },
+      "gltf": {
+        "textureCount": 1,
+        "size": 6894619,
+        "type": "gltf",
+        "textureMaxResolution": 8192,
+        "faceCount": 50000,
+        "vertexCount": 26904
+      },
+      "source": {
+        "textureCount": null,
+        "size": 9723437,
+        "type": "source",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      },
+      "usdz": {
+        "textureCount": null,
+        "size": 2508719,
+        "type": "usdz",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      }
+    },
+    "license": {
+      "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution"
+    },
+    "archivePath": "glbs/000-108/b28d5a0a56754f3a94af77fc581726a7.glb"
+  },
+  {
+    "uri": "https://api.sketchfab.com/v3/models/cdad2eacf4384723b7d9b075434723de",
+    "uid": "cdad2eacf4384723b7d9b075434723de",
+    "name": "Karnak bust at the Pettigrew Home & Museum",
+    "staffpickedAt": null,
+    "viewCount": 632,
+    "likeCount": 19,
+    "animationCount": 0,
+    "viewerUrl": "https://sketchfab.com/3d-models/none-cdad2eacf4384723b7d9b075434723de",
+    "embedUrl": "https://sketchfab.com/models/cdad2eacf4384723b7d9b075434723de/embed",
+    "commentCount": 0,
+    "isDownloadable": true,
+    "publishedAt": "2019-09-17T00:43:11.537244",
+    "tags": [
+      {
+        "name": "egypt",
+        "slug": "egypt",
+        "uri": "https://api.sketchfab.com/v3/tags/egypt"
+      },
+      {
+        "name": "artifact",
+        "slug": "artifact",
+        "uri": "https://api.sketchfab.com/v3/tags/artifact"
+      },
+      {
+        "name": "antique",
+        "slug": "antique",
+        "uri": "https://api.sketchfab.com/v3/tags/antique"
+      },
+      {
+        "name": "limestone",
+        "slug": "limestone",
+        "uri": "https://api.sketchfab.com/v3/tags/limestone"
+      },
+      {
+        "name": "museum",
+        "slug": "museum",
+        "uri": "https://api.sketchfab.com/v3/tags/museum"
+      },
+      {
+        "name": "head",
+        "slug": "head",
+        "uri": "https://api.sketchfab.com/v3/tags/head"
+      },
+      {
+        "name": "ancient-egypt",
+        "slug": "ancient-egypt",
+        "uri": "https://api.sketchfab.com/v3/tags/ancient-egypt"
+      },
+      {
+        "name": "metashape",
+        "slug": "metashape",
+        "uri": "https://api.sketchfab.com/v3/tags/metashape"
+      },
+      {
+        "name": "agisoft",
+        "slug": "agisoft",
+        "uri": "https://api.sketchfab.com/v3/tags/agisoft"
+      },
+      {
+        "name": "bust",
+        "slug": "bust",
+        "uri": "https://api.sketchfab.com/v3/tags/bust"
+      },
+      {
+        "name": "female",
+        "slug": "female",
+        "uri": "https://api.sketchfab.com/v3/tags/female"
+      },
+      {
+        "name": "sculpture",
+        "slug": "sculpture",
+        "uri": "https://api.sketchfab.com/v3/tags/sculpture"
+      },
+      {
+        "name": "pettigrew-museum",
+        "slug": "pettigrew-museum",
+        "uri": "https://api.sketchfab.com/v3/tags/pettigrew-museum"
+      },
+      {
+        "name": "pettigrew-home-and-museum",
+        "slug": "pettigrew-home-and-museum",
+        "uri": "https://api.sketchfab.com/v3/tags/pettigrew-home-and-museum"
+      }
+    ],
+    "categories": [
+      {
+        "name": "art-abstract"
+      },
+      {
+        "name": "cultural-heritage-history"
+      }
+    ],
+    "thumbnails": {
+      "images": [
+        {
+          "uid": "52d84437e95f483480e0c5cfe8a02f5f",
+          "size": 200842,
+          "width": 1920,
+          "url": "https://media.sketchfab.com/models/cdad2eacf4384723b7d9b075434723de/thumbnails/801d983a3fcb48f7b48973fab186896a/a82e2b46b18645f9b96bdae015e3e10d.jpeg",
+          "height": 1080
+        },
+        {
+          "uid": "ff1b3f4e8f5745d79fdca63ca9754e7e",
+          "size": 56563,
+          "width": 1024,
+          "url": "https://media.sketchfab.com/models/cdad2eacf4384723b7d9b075434723de/thumbnails/801d983a3fcb48f7b48973fab186896a/4098f26715af4d338541afcc9319c4e9.jpeg",
+          "height": 576
+        },
+        {
+          "uid": "c2c1d0e0541a4f168a82b6afbbd1aa2d",
+          "size": 28818,
+          "width": 720,
+          "url": "https://media.sketchfab.com/models/cdad2eacf4384723b7d9b075434723de/thumbnails/801d983a3fcb48f7b48973fab186896a/4fd18c7b05f24253ae768833c3bee645.jpeg",
+          "height": 405
+        },
+        {
+          "uid": "111e90febafd4040967a47fa1fd11896",
+          "size": 4966,
+          "width": 256,
+          "url": "https://media.sketchfab.com/models/cdad2eacf4384723b7d9b075434723de/thumbnails/801d983a3fcb48f7b48973fab186896a/82112df294a040cdad8226d27c83780b.jpeg",
+          "height": 144
+        },
+        {
+          "uid": "ecb8c95a1bbb4038ae01cbf446dab5cb",
+          "size": 856,
+          "width": 64,
+          "url": "https://media.sketchfab.com/models/cdad2eacf4384723b7d9b075434723de/thumbnails/801d983a3fcb48f7b48973fab186896a/f1dad49f44fd4d71b3beac5b526b3980.jpeg",
+          "height": 36
+        }
+      ]
+    },
+    "user": {
+      "uid": "320915b387244bedb4f7818e4c25f072",
+      "username": "jerryfisher",
+      "displayName": "jerryfisher",
+      "profileUrl": "https://sketchfab.com/jerryfisher",
+      "account": "basic",
+      "avatar": {
+        "uri": "https://api.sketchfab.com/v3/avatars/2d97571641cf4401b07bc9eeaefbdeb4",
+        "images": [
+          {
+            "size": 866,
+            "width": 32,
+            "url": "https://media.sketchfab.com/avatars/2d97571641cf4401b07bc9eeaefbdeb4/f09460b80ff548a48d0088f0e8f50027.jpeg",
+            "height": 32
+          },
+          {
+            "size": 1340,
+            "width": 48,
+            "url": "https://media.sketchfab.com/avatars/2d97571641cf4401b07bc9eeaefbdeb4/0804966fb09247809611e03e82dffe25.jpeg",
+            "height": 48
+          },
+          {
+            "size": 3094,
+            "width": 90,
+            "url": "https://media.sketchfab.com/avatars/2d97571641cf4401b07bc9eeaefbdeb4/2c47e2fdd0f74561b056116c4f725179.jpeg",
+            "height": 90
+          },
+          {
+            "size": 3570,
+            "width": 100,
+            "url": "https://media.sketchfab.com/avatars/2d97571641cf4401b07bc9eeaefbdeb4/7462eb1547254d4a98416b5ad376f0f9.jpeg",
+            "height": 100
+          }
+        ]
+      },
+      "uri": "https://api.sketchfab.com/v3/users/320915b387244bedb4f7818e4c25f072"
+    },
+    "description": "This limestone(?) bust of an unknown female is in the rear annex of the Pettigrew Home & Museum.\n\nIt was purchased by Senator Pettigrew during a trip to Egypt. \n\nIt is on the lowest shelf of a display case with highly reflective glass. Hence I could not get photos of the rear of the bust. The proper right side was obscured in shadows and reflections too.",
+    "faceCount": 31572,
+    "createdAt": "2019-09-17T00:42:53.762934",
+    "vertexCount": 16098,
+    "isAgeRestricted": false,
+    "archives": {
+      "glb": {
+        "textureCount": 1,
+        "size": 4417800,
+        "type": "glb",
+        "textureMaxResolution": 4096,
+        "faceCount": 31572,
+        "vertexCount": 23752
+      },
+      "gltf": {
+        "textureCount": 1,
+        "size": 3813175,
+        "type": "gltf",
+        "textureMaxResolution": 4096,
+        "faceCount": 31572,
+        "vertexCount": 23752
+      },
+      "source": {
+        "textureCount": null,
+        "size": 4374564,
+        "type": "source",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      },
+      "usdz": {
+        "textureCount": null,
+        "size": 4155522,
+        "type": "usdz",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      }
+    },
+    "license": {
+      "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution"
+    },
+    "archivePath": "glbs/000-123/cdad2eacf4384723b7d9b075434723de.glb"
+  },
+  {
+    "uri": "https://api.sketchfab.com/v3/models/833b5ce4eaa8489e93f6b0c1a7e199ec",
+    "uid": "833b5ce4eaa8489e93f6b0c1a7e199ec",
+    "name": "shoe display pedestal",
+    "staffpickedAt": null,
+    "viewCount": 37,
+    "likeCount": 0,
+    "animationCount": 0,
+    "viewerUrl": "https://sketchfab.com/3d-models/none-833b5ce4eaa8489e93f6b0c1a7e199ec",
+    "embedUrl": "https://sketchfab.com/models/833b5ce4eaa8489e93f6b0c1a7e199ec/embed",
+    "commentCount": 0,
+    "isDownloadable": true,
+    "publishedAt": "2019-12-06T21:15:07.768945",
+    "tags": [],
+    "categories": [],
+    "thumbnails": {
+      "images": [
+        {
+          "uid": "7907d2307ad647f5a0fad5b0eae0bbf7",
+          "size": 36958,
+          "width": 1920,
+          "url": "https://media.sketchfab.com/models/833b5ce4eaa8489e93f6b0c1a7e199ec/thumbnails/4b511b14867c47f68da92796f5f24ac3/5e88fcb4bc024a9ba01154355c801122.jpeg",
+          "height": 1080
+        },
+        {
+          "uid": "3aecc7c456b749bfb654df946ae453fa",
+          "size": 13216,
+          "width": 1024,
+          "url": "https://media.sketchfab.com/models/833b5ce4eaa8489e93f6b0c1a7e199ec/thumbnails/4b511b14867c47f68da92796f5f24ac3/c6b7423ead444a19b4cfb440c6a00d8d.jpeg",
+          "height": 576
+        },
+        {
+          "uid": "8eb41df34a7444a1aee60394fbc8098c",
+          "size": 8029,
+          "width": 720,
+          "url": "https://media.sketchfab.com/models/833b5ce4eaa8489e93f6b0c1a7e199ec/thumbnails/4b511b14867c47f68da92796f5f24ac3/093329c6c7114214a0429245322a2d47.jpeg",
+          "height": 405
+        },
+        {
+          "uid": "905d00420a794d23ad604af59320de71",
+          "size": 1878,
+          "width": 256,
+          "url": "https://media.sketchfab.com/models/833b5ce4eaa8489e93f6b0c1a7e199ec/thumbnails/4b511b14867c47f68da92796f5f24ac3/dc06b4d9d5234d80b4ada85cf63497ce.jpeg",
+          "height": 144
+        },
+        {
+          "uid": "31f727d5fd30494192a7859c6118750a",
+          "size": 514,
+          "width": 64,
+          "url": "https://media.sketchfab.com/models/833b5ce4eaa8489e93f6b0c1a7e199ec/thumbnails/4b511b14867c47f68da92796f5f24ac3/08cbf521e5204567ae1a6a2572291037.jpeg",
+          "height": 36
+        }
+      ]
+    },
+    "user": {
+      "uid": "44aa6a11e6f245c2951f3a64a86b9d82",
+      "username": "jsinganator",
+      "displayName": "jsinganator",
+      "profileUrl": "https://sketchfab.com/jsinganator",
+      "account": "basic",
+      "avatar": {
+        "uri": "https://api.sketchfab.com/v3/avatars/78fa317e46024a5283765aa34df5e508",
+        "images": [
+          {
+            "size": 6421,
+            "width": 100,
+            "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/aec92fe9a74e499c98d759362cd7f02f.jpeg",
+            "height": 100
+          },
+          {
+            "size": 2518,
+            "width": 48,
+            "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/17fa177ffaa344a2b2fc8e78efd40fbb.jpeg",
+            "height": 48
+          },
+          {
+            "size": 5653,
+            "width": 90,
+            "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/02162695bdc840faa3bcb2d418309c5e.jpeg",
+            "height": 90
+          },
+          {
+            "size": 1350,
+            "width": 32,
+            "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/6fde876cbded4cd48d36a76029e3aa02.jpeg",
+            "height": 32
+          }
+        ]
+      },
+      "uri": "https://api.sketchfab.com/v3/users/44aa6a11e6f245c2951f3a64a86b9d82"
+    },
+    "description": "",
+    "faceCount": 169688,
+    "createdAt": "2019-12-06T21:12:55.647979",
+    "vertexCount": 85818,
+    "isAgeRestricted": false,
+    "archives": {
+      "glb": {
+        "textureCount": 0,
+        "size": 4941536,
+        "type": "glb",
+        "textureMaxResolution": 0,
+        "faceCount": 168550,
+        "vertexCount": 111266
+      },
+      "gltf": {
+        "textureCount": 0,
+        "size": 1742540,
+        "type": "gltf",
+        "textureMaxResolution": 0,
+        "faceCount": 168550,
+        "vertexCount": 111266
+      },
+      "source": {
+        "textureCount": null,
+        "size": 13905036,
+        "type": "source",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      },
+      "usdz": {
+        "textureCount": null,
+        "size": 1872555,
+        "type": "usdz",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      }
+    },
+    "license": {
+      "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution"
+    },
+    "archivePath": "glbs/000-058/833b5ce4eaa8489e93f6b0c1a7e199ec.glb"
+  },
+  {
+    "uri": "https://api.sketchfab.com/v3/models/7783c4f885324f21807842fe5b0db2be",
+    "uid": "7783c4f885324f21807842fe5b0db2be",
+    "name": "Horror Props",
+    "staffpickedAt": null,
+    "viewCount": 1456,
+    "likeCount": 35,
+    "animationCount": 0,
+    "viewerUrl": "https://sketchfab.com/3d-models/none-7783c4f885324f21807842fe5b0db2be",
+    "embedUrl": "https://sketchfab.com/models/7783c4f885324f21807842fe5b0db2be/embed",
+    "commentCount": 0,
+    "isDownloadable": true,
+    "publishedAt": "2019-12-15T14:45:17.567805",
+    "tags": [
+      {
+        "name": "lantern",
+        "slug": "lantern",
+        "uri": "https://api.sketchfab.com/v3/tags/lantern"
+      },
+      {
+        "name": "mount",
+        "slug": "mount",
+        "uri": "https://api.sketchfab.com/v3/tags/mount"
+      },
+      {
+        "name": "pots",
+        "slug": "pots",
+        "uri": "https://api.sketchfab.com/v3/tags/pots"
+      },
+      {
+        "name": "chest",
+        "slug": "chest",
+        "uri": "https://api.sketchfab.com/v3/tags/chest"
+      },
+      {
+        "name": "pedestal",
+        "slug": "pedestal",
+        "uri": "https://api.sketchfab.com/v3/tags/pedestal"
+      },
+      {
+        "name": "flashlight",
+        "slug": "flashlight",
+        "uri": "https://api.sketchfab.com/v3/tags/flashlight"
+      },
+      {
+        "name": "hutch",
+        "slug": "hutch",
+        "uri": "https://api.sketchfab.com/v3/tags/hutch"
+      },
+      {
+        "name": "pans",
+        "slug": "pans",
+        "uri": "https://api.sketchfab.com/v3/tags/pans"
+      },
+      {
+        "name": "bust",
+        "slug": "bust",
+        "uri": "https://api.sketchfab.com/v3/tags/bust"
+      }
+    ],
+    "categories": [
+      {
+        "name": "furniture-home"
+      }
+    ],
+    "thumbnails": {
+      "images": [
+        {
+          "uid": "0746d26973a94415bed6bbab14f3e92b",
+          "size": 60836,
+          "width": 1920,
+          "url": "https://media.sketchfab.com/models/7783c4f885324f21807842fe5b0db2be/thumbnails/58ca46430e724b3f8969d16ac19e61c9/836f3a1c68cb4a6e8975616c92bb88ad.jpeg",
+          "height": 1080
+        },
+        {
+          "uid": "5a9a3cf978744afb814b2e312846587f",
+          "size": 19299,
+          "width": 1024,
+          "url": "https://media.sketchfab.com/models/7783c4f885324f21807842fe5b0db2be/thumbnails/58ca46430e724b3f8969d16ac19e61c9/421c853772bc4c7786dd14990d5f9d15.jpeg",
+          "height": 576
+        },
+        {
+          "uid": "718c45183f2a4e2bae08830961b61187",
+          "size": 11001,
+          "width": 720,
+          "url": "https://media.sketchfab.com/models/7783c4f885324f21807842fe5b0db2be/thumbnails/58ca46430e724b3f8969d16ac19e61c9/83fbe272b98443b4aad5854a4e94aa64.jpeg",
+          "height": 405
+        },
+        {
+          "uid": "4451e909ec5e4162bc32b966e908c5fe",
+          "size": 2298,
+          "width": 256,
+          "url": "https://media.sketchfab.com/models/7783c4f885324f21807842fe5b0db2be/thumbnails/58ca46430e724b3f8969d16ac19e61c9/eba34f7989bd483f96c400e0154a29a7.jpeg",
+          "height": 144
+        },
+        {
+          "uid": "c74392a81f824ffbb52cbf169a6a065b",
+          "size": 640,
+          "width": 64,
+          "url": "https://media.sketchfab.com/models/7783c4f885324f21807842fe5b0db2be/thumbnails/58ca46430e724b3f8969d16ac19e61c9/a1ce812fae4847498f592b4e6fcf6eaa.jpeg",
+          "height": 36
+        }
+      ]
+    },
+    "user": {
+      "uid": "2a844405e7e64101a7da9c4360bdbd15",
+      "username": "lamills",
+      "displayName": "lamills",
+      "profileUrl": "https://sketchfab.com/lamills",
+      "account": "basic",
+      "avatar": {
+        "uri": "https://api.sketchfab.com/v3/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e",
+        "images": [
+          {
+            "size": 680,
+            "width": 32,
+            "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/116042a0854e40538adab302b593683d.jpeg",
+            "height": 32
+          },
+          {
+            "size": 1253,
+            "width": 48,
+            "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/efea16be51d04eb7a00cb9ea0b43b87f.jpeg",
+            "height": 48
+          },
+          {
+            "size": 2797,
+            "width": 90,
+            "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/ac9b469ccec74caf923a81fb2f0be3ed.jpeg",
+            "height": 90
+          },
+          {
+            "size": 3215,
+            "width": 100,
+            "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/a075e1d43d2f446c949b5967b470c757.jpeg",
+            "height": 100
+          }
+        ]
+      },
+      "uri": "https://api.sketchfab.com/v3/users/2a844405e7e64101a7da9c4360bdbd15"
+    },
+    "description": "Props for horror-themed scene.\nLow-poly, all-quad\n\nPROPS\n- Hutch: Antique wooden hutch with 3 shelves and 2 cabinet doors.\n- Pots/Pans: Old cast iron pots and pans of different styles.\n- Flashlight: Generic maglite style flashlight with rubber grip.\n- Lantern/Mount: Old-style lantern that can be placed on a table or hung on the wall with the included wall mount.\n- Chest: Small wooden lockbox with glowing symbols on it.\n- Pedestal: Marble pedestal used for small busts.\n\nEXTRA\n- Bust: Decapitated Adobe Fuse character (for display purposes only).",
+    "faceCount": 22714,
+    "createdAt": "2019-12-15T14:03:44.153368",
+    "vertexCount": 11799,
+    "isAgeRestricted": false,
+    "archives": {
+      "glb": {
+        "textureCount": 31,
+        "size": 30513636,
+        "type": "glb",
+        "textureMaxResolution": 2048,
+        "faceCount": 22714,
+        "vertexCount": 16672
+      },
+      "gltf": {
+        "textureCount": 31,
+        "size": 29931926,
+        "type": "gltf",
+        "textureMaxResolution": 2048,
+        "faceCount": 22714,
+        "vertexCount": 16672
+      },
+      "source": {
+        "textureCount": null,
+        "size": 64940817,
+        "type": "source",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      },
+      "usdz": {
+        "textureCount": null,
+        "size": 3022610,
+        "type": "usdz",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      }
+    },
+    "license": {
+      "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution"
+    },
+    "archivePath": "glbs/000-044/7783c4f885324f21807842fe5b0db2be.glb"
+  },
+  {
+    "uri": "https://api.sketchfab.com/v3/models/f5bb4fc5c9f94c0999bee31878d9ca53",
+    "uid": "f5bb4fc5c9f94c0999bee31878d9ca53",
+    "name": "Satellite",
+    "staffpickedAt": null,
+    "viewCount": 61,
+    "likeCount": 2,
+    "animationCount": 0,
+    "viewerUrl": "https://sketchfab.com/3d-models/none-f5bb4fc5c9f94c0999bee31878d9ca53",
+    "embedUrl": "https://sketchfab.com/models/f5bb4fc5c9f94c0999bee31878d9ca53/embed",
+    "commentCount": 0,
+    "isDownloadable": true,
+    "publishedAt": "2021-05-05T13:10:35.260814",
+    "tags": [
+      {
+        "name": "spy",
+        "slug": "spy",
+        "uri": "https://api.sketchfab.com/v3/tags/spy"
+      },
+      {
+        "name": "electronic",
+        "slug": "electronic",
+        "uri": "https://api.sketchfab.com/v3/tags/electronic"
+      },
+      {
+        "name": "satellite",
+        "slug": "satellite",
+        "uri": "https://api.sketchfab.com/v3/tags/satellite"
+      },
+      {
+        "name": "research",
+        "slug": "research",
+        "uri": "https://api.sketchfab.com/v3/tags/research"
+      },
+      {
+        "name": "military",
+        "slug": "military",
+        "uri": "https://api.sketchfab.com/v3/tags/military"
+      },
+      {
+        "name": "engineering",
+        "slug": "engineering",
+        "uri": "https://api.sketchfab.com/v3/tags/engineering"
+      },
+      {
+        "name": "space",
+        "slug": "space",
+        "uri": "https://api.sketchfab.com/v3/tags/space"
+      }
+    ],
+    "categories": [
+      {
+        "name": "electronics-gadgets"
+      },
+      {
+        "name": "science-technology"
+      }
+    ],
+    "thumbnails": {
+      "images": [
+        {
+          "uid": "a64cb72e982747548ec822c9801d81d8",
+          "size": 346947,
+          "width": 1920,
+          "url": "https://media.sketchfab.com/models/f5bb4fc5c9f94c0999bee31878d9ca53/thumbnails/d8c9c81c20e24bf29f9c084c251f8f8c/5f365a22e9b9404599f8e19d724e729d.jpeg",
+          "height": 1080
+        },
+        {
+          "uid": "2d216b617c874367b0e8af0f58512c5d",
+          "size": 33097,
+          "width": 1024,
+          "url": "https://media.sketchfab.com/models/f5bb4fc5c9f94c0999bee31878d9ca53/thumbnails/d8c9c81c20e24bf29f9c084c251f8f8c/1d3aba357ff940dfa2ec91a8758bf72e.jpeg",
+          "height": 576
+        },
+        {
+          "uid": "7ce5e26628b6406a938892de362d1e29",
+          "size": 14068,
+          "width": 720,
+          "url": "https://media.sketchfab.com/models/f5bb4fc5c9f94c0999bee31878d9ca53/thumbnails/d8c9c81c20e24bf29f9c084c251f8f8c/f0e332287a3f4a988ce936b345cddd9f.jpeg",
+          "height": 405
+        },
+        {
+          "uid": "3241a296d8c54818bdbbc0536bc1cdc5",
+          "size": 2500,
+          "width": 256,
+          "url": "https://media.sketchfab.com/models/f5bb4fc5c9f94c0999bee31878d9ca53/thumbnails/d8c9c81c20e24bf29f9c084c251f8f8c/b813e88c48bc4e4c9fc5a0a20b5fc236.jpeg",
+          "height": 144
+        },
+        {
+          "uid": "5256bf7079484f05bbc8e3452715f23f",
+          "size": 683,
+          "width": 64,
+          "url": "https://media.sketchfab.com/models/f5bb4fc5c9f94c0999bee31878d9ca53/thumbnails/d8c9c81c20e24bf29f9c084c251f8f8c/968a4fc035914802b5033da18a86ac7d.jpeg",
+          "height": 36
+        }
+      ]
+    },
+    "user": {
+      "uid": "9b54d780ebb24a3da5812f08155e9717",
+      "username": "santomontalto4",
+      "displayName": "santomontalto4",
+      "profileUrl": "https://sketchfab.com/santomontalto4",
+      "account": "basic",
+      "avatar": {
+        "uri": "https://api.sketchfab.com/v3/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e",
+        "images": [
+          {
+            "size": 680,
+            "width": 32,
+            "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/116042a0854e40538adab302b593683d.jpeg",
+            "height": 32
+          },
+          {
+            "size": 1253,
+            "width": 48,
+            "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/efea16be51d04eb7a00cb9ea0b43b87f.jpeg",
+            "height": 48
+          },
+          {
+            "size": 2797,
+            "width": 90,
+            "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/ac9b469ccec74caf923a81fb2f0be3ed.jpeg",
+            "height": 90
+          },
+          {
+            "size": 3215,
+            "width": 100,
+            "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/a075e1d43d2f446c949b5967b470c757.jpeg",
+            "height": 100
+          }
+        ]
+      },
+      "uri": "https://api.sketchfab.com/v3/users/9b54d780ebb24a3da5812f08155e9717"
+    },
+    "description": "Satellite display on pedestal for aerospace exhibition",
+    "faceCount": 18849,
+    "createdAt": "2021-05-05T13:00:42.138216",
+    "vertexCount": 9526,
+    "isAgeRestricted": false,
+    "archives": {
+      "glb": {
+        "textureCount": 11,
+        "size": 5785992,
+        "type": "glb",
+        "textureMaxResolution": 1024,
+        "faceCount": 18843,
+        "vertexCount": 14203
+      },
+      "gltf": {
+        "textureCount": 11,
+        "size": 5043872,
+        "type": "gltf",
+        "textureMaxResolution": 1024,
+        "faceCount": 18843,
+        "vertexCount": 14203
+      },
+      "source": {
+        "textureCount": null,
+        "size": 10500095,
+        "type": "source",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      },
+      "usdz": {
+        "textureCount": null,
+        "size": 2000676,
+        "type": "usdz",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      }
+    },
+    "license": {
+      "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution"
+    },
+    "archivePath": "glbs/000-114/f5bb4fc5c9f94c0999bee31878d9ca53.glb"
+  },
+  {
+    "uri": "https://api.sketchfab.com/v3/models/4ba332c2738047a5b720db97d1253738",
+    "uid": "4ba332c2738047a5b720db97d1253738",
+    "name": "Sculpture",
+    "staffpickedAt": null,
+    "viewCount": 65,
+    "likeCount": 2,
+    "animationCount": 0,
+    "viewerUrl": "https://sketchfab.com/3d-models/none-4ba332c2738047a5b720db97d1253738",
+    "embedUrl": "https://sketchfab.com/models/4ba332c2738047a5b720db97d1253738/embed",
+    "commentCount": 0,
+    "isDownloadable": true,
+    "publishedAt": "2021-08-22T22:52:08.248228",
+    "tags": [
+      {
+        "name": "pedestal",
+        "slug": "pedestal",
+        "uri": "https://api.sketchfab.com/v3/tags/pedestal"
+      },
+      {
+        "name": "sculpture",
+        "slug": "sculpture",
+        "uri": "https://api.sketchfab.com/v3/tags/sculpture"
+      }
+    ],
+    "categories": [
+      {
+        "name": "art-abstract"
+      },
+      {
+        "name": "furniture-home"
+      }
+    ],
+    "thumbnails": {
+      "images": [
+        {
+          "uid": "0d760a2d201b470689e202b18c4d4887",
+          "size": 67871,
+          "width": 1920,
+          "url": "https://media.sketchfab.com/models/4ba332c2738047a5b720db97d1253738/thumbnails/fccdc17199c745549420dcc503dd2b70/50c8c8cac8584ece8b54a02e62c58279.jpeg",
+          "height": 1080
+        },
+        {
+          "uid": "95cbf1c14a994d0f83feaaeb3f3ee014",
+          "size": 21953,
+          "width": 1024,
+          "url": "https://media.sketchfab.com/models/4ba332c2738047a5b720db97d1253738/thumbnails/fccdc17199c745549420dcc503dd2b70/97fbdfcc1c244d90aad10a5bee361473.jpeg",
+          "height": 576
+        },
+        {
+          "uid": "06126140491f4b13b455b16b806d9638",
+          "size": 12864,
+          "width": 720,
+          "url": "https://media.sketchfab.com/models/4ba332c2738047a5b720db97d1253738/thumbnails/fccdc17199c745549420dcc503dd2b70/359aa8e4126b45f39e40297cade484d3.jpeg",
+          "height": 405
+        },
+        {
+          "uid": "85a743d6638846c89c9f7ba9fabc99a0",
+          "size": 3238,
+          "width": 256,
+          "url": "https://media.sketchfab.com/models/4ba332c2738047a5b720db97d1253738/thumbnails/fccdc17199c745549420dcc503dd2b70/2a10cc88653746df8904e85ffdeab8bd.jpeg",
+          "height": 144
+        },
+        {
+          "uid": "a77def9141e64b04bdb0c0c6ab42c0cc",
+          "size": 1069,
+          "width": 64,
+          "url": "https://media.sketchfab.com/models/4ba332c2738047a5b720db97d1253738/thumbnails/fccdc17199c745549420dcc503dd2b70/3d196da4ce83427daa614f4680932001.jpeg",
+          "height": 36
+        }
+      ]
+    },
+    "user": {
+      "uid": "3b27d11acda042ce98fa8247711bfe1d",
+      "username": "Viasky",
+      "displayName": "Viasky",
+      "profileUrl": "https://sketchfab.com/Viasky",
+      "account": "basic",
+      "avatar": {
+        "uri": "https://api.sketchfab.com/v3/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e",
+        "images": [
+          {
+            "size": 680,
+            "width": 32,
+            "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/116042a0854e40538adab302b593683d.jpeg",
+            "height": 32
+          },
+          {
+            "size": 1253,
+            "width": 48,
+            "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/efea16be51d04eb7a00cb9ea0b43b87f.jpeg",
+            "height": 48
+          },
+          {
+            "size": 2797,
+            "width": 90,
+            "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/ac9b469ccec74caf923a81fb2f0be3ed.jpeg",
+            "height": 90
+          },
+          {
+            "size": 3215,
+            "width": 100,
+            "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/a075e1d43d2f446c949b5967b470c757.jpeg",
+            "height": 100
+          }
+        ]
+      },
+      "uri": "https://api.sketchfab.com/v3/users/3b27d11acda042ce98fa8247711bfe1d"
+    },
+    "description": "This is a model of an abstract cushion on a display.",
+    "faceCount": 1580,
+    "createdAt": "2021-08-22T22:46:07.849365",
+    "vertexCount": 794,
+    "isAgeRestricted": false,
+    "archives": {
+      "glb": {
+        "textureCount": 0,
+        "size": 123540,
+        "type": "glb",
+        "textureMaxResolution": 0,
+        "faceCount": 1580,
+        "vertexCount": 3168
+      },
+      "gltf": {
+        "textureCount": 0,
+        "size": 26985,
+        "type": "gltf",
+        "textureMaxResolution": 0,
+        "faceCount": 1580,
+        "vertexCount": 3168
+      },
+      "source": {
+        "textureCount": null,
+        "size": 113890,
+        "type": "source",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      },
+      "usdz": {
+        "textureCount": null,
+        "size": 87494,
+        "type": "usdz",
+        "textureMaxResolution": null,
+        "faceCount": null,
+        "vertexCount": null
+      }
+    },
+    "license": {
+      "uid": "322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution"
+    },
+    "archivePath": "glbs/000-028/4ba332c2738047a5b720db97d1253738.glb"
+  }
+]

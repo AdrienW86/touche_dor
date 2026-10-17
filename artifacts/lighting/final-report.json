@@ -1,0 +1,2961 @@
+{
+  "mode": "final",
+  "url": "http://localhost:3000",
+  "viewport": {
+    "width": 1780,
+    "height": 883
+  },
+  "browserPreferences": {
+    "reducedMotion": "reduce",
+    "reason": "Existing production reduced-motion behavior gives deterministic scroll checkpoints under software rendering."
+  },
+  "loadedSources": {
+    "http://localhost:3000/prototype/maison-noire.html": {
+      "sha256": "c96fe0dc7432e69c325d93f162d25556cb87d8674d9497f28bfecbc9af1a0d9b",
+      "diskSha256": "c96fe0dc7432e69c325d93f162d25556cb87d8674d9497f28bfecbc9af1a0d9b",
+      "matchesDisk": true,
+      "sourceVegetationPresent": false
+    },
+    "http://localhost:3000/prototype/interior-materials.js": {
+      "sha256": "30cee61e3535e210e36a3a6792731a8d95183bcc7d18a283414f4a4d8468597e",
+      "diskSha256": "30cee61e3535e210e36a3a6792731a8d95183bcc7d18a283414f4a4d8468597e",
+      "matchesDisk": true,
+      "sourceVegetationPresent": false
+    },
+    "http://localhost:3000/prototype/entrance-textures.js": {
+      "sha256": "94824db91d84572844989e4c09e90e18a342d889134cbc8b72d433e05d3b08ac",
+      "diskSha256": "94824db91d84572844989e4c09e90e18a342d889134cbc8b72d433e05d3b08ac",
+      "matchesDisk": true,
+      "sourceVegetationPresent": false
+    },
+    "http://localhost:3000/prototype/entrance.js": {
+      "sha256": "b30e82d42df52c08378f97465b9eb897fcaf7559c89a8e5d51a8baf1c4195eac",
+      "diskSha256": "b30e82d42df52c08378f97465b9eb897fcaf7559c89a8e5d51a8baf1c4195eac",
+      "matchesDisk": true,
+      "sourceVegetationPresent": false
+    },
+    "http://localhost:3000/prototype/interior-lighting.js": {
+      "sha256": "46b09bee61a45c22e9c43ce120829a61d746dc6e359dd0048187579b66071d52",
+      "diskSha256": "46b09bee61a45c22e9c43ce120829a61d746dc6e359dd0048187579b66071d52",
+      "matchesDisk": true,
+      "sourceVegetationPresent": false
+    }
+  },
+  "assetResources": {
+    "http://localhost:3000/prototype/assets/interior/marble-roughness.webp": {
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    "http://localhost:3000/prototype/assets/interior/plaster-color.webp": {
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    "http://localhost:3000/prototype/assets/interior/marble-normal.webp": {
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    "http://localhost:3000/prototype/assets/interior/marble-color.webp": {
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    "http://localhost:3000/prototype/assets/interior/plaster-roughness.webp": {
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    "http://localhost:3000/prototype/assets/interior/plaster-normal.webp": {
+      "status": 200,
+      "mimeType": "image/webp"
+    },
+    "http://localhost:3000/prototype/assets/interior/studio_small_09_1k.hdr": {
+      "status": 200,
+      "mimeType": "application/octet-stream"
+    }
+  },
+  "errors": [],
+  "resourceErrors": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "url": "http://localhost:3000/favicon.ico"
+    }
+  ],
+  "networkFailures": [],
+  "consoleWarnings": [
+    "[.WebGL-0x3bdc0096c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x3bdc0096c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x3bdc0096c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x3bdc0096c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  ],
+  "checkpoints": {
+    "closed": {
+      "scrollY": 0,
+      "scrollFraction": 0,
+      "camera": {
+        "position": [
+          0,
+          1.550215,
+          11
+        ],
+        "quaternion": [
+          -0.004184,
+          0,
+          0,
+          0.999991
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.17,
+              0.025,
+              8.064
+            ],
+            "max": [
+              -0.03,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.03,
+              0.025,
+              8.064
+            ],
+            "max": [
+              1.17,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 92,
+        "calls": 248,
+        "triangles": 21708,
+        "points": 220,
+        "lines": 72
+      },
+      "memory": {
+        "geometries": 219,
+        "textures": 32
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 1,
+        "cardOpacity": 0,
+        "cardTitle": "",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-closed.png"
+    },
+    "halfOpen": {
+      "scrollY": 196,
+      "scrollFraction": 0.027746319365798414,
+      "camera": {
+        "position": [
+          0,
+          1.548336,
+          10.883125
+        ],
+        "quaternion": [
+          -0.004028,
+          0,
+          0,
+          0.999992
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0.724179,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.184856,
+              0.025,
+              7.335506
+            ],
+            "max": [
+              -0.290548,
+              2.985,
+              8.137191
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -0.724179,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.290548,
+              0.025,
+              7.335506
+            ],
+            "max": [
+              1.184856,
+              2.985,
+              8.137191
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 111,
+        "calls": 481,
+        "triangles": 41812,
+        "points": 440,
+        "lines": 144
+      },
+      "memory": {
+        "geometries": 219,
+        "textures": 32
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 1,
+        "cardOpacity": 0,
+        "cardTitle": "",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-half-open.png"
+    },
+    "open": {
+      "scrollY": 392,
+      "scrollFraction": 0.05549263873159683,
+      "camera": {
+        "position": [
+          0,
+          1.543712,
+          9.753393
+        ],
+        "quaternion": [
+          -0.003643,
+          0,
+          0,
+          0.999993
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.448358,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.18573,
+              0.025,
+              6.984721
+            ],
+            "max": [
+              -0.978466,
+              2.985,
+              8.123514
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.448358,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.978466,
+              0.025,
+              6.984721
+            ],
+            "max": [
+              1.18573,
+              2.985,
+              8.123514
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 119,
+        "calls": 470,
+        "triangles": 40500,
+        "points": 440,
+        "lines": 144
+      },
+      "memory": {
+        "geometries": 219,
+        "textures": 32
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 0.633749,
+        "cardOpacity": 0,
+        "cardTitle": "",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-open.png"
+    },
+    "passage": {
+      "scrollY": 706,
+      "scrollFraction": 0.09994337485843714,
+      "camera": {
+        "position": [
+          0,
+          1.55885,
+          5.638651
+        ],
+        "quaternion": [
+          -0.007356,
+          0,
+          0,
+          0.999973
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.185738,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              -0.980278,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.980278,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              1.185738,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 127,
+        "calls": 422,
+        "triangles": 33710,
+        "points": 440,
+        "lines": 144
+      },
+      "memory": {
+        "geometries": 219,
+        "textures": 32
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 0.267497,
+        "cardOpacity": 0,
+        "cardTitle": "Bague Aurore",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-passage.png"
+    },
+    "firstVitrine": {
+      "scrollY": 1177,
+      "scrollFraction": 0.16661947904869762,
+      "camera": {
+        "position": [
+          -0.799411,
+          1.557548,
+          3.5
+        ],
+        "quaternion": [
+          -0.008932,
+          0.050538,
+          0.000452,
+          0.998682
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.185738,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              -0.980278,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.980278,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              1.185738,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 139,
+        "calls": 409,
+        "triangles": 32924,
+        "points": 440,
+        "lines": 132
+      },
+      "memory": {
+        "geometries": 219,
+        "textures": 32
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 0,
+        "cardOpacity": 1,
+        "cardTitle": "Bague Aurore",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-first-vitrine.png"
+    },
+    "returnClosed": {
+      "scrollY": 0,
+      "scrollFraction": 0,
+      "camera": {
+        "position": [
+          0,
+          1.559116,
+          11
+        ],
+        "quaternion": [
+          -0.004926,
+          0,
+          0,
+          0.999988
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.17,
+              0.025,
+              8.064
+            ],
+            "max": [
+              -0.03,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.03,
+              0.025,
+              8.064
+            ],
+            "max": [
+              1.17,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 175,
+        "calls": 481,
+        "triangles": 41812,
+        "points": 440,
+        "lines": 144
+      },
+      "memory": {
+        "geometries": 219,
+        "textures": 32
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 0,
+        "cardOpacity": 1,
+        "cardTitle": "Collier Cœur",
+        "cart": "Panier (1)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-return-closed.png"
+    }
+  },
+  "composition": {
+    "desktop1780": {
+      "viewport": {
+        "width": 1780,
+        "height": 883
+      },
+      "documentWidth": 1765,
+      "intro": {
+        "x": 124.59375,
+        "y": 520.171875,
+        "left": 124.59375,
+        "top": 520.171875,
+        "right": 418.28125,
+        "bottom": 777.046875,
+        "width": 293.6875,
+        "height": 256.875
+      },
+      "heading": {
+        "x": 124.59375,
+        "y": 554.359375,
+        "left": 124.59375,
+        "top": 554.359375,
+        "right": 418.28125,
+        "bottom": 659.015625,
+        "width": 293.6875,
+        "height": 104.65625
+      },
+      "headingText": {
+        "x": 124.59375,
+        "y": 551.359375,
+        "left": 124.59375,
+        "top": 551.359375,
+        "right": 418.28125,
+        "bottom": 661.6875,
+        "width": 293.6875,
+        "height": 110.328125
+      },
+      "paragraph": {
+        "x": 124.59375,
+        "y": 675.015625,
+        "left": 124.59375,
+        "top": 675.015625,
+        "right": 418.28125,
+        "bottom": 741.25,
+        "width": 293.6875,
+        "height": 66.234375
+      },
+      "paragraphText": {
+        "x": 124.59375,
+        "y": 675.015625,
+        "left": 124.59375,
+        "top": 675.015625,
+        "right": 417.28125,
+        "bottom": 741.171875,
+        "width": 292.6875,
+        "height": 66.15625
+      },
+      "headingStyle": {
+        "fontSize": "49.84px",
+        "lineHeight": "52.332px"
+      },
+      "doorway": {
+        "left": 482.32599795495133,
+        "right": 1297.6740020450486,
+        "top": -92.94832685906533,
+        "bottom": 955.3888921842096
+      }
+    },
+    "desktop1870": {
+      "viewport": {
+        "width": 1870,
+        "height": 930
+      },
+      "documentWidth": 1855,
+      "intro": {
+        "x": 130.890625,
+        "y": 556.25,
+        "left": 130.890625,
+        "top": 556.25,
+        "right": 439.4375,
+        "bottom": 818.40625,
+        "width": 308.546875,
+        "height": 262.15625
+      },
+      "heading": {
+        "x": 130.890625,
+        "y": 590.4375,
+        "left": 130.890625,
+        "top": 590.4375,
+        "right": 439.4375,
+        "bottom": 700.375,
+        "width": 308.546875,
+        "height": 109.9375
+      },
+      "headingText": {
+        "x": 130.890625,
+        "y": 586.4375,
+        "left": 130.890625,
+        "top": 586.4375,
+        "right": 439.4375,
+        "bottom": 703.40625,
+        "width": 308.546875,
+        "height": 116.96875
+      },
+      "paragraph": {
+        "x": 130.890625,
+        "y": 716.375,
+        "left": 130.890625,
+        "top": 716.375,
+        "right": 439.4375,
+        "bottom": 782.609375,
+        "width": 308.546875,
+        "height": 66.234375
+      },
+      "paragraphText": {
+        "x": 130.890625,
+        "y": 716.375,
+        "left": 130.890625,
+        "top": 716.375,
+        "right": 437.890625,
+        "bottom": 782.53125,
+        "width": 307,
+        "height": 66.15625
+      },
+      "headingStyle": {
+        "fontSize": "52.36px",
+        "lineHeight": "54.978px"
+      },
+      "doorway": {
+        "left": 506.0254779384391,
+        "right": 1363.974522061561,
+        "top": -99.3170618221841,
+        "bottom": 1004.8376996052021
+      },
+      "screenshot": "final-desktop-1870.png"
+    },
+    "mobile390": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "documentWidth": 375,
+      "intro": {
+        "x": 27.296875,
+        "y": 565.0625,
+        "left": 27.296875,
+        "top": 565.0625,
+        "right": 315.296875,
+        "bottom": 776.484375,
+        "width": 288,
+        "height": 211.421875
+      },
+      "heading": {
+        "x": 27.296875,
+        "y": 597.65625,
+        "left": 27.296875,
+        "top": 597.65625,
+        "right": 315.296875,
+        "bottom": 676.59375,
+        "width": 288,
+        "height": 78.9375
+      },
+      "headingText": {
+        "x": 27.296875,
+        "y": 594.65625,
+        "left": 27.296875,
+        "top": 594.65625,
+        "right": 315.296875,
+        "bottom": 678.125,
+        "width": 288,
+        "height": 83.46875
+      },
+      "paragraph": {
+        "x": 27.296875,
+        "y": 689.390625,
+        "left": 27.296875,
+        "top": 689.390625,
+        "right": 315.296875,
+        "bottom": 746.484375,
+        "width": 288,
+        "height": 57.09375
+      },
+      "paragraphText": {
+        "x": 27.296875,
+        "y": 689.390625,
+        "left": 27.296875,
+        "top": 689.390625,
+        "right": 314.625,
+        "bottom": 746.453125,
+        "width": 287.328125,
+        "height": 57.0625
+      },
+      "headingStyle": {
+        "fontSize": "37.6px",
+        "lineHeight": "39.48px"
+      },
+      "doorway": {
+        "left": -85.04924222556296,
+        "right": 475.049242225563,
+        "top": 56.08464426636085,
+        "bottom": 775.5742136542958
+      }
+    }
+  },
+  "checks": {
+    "mouseWheelScrolls": true,
+    "firstVitrineVisible": true,
+    "addToCart": true,
+    "catalogueOpens": true,
+    "catalogueContainsSixProducts": true,
+    "cartTotalCorrect": true,
+    "returnToBoutique": true,
+    "cartButtonOpens": true,
+    "allSixVitrinesReachable": true,
+    "twoDoorPivots": true,
+    "closedAtStart": true,
+    "fullOpeningAngle": true,
+    "glassDimensionsPreserved": true,
+    "glassTransparentWithSubtleReflections": true,
+    "noVegetationOrInstances": true,
+    "returnClosesDoors": true,
+    "doorPivotsUnchanged": true,
+    "cameraPathUnchanged": true,
+    "doorAnglesUnchanged": true,
+    "localizedLightsAdded": true,
+    "mobileCameraFov": true,
+    "mobileFirstVitrineVisible": true,
+    "desktopIntroClearOfDoorway": true,
+    "mobileIntroContained": true,
+    "standardMotionWheelScrolls": true,
+    "standardMotionDoorsOpenCorrectly": true,
+    "shadersLinked": true,
+    "loadedCurrentProductionSources": true,
+    "pbrTexturesAndHdriLoaded": true,
+    "vegetationSourceRemoved": true,
+    "noRuntimeErrors": true,
+    "realShadowMapsRendered": true,
+    "staticShadowsNotRepeatedPerFrame": true,
+    "realPlanarReflectionBounded": true,
+    "reflectionDoesNotMutateVisitCamera": true
+  },
+  "sixVitrines": [
+    {
+      "scrollY": 1177,
+      "scrollFraction": 0.16661947904869762,
+      "camera": {
+        "position": [
+          -0.799411,
+          1.557548,
+          3.5
+        ],
+        "quaternion": [
+          -0.008932,
+          0.050538,
+          0.000452,
+          0.998682
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.185738,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              -0.980278,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.980278,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              1.185738,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 139,
+        "calls": 409,
+        "triangles": 32924,
+        "points": 440,
+        "lines": 132
+      },
+      "memory": {
+        "geometries": 219,
+        "textures": 32
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 0,
+        "cardOpacity": 1,
+        "cardTitle": "Bague Aurore",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-first-vitrine.png"
+    },
+    {
+      "scrollY": 2355,
+      "scrollFraction": 0.3333805209513024,
+      "camera": {
+        "position": [
+          0.799411,
+          1.547125,
+          -3
+        ],
+        "quaternion": [
+          -0.007314,
+          -0.050539,
+          -0.00037,
+          0.998695
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.185738,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              -0.980278,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.980278,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              1.185738,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 161,
+        "calls": 347,
+        "triangles": 25630,
+        "points": 440,
+        "lines": 108
+      },
+      "memory": {
+        "geometries": 219,
+        "textures": 32
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 0,
+        "cardOpacity": 1,
+        "cardTitle": "Collier Lune",
+        "cart": "Panier (1)",
+        "catalogueOpen": false
+      }
+    },
+    {
+      "scrollY": 3532,
+      "scrollFraction": 0.5,
+      "camera": {
+        "position": [
+          -0.8,
+          1.541368,
+          -9
+        ],
+        "quaternion": [
+          -0.006422,
+          0.050585,
+          0.000325,
+          0.998699
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.185738,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              -0.980278,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.980278,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              1.185738,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 163,
+        "calls": 290,
+        "triangles": 22212,
+        "points": 440,
+        "lines": 84
+      },
+      "memory": {
+        "geometries": 219,
+        "textures": 32
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 0,
+        "cardOpacity": 1,
+        "cardTitle": "Boucles Étoile",
+        "cart": "Panier (1)",
+        "catalogueOpen": false
+      }
+    },
+    {
+      "scrollY": 4709,
+      "scrollFraction": 0.6666194790486977,
+      "camera": {
+        "position": [
+          0.799411,
+          1.540197,
+          -15
+        ],
+        "quaternion": [
+          -0.006239,
+          -0.050539,
+          -0.000316,
+          0.998703
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.185738,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              -0.980278,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.980278,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              1.185738,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 165,
+        "calls": 230,
+        "triangles": 17420,
+        "points": 440,
+        "lines": 60
+      },
+      "memory": {
+        "geometries": 219,
+        "textures": 32
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 0,
+        "cardOpacity": 1,
+        "cardTitle": "Bracelet Soleil",
+        "cart": "Panier (1)",
+        "catalogueOpen": false
+      }
+    },
+    {
+      "scrollY": 5887,
+      "scrollFraction": 0.8333805209513023,
+      "camera": {
+        "position": [
+          -0.799411,
+          1.543993,
+          -21
+        ],
+        "quaternion": [
+          -0.006828,
+          0.050539,
+          0.000346,
+          0.998699
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.185738,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              -0.980278,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.980278,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              1.185738,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 167,
+        "calls": 169,
+        "triangles": 9794,
+        "points": 440,
+        "lines": 36
+      },
+      "memory": {
+        "geometries": 219,
+        "textures": 32
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 0,
+        "cardOpacity": 1,
+        "cardTitle": "Bague Nuit",
+        "cart": "Panier (1)",
+        "catalogueOpen": false
+      }
+    },
+    {
+      "scrollY": 7064,
+      "scrollFraction": 1,
+      "camera": {
+        "position": [
+          0.8,
+          1.550888,
+          -27
+        ],
+        "quaternion": [
+          -0.0079,
+          -0.050585,
+          -0.0004,
+          0.998688
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.185738,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              -0.980278,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.980278,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              1.185738,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 169,
+        "calls": 112,
+        "triangles": 3502,
+        "points": 440,
+        "lines": 12
+      },
+      "memory": {
+        "geometries": 219,
+        "textures": 32
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 0,
+        "cardOpacity": 1,
+        "cardTitle": "Collier Cœur",
+        "cart": "Panier (1)",
+        "catalogueOpen": false
+      }
+    }
+  ],
+  "performance": {
+    "durationMs": 1542.6999999970212,
+    "frames": 3,
+    "meanFrameMs": 398.13333333333384,
+    "p95FrameMs": 388.90000000000146,
+    "maxFrameMs": 444.40000000000146,
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "softwareRendering": true
+  },
+  "comparison": {
+    "closed": {
+      "cameraPositionDelta": [
+        0,
+        0.009692999999999952,
+        0
+      ],
+      "doorPivotPositionsEqual": true,
+      "doorAngleDelta": [
+        0,
+        0
+      ],
+      "lightsEqual": false
+    },
+    "halfOpen": {
+      "cameraPositionDelta": [
+        0,
+        0.006173999999999902,
+        0
+      ],
+      "doorPivotPositionsEqual": true,
+      "doorAngleDelta": [
+        0,
+        0
+      ],
+      "lightsEqual": false
+    },
+    "open": {
+      "cameraPositionDelta": [
+        0,
+        -0.014442000000000066,
+        0
+      ],
+      "doorPivotPositionsEqual": true,
+      "doorAngleDelta": [
+        0,
+        0
+      ],
+      "lightsEqual": false
+    },
+    "passage": {
+      "cameraPositionDelta": [
+        0,
+        0.01567099999999999,
+        0
+      ],
+      "doorPivotPositionsEqual": true,
+      "doorAngleDelta": [
+        0,
+        0
+      ],
+      "lightsEqual": false
+    },
+    "firstVitrine": {
+      "cameraPositionDelta": [
+        0,
+        0.0012090000000000156,
+        0
+      ],
+      "doorPivotPositionsEqual": true,
+      "doorAngleDelta": [
+        0,
+        0
+      ],
+      "lightsEqual": false
+    },
+    "returnClosed": {
+      "cameraPositionDelta": [
+        0,
+        0.007295999999999969,
+        0
+      ],
+      "doorPivotPositionsEqual": true,
+      "doorAngleDelta": [
+        0,
+        0
+      ],
+      "lightsEqual": false
+    }
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "closed": {
+      "scrollY": 0,
+      "scrollFraction": 0,
+      "camera": {
+        "position": [
+          0,
+          1.548124,
+          11
+        ],
+        "quaternion": [
+          -0.00401,
+          0,
+          0,
+          0.999992
+        ],
+        "fov": 66,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.17,
+              0.025,
+              8.064
+            ],
+            "max": [
+              -0.03,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.03,
+              0.025,
+              8.064
+            ],
+            "max": [
+              1.17,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 183,
+        "calls": 472,
+        "triangles": 42324,
+        "points": 440,
+        "lines": 144
+      },
+      "memory": {
+        "geometries": 219,
+        "textures": 32
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 1,
+        "cardOpacity": 0,
+        "cardTitle": "Collier Cœur",
+        "cart": "Panier (1)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-mobile-closed.png"
+    },
+    "firstVitrine": {
+      "scrollY": 1125,
+      "scrollFraction": 0.16661729857819904,
+      "camera": {
+        "position": [
+          -1.298999,
+          1.549914,
+          3.5
+        ],
+        "quaternion": [
+          -0.007782,
+          -0.027286,
+          -0.000212,
+          0.999597
+        ],
+        "fov": 66,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.185738,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              -0.980278,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.980278,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              1.185738,
+              2.985,
+              8.123469
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 195,
+        "calls": 405,
+        "triangles": 33042,
+        "points": 440,
+        "lines": 144
+      },
+      "memory": {
+        "geometries": 219,
+        "textures": 32
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 0.00216268,
+        "cardOpacity": 1,
+        "cardTitle": "Bague Aurore",
+        "cart": "Panier (1)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-mobile-first-vitrine.png"
+    }
+  },
+  "standardMotion": {
+    "beforeWheel": {
+      "scrollY": 0,
+      "scrollFraction": 0,
+      "camera": {
+        "position": [
+          0,
+          1.540002,
+          11
+        ],
+        "quaternion": [
+          -0.003333,
+          0,
+          0,
+          0.999994
+        ],
+        "fov": 66,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.17,
+              0.025,
+              8.064
+            ],
+            "max": [
+              -0.03,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.03,
+              0.025,
+              8.064
+            ],
+            "max": [
+              1.17,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 90,
+        "calls": 472,
+        "triangles": 42324,
+        "points": 440,
+        "lines": 144
+      },
+      "memory": {
+        "geometries": 211,
+        "textures": 31
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 1,
+        "cardOpacity": 0,
+        "cardTitle": "",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      }
+    },
+    "afterWheel": {
+      "scrollY": 240,
+      "scrollFraction": 0.035545023696682464,
+      "camera": {
+        "position": [
+          0,
+          1.545365,
+          10.999995
+        ],
+        "quaternion": [
+          -0.00378,
+          0,
+          0,
+          0.999993
+        ],
+        "fov": 66,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0.055664,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.171638,
+              0.025,
+              8.004527
+            ],
+            "max": [
+              -0.030066,
+              2.985,
+              8.200665
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -0.055664,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.030066,
+              0.025,
+              8.004527
+            ],
+            "max": [
+              1.171638,
+              2.985,
+              8.200665
+            ]
+          },
+          "children": 5,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.045,
+              "roughness": 0.045,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false,
+              "transparent": true,
+              "envMapIntensity": 0.42,
+              "reflectivity": 0.4
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 93,
+        "calls": 472,
+        "triangles": 42324,
+        "points": 440,
+        "lines": 144
+      },
+      "memory": {
+        "geometries": 211,
+        "textures": 31
+      },
+      "scene": {
+        "meshes": 241,
+        "lights": 17,
+        "materials": 57,
+        "geometries": 210,
+        "physicalGlass": 8
+      },
+      "instances": [],
+      "vegetationObjects": [],
+      "ui": {
+        "introOpacity": 1,
+        "cardOpacity": 0,
+        "cardTitle": "",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      }
+    }
+  },
+  "programs": [
+    {
+      "id": 0,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 1,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 2,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 4,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 5,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 6,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 7,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 8,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 9,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 10,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 11,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 12,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 13,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 14,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 15,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 16,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 17,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 18,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 19,
+      "linked": true,
+      "log": ""
+    },
+    {
+      "id": 21,
+      "linked": true,
+      "log": ""
+    }
+  ],
+  "lighting": {
+    "shadows": [
+      {
+        "width": 1024,
+        "height": 1024,
+        "bias": -0.00015,
+        "normalBias": 0.025
+      },
+      {
+        "width": 512,
+        "height": 512,
+        "bias": -0.00015,
+        "normalBias": 0.025
+      }
+    ],
+    "reflections": [
+      {
+        "width": 512,
+        "height": 256,
+        "transparent": true,
+        "depthWrite": false,
+        "position": [
+          0,
+          0.018,
+          -14
+        ]
+      }
+    ],
+    "casters": 42,
+    "receivers": 164,
+    "cameraStable": true,
+    "shadowEnabled": true,
+    "shadowAutoUpdate": false,
+    "frameIncludesReflectionPass": true
+  },
+  "passed": true
+}

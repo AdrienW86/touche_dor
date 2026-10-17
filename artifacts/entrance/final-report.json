@@ -1,0 +1,2351 @@
+{
+  "mode": "final",
+  "url": "http://localhost:3000",
+  "viewport": {
+    "width": 1780,
+    "height": 883
+  },
+  "loadedScripts": {
+    "http://localhost:3000/prototype/entrance-textures.js": {
+      "sha256": "94824db91d84572844989e4c09e90e18a342d889134cbc8b72d433e05d3b08ac",
+      "containsBoundInstances": false
+    },
+    "http://localhost:3000/prototype/entrance.js": {
+      "sha256": "09b9d2e7f16da64110f1607c800cd7e48b107152a990061361e374ff9bedd659",
+      "containsBoundInstances": true
+    }
+  },
+  "browserPreferences": {
+    "reducedMotion": "reduce",
+    "reason": "Use the existing production reduced-motion path for exact, deterministic scroll checkpoints under software rendering."
+  },
+  "errors": [],
+  "resourceErrors": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "url": "http://localhost:3000/favicon.ico"
+    }
+  ],
+  "networkFailures": [],
+  "consoleWarnings": [
+    "[.WebGL-0x759400426800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x759400426800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x759400426800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x759400426800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  ],
+  "checkpoints": {
+    "closed": {
+      "scrollY": 0,
+      "scrollFraction": 0,
+      "camera": {
+        "position": [
+          0,
+          1.540038,
+          11
+        ],
+        "quaternion": [
+          -0.003336,
+          0,
+          0,
+          0.999994
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.17,
+              0.025,
+              8.064
+            ],
+            "max": [
+              -0.03,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.03,
+              0.025,
+              8.064
+            ],
+            "max": [
+              1.17,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 74,
+        "calls": 234,
+        "triangles": 60770,
+        "points": 220,
+        "lines": 72
+      },
+      "memory": {
+        "geometries": 218,
+        "textures": 21
+      },
+      "scene": {
+        "meshes": 227,
+        "lights": 5,
+        "materials": 49,
+        "geometries": 209,
+        "physicalGlass": 8
+      },
+      "instances": [
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              -1.819022,
+              1.202806,
+              8.383836
+            ],
+            "radius": 0.6315163185115714
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              -1.818238,
+              1.366648,
+              8.383423
+            ],
+            "radius": 0.7101311037031482
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              1.803199,
+              1.198665,
+              8.374974
+            ],
+            "radius": 0.6442086067148526
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              1.817942,
+              1.396724,
+              8.378964
+            ],
+            "radius": 0.7288639759754334
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "ui": {
+        "introOpacity": 1,
+        "cardOpacity": 0,
+        "cardTitle": "",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-closed.png"
+    },
+    "halfOpen": {
+      "scrollY": 196,
+      "scrollFraction": 0.027746319365798414,
+      "camera": {
+        "position": [
+          0,
+          1.555222,
+          10.883125
+        ],
+        "quaternion": [
+          -0.004602,
+          0,
+          0,
+          0.999989
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0.724179,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.184856,
+              0.025,
+              7.335506
+            ],
+            "max": [
+              -0.244503,
+              2.985,
+              8.18925
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -0.724179,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.244503,
+              0.025,
+              7.335506
+            ],
+            "max": [
+              1.184856,
+              2.985,
+              8.18925
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 87,
+        "calls": 234,
+        "triangles": 60770,
+        "points": 220,
+        "lines": 72
+      },
+      "memory": {
+        "geometries": 218,
+        "textures": 21
+      },
+      "scene": {
+        "meshes": 227,
+        "lights": 5,
+        "materials": 49,
+        "geometries": 209,
+        "physicalGlass": 8
+      },
+      "instances": [
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              -1.819022,
+              1.202806,
+              8.383836
+            ],
+            "radius": 0.6315163185115714
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              -1.818238,
+              1.366648,
+              8.383423
+            ],
+            "radius": 0.7101311037031482
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              1.803199,
+              1.198665,
+              8.374974
+            ],
+            "radius": 0.6442086067148526
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              1.817942,
+              1.396724,
+              8.378964
+            ],
+            "radius": 0.7288639759754334
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "ui": {
+        "introOpacity": 0.633769,
+        "cardOpacity": 0,
+        "cardTitle": "",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-half-open.png"
+    },
+    "open": {
+      "scrollY": 392,
+      "scrollFraction": 0.05549263873159683,
+      "camera": {
+        "position": [
+          0,
+          1.545286,
+          9.753393
+        ],
+        "quaternion": [
+          -0.003774,
+          0,
+          0,
+          0.999993
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.448358,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.18573,
+              0.025,
+              6.984721
+            ],
+            "max": [
+              -0.909486,
+              2.985,
+              8.128704
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.448358,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.909486,
+              0.025,
+              6.984721
+            ],
+            "max": [
+              1.18573,
+              2.985,
+              8.128704
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 98,
+        "calls": 234,
+        "triangles": 60770,
+        "points": 220,
+        "lines": 72
+      },
+      "memory": {
+        "geometries": 218,
+        "textures": 21
+      },
+      "scene": {
+        "meshes": 227,
+        "lights": 5,
+        "materials": 49,
+        "geometries": 209,
+        "physicalGlass": 8
+      },
+      "instances": [
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              -1.819022,
+              1.202806,
+              8.383836
+            ],
+            "radius": 0.6315163185115714
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              -1.818238,
+              1.366648,
+              8.383423
+            ],
+            "radius": 0.7101311037031482
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              1.803199,
+              1.198665,
+              8.374974
+            ],
+            "radius": 0.6442086067148526
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              1.817942,
+              1.396724,
+              8.378964
+            ],
+            "radius": 0.7288639759754334
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "ui": {
+        "introOpacity": 0.633749,
+        "cardOpacity": 0,
+        "cardTitle": "",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-open.png"
+    },
+    "passage": {
+      "scrollY": 706,
+      "scrollFraction": 0.09994337485843714,
+      "camera": {
+        "position": [
+          0,
+          1.556046,
+          5.638651
+        ],
+        "quaternion": [
+          -0.007005,
+          0,
+          0,
+          0.999975
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.185738,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              -0.911284,
+              2.985,
+              8.128536
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.911284,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              1.185738,
+              2.985,
+              8.128536
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 109,
+        "calls": 206,
+        "triangles": 19080,
+        "points": 220,
+        "lines": 72
+      },
+      "memory": {
+        "geometries": 218,
+        "textures": 21
+      },
+      "scene": {
+        "meshes": 227,
+        "lights": 5,
+        "materials": 49,
+        "geometries": 209,
+        "physicalGlass": 8
+      },
+      "instances": [
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              -1.819022,
+              1.202806,
+              8.383836
+            ],
+            "radius": 0.6315163185115714
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              -1.818238,
+              1.366648,
+              8.383423
+            ],
+            "radius": 0.7101311037031482
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              1.803199,
+              1.198665,
+              8.374974
+            ],
+            "radius": 0.6442086067148526
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              1.817942,
+              1.396724,
+              8.378964
+            ],
+            "radius": 0.7288639759754334
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "ui": {
+        "introOpacity": 0.267497,
+        "cardOpacity": 0,
+        "cardTitle": "Bague Aurore",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-passage.png"
+    },
+    "firstVitrine": {
+      "scrollY": 1177,
+      "scrollFraction": 0.16661947904869762,
+      "camera": {
+        "position": [
+          -0.799411,
+          1.541156,
+          3.5
+        ],
+        "quaternion": [
+          -0.006388,
+          0.050539,
+          0.000323,
+          0.998702
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.185738,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              -0.911284,
+              2.985,
+              8.128536
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.911284,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              1.185738,
+              2.985,
+              8.128536
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 125,
+        "calls": 199,
+        "triangles": 18578,
+        "points": 220,
+        "lines": 72
+      },
+      "memory": {
+        "geometries": 218,
+        "textures": 21
+      },
+      "scene": {
+        "meshes": 227,
+        "lights": 5,
+        "materials": 49,
+        "geometries": 209,
+        "physicalGlass": 8
+      },
+      "instances": [
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              -1.819022,
+              1.202806,
+              8.383836
+            ],
+            "radius": 0.6315163185115714
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              -1.818238,
+              1.366648,
+              8.383423
+            ],
+            "radius": 0.7101311037031482
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              1.803199,
+              1.198665,
+              8.374974
+            ],
+            "radius": 0.6442086067148526
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              1.817942,
+              1.396724,
+              8.378964
+            ],
+            "radius": 0.7288639759754334
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "ui": {
+        "introOpacity": 0,
+        "cardOpacity": 1,
+        "cardTitle": "Bague Aurore",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-first-vitrine.png"
+    },
+    "returnClosed": {
+      "scrollY": 0,
+      "scrollFraction": 0,
+      "camera": {
+        "position": [
+          0,
+          1.542931,
+          11
+        ],
+        "quaternion": [
+          -0.003578,
+          0,
+          0,
+          0.999994
+        ],
+        "fov": 50,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.17,
+              0.025,
+              8.064
+            ],
+            "max": [
+              -0.03,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.03,
+              0.025,
+              8.064
+            ],
+            "max": [
+              1.17,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 163,
+        "calls": 234,
+        "triangles": 60770,
+        "points": 220,
+        "lines": 72
+      },
+      "memory": {
+        "geometries": 218,
+        "textures": 21
+      },
+      "scene": {
+        "meshes": 227,
+        "lights": 5,
+        "materials": 49,
+        "geometries": 209,
+        "physicalGlass": 8
+      },
+      "instances": [
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              -1.819022,
+              1.202806,
+              8.383836
+            ],
+            "radius": 0.6315163185115714
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              -1.818238,
+              1.366648,
+              8.383423
+            ],
+            "radius": 0.7101311037031482
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              1.803199,
+              1.198665,
+              8.374974
+            ],
+            "radius": 0.6442086067148526
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": true,
+          "bounds": {
+            "center": [
+              1.817942,
+              1.396724,
+              8.378964
+            ],
+            "radius": 0.7288639759754334
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "ui": {
+        "introOpacity": 0,
+        "cardOpacity": 1,
+        "cardTitle": "Bague Aurore",
+        "cart": "Panier (1)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-return-closed.png"
+    }
+  },
+  "checks": {
+    "mouseWheelScrolls": true,
+    "firstVitrineVisible": true,
+    "addToCart": true,
+    "catalogueOpens": true,
+    "catalogueContainsSixProducts": true,
+    "returnToBoutique": true,
+    "exteriorFoliageCulledFromCorridor": true,
+    "twoDoorPivots": true,
+    "closedAtStart": true,
+    "fullOpeningAngle": true,
+    "glassPreserved": true,
+    "returnClosesDoors": true,
+    "mobileCameraFov": true,
+    "mobileFirstVitrineVisible": true,
+    "standardMotionWheelScrolls": true,
+    "standardMotionDoorsOpenCorrectly": true,
+    "noRuntimeErrors": true,
+    "doorPivotsUnchanged": true,
+    "cameraPathUnchanged": true,
+    "sceneLightCountUnchanged": true
+  },
+  "performance": {
+    "durationMs": 1642.2000000014887,
+    "frames": 7,
+    "meanFrameMs": 215.27142857142826,
+    "p95FrameMs": 222.29999999999927,
+    "maxFrameMs": 250.10000000000218,
+    "renderer": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "hardwareConcurrency": 32,
+    "softwareRendering": true
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "closed": {
+      "scrollY": 0,
+      "scrollFraction": 0,
+      "camera": {
+        "position": [
+          0,
+          1.55919,
+          11
+        ],
+        "quaternion": [
+          -0.004932,
+          0,
+          0,
+          0.999988
+        ],
+        "fov": 66,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.17,
+              0.025,
+              8.064
+            ],
+            "max": [
+              -0.03,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.03,
+              0.025,
+              8.064
+            ],
+            "max": [
+              1.17,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 172,
+        "calls": 222,
+        "triangles": 21230,
+        "points": 220,
+        "lines": 72
+      },
+      "memory": {
+        "geometries": 218,
+        "textures": 21
+      },
+      "scene": {
+        "meshes": 227,
+        "lights": 5,
+        "materials": 49,
+        "geometries": 209,
+        "physicalGlass": 8
+      },
+      "instances": [
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              -1.819022,
+              1.202806,
+              8.383836
+            ],
+            "radius": 0.6315163185115714
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              -1.818238,
+              1.366648,
+              8.383423
+            ],
+            "radius": 0.7101311037031482
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              1.803199,
+              1.198665,
+              8.374974
+            ],
+            "radius": 0.6442086067148526
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              1.817942,
+              1.396724,
+              8.378964
+            ],
+            "radius": 0.7288639759754334
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "ui": {
+        "introOpacity": 1,
+        "cardOpacity": 0,
+        "cardTitle": "Bague Aurore",
+        "cart": "Panier (1)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-mobile-closed.png"
+    },
+    "firstVitrine": {
+      "scrollY": 1125,
+      "scrollFraction": 0.16661729857819904,
+      "camera": {
+        "position": [
+          -1.298999,
+          1.540737,
+          3.5
+        ],
+        "quaternion": [
+          -0.006352,
+          -0.027286,
+          -0.000173,
+          0.999607
+        ],
+        "fov": 66,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.185738,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              -0.911284,
+              2.985,
+              8.128536
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -1.45,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.911284,
+              0.025,
+              6.984546
+            ],
+            "max": [
+              1.185738,
+              2.985,
+              8.128536
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 190,
+        "calls": 195,
+        "triangles": 18540,
+        "points": 220,
+        "lines": 72
+      },
+      "memory": {
+        "geometries": 218,
+        "textures": 21
+      },
+      "scene": {
+        "meshes": 227,
+        "lights": 5,
+        "materials": 49,
+        "geometries": 209,
+        "physicalGlass": 8
+      },
+      "instances": [
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              -1.819022,
+              1.202806,
+              8.383836
+            ],
+            "radius": 0.6315163185115714
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              -1.818238,
+              1.366648,
+              8.383423
+            ],
+            "radius": 0.7101311037031482
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              1.803199,
+              1.198665,
+              8.374974
+            ],
+            "radius": 0.6442086067148526
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              1.817942,
+              1.396724,
+              8.378964
+            ],
+            "radius": 0.7288639759754334
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "ui": {
+        "introOpacity": 0,
+        "cardOpacity": 1,
+        "cardTitle": "Bague Aurore",
+        "cart": "Panier (1)",
+        "catalogueOpen": false
+      },
+      "screenshot": "final-mobile-first-vitrine.png"
+    }
+  },
+  "standardMotion": {
+    "beforeWheel": {
+      "scrollY": 0,
+      "scrollFraction": 0,
+      "camera": {
+        "position": [
+          0,
+          1.559889,
+          11
+        ],
+        "quaternion": [
+          -0.004991,
+          0,
+          0,
+          0.999988
+        ],
+        "fov": 66,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.17,
+              0.025,
+              8.064
+            ],
+            "max": [
+              -0.03,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.03,
+              0.025,
+              8.064
+            ],
+            "max": [
+              1.17,
+              2.985,
+              8.205
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 68,
+        "calls": 222,
+        "triangles": 21230,
+        "points": 220,
+        "lines": 72
+      },
+      "memory": {
+        "geometries": 206,
+        "textures": 20
+      },
+      "scene": {
+        "meshes": 227,
+        "lights": 5,
+        "materials": 49,
+        "geometries": 209,
+        "physicalGlass": 8
+      },
+      "instances": [
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              -1.819022,
+              1.202806,
+              8.383836
+            ],
+            "radius": 0.6315163185115714
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              -1.818238,
+              1.366648,
+              8.383423
+            ],
+            "radius": 0.7101311037031482
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              1.803199,
+              1.198665,
+              8.374974
+            ],
+            "radius": 0.6442086067148526
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              1.817942,
+              1.396724,
+              8.378964
+            ],
+            "radius": 0.7288639759754334
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "ui": {
+        "introOpacity": 1,
+        "cardOpacity": 1,
+        "cardTitle": "",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      }
+    },
+    "afterWheel": {
+      "scrollY": 240,
+      "scrollFraction": 0.035545023696682464,
+      "camera": {
+        "position": [
+          0,
+          1.556094,
+          10.999995
+        ],
+        "quaternion": [
+          -0.004674,
+          0,
+          0,
+          0.999989
+        ],
+        "fov": 66,
+        "near": 0.1,
+        "far": 70
+      },
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            0.055664,
+            0
+          ],
+          "bounds": {
+            "min": [
+              -1.171638,
+              0.025,
+              8.004527
+            ],
+            "max": [
+              -0.029887,
+              2.985,
+              8.205728
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "rotation": [
+            0,
+            -0.055664,
+            0
+          ],
+          "bounds": {
+            "min": [
+              0.029887,
+              0.025,
+              8.004527
+            ],
+            "max": [
+              1.171638,
+              2.985,
+              8.205728
+            ]
+          },
+          "children": 4,
+          "glass": [
+            {
+              "dimensions": {
+                "width": 1.1,
+                "height": 2.9,
+                "depth": 0.03,
+                "widthSegments": 1,
+                "heightSegments": 1,
+                "depthSegments": 1
+              },
+              "position": [
+                -0.55,
+                1.5,
+                0
+              ],
+              "opacity": 0.065,
+              "roughness": 0.035,
+              "metalness": 0,
+              "transmission": 0,
+              "depthWrite": false
+            }
+          ]
+        }
+      ],
+      "render": {
+        "frame": 72,
+        "calls": 222,
+        "triangles": 21230,
+        "points": 220,
+        "lines": 72
+      },
+      "memory": {
+        "geometries": 206,
+        "textures": 20
+      },
+      "scene": {
+        "meshes": 227,
+        "lights": 5,
+        "materials": 49,
+        "geometries": 209,
+        "physicalGlass": 8
+      },
+      "instances": [
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              -1.819022,
+              1.202806,
+              8.383836
+            ],
+            "radius": 0.6315163185115714
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              -1.818238,
+              1.366648,
+              8.383423
+            ],
+            "radius": 0.7101311037031482
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "",
+          "count": 65,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              1.803199,
+              1.198665,
+              8.374974
+            ],
+            "radius": 0.6442086067148526
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Olivier extérieur",
+          "count": 1152,
+          "frustumCulled": true,
+          "intersectsFrustum": false,
+          "bounds": {
+            "center": [
+              1.817942,
+              1.396724,
+              8.378964
+            ],
+            "radius": 0.7288639759754334
+          },
+          "worldPosition": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "ui": {
+        "introOpacity": 1,
+        "cardOpacity": 0,
+        "cardTitle": "",
+        "cart": "Panier (0)",
+        "catalogueOpen": false
+      }
+    }
+  },
+  "passed": true,
+  "comparison": {
+    "closed": {
+      "cameraPositionDelta": [
+        0,
+        -0.009304999999999897,
+        0
+      ],
+      "doorPivotPositionsEqual": true,
+      "doorAngleDelta": [
+        0,
+        0
+      ]
+    },
+    "halfOpen": {
+      "cameraPositionDelta": [
+        0,
+        -0.0013609999999999456,
+        0
+      ],
+      "doorPivotPositionsEqual": true,
+      "doorAngleDelta": [
+        0,
+        0
+      ]
+    },
+    "open": {
+      "cameraPositionDelta": [
+        0,
+        -0.0033920000000000616,
+        0
+      ],
+      "doorPivotPositionsEqual": true,
+      "doorAngleDelta": [
+        0,
+        0
+      ]
+    },
+    "passage": {
+      "cameraPositionDelta": [
+        0,
+        0.011395999999999962,
+        0
+      ],
+      "doorPivotPositionsEqual": true,
+      "doorAngleDelta": [
+        0,
+        0
+      ]
+    },
+    "firstVitrine": {
+      "cameraPositionDelta": [
+        0,
+        -0.018844000000000083,
+        0
+      ],
+      "doorPivotPositionsEqual": true,
+      "doorAngleDelta": [
+        0,
+        0
+      ]
+    },
+    "returnClosed": {
+      "cameraPositionDelta": [
+        0,
+        -0.014740999999999893,
+        0
+      ],
+      "doorPivotPositionsEqual": true,
+      "doorAngleDelta": [
+        0,
+        0
+      ]
+    }
+  }
+}

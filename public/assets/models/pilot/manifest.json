@@ -1,0 +1,120 @@
+{
+  "retrieved": "2026-10-17",
+  "records": [
+    {
+      "name": "Large Display Case",
+      "author": "Mick Chambers",
+      "source": "https://sketchfab.com/3d-models/large-display-case-998fa31a95d843a190d450ecf86b656a",
+      "downloadSource": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-052/998fa31a95d843a190d450ecf86b656a.glb",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "metadataSnapshot": "large-case-metadata.json",
+      "originalFile": "artifacts/pilot-models/downloads/large-case.glb",
+      "originalBytes": 1741780,
+      "sha256": "faf11d839457ff7c2f5f14e6017b36400394287e94a321062cba8d2d00800a7f",
+      "integrated": true
+    },
+    {
+      "name": "Necklace With Display Stand",
+      "author": "muratgt",
+      "source": "https://sketchfab.com/3d-models/necklace-with-display-stand-7279cac4115a40e6ac345d68e17f15d1",
+      "downloadSource": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-005/7279cac4115a40e6ac345d68e17f15d1.glb",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "metadataSnapshot": "necklace-display-metadata.json",
+      "originalFile": "artifacts/pilot-models/downloads/necklace-display.glb",
+      "originalBytes": 7389652,
+      "sha256": "7f50ba1bbb201219e3064df23f2456be109fb00dc2acf70648295603e9f3d94f",
+      "integrated": true
+    },
+    {
+      "name": "Wall light",
+      "author": "abd3d",
+      "source": "https://www.blenderkit.com/asset-gallery-detail/f4b1081f-6d3e-4b06-b55e-8fc2f80de17a/",
+      "downloadSource": "https://www.blenderkit.com/api/v1/assets/00a397c1-d015-4389-b4c4-1ae1987deff2/",
+      "license": "cc_zero",
+      "metadataSnapshot": "wall-light-metadata.json",
+      "originalFile": "artifacts/pilot-models/downloads/wall-light.blend",
+      "originalBytes": 602971,
+      "sha256": "fcb0cc6449a7d6a22cba0bb512f9f29799ac0c7d30d941fae7537180463fa5db",
+      "integrated": true
+    },
+    {
+      "name": "Torso_Mannequin_with_pearls",
+      "author": "GenPolygon",
+      "source": "https://www.blenderkit.com/asset-gallery-detail/f58de9f2-3942-4728-8018-36b47d8a2d98/",
+      "downloadSource": "https://www.blenderkit.com/api/v1/assets/2b8e9bcf-3ffa-42bb-a4e9-a61665cddb92/",
+      "license": "cc_zero",
+      "metadataSnapshot": "torso-metadata.json",
+      "originalFile": "artifacts/pilot-models/downloads/torso.blend",
+      "originalBytes": 4042102,
+      "sha256": "7ac28e82f192bd81b56f9ab454d7db1ec97a6068f10aa02a8c2f48afc6fa4957",
+      "integrated": false
+    },
+    {
+      "name": "Display Case",
+      "author": "StephanTTM",
+      "source": "https://sketchfab.com/3d-models/display-case-b68cc93dc44440f5862258d04d212934",
+      "downloadSource": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-065/b68cc93dc44440f5862258d04d212934.glb",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "metadataSnapshot": "display-case-metadata.json",
+      "originalFile": "artifacts/pilot-models/downloads/display-case.glb",
+      "originalBytes": 5843456,
+      "sha256": "91f20ccbcad1d13b1a5e82715e8f2a6d6a88ef726f155408fc2817af5fd3351f",
+      "integrated": false
+    },
+    {
+      "name": "Italian Style Display Case",
+      "author": "Risama",
+      "source": "https://sketchfab.com/3d-models/italian-style-display-case-6d57116f13a249c09660c1e9489bccd1",
+      "downloadSource": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-099/6d57116f13a249c09660c1e9489bccd1.glb",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "metadataSnapshot": "italian-case-metadata.json",
+      "originalFile": "artifacts/pilot-models/downloads/italian-case.glb",
+      "originalBytes": 531252,
+      "sha256": "2715f1586bd097cd5c8132c1172b077885baeb320b5ad2b4738c470c893bb26e",
+      "integrated": false
+    },
+    {
+      "name": "Gold necklace / chain",
+      "author": "Mckai",
+      "source": "https://sketchfab.com/3d-models/gold-necklace-chain-8bb2ebea4fbd4a3a9b21cba9f5d5fdc8",
+      "downloadSource": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-157/8bb2ebea4fbd4a3a9b21cba9f5d5fdc8.glb",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "metadataSnapshot": "gold-necklace-metadata.json",
+      "originalFile": "artifacts/pilot-models/downloads/gold-necklace.glb",
+      "originalBytes": 2001448,
+      "sha256": "b9b8869834fd972c35f4a9689907335d71cabd00d93ae6d0a277d802833697b0",
+      "integrated": false
+    },
+    {
+      "name": "Pearl Necklace",
+      "author": "C.U.V",
+      "source": "https://sketchfab.com/3d-models/pearl-necklace-badddc19523f4dc08344e8da5b143dae",
+      "downloadSource": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-135/badddc19523f4dc08344e8da5b143dae.glb",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "metadataSnapshot": "pearl-necklace-metadata.json",
+      "originalFile": "artifacts/pilot-models/downloads/pearl-necklace.glb",
+      "originalBytes": 2286860,
+      "sha256": "01fa051b0fa6bb5f54e65c65c82d7e3524644f101aceeaf52f2136255707eb84",
+      "integrated": false
+    }
+  ],
+  "runtime": [
+    {
+      "file": "necklace-cabinet.glb",
+      "bytes": 1689000,
+      "sha256": "46fbc9d1b7b495ded037649ea94f454dbf14397313ab16192ec50794a1b62fcf"
+    },
+    {
+      "file": "necklace-bust.glb",
+      "bytes": 1721436,
+      "sha256": "6eead48062815b0c2943e2703ebf151e538ae069eb5e0fa6f2b73543791970af"
+    },
+    {
+      "file": "wall-light.glb",
+      "bytes": 1402024,
+      "sha256": "9510c6137a6197fa473322ac06b266f9e15720a72b721ff9a445c887519bde93"
+    }
+  ],
+  "archive": "https://huggingface.co/datasets/allenai/objaverse",
+  "archiveNotice": "Individual Sketchfab licenses verified independently; Objaverse dataset provenance retained. Allen Institute for AI / Objaverse, Deitke et al."
+}

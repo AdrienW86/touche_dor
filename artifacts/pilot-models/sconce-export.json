@@ -1,0 +1,17 @@
+{
+  "meshes": 10,
+  "triangles": 51282,
+  "sourceDimensions": [
+    0.11129038035869598,
+    0.21402597427368164,
+    0.40218788385391235
+  ],
+  "fileBytes": 1402024,
+  "modifications": [
+    "Apply original bevel and solidify modifiers",
+    "Subdivision capped at level 1 for small fixture",
+    "Normals and UVs preserved; sharp diamond facets retained",
+    "Correct wall-oriented glTF axes",
+    "Materials replaced locally in Three.js; no global light changes"
+  ]
+}

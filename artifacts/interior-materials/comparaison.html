@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Maison noire — matériaux avant / après</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#10100f;color:#eee6d7;font:16px/1.5 system-ui,sans-serif;padding:24px}main{max-width:1400px;margin:auto}h1{font:400 30px Georgia,serif;margin:0 0 8px}p{max-width:850px;color:#c6beb1}nav{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}button{font:inherit;color:inherit;background:#201f1b;border:1px solid #746247;border-radius:24px;padding:8px 16px;cursor:pointer}button[aria-pressed=true]{background:#d4b882;color:#17140e}figure{margin:0;position:relative;aspect-ratio:1780/883;overflow:hidden;--split:50%;background:#080808}figure img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}#before{clip-path:inset(0 calc(100% - var(--split)) 0 0)}figure::after{content:"";position:absolute;left:var(--split);top:0;bottom:0;border-left:2px solid #e6c689;pointer-events:none}.tag{position:absolute;top:12px;padding:4px 10px;border-radius:10px;background:#000b;z-index:2}.tag:first-of-type{left:12px}.tag:last-of-type{right:12px}label{display:block;margin:16px 0 4px}input{width:100%;accent-color:#d4b882}a{color:#e6c689}small{display:block;color:#bfb7a8;margin-top:12px}
+</style>
+<main>
+<h1>Maison noire — matériaux du sol, des murs et du plafond</h1>
+<p>Captures réelles du navigateur aux mêmes étapes du parcours. Déplacez le séparateur pour comparer les surfaces. Les vitrines, bijoux, lumières, dimensions et animations conservent leur version précédente.</p>
+<nav aria-label="Vue à comparer"><button data-view="closed" aria-pressed="true">Entrée fermée</button><button data-view="open" aria-pressed="false">Portes ouvertes</button><button data-view="first-vitrine" aria-pressed="false">Dans le couloir</button></nav>
+<figure id="comparison" aria-label="Comparaison avant et après"><img id="after" src="final-closed.png" alt="Après : matériaux PBR et reflets HDRI dédiés à l’architecture"><img id="before" src="before-closed.png" alt="Avant : matériaux précédents"><span class="tag">Avant</span><span class="tag">Après</span></figure>
+<label for="split">Position du séparateur avant / après</label><input id="split" type="range" min="0" max="100" value="50">
+<small>Textures et HDRI CC0 : ambientCG et Poly Haven. <a href="../../public/prototype/assets/interior/CREDITS.md">Provenance et licences</a>. <a href="validation.md">Compte rendu</a>.</small>
+</main>
+<script>
+const comparison = document.getElementById('comparison');
+document.getElementById('split').addEventListener('input', event => comparison.style.setProperty('--split', event.target.value + '%'));
+document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => {
+  document.querySelectorAll('[data-view]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+  document.getElementById('before').src = 'before-' + button.dataset.view + '.png';
+  document.getElementById('after').src = 'final-' + button.dataset.view + '.png';
+}));
+</script>
+</html>

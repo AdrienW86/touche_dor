@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "maison-noire.html byte-identical": true,
+    "architecture-details.js byte-identical": true,
+    "entrance.js byte-identical": true,
+    "entrance-textures.js byte-identical": true,
+    "interior-materials.js byte-identical": true,
+    "interior-lighting.js byte-identical": true,
+    "experience.js byte-identical": true,
+    "storefront.js byte-identical": true,
+    "storefront.css byte-identical": true,
+    "collection-config.js byte-identical": true,
+    "approved sconce code byte-identical": true,
+    "changed JS syntax": true,
+    "six original cameras and cabinet envelopes": true,
+    "three clearly separate earring pairs": true,
+    "two chain attachments to actual rails": true,
+    "35 browser checks pass": true,
+    "no capture or performance loading errors": true,
+    "shared geometry keeps frustum culling": true,
+    "glass unchanged": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-17",
+  "task": "Showcase finish and dynamic edge stability",
+  "models": [
+    {
+      "role": "stud",
+      "name": "Earring diamond",
+      "author": "Softmind Game Factory",
+      "authorURL": "https://sketchfab.com/softmind",
+      "source": "https://sketchfab.com/3d-models/earring-diamond-94db5e5434d14a9f87bbf3e5a5fd7dce",
+      "download": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-150/94db5e5434d14a9f87bbf3e5a5fd7dce.glb",
+      "metadataSnapshot": "artifacts/showcase-finish/94db5e5434d14a9f87bbf3e5a5fd7dce-metadata.json",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "file": "stud.glb",
+      "bytes": 316408,
+      "sha256": "5f1d037c38e296b72a01201fbecf2c8c8848cc491c5e80f7ceceb737cd5b85ab",
+      "triangles": 5646,
+      "modifications": "GLB imported with scripts disabled; normalized upright Y/front +Z. Decimated detail beyond useful screen resolution; removed unused embedded textures and UVs; shared champagne/diamond PBR finishes. Repeated instances share geometry. Single authored setting and post duplicated as a pair; six further mesh instances share original geometry across displays."
+    },
+    {
+      "role": "drop",
+      "name": "Golden Ball Crystal Diamond Drop Earrings",
+      "author": "DineshThennarasan",
+      "authorURL": "https://sketchfab.com/dineshthennarasan",
+      "source": "https://sketchfab.com/3d-models/golden-ball-crystal-diamond-drop-earrings-863d3b5c1a714cfb88dc01c7ea0fbcfe",
+      "download": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-031/863d3b5c1a714cfb88dc01c7ea0fbcfe.glb",
+      "metadataSnapshot": "artifacts/showcase-finish/863d3b5c1a714cfb88dc01c7ea0fbcfe-metadata.json",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "file": "drop.glb",
+      "bytes": 970576,
+      "sha256": "6a1aa5796b1bb904c619d8afbab30f4b426d18c5cec1120d993c448bf2aaf9d1",
+      "triangles": 13124,
+      "modifications": "GLB imported with scripts disabled; normalized upright Y/front +Z. Decimated detail beyond useful screen resolution; removed unused embedded textures and UVs; shared champagne/diamond PBR finishes. Repeated instances share geometry. Single authored pendant duplicated as a matched pair; original gold ball and faceted crystal assigned separate finishes."
+    },
+    {
+      "role": "hoops",
+      "name": "diamond crossover hoop earrings",
+      "author": "Syahdat setiawan",
+      "authorURL": "https://sketchfab.com/sadat_s",
+      "source": "https://sketchfab.com/3d-models/diamond-crossover-hoop-earrings-7a9e9fee80ac4c6d803680a4c62ce852",
+      "download": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-152/7a9e9fee80ac4c6d803680a4c62ce852.glb",
+      "metadataSnapshot": "artifacts/showcase-finish/7a9e9fee80ac4c6d803680a4c62ce852-metadata.json",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "file": "hoops.glb",
+      "bytes": 377672,
+      "sha256": "d8e48b7a5697821ed793a3a9d545e08437da2ec195138621400600cbe67ac0f4",
+      "triangles": 12800,
+      "modifications": "GLB imported with scripts disabled; normalized upright Y/front +Z. Decimated detail beyond useful screen resolution; removed unused embedded textures and UVs; shared champagne/diamond PBR finishes. Repeated instances share geometry. Original pair split to retain one complete authored hoop with clasp and pave; whole hoop rotated 90 degrees, then two distinct copies placed facing the visitor."
+    }
+  ],
+  "reused": "Bust muratgt, bracelet Emilio.Gallo, ring chrissimpson, chain Mckai, Jewel Stand Innerscene and all architecture resources retain their existing credits in ../architecture/ATTRIBUTION.html. Old earrings and pearls are no longer loaded by these compositions.",
+  "localSupports": "Purpose-made padded velvet earring cards with beveled contours, piercing holes, rear stems and feet are repository-native geometry, not claimed as a downloaded professional asset. Bracelet rollers and ring plots are the existing supports, rearranged and refinished only.",
+  "archiveAcknowledgment": "Models retrieved through the public Allen Institute for AI Objaverse archive (Deitke et al.). Individual original Sketchfab author licenses were verified via API snapshots. Dataset rights do not replace individual CC BY attribution."
+}

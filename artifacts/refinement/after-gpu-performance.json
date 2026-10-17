@@ -1,0 +1,318 @@
+{
+  "stage": "after",
+  "viewport": {
+    "width": 1780,
+    "height": 883
+  },
+  "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 (0x00002503) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "errors": [],
+  "networkErrors": [],
+  "bytesTransferred": 11403526,
+  "checkpoints": {
+    "entrance": {
+      "camera": [
+        0,
+        1.55,
+        11
+      ],
+      "frameSamples": 180,
+      "meanFrameMs": 6.943888888888877,
+      "p95FrameMs": 7,
+      "meanRenderMs": 1.8555555561350452,
+      "meanDrawCalls": 298.9222222222222,
+      "meanTriangles": 211088.1,
+      "geometries": 240,
+      "materials": 82,
+      "textures": 51,
+      "geometryBytes": 5223634
+    },
+    "firstShowcase": {
+      "camera": [
+        -0.7994110985277463,
+        1.55,
+        3.5000000000013003
+      ],
+      "frameSamples": 180,
+      "meanFrameMs": 6.943888888888877,
+      "p95FrameMs": 7,
+      "meanRenderMs": 1.4077777773969704,
+      "meanDrawCalls": 257.56666666666666,
+      "meanTriangles": 191048.02222222224,
+      "geometries": 240,
+      "materials": 82,
+      "textures": 51,
+      "geometryBytes": 5223634
+    }
+  },
+  "sourceHashes": {
+    "maison-noire.html": "eabc4ef02fcd7ab7ac753906ab01a6916bfb7f77050fdc2a72491f0737d00422",
+    "entrance.js": "a7b69a922ee12970c14fd5511c01bd26020da6e2492e3089846ada22129e783d",
+    "entrance-textures.js": "94824db91d84572844989e4c09e90e18a342d889134cbc8b72d433e05d3b08ac",
+    "interior-materials.js": "30cee61e3535e210e36a3a6792731a8d95183bcc7d18a283414f4a4d8468597e",
+    "interior-lighting.js": "f89292e61527d511683c84aa1cafdc78376281d0cc2db80c7877edf9a2261adf",
+    "experience.js": "3c21e8c795a865378600aafdab9f54c6b0a98a1842d81dac3a83937d096f27e3",
+    "storefront.js": "504d50d77f7fdb2d95efac1603e34aff21ffeb768da81b12cd5153b2e40a0aa9",
+    "storefront.css": "2f498b4882cff3960892e44fdec50b03301cbcffc8333d3f4286f6b23885db26",
+    "collection-config.js": "b9607eee4d8abdfd3ba215695fa63d534475d0bc5bccc9aaf73e370c4680b2a2",
+    "showcases.js": "8f1f4958a173cc7c8738e69cb6148c85afd96732a264bbd45b5801d1d7a8a48c"
+  },
+  "adapter": {
+    "vendor": "Google Inc. (NVIDIA)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 (0x00002503) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "measuredTransferBytes": 11403526,
+  "pilot": {
+    "position": [
+      -1.5,
+      0,
+      0.2999999999999998
+    ],
+    "bounds": [
+      [
+        -2.1880143880844116,
+        0,
+        0.001999992132186712
+      ],
+      [
+        -0.8119856119155884,
+        1.411238431930542,
+        0.657000023126602
+      ]
+    ],
+    "dimensions": [
+      1.3760287761688232,
+      1.411238431930542,
+      0.6550000309944153
+    ],
+    "busts": [
+      {
+        "name": "Buste central",
+        "position": [
+          0,
+          0.744,
+          0
+        ],
+        "scale": [
+          0.7432432432432433,
+          0.7432432432432433,
+          0.7432432432432433
+        ]
+      },
+      {
+        "name": "Buste secondaire petit",
+        "position": [
+          -0.39,
+          0.744,
+          0.055
+        ],
+        "scale": [
+          0.5675675675675675,
+          0.5675675675675675,
+          0.5675675675675675
+        ]
+      },
+      {
+        "name": "Buste secondaire moyen",
+        "position": [
+          0.39,
+          0.744,
+          0.045
+        ],
+        "scale": [
+          0.6216216216216216,
+          0.6216216216216216,
+          0.6216216216216216
+        ]
+      }
+    ],
+    "lamp": {
+      "position": [
+        -2.52,
+        2.5,
+        -0.966
+      ],
+      "dimensions": [
+        0.1602698230330537,
+        0.7800000000000002,
+        0.2716401686269878
+      ]
+    },
+    "otherShowcases": 5,
+    "hiddenOriginalLampParts": 1,
+    "lights": [
+      {
+        "type": "SpotLight",
+        "position": [
+          -0.34,
+          1.365,
+          0.12
+        ],
+        "intensity": 0.62
+      },
+      {
+        "type": "SpotLight",
+        "position": [
+          0.34,
+          1.365,
+          0.12
+        ],
+        "intensity": 0.62
+      },
+      {
+        "type": "AmbientLight",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "intensity": 0.7
+      },
+      {
+        "type": "PointLight",
+        "position": [
+          0,
+          3.3,
+          2.0000000000013003
+        ],
+        "intensity": 0.72
+      },
+      {
+        "type": "PointLight",
+        "position": [
+          2,
+          2.4,
+          -2.4999999999986997
+        ],
+        "intensity": 0.28
+      },
+      {
+        "type": "PointLight",
+        "position": [
+          -2,
+          2.4,
+          -2.4999999999986997
+        ],
+        "intensity": 0.28
+      },
+      {
+        "type": "SpotLight",
+        "position": [
+          -0.6000000000000001,
+          3.6,
+          2.0999999999999996
+        ],
+        "intensity": 1.798674971687429
+      },
+      {
+        "type": "SpotLight",
+        "position": [
+          0,
+          3.65,
+          5
+        ],
+        "intensity": 1.9
+      },
+      {
+        "type": "SpotLight",
+        "position": [
+          0,
+          3.65,
+          -17
+        ],
+        "intensity": 1.6
+      },
+      {
+        "type": "PointLight",
+        "position": [
+          -2.42,
+          2.4,
+          4
+        ],
+        "intensity": 0.85
+      },
+      {
+        "type": "PointLight",
+        "position": [
+          2.42,
+          2.4,
+          4
+        ],
+        "intensity": 0.85
+      },
+      {
+        "type": "PointLight",
+        "position": [
+          -2.42,
+          2.4,
+          -8
+        ],
+        "intensity": 0.85
+      },
+      {
+        "type": "PointLight",
+        "position": [
+          2.42,
+          2.4,
+          -8
+        ],
+        "intensity": 0.85
+      },
+      {
+        "type": "PointLight",
+        "position": [
+          -2.42,
+          2.4,
+          -20
+        ],
+        "intensity": 0.85
+      },
+      {
+        "type": "PointLight",
+        "position": [
+          2.42,
+          2.4,
+          -20
+        ],
+        "intensity": 0.85
+      },
+      {
+        "type": "PointLight",
+        "position": [
+          -2.42,
+          2.4,
+          -32
+        ],
+        "intensity": 0.85
+      },
+      {
+        "type": "PointLight",
+        "position": [
+          2.42,
+          2.4,
+          -32
+        ],
+        "intensity": 0.85
+      },
+      {
+        "type": "RectAreaLight",
+        "position": [
+          -1.98,
+          2.25,
+          8.45
+        ],
+        "intensity": 3.5
+      },
+      {
+        "type": "RectAreaLight",
+        "position": [
+          1.98,
+          2.25,
+          8.45
+        ],
+        "intensity": 3.5
+      }
+    ]
+  },
+  "reviewTransferBytes": 11403135,
+  "status": "pilot-measured"
+}

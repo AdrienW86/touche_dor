@@ -1,0 +1,45 @@
+{
+  "retrieved": "2026-10-17",
+  "resources": [
+    {
+      "name": "GEM — Jewelry Display Case",
+      "author": "Innerscene",
+      "source": "https://www.innerscene.com/tools/library/3d-parts/gem-jewelry-display-case-9405030a",
+      "download": "https://www.innerscene.com/api/library/gem-jewelry-display-case-9405030a/download",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceFile": "artifacts/refinement/downloads/gem.glb",
+      "runtime": "public/assets/models/refinement/gem-counter.glb",
+      "evidence": "artifacts/refinement/gem-source.html",
+      "runtimeBytes": 2309108,
+      "runtimeSha256": "40294343ad9c5840a376cde1b10e4adb110acfe288ac92e6116cb2a74423f25a",
+      "sourceBytes": 2470576,
+      "sourceSha256": "70eb09075f260c88a2a609c36c2588a6c15e7d48060206465c2e3bd5ec5c7db8"
+    },
+    {
+      "name": "Wall Light",
+      "author": "abd3d",
+      "source": "https://www.blendkit.com/asset-gallery-detail/0d8f6d0a-a383-4476-bc1b-a8ae8ff22135/",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceFile": "artifacts/refinement/downloads/modern-sconce.blend",
+      "runtime": "public/assets/models/refinement/vertical-sconce.glb",
+      "evidence": "artifacts/refinement/modern-sconce-metadata.json",
+      "runtimeBytes": 635928,
+      "runtimeSha256": "49a7a9c1d92d09752998fea4887072c5c1bc1a3e14ca9eb25a25af625458cdfc",
+      "sourceBytes": 440581,
+      "sourceSha256": "df21a978717d202ee133f8c10705e335cdc88cf5afb8798f636a462ed783304a"
+    },
+    {
+      "name": "Necklace With Display Stand",
+      "author": "muratgt",
+      "source": "https://sketchfab.com/3d-models/necklace-with-display-stand-7279cac4115a40e6ac345d68e17f15d1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "runtime": "public/assets/models/pilot/necklace-bust.glb",
+      "evidence": "artifacts/pilot-models/necklace-display-metadata.json",
+      "unchangedExistingFile": true,
+      "runtimeBytes": 1721436,
+      "runtimeSha256": "6eead48062815b0c2943e2703ebf151e538ae069eb5e0fa6f2b73543791970af"
+    }
+  ],
+  "backupPolicy": "Previous cabinet and classic sconce retained intact under /assets/models/pilot/, not requested by the active loader. The existing necklace-bust GLB is shared.",
+  "adaptationsNotice": "/assets/models/refinement/ATTRIBUTION.html"
+}

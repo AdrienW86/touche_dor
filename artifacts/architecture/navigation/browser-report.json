@@ -1,0 +1,1143 @@
+{
+  "checks": {
+    "subtleGrain": true,
+    "handlesAtJoiningEdges": true,
+    "doorPivots": true,
+    "doorAngles": true,
+    "glassTransparent": true,
+    "noVegetation": true,
+    "category1": true,
+    "category2": true,
+    "category3": true,
+    "category4": true,
+    "category5": true,
+    "category6": true,
+    "sixCameraStopsUnchanged": true,
+    "intermediateCameraPath": true,
+    "nextProduct": true,
+    "previousProduct": true,
+    "detailOpens": true,
+    "detailRestoresSelection": true,
+    "cartAdd": true,
+    "checkoutDisabled": true,
+    "cartQuantity": true,
+    "catalogueSixExamples": true,
+    "emptyCategoryHonest": true,
+    "logoTransferAligned": true,
+    "sameLogoSource": true,
+    "nativeClassicVisible": true,
+    "gpuPaused": true,
+    "classicCategories": true,
+    "footerNoFakeLinks": true,
+    "reverseRestoresEntrance": true,
+    "standardMotionWheel": true,
+    "standardMotionSkipImmediate": true,
+    "mobileNoHorizontalOverflow": true,
+    "skipTourAccessible": true,
+    "consoleClean": true
+  },
+  "errors": [],
+  "networkErrors": [],
+  "warnings": [],
+  "points": {
+    "closed": {
+      "state": {
+        "phase": "entrance",
+        "progress": 0,
+        "render3D": true,
+        "tourProgress": 0,
+        "scrollY": 0,
+        "renderCount": 44
+      },
+      "camera": [
+        0,
+        1.55,
+        11
+      ],
+      "quaternion": [
+        -0.004166558164588457,
+        0,
+        0,
+        0.9999913198588581
+      ],
+      "category": "",
+      "title": "",
+      "cardOpacity": "0",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 0
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": 0
+        }
+      ],
+      "overflow": false
+    },
+    "half-open": {
+      "state": {
+        "phase": "entrance",
+        "progress": 0.22197055492638731,
+        "render3D": true,
+        "tourProgress": 0.027746319365798414,
+        "scrollY": 196,
+        "renderCount": 120
+      },
+      "camera": [
+        0,
+        1.55,
+        10.883124617021386
+      ],
+      "quaternion": [
+        -0.004166558164588457,
+        0,
+        0,
+        0.9999913198588581
+      ],
+      "category": "",
+      "title": "",
+      "cardOpacity": "0",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 0.7241789354473387
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -0.7241789354473387
+        }
+      ],
+      "overflow": false
+    },
+    "open": {
+      "state": {
+        "phase": "showcases",
+        "progress": 0.45979614949037373,
+        "render3D": true,
+        "tourProgress": 0.057474518686296716,
+        "scrollY": 406,
+        "renderCount": 182
+      },
+      "camera": [
+        0,
+        1.55,
+        9.612718335375002
+      ],
+      "quaternion": [
+        -0.004166558164588457,
+        0,
+        0,
+        0.9999913198588581
+      ],
+      "category": "",
+      "title": "",
+      "cardOpacity": "0",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "vitrine-1": {
+      "state": {
+        "phase": "showcases",
+        "progress": 1.332955832389581,
+        "render3D": true,
+        "tourProgress": 0.16661947904869762,
+        "scrollY": 1177,
+        "renderCount": 275
+      },
+      "camera": [
+        -0.7994110985277463,
+        1.55,
+        3.5000000000013003
+      ],
+      "quaternion": [
+        -0.007760524973738955,
+        0.050538413008431225,
+        0.00039271833552245386,
+        0.9986918888401117
+      ],
+      "category": "Vitrine 01 / 06 · Colliers",
+      "title": "Collier Lune",
+      "cardOpacity": "1",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "vitrine-2": {
+      "state": {
+        "phase": "showcases",
+        "progress": 2.667044167610419,
+        "render3D": true,
+        "tourProgress": 0.3333805209513024,
+        "scrollY": 2355,
+        "renderCount": 383
+      },
+      "camera": [
+        0.7994110985277461,
+        1.55,
+        -3.0000000000010405
+      ],
+      "quaternion": [
+        -0.007760524973738955,
+        -0.05053841300843121,
+        -0.00039271833552245375,
+        0.9986918888401117
+      ],
+      "category": "Vitrine 02 / 06 · Bracelets",
+      "title": "Bracelet Soleil",
+      "cardOpacity": "1",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "vitrine-3": {
+      "state": {
+        "phase": "showcases",
+        "progress": 4,
+        "render3D": true,
+        "tourProgress": 0.5,
+        "scrollY": 3532,
+        "renderCount": 496
+      },
+      "camera": [
+        -0.8,
+        1.55,
+        -9
+      ],
+      "quaternion": [
+        -0.007761861866560553,
+        0.050584593594159635,
+        0.0003931458298353473,
+        0.9986895402614542
+      ],
+      "category": "Vitrine 03 / 06 · Bagues",
+      "title": "Bague Aurore",
+      "cardOpacity": "1",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "vitrine-4": {
+      "state": {
+        "phase": "showcases",
+        "progress": 5.332955832389581,
+        "render3D": true,
+        "tourProgress": 0.6666194790486977,
+        "scrollY": 4709,
+        "renderCount": 609
+      },
+      "camera": [
+        0.7994110985277469,
+        1.55,
+        -14.999999999998959
+      ],
+      "quaternion": [
+        -0.0077605249737389545,
+        -0.05053841300843128,
+        -0.0003927183355224542,
+        0.9986918888401117
+      ],
+      "category": "Vitrine 04 / 06 · Boucles d’oreilles",
+      "title": "Boucles Étoile",
+      "cardOpacity": "1",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "vitrine-5": {
+      "state": {
+        "phase": "showcases",
+        "progress": 6.667044167610419,
+        "render3D": true,
+        "tourProgress": 0.8333805209513022,
+        "scrollY": 5887,
+        "renderCount": 730
+      },
+      "camera": [
+        -0.7994110985277478,
+        1.55,
+        -21.00000000000104
+      ],
+      "quaternion": [
+        -0.007760524973738962,
+        0.050538413008431364,
+        0.0003927183355224552,
+        0.9986918888401117
+      ],
+      "category": "Vitrine 05 / 06 · Bijoux de cheville",
+      "title": "Bijoux de cheville",
+      "cardOpacity": "1",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "vitrine-6": {
+      "state": {
+        "phase": "showcases",
+        "progress": 8,
+        "render3D": true,
+        "tourProgress": 1,
+        "scrollY": 7064,
+        "renderCount": 854
+      },
+      "camera": [
+        0.8,
+        1.55,
+        -27
+      ],
+      "quaternion": [
+        -0.007761861866560553,
+        -0.050584593594159635,
+        -0.0003931458298353473,
+        0.9986895402614542
+      ],
+      "category": "Vitrine 06 / 06 · Ensembles",
+      "title": "Collier Lune",
+      "cardOpacity": "1",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "approach": {
+      "state": {
+        "phase": "approach",
+        "progress": 8.799546998867497,
+        "logoRect": {
+          "left": 823.2603192297822,
+          "top": 425.77876615732487,
+          "width": 526.2820389101216,
+          "height": 350.1988646202262
+        },
+        "logo3DRect": {
+          "left": 823.2603192297822,
+          "top": 425.77876615732487,
+          "width": 526.2820389101216,
+          "height": 350.1988646202262
+        },
+        "transfer": 0,
+        "dezoom": 0,
+        "render3D": true,
+        "tourProgress": 1,
+        "scrollY": 7770,
+        "renderCount": 1735
+      },
+      "camera": [
+        0.3604200640432116,
+        1.7148424759837957,
+        -28.86821472781635
+      ],
+      "quaternion": [
+        0.0019134142582483559,
+        -0.008361848983966346,
+        -0.00031954423011229516,
+        0.9999631574307778
+      ],
+      "category": "Vitrine 06 / 06 · Ensembles",
+      "title": "Collier Lune",
+      "cardOpacity": "0",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "zoom": {
+      "state": {
+        "phase": "zoom",
+        "progress": 10.300113250283125,
+        "logoRect": {
+          "left": 890,
+          "top": 441.49999999999994,
+          "width": 892.7454568816908,
+          "height": 595.1636379211269
+        },
+        "logo3DRect": {
+          "left": 890,
+          "top": 441.49999999999994,
+          "width": 892.7454568816908,
+          "height": 595.1636379211269
+        },
+        "transfer": 0,
+        "dezoom": 0,
+        "render3D": true,
+        "tourProgress": 1,
+        "scrollY": 9095,
+        "renderCount": 1850
+      },
+      "camera": [
+        0,
+        1.85,
+        -31.689915911859202
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "category": "Vitrine 06 / 06 · Ensembles",
+      "title": "Collier Lune",
+      "cardOpacity": "0",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "transfer": {
+      "state": {
+        "phase": "transfer",
+        "progress": 10.749716874292186,
+        "logoRect": {
+          "left": 890,
+          "top": 441.5,
+          "width": 927.1500000000001,
+          "height": 618.0999999999999
+        },
+        "logo3DRect": {
+          "left": 890,
+          "top": 441.5,
+          "width": 927.1500000000001,
+          "height": 618.0999999999999
+        },
+        "transfer": 0.4991506232396859,
+        "dezoom": 0,
+        "render3D": true,
+        "tourProgress": 1,
+        "scrollY": 9492,
+        "renderCount": 1944
+      },
+      "camera": [
+        0,
+        1.85,
+        -31.83946366764937
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "category": "Vitrine 06 / 06 · Ensembles",
+      "title": "Collier Lune",
+      "cardOpacity": "0",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "dezoom": {
+      "state": {
+        "phase": "dezoom",
+        "progress": 11.500566251415629,
+        "logoRect": {
+          "left": 890,
+          "top": 353.0500000641281,
+          "width": 643.0932759703865,
+          "height": 428.72885064692423
+        },
+        "logo3DRect": {
+          "left": 890,
+          "top": 441.5,
+          "width": 927.1500000000001,
+          "height": 618.0999999999999
+        },
+        "transfer": 1,
+        "dezoom": 0.5008493767603167,
+        "render3D": true,
+        "tourProgress": 1,
+        "scrollY": 10155,
+        "renderCount": 2049
+      },
+      "camera": [
+        0,
+        1.85,
+        -31.83946366764937
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "category": "Vitrine 06 / 06 · Ensembles",
+      "title": "Collier Lune",
+      "cardOpacity": "0",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "discovery": {
+      "state": {
+        "phase": "html",
+        "progress": 12,
+        "logoRect": {
+          "left": 890,
+          "top": 264.9,
+          "width": 360,
+          "height": 240
+        },
+        "logo3DRect": {
+          "left": 890,
+          "top": 441.5,
+          "width": 927.1500000000001,
+          "height": 618.0999999999999
+        },
+        "transfer": 1,
+        "dezoom": 1,
+        "render3D": false,
+        "tourProgress": 1,
+        "scrollY": 10596,
+        "renderCount": 2074
+      },
+      "camera": [
+        0,
+        1.85,
+        -31.83946366764937
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "category": "Vitrine 06 / 06 · Ensembles",
+      "title": "Collier Lune",
+      "cardOpacity": "0",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "reverse-transfer": {
+      "state": {
+        "phase": "transfer",
+        "progress": 10.749716874292186,
+        "logoRect": {
+          "left": 890,
+          "top": 441.5,
+          "width": 927.1500000000001,
+          "height": 618.0999999999999
+        },
+        "logo3DRect": {
+          "left": 890,
+          "top": 441.5,
+          "width": 927.1500000000001,
+          "height": 618.0999999999999
+        },
+        "transfer": 0.4991506232396859,
+        "dezoom": 0,
+        "render3D": true,
+        "tourProgress": 1,
+        "scrollY": 9492,
+        "renderCount": 2152
+      },
+      "camera": [
+        0,
+        1.85,
+        -31.83946366764937
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "category": "Vitrine 06 / 06 · Ensembles",
+      "title": "Collier Lune",
+      "cardOpacity": "0",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "reverse-vitrine": {
+      "state": {
+        "phase": "showcases",
+        "progress": 1.332955832389581,
+        "render3D": true,
+        "tourProgress": 0.16661947904869762,
+        "scrollY": 1177,
+        "renderCount": 2245
+      },
+      "camera": [
+        -0.7994110985277463,
+        1.55,
+        3.5000000000013003
+      ],
+      "quaternion": [
+        -0.007760524973738955,
+        0.050538413008431225,
+        0.00039271833552245386,
+        0.9986918888401117
+      ],
+      "category": "Vitrine 01 / 06 · Colliers",
+      "title": "Collier Cœur",
+      "cardOpacity": "1",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "reverse-closed": {
+      "state": {
+        "phase": "entrance",
+        "progress": 0,
+        "render3D": true,
+        "tourProgress": 0,
+        "scrollY": 0,
+        "renderCount": 2328
+      },
+      "camera": [
+        0,
+        1.55,
+        11
+      ],
+      "quaternion": [
+        -0.004166558164588457,
+        0,
+        0,
+        0.9999913198588581
+      ],
+      "category": "Vitrine 01 / 06 · Colliers",
+      "title": "Collier Cœur",
+      "cardOpacity": "0",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 0
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": 0
+        }
+      ],
+      "overflow": false
+    },
+    "mobile-closed": {
+      "state": {
+        "phase": "entrance",
+        "progress": 0,
+        "render3D": true,
+        "tourProgress": 0,
+        "scrollY": 0,
+        "renderCount": 94
+      },
+      "camera": [
+        0,
+        1.55,
+        11
+      ],
+      "quaternion": [
+        -0.004166558164588457,
+        0,
+        0,
+        0.9999913198588581
+      ],
+      "category": "Vitrine 06 / 06 · Ensembles",
+      "title": "Collier Lune",
+      "cardOpacity": "0",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 0
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": 0
+        }
+      ],
+      "overflow": false
+    },
+    "mobile-vitrine": {
+      "state": {
+        "phase": "showcases",
+        "progress": 1.3329383886255923,
+        "render3D": true,
+        "tourProgress": 0.16661729857819904,
+        "scrollY": 1125,
+        "renderCount": 189
+      },
+      "camera": [
+        -1.2989988151658765,
+        1.55,
+        3.500000000001558
+      ],
+      "quaternion": [
+        -0.007795748925351797,
+        -0.027286082744397967,
+        -0.00021280115712233542,
+        0.9995972442453142
+      ],
+      "category": "Vitrine 01 / 06 · Colliers",
+      "title": "Collier Lune",
+      "cardOpacity": "1",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "mobile-transfer": {
+      "state": {
+        "phase": "transfer",
+        "progress": 10.75,
+        "logoRect": {
+          "left": 195,
+          "top": 422,
+          "width": 327.60000000000014,
+          "height": 218.4000000000001
+        },
+        "logo3DRect": {
+          "left": 195,
+          "top": 422,
+          "width": 327.60000000000014,
+          "height": 218.4000000000001
+        },
+        "transfer": 0.5,
+        "dezoom": 0,
+        "render3D": true,
+        "tourProgress": 1,
+        "scrollY": 9073,
+        "renderCount": 283
+      },
+      "camera": [
+        0,
+        1.85,
+        -28.182370403012623
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "category": "Vitrine 06 / 06 · Ensembles",
+      "title": "Collier Lune",
+      "cardOpacity": "0",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    },
+    "mobile-discovery": {
+      "state": {
+        "phase": "html",
+        "progress": 12,
+        "logoRect": {
+          "left": 195,
+          "top": 253.2,
+          "width": 234,
+          "height": 156
+        },
+        "logo3DRect": {
+          "left": 195,
+          "top": 422,
+          "width": 327.60000000000014,
+          "height": 218.4000000000001
+        },
+        "transfer": 1,
+        "dezoom": 1,
+        "render3D": false,
+        "tourProgress": 1,
+        "scrollY": 10128,
+        "renderCount": 295
+      },
+      "camera": [
+        0,
+        1.85,
+        -28.182370403012623
+      ],
+      "quaternion": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "category": "Vitrine 06 / 06 · Ensembles",
+      "title": "Collier Lune",
+      "cardOpacity": "0",
+      "doors": [
+        {
+          "position": [
+            -1.15,
+            0,
+            8.1
+          ],
+          "angle": 1.45
+        },
+        {
+          "position": [
+            1.15,
+            0,
+            8.1
+          ],
+          "angle": -1.45
+        }
+      ],
+      "overflow": false
+    }
+  },
+  "viewport": {
+    "width": 1780,
+    "height": 883
+  },
+  "visualSettings": {
+    "grain": "0.035",
+    "canvasWidth": 1780,
+    "viewport": 1780,
+    "softwareRendering": true
+  },
+  "pathSamples": [
+    {
+      "fraction": 0.1,
+      "expected": [
+        0,
+        5.633626879999999
+      ],
+      "actual": [
+        0,
+        5.638650911367261
+      ],
+      "ok": true
+    },
+    {
+      "fraction": 0.25,
+      "expected": [
+        0,
+        0.25
+      ],
+      "actual": [
+        0,
+        0.25
+      ],
+      "ok": true
+    },
+    {
+      "fraction": 0.42,
+      "expected": [
+        0,
+        -6.26953251812357
+      ],
+      "actual": [
+        0,
+        -6.270901330719002
+      ],
+      "ok": true
+    },
+    {
+      "fraction": 0.58,
+      "expected": [
+        0,
+        -11.730467481876424
+      ],
+      "actual": [
+        0,
+        -11.729098669280997
+      ],
+      "ok": true
+    },
+    {
+      "fraction": 0.75,
+      "expected": [
+        0,
+        -18
+      ],
+      "actual": [
+        0,
+        -18
+      ],
+      "ok": true
+    },
+    {
+      "fraction": 0.92,
+      "expected": [
+        0,
+        -24.269532518123576
+      ],
+      "actual": [
+        0,
+        -24.270901330719006
+      ],
+      "ok": true
+    }
+  ]
+}

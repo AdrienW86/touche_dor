@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": {
+    "fullDocumentRestoredAfterFiveAllowedLightingChanges": true,
+    "visitCameraScrollAndAnimationsByteIdentical": true,
+    "displayCaseGeometryAndMaterialsByteIdentical": true,
+    "sharedMaterialsByteIdentical": true,
+    "architectureMaterialsUnchanged": true,
+    "entranceAndFacadeUnchanged": true,
+    "cssAndUiUnchanged": true
+  },
+  "hashes": {
+    "before": "cc87379f1acdec8e41d49bb08caa0e6d0fa5a2600211f7d0cb4f6bda6ccad7f8",
+    "restored": "cc87379f1acdec8e41d49bb08caa0e6d0fa5a2600211f7d0cb4f6bda6ccad7f8",
+    "after": "c96fe0dc7432e69c325d93f162d25556cb87d8674d9497f28bfecbc9af1a0d9b",
+    "frameAndNavigation": "ff26880abfa3545db302944f1179ced942211397f45a6fd4b1031183ceebd01d",
+    "displayCases": "a1e5f9363b6468aab4c5b2e622c222b9e37adaef1bf2db211e5e0577befe61bf",
+    "lightingModule": "46b09bee61a45c22e9c43ce120829a61d746dc6e359dd0048187579b66071d52"
+  }
+}

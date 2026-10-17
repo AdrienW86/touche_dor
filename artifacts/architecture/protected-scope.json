@@ -1,0 +1,36 @@
+{
+  "checks": {
+    "entrance.js unchanged": true,
+    "entrance-textures.js unchanged": true,
+    "interior-materials.js unchanged": true,
+    "experience.js unchanged": true,
+    "storefront.js unchanged": true,
+    "storefront.css unchanged": true,
+    "collection-config.js unchanged": true,
+    "main HTML only adds architecture script and invocation": true,
+    "reflection only alpha adjustment": true,
+    "16 fixtures same approved geometry": true,
+    "actual backplates mounted with 1mm gap": true,
+    "30 old plate and lens parts hidden": true,
+    "six original station anchors and five glass panes": true,
+    "six cabinet envelopes preserved": true,
+    "16 columns preserve main size and positions": true,
+    "wall envelopes and corridor width preserved": true,
+    "no browser or resource errors": true
+  },
+  "scope": {
+    "cameraFormulaUnchanged": true,
+    "stops": true,
+    "fov": true,
+    "smoothstep": true,
+    "side": true,
+    "aperture": true,
+    "doorPivots": true,
+    "glassDimensions": true,
+    "glassCenter": true,
+    "handleDimensions": true,
+    "originalEightViewportDistance": true,
+    "originalInterpolationCoefficient": true,
+    "handleAndMountsMoveTogether": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "cameraFormulaUnchanged": true,
+    "stops": true,
+    "fov": true,
+    "smoothstep": true,
+    "side": true,
+    "aperture": true,
+    "doorPivots": true,
+    "glassDimensions": true,
+    "glassCenter": true,
+    "handleDimensions": true,
+    "originalEightViewportDistance": true,
+    "originalInterpolationCoefficient": true,
+    "handleAndMountsMoveTogether": true
+  },
+  "note": "Decorative bob is disabled under reduced-motion. New approach/zoom camera movement starts only after the original sixth stop."
+}

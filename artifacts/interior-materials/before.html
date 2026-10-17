@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Touche d'or – La Maison noire</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Italiana&family=Jost:wght@300;400&display=swap">
+<style>
+/* ===== THÈME ===== */
+:root{--ink:#f1ebe0;--gold:#d9bf8a;--panel:rgba(8,8,8,.72);--gg:linear-gradient(120deg,#f6e9cc,#d9bf8a 45%,#8f7646);--fd:'Italiana',Georgia,serif;--fb:'Jost',system-ui,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{height:900vh;background:#070707;color:var(--ink);font-family:var(--fb);font-weight:300}
+canvas#c{position:fixed;inset:0;width:100%;height:100%;display:block}
+button{font:inherit;color:inherit;cursor:pointer;background:var(--panel);border:1px solid var(--gold);border-radius:999px;padding:.5rem 1.1rem}
+button:focus-visible{outline:2px solid var(--gold);outline-offset:3px}.gold{background:var(--gg);color:#15110a;border-color:transparent}
+.gt{background:var(--gg);-webkit-background-clip:text;background-clip:text;color:transparent}
+.top{position:fixed;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:calc(env(safe-area-inset-top,0px) + 14px) 20px 0}
+.logo{font-family:var(--fd);font-size:1.7rem}.right{display:flex;gap:8px}
+#bar{position:fixed;top:0;left:0;height:2px;width:0;background:var(--gg);z-index:9}
+#intro{position:fixed;z-index:4;left:7vw;bottom:12vh;width:16.5vw;transition:opacity .4s}
+#intro>span{font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+#intro h1{font-family:var(--fd);font-weight:400;font-size:clamp(2.45rem,2.8vw,3.3rem);line-height:1.05;margin:.7rem 0 1rem}#intro h1 span{display:block;font:inherit;letter-spacing:normal;text-transform:none}#intro p{font-size:.92rem;line-height:1.5;opacity:.88}
+#intro i{display:block;margin-top:1.3rem;font-style:normal;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;opacity:.75}
+@media(max-width:1100px){#intro{bottom:calc(env(safe-area-inset-bottom,0px) + 8vh);width:86vw;max-width:18rem}#intro::before{content:"";position:absolute;z-index:-1;inset:-1rem -1.2rem;background:linear-gradient(90deg,rgba(3,3,3,.8),rgba(3,3,3,.64) 76%,transparent);pointer-events:none}#intro>span{font-size:.6rem;letter-spacing:.18em}#intro h1{font-size:2.35rem;margin:.6rem 0 .8rem}#intro p{font-size:.82rem;line-height:1.45}#intro i{font-size:.6rem;letter-spacing:.16em;margin-top:1rem}}
+.card{position:fixed;z-index:4;left:50%;bottom:calc(env(safe-area-inset-bottom,0px) + 16px);width:min(92vw,26rem);transform:translateX(-50%);padding:1.1rem 1.3rem;border-radius:20px;background:var(--panel);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid color-mix(in srgb,var(--gold) 55%,transparent);box-shadow:0 0 40px rgba(217,191,138,.12);transition:opacity .35s}
+.card small{letter-spacing:.25em;text-transform:uppercase;font-size:.7rem;color:var(--gold)}
+.card h2{font-family:var(--fd);font-weight:400;font-size:2rem;line-height:1.1;margin-top:.2rem}.card p{font-size:.95rem;opacity:.85}
+.row{display:flex;justify-content:space-between;align-items:center;margin-top:.8rem}.price{font-size:1.25rem;color:var(--gold)}
+#all{position:fixed;inset:0;z-index:8;background:rgba(6,5,4,.94);backdrop-filter:blur(10px);overflow-y:auto;padding:calc(env(safe-area-inset-top,0px) + 18px) 22px calc(env(safe-area-inset-bottom,0px) + 28px);display:none}
+#all.o{display:block}#all h2{font-family:var(--fd);font-weight:400;font-size:2.4rem;margin:.6rem 0 1rem}
+.li{display:flex;align-items:center;gap:12px;padding:.9rem 0;border-bottom:1px solid rgba(217,191,138,.25)}.li i{width:14px;height:14px;border-radius:50%;flex:none}.li div{flex:1}.li small{opacity:.7;display:block}
+.tot{display:flex;justify-content:space-between;align-items:center;margin-top:1.4rem;font-size:1.3rem}
+#toast{position:fixed;left:50%;top:calc(env(safe-area-inset-top,0px) + 70px);transform:translate(-50%,-10px);background:var(--gold);color:#111;padding:.6rem 1.3rem;border-radius:99px;opacity:0;transition:.3s;z-index:12;pointer-events:none}#toast.o{opacity:1;transform:translate(-50%,0)}
+#fx{position:fixed;inset:0;z-index:3;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.72) 100%)}
+#gr{position:fixed;inset:0;z-index:3;pointer-events:none;opacity:.16;mix-blend-mode:overlay;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas><div id="fx"></div><div id="gr"></div><div id="bar"></div>
+<div class="top"><div class="logo gt">Touche d'or</div><div class="right"><button id="allB">Toutes les pièces</button><button id="cartB">Panier (0)</button></div></div>
+<div id="intro"><span>Haute joaillerie · Paris</span><h1>Entrez dans <span class="gt">l'écrin.</span></h1><p>Laque noire, marbre et or champagne : poussez la porte de notre boutique et laissez-vous guider, vitrine après vitrine.</p><i>Faites défiler pour entrer ↓</i></div>
+<div class="card" id="card"><small id="ch"></small><h2 id="nm"></h2><p id="mt"></p><div class="row"><span class="price" id="pr"></span><button class="gold" id="add">Ajouter au panier</button></div></div>
+<div id="all"><div class="row"><button id="cl">← Retour à la boutique</button></div><h2>Toutes les pièces</h2><div id="list"></div>
+ <div class="tot"><span>Total</span><b id="tot">0 €</b></div><button class="gold" id="out" style="width:100%;margin-top:1rem;padding:.9rem">Commander</button></div>
+<div id="toast" role="status"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="/prototype/entrance-textures.js"></script>
+<script src="/prototype/entrance.js"></script>
+<script>
+(function(){
+/* ============ 1. DONNÉES — à remplacer par le vrai catalogue ============
+   type: ring|ring2|neck|ear|brac|heart (modèle 3D de secours) · model: .glb (GLTFLoader à ajouter) · photo: image pour une fiche */
+const CATALOG=[
+ {id:'aurore',name:'Bague Aurore',cat:'Bagues',desc:'Or rose, saphir rose',price:890,type:'ring',metal:0xe8a28e,gem:0xff7fb0},
+ {id:'lune',name:'Collier Lune',cat:'Colliers',desc:'Or jaune, perle de culture',price:640,type:'neck',metal:0xe9bd6b,gem:0xf7f1ea},
+ {id:'etoile',name:'Boucles Étoile',cat:"Boucles d'oreilles",desc:'Or blanc, topaze bleue',price:420,type:'ear',metal:0xe9e9f2,gem:0x6fd8ff},
+ {id:'soleil',name:'Bracelet Soleil',cat:'Bracelets',desc:'Or jaune, citrines',price:760,type:'brac',metal:0xe9bd6b,gem:0xffc24d},
+ {id:'nuit',name:'Bague Nuit',cat:'Bagues',desc:'Or blanc, saphir bleu',price:1150,type:'ring2',metal:0xe9e9f2,gem:0x5f8bff},
+ {id:'coeur',name:'Collier Cœur',cat:'Colliers',desc:'Or rose, rubis',price:530,type:'heart',metal:0xe8a28e,gem:0xe0305a}];
+const BRAND="Touche d'or";
+function onAddToCart(item){}
+function onCheckout(items){ toast('Prototype : paiement à brancher'); }
+
+/* ============ 2. TEXTURES NATURELLES GÉNÉRÉES (marbre, noyer, velours) ============ */
+const T=THREE,$=id=>document.getElementById(id),cl=(v,a,b)=>Math.max(a,Math.min(b,v)),mod=(a,n)=>((a%n)+n)%n;
+const hs=(x,y)=>{const s=Math.sin(x*127.1+y*311.7)*43758.5453;return s-Math.floor(s)};
+const vn=(x,y,P)=>{const i=Math.floor(x),j=Math.floor(y),f=x-i,g=y-j,u=f*f*(3-2*f),v=g*g*(3-2*g),h=(a,b)=>hs(mod(a,P),mod(b,P));return h(i,j)*(1-u)*(1-v)+h(i+1,j)*u*(1-v)+h(i,j+1)*(1-u)*v+h(i+1,j+1)*u*v};
+const fbm=(u,v,b)=>{let a=.5,s=0,P=b,x=u*b,y=v*b;for(let o=0;o<5;o++){s+=a*vn(x,y,P);x*=2;y*=2;P*=2;a*=.5}return s};
+function tex(n,fn,rx,ry){const c=document.createElement('canvas');c.width=c.height=n;const x=c.getContext('2d'),d=x.createImageData(n,n);
+ for(let j=0;j<n;j++)for(let i=0;i<n;i++){const k=fn(i/n,j/n),o=(j*n+i)*4;d.data[o]=k[0];d.data[o+1]=k[1];d.data[o+2]=k[2];d.data[o+3]=255}
+ x.putImageData(d,0,0);const t=new T.CanvasTexture(c);t.wrapS=t.wrapT=T.RepeatWrapping;t.repeat.set(rx,ry);t.anisotropy=8;t.encoding=T.sRGBEncoding;return t}
+const vein=(u,v,n,f,k)=>Math.pow(1-Math.abs(Math.sin(Math.PI*(f*u+f*.6*v+k*n))),14);
+const tBlack=tex(512,(u,v)=>{const n=fbm(u,v,3),g=vein(u,v,n,3,5)*.2+vein(u,v,fbm(v,u,4),2,4)*.09;return[10+n*10+g*200,10+n*10+g*170,11+n*10+g*120]},4,30);
+const tIvory=tex(256,(u,v)=>{const n=fbm(u,v,3),g=vein(u,v,n,2,4)*.4;return[238-n*20-g*80,230-n*20-g*80,214-n*20-g*76]},1,1);
+
+/* ============ 3. MOTEUR 3D + MATÉRIAUX ============ */
+const renderer=new T.WebGLRenderer({canvas:$('c'),antialias:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,1.75));renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;renderer.outputEncoding=T.sRGBEncoding;
+const scene=new T.Scene(),cam=new T.PerspectiveCamera(50,1,.1,70);
+scene.background=new T.Color(0x070707);scene.fog=new T.Fog(0x070707,8,34);
+(function(){const es=new T.Scene();es.add(new T.Mesh(new T.BoxGeometry(24,24,24),new T.MeshBasicMaterial({color:0x2c2519,side:T.BackSide})));
+ [[0,9,0,12,.2,12],[-9,2,0,.2,7,9],[9,2,0,.2,7,9],[0,-1,9,9,3,.2],[0,3,-9,9,3,.2]].forEach(a=>{const m=new T.Mesh(new T.BoxGeometry(a[3],a[4],a[5]),new T.MeshBasicMaterial({color:new T.Color(6,5.2,4)}));m.position.set(a[0],a[1],a[2]);es.add(m)});
+ scene.environment=new T.PMREMGenerator(renderer).fromScene(es).texture})();
+const S=(o)=>new T.MeshStandardMaterial(o);
+const mBlack=S({map:tBlack,roughness:.1,metalness:.5,envMapIntensity:1.2}),mIvory=S({map:tIvory,roughness:.2,metalness:.05}),
+ mWood=S({color:0x0b0b0b,roughness:.14,metalness:.55,envMapIntensity:1.1}),mVel=S({color:0x141313,roughness:.92}),mRug=S({color:0x181614,roughness:.35,metalness:.4}),
+ mCof=S({color:0x0a0a0a,roughness:.3,metalness:.5}),gold=S({color:0xd9bf8a,metalness:1,roughness:.24,envMapIntensity:1.4}),
+ mirror=S({color:0x8a8a8a,metalness:1,roughness:.05,envMapIntensity:1.5}),glass=new T.MeshPhysicalMaterial({color:0xffffff,transparent:true,opacity:.1,roughness:0,metalness:0,envMapIntensity:2.5,side:T.DoubleSide,depthWrite:false}),
+ mStreet=S({color:0x0a0a0a,roughness:.2,metalness:.6});
+const B=(w,h,d,m,x,y,z)=>{const o=new T.Mesh(new T.BoxGeometry(w,h,d),m);o.position.set(x,y,z);scene.add(o);return o};
+const P=(w,h,m,x,y,z,rx,ry)=>{const o=new T.Mesh(new T.PlaneGeometry(w,h),m);o.position.set(x,y,z);o.rotation.set(rx||0,ry||0,0);scene.add(o);return o};
+
+/* ============ 4. LA BOUTIQUE ============ */
+const ZC=-14,L=44;                                   // hall : z de +8 (porte) à -36
+P(6,L,mBlack,0,0,ZC,-Math.PI/2);P(1.7,L,mRug,0,.012,ZC,-Math.PI/2);B(.02,.01,L,gold,-.85,.016,ZC);B(.02,.01,L,gold,.85,.016,ZC);P(60,40,mStreet,0,-.01,28,-Math.PI/2);
+P(6,L,mCof,0,4,ZC,Math.PI/2);
+for(let k=0;k<16;k++)B(6,.14,.22,gold,0,3.93,6-k*3);B(.2,.14,L,gold,-1.4,3.93,ZC);B(.2,.14,L,gold,1.4,3.93,ZC);
+[-1,1].forEach(s=>{B(.1,1.2,L,mWood,s*2.95,.6,ZC);B(.1,2.8,L,mVel,s*2.95,2.6,ZC);B(.14,.08,L,gold,s*2.92,1.24,ZC);B(.14,.08,L,gold,s*2.92,3.95,ZC);B(.14,.12,L,mWood,s*2.9,.06,ZC)});
+for(let k=0;k<8;k++){const z=5-k*6;[-1,1].forEach(s=>{B(.42,4,.42,mIvory,s*2.75,2,z);B(.52,.1,.52,gold,s*2.75,.05,z);B(.52,.1,.52,gold,s*2.75,3.85,z);B(.5,.5,.06,gold,s*2.52,2.5,z)})}
+for(let k=0;k<7;k++){const z=2-k*6;[-1,1].forEach(s=>{B(.05,2.3,1.3,gold,s*2.88,2.35,z);const m=P(1.1,2.1,mirror,s*2.85,2.35,z,0,-s*Math.PI/2)})}
+// façade, enseigne, portes vitrées
+const entrance=window.createMaisonEntrance(T,scene,renderer);
+const sc=document.createElement('canvas');sc.width=1024;sc.height=256;const sx=sc.getContext('2d'),signT=new T.CanvasTexture(sc);signT.encoding=T.sRGBEncoding;
+function sign(){sx.clearRect(0,0,1024,256);const g=sx.createLinearGradient(0,0,1024,0);g.addColorStop(0,'#8f7646');g.addColorStop(.5,'#f6e9cc');g.addColorStop(1,'#8f7646');sx.fillStyle=g;sx.textAlign='center';sx.textBaseline='middle';
+ sx.font='118px Italiana, Georgia, serif';sx.fillText("TOUCHE D'OR",512,105);sx.font='34px Jost, sans-serif';sx.fillText('J O A I L L E R I E',512,205);signT.needsUpdate=true}
+sign();if(document.fonts)document.fonts.load('118px Italiana').then(sign);
+P(5.2,1.3,new T.MeshBasicMaterial({map:signT,transparent:true}),0,4,8.17);
+const doors=entrance.doors;
+// bandeaux lumineux au plafond
+const strip=new T.MeshBasicMaterial({color:0xffe9c4});[-1.2,1.2].forEach(x=>B(.05,.03,L,strip,x,3.93,ZC));
+
+/* ============ 5. BIJOUX + VITRINES ============ */
+const mM=h=>S({color:h,metalness:1,roughness:.2,envMapIntensity:1.3}),gM=h=>S({color:h,emissive:h,emissiveIntensity:.12,metalness:.15,roughness:.04,flatShading:true,envMapIntensity:2.6});
+const M=(g,m,x=0,y=0,z=0,s=1)=>{const o=new T.Mesh(g,m);o.position.set(x,y,z);o.scale.setScalar(s);return o};
+const lathe=new T.LatheGeometry([[0,.14],[.22,.14],[.4,0],[0,-.42]].map(a=>new T.Vector2(a[0],a[1])),8);
+const stoneAt=(a,r,s,gm)=>{const o=M(lathe,gm,Math.sin(a)*r,Math.cos(a)*r,0,s);o.rotation.z=-a;return o};
+function build(p){const g=new T.Group(),m=mM(p.metal),gm=gM(p.gem),t=p.type;
+ if(t=='ring'||t=='ring2'){const s=t=='ring'?.62:.8;g.add(M(new T.TorusGeometry(.42,t=='ring'?.05:.065,24,72),m),stoneAt(0,.43+.42*s,s,gm));if(t=='ring2')[.4,.75].forEach(a=>[-1,1].forEach(q=>g.add(stoneAt(q*a,.53,.22,gm))));g.rotation.x=.3}
+ else if(t=='neck'){const c=M(new T.TorusGeometry(.6,.012,8,64,Math.PI),m,0,.35);c.rotation.z=Math.PI;g.add(c,M(new T.SphereGeometry(.1,24,16),gm,0,-.33))}
+ else if(t=='ear'){[-.32,.32].forEach(x=>g.add(M(new T.SphereGeometry(.055,16,12),m,x,.36),M(new T.CylinderGeometry(.012,.012,.24,8),m,x,.22),M(lathe,gm,x,.04,0,.5)))}
+ else if(t=='brac'){g.add(M(new T.TorusGeometry(.5,.05,20,72),m));[-.9,-.45,0,.45,.9].forEach(a=>g.add(stoneAt(a,.64,.3,gm)));g.rotation.x=.5}
+ else{const s=new T.Shape();s.moveTo(0,-.32);s.bezierCurveTo(-.45,-.02,-.3,.3,0,.14);s.bezierCurveTo(.3,.3,.45,-.02,0,-.32);
+  g.add(M(new T.ExtrudeGeometry(s,{depth:.08,bevelEnabled:true,bevelSize:.02,bevelThickness:.02,bevelSegments:3}),gm,0,0,-.04),M(new T.TorusGeometry(.05,.012,8,24),m,0,.34));
+  const c=M(new T.TorusGeometry(.5,.012,8,64,Math.PI),m,0,.85);c.rotation.z=Math.PI;g.add(c)}
+ return g}
+const Zs=[11,3.5,-3,-9,-15,-21,-27],XO=1.5,cubeG=new T.BoxGeometry(.95,.95,.95),edgeG=new T.EdgesGeometry(cubeG),edgeM=new T.LineBasicMaterial({color:0xd9bf8a});
+const side=i=>i%2?1:-1;
+const vit=CATALOG.map((p,i)=>{const sx=side(i)*XO,sz=Zs[i+1]-3.2,w=new T.Group();w.position.set(sx,1.62,sz);
+ B(1.3,1,1.1,mWood,sx,.5,sz);B(1.36,.05,1.16,gold,sx,.98,sz);B(1.4,.08,1.2,mIvory,sx,1.04,sz);B(1.4,.04,1.2,gold,sx,.06,sz);
+ const cu=M(new T.CylinderGeometry(.38,.42,.12,40),mVel,sx,1.12,sz);scene.add(cu);const d=M(cubeG,glass,sx,1.56,sz),eg=new T.LineSegments(edgeG,edgeM);eg.position.copy(d.position);scene.add(d,eg);
+ const sh=new T.Mesh(new T.CircleGeometry(.7,32),new T.MeshBasicMaterial({color:0xd9bf8a,transparent:true,opacity:.1}));sh.rotation.x=-Math.PI/2;sh.position.set(sx,.02,sz);scene.add(sh);
+ w.add(build(p));scene.add(w);return w});
+// fauteuils en cuir (salon) : decor de fin
+[-1,1].forEach(s=>{const z=-33;B(1.1,.5,1,S({color:0x0c0c0c,roughness:.45,metalness:.05}),s*1.6,.3,z);B(1.1,.9,.25,S({color:0x0c0c0c,roughness:.45}),s*1.6,.75,z-.5);B(.9,.12,.8,mVel,s*1.6,.58,z+.02)});
+// lumières chaudes qui suivent la caméra + projecteur sur la vitrine active
+const amb=new T.AmbientLight(0xffe9c4,.55);scene.add(amb);
+const pl=[[0,3.3,-1.5,2.2],[2,2.4,-6,1.4],[-2,2.4,-6,1.4]].map(a=>{const l=new T.PointLight(0xffe6c4,a[3],14,1.6);l.userData=a;scene.add(l);return l});
+const spot=new T.SpotLight(0xfff0d8,0,12,.5,.6);scene.add(spot,spot.target);
+const dust=(()=>{const n=220,a=new Float32Array(n*3);for(let i=0;i<n;i++){a[i*3]=(Math.random()-.5)*5.6;a[i*3+1]=Math.random()*3.8;a[i*3+2]=8-Math.random()*44}
+ const g=new T.BufferGeometry();g.setAttribute('position',new T.BufferAttribute(a,3));const p=new T.Points(g,new T.PointsMaterial({size:.016,transparent:true,opacity:.22,color:0xf6e9cc,depthWrite:false}));scene.add(p);return p})();
+
+/* ============ 6. INTERFACE ============ */
+let cart={},cur=0,last=-1;
+function toast(t){const e=$('toast');e.textContent=t;e.classList.add('o');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('o'),2000)}
+const eur=n=>n.toLocaleString('fr-FR')+' €';
+function draw(){const n=Object.values(cart).reduce((a,b)=>a+b,0),t=CATALOG.reduce((s,p)=>s+(cart[p.id]||0)*p.price,0);$('cartB').textContent='Panier ('+n+')';$('tot').textContent=eur(t);
+ $('list').innerHTML=CATALOG.map((p,i)=>`<div class="li"><i style="background:#${p.gem.toString(16).padStart(6,'0')}"></i><div>${p.name}<small>${p.cat} · ${p.desc}</small></div><b class="gt">${eur(p.price)}</b><button data-v="${i}">Voir</button><button class="gold" data-a="${p.id}">+${cart[p.id]?' ('+cart[p.id]+')':''}</button></div>`).join('')}
+function add(id){cart[id]=(cart[id]||0)+1;draw();toast('Ajouté au panier');onAddToCart(CATALOG.find(p=>p.id==id))}
+$('add').onclick=()=>add(CATALOG[last].id);$('allB').onclick=()=>{$('all').classList.add('o')};$('cartB').onclick=$('allB').onclick;$('cl').onclick=()=>$('all').classList.remove('o');
+$('out').onclick=()=>onCheckout(CATALOG.filter(p=>cart[p.id]).map(p=>({...p,qty:cart[p.id]})));
+$('list').onclick=e=>{if(e.target.dataset.a)add(e.target.dataset.a);if(e.target.dataset.v!=null){$('all').classList.remove('o');scrollTo({top:(+e.target.dataset.v+1)/6*(document.body.scrollHeight-innerHeight),behavior:'smooth'})}};draw();
+function size(){renderer.setSize(innerWidth,innerHeight,false);const a=innerWidth/innerHeight;cam.aspect=a;cam.fov=a<.8?66:50;cam.updateProjectionMatrix()}
+addEventListener('resize',size);size();
+const still=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function frame(t){requestAnimationFrame(frame);const time=t*.001,tgt=scrollY/Math.max(1,document.body.scrollHeight-innerHeight);
+ cur+=(tgt-cur)*(still?1:.06);const f=cur*6,i=Math.min(5,Math.floor(f)),q=f-i;let e=q*q*(3-2*q);e=e*e*(3-2*e);
+ const z=Zs[i]+(Zs[i+1]-Zs[i])*e,ka=Math.round(f),w=cl(1-Math.abs(f-ka)*2.6,0,1),act=ka-1,mob=innerWidth<800;
+ const sx=act>=0?side(act)*(mob?1.3:.8):0,cx=sx*w;
+ cam.position.set(cx,1.55+Math.sin(time*.8)*.01,z);cam.lookAt(act>=0?side(act)*XO*.75*w:0,1.5,act>=0?z-3.2*w-4*(1-w):z-6);
+ const open=cl(f*3,0,1);doors[0].rotation.y=open*1.45;doors[1].rotation.y=-open*1.45;
+ pl.forEach(l=>l.position.set(l.userData[0],l.userData[1],z+l.userData[2]));amb.intensity=.4+.3*(1-open*.0);
+ vit.forEach((g,k)=>{g.rotation.y=time*.35+k;g.position.y=1.62+Math.sin(time*1.4+k)*.03});
+ if(act>=0&&act<6){const g=vit[act];spot.position.set(g.position.x*.4,3.6,g.position.z+1.8);spot.target.position.copy(g.position);spot.intensity=2.2*w}else spot.intensity=0;
+ dust.position.y=Math.sin(time*.3)*.1;
+ $('bar').style.width=(cur*100)+'%';$('intro').style.opacity=cl(1-f*2.2,0,1);$('intro').style.pointerEvents='none';
+ const show=act>=0&&act<6&&w>.45;$('card').style.opacity=show?1:0;$('card').style.pointerEvents=show?'auto':'none';
+ if(act>=0&&act<6&&act!==last){last=act;const p=CATALOG[act];$('ch').textContent='Vitrine '+String(act+1).padStart(2,'0')+' / 06 · '+p.cat;$('nm').textContent=p.name;$('mt').textContent=p.desc;$('pr').textContent=eur(p.price)}
+ renderer.render(scene,cam)}
+requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

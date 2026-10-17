@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "protectedChecks": {
+    "maison-noire.html": true,
+    "entrance.js": true,
+    "entrance-textures.js": true,
+    "interior-materials.js": true,
+    "interior-lighting.js": true,
+    "showcases.js": true,
+    "experience.js": true,
+    "storefront.js": true,
+    "storefront.css": true,
+    "collection-config.js": true
+  },
+  "browserChecks": 35,
+  "originalLightsUnchanged": true,
+  "twoShortRangeShowcaseSpots": true,
+  "threeBustsClearOfGlass": true,
+  "singleFrontPane": true,
+  "existingBustAndBackupFilesUnchanged": true,
+  "originalVisitCameraUnchanged": true,
+  "hardwareRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 (0x00002503) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "reviewRequired": true
+}

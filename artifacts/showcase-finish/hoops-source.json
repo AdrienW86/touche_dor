@@ -1,0 +1,14 @@
+{
+  "uid": "7a9e9fee80ac4c6d803680a4c62ce852",
+  "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-152/7a9e9fee80ac4c6d803680a4c62ce852.glb",
+  "metadata": "7a9e9fee80ac4c6d803680a4c62ce852-metadata.json",
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "author": "Syahdat setiawan"
+}

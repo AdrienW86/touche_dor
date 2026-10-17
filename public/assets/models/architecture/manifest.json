@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-17",
+  "assets": [
+    {
+      "role": "ring",
+      "title": "Three stone diamond ring.",
+      "author": "chrissimpson",
+      "authorURL": "https://sketchfab.com/chrissimpson",
+      "source": "https://sketchfab.com/3d-models/three-stone-diamond-ring-da834e60c21b4b339024d3a1082bb225",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "metadata": "artifacts/architecture/ring-metadata.json",
+      "file": "ring.glb",
+      "bytes": 332176,
+      "sha256": "9f20d4effc0e04911ae5e0fb8e2ba5cf158c9b0011f1b4127fd809c34a6a8819",
+      "reusedDownload": false,
+      "modifications": "Normalized transforms, rescaled for original cabinet envelope, material adaptation to shared champagne/black velvet PBR. Earrings and bracelet mesh decimation 0.55; unused embedded maps removed except pearl textures. Original geometry, authorship and source files preserved in artifacts. Decorative use only; no catalogue product identification."
+    },
+    {
+      "role": "earrings",
+      "title": "Golden earrings",
+      "author": "CatAlex3D",
+      "authorURL": "https://sketchfab.com/CatAlex",
+      "source": "https://sketchfab.com/3d-models/golden-earrings-ea7a893a9bb04f9ea50cf51f584f1470",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "metadata": "artifacts/architecture/earrings-metadata.json",
+      "file": "earrings.glb",
+      "bytes": 441536,
+      "sha256": "10617f19bd64411c1428384247cd1d59bdfe493656324a36c399933a9b4fb4e1",
+      "reusedDownload": false,
+      "modifications": "Normalized transforms, rescaled for original cabinet envelope, material adaptation to shared champagne/black velvet PBR. Earrings and bracelet mesh decimation 0.55; unused embedded maps removed except pearl textures. Original geometry, authorship and source files preserved in artifacts. Decorative use only; no catalogue product identification."
+    },
+    {
+      "role": "bracelet",
+      "title": "Gold Bracelet",
+      "author": "Emilio.Gallo",
+      "authorURL": "https://sketchfab.com/Emilio.Gallo",
+      "source": "https://sketchfab.com/3d-models/gold-bracelet-25af58a330ba4e31b78514ad924a8932",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "metadata": "artifacts/architecture/bracelet-metadata.json",
+      "file": "bracelet.glb",
+      "bytes": 1210128,
+      "sha256": "ba2780158799f4071de5542a6112883fe05e7a6b80544636b83f9e80dc2d7c06",
+      "reusedDownload": false,
+      "modifications": "Normalized transforms, rescaled for original cabinet envelope, material adaptation to shared champagne/black velvet PBR. Earrings and bracelet mesh decimation 0.55; unused embedded maps removed except pearl textures. Original geometry, authorship and source files preserved in artifacts. Decorative use only; no catalogue product identification."
+    },
+    {
+      "role": "chain",
+      "title": "Gold necklace / chain",
+      "author": "Mckai",
+      "authorURL": "https://sketchfab.com/Mckai",
+      "source": "https://sketchfab.com/3d-models/gold-necklace-chain-8bb2ebea4fbd4a3a9b21cba9f5d5fdc8",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "metadata": "artifacts/pilot-models/gold-necklace-metadata.json",
+      "file": "chain.glb",
+      "bytes": 2572340,
+      "sha256": "76aff6849494b8b8551aa1d266ac4e50731936158cbd54f37497d83829891b4d",
+      "reusedDownload": true,
+      "modifications": "Normalized transforms, rescaled for original cabinet envelope, material adaptation to shared champagne/black velvet PBR. Earrings and bracelet mesh decimation 0.55; unused embedded maps removed except pearl textures. Original geometry, authorship and source files preserved in artifacts. Decorative use only; no catalogue product identification."
+    },
+    {
+      "role": "pearls",
+      "title": "Pearl Necklace",
+      "author": "C.U.V",
+      "authorURL": "https://sketchfab.com/C.U.V",
+      "source": "https://sketchfab.com/3d-models/pearl-necklace-badddc19523f4dc08344e8da5b143dae",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "metadata": "artifacts/pilot-models/pearl-necklace-metadata.json",
+      "file": "pearls.glb",
+      "bytes": 2177440,
+      "sha256": "61e38a04c3fd6caa8d91923d69a0e447556478d7a6eed641bae86aa245ff1ea5",
+      "reusedDownload": true,
+      "modifications": "Normalized transforms, rescaled for original cabinet envelope, material adaptation to shared champagne/black velvet PBR. Earrings and bracelet mesh decimation 0.55; unused embedded maps removed except pearl textures. Original geometry, authorship and source files preserved in artifacts. Decorative use only; no catalogue product identification."
+    },
+    {
+      "role": "bust",
+      "title": "Necklace With Display Stand",
+      "author": "muratgt",
+      "source": "https://sketchfab.com/3d-models/7279cac4115a40e6ac345d68e17f15d1",
+      "license": "CC-BY-4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "file": "../pilot/necklace-bust.glb",
+      "bytes": 1721436,
+      "sha256": "6eead48062815b0c2943e2703ebf151e538ae069eb5e0fa6f2b73543791970af",
+      "reusedDownload": true,
+      "modifications": "Existing optimized bust/necklace GLB preserved byte for byte. Shared PBR black velvet and champagne finishes, three scales, plinths, no source remodel."
+    },
+    {
+      "role": "jewel-stand",
+      "title": "Jewel Stand – Personal Organizer",
+      "author": "Innerscene",
+      "source": "https://www.innerscene.com/tools/library/3d-parts/jewel-stand-personal-organizer-e8371f54",
+      "license": "CC0-1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "file": "jewel-stand.glb",
+      "reusedDownload": false,
+      "modifications": "Normalized authored mesh, original two-tier rails and divided tray retained; shared champagne/velvet PBR replaces wood and source maps.",
+      "bytes": 194728,
+      "sha256": "c2460b0ead60e9cd5f8d4983cfae715e0df5d521d6dc325e6e36c7ff4c4b4091"
+    },
+    {
+      "role": "vertical-sconce",
+      "title": "Wall light / contemporary vertical fixture",
+      "author": "abd3d",
+      "source": "https://www.blendkit.com/asset-gallery-detail/0d8f6d0a-a383-4476-bc1b-a8ae8ff22135/",
+      "license": "CC0-1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "file": "vertical-sconce.glb",
+      "reusedDownload": true,
+      "modifications": "Same approved source. Large mesh decimation 0.45, smooth normals retained; actual rear plate offset and center measured; Y-up, mirrored inward rotations; shared opal/champagne PBR; 16 placements via instancing (four draw objects).",
+      "bytes": 334240,
+      "sha256": "aaab33ed86815791487908553c369329dd0da707720204fa3c5cac7889152f62"
+    }
+  ],
+  "materials": [
+    {
+      "title": "Walnut Veneer",
+      "author": "Jenelle van Heerden / Poly Haven",
+      "source": "https://polyhaven.com/a/walnut_veneer",
+      "use": "Noyer sombre, UV réels, rainures géométriques",
+      "license": "CC0-1.0",
+      "reused": true
+    },
+    {
+      "title": "Velour Velvet",
+      "author": "colormass, Rico Cilliers / Poly Haven",
+      "source": "https://polyhaven.com/a/velour_velvet",
+      "use": "Velours noir et plateau textile",
+      "license": "CC0-1.0",
+      "reused": true
+    },
+    {
+      "title": "Metal032",
+      "author": "ambientCG",
+      "source": "https://ambientcg.com/view?id=Metal032",
+      "use": "Laiton champagne brossé",
+      "license": "CC0-1.0",
+      "reused": true
+    },
+    {
+      "title": "Marble016",
+      "author": "ambientCG",
+      "source": "https://ambientcg.com/view?id=Marble016",
+      "use": "Sol, soubassements et tablettes, albédo photographique étalonné noir/or",
+      "license": "CC0-1.0",
+      "reused": true
+    },
+    {
+      "title": "Plaster001",
+      "author": "ambientCG",
+      "source": "https://ambientcg.com/view?id=Plaster001",
+      "use": "Habillage pierre/enduit des colonnes",
+      "license": "CC0-1.0",
+      "reused": true
+    },
+    {
+      "title": "Studio Small 09",
+      "author": "Sergej Majboroda / Poly Haven",
+      "source": "https://polyhaven.com/a/studio_small_09",
+      "use": "Environnement de réflexion PBR existant",
+      "license": "CC0-1.0",
+      "reused": true
+    }
+  ],
+  "rejected": {
+    "title": "Anklet Collection",
+    "uid": "425758feb1374dbead234cda7a12a15d",
+    "metadata": "artifacts/architecture/anklets-metadata.json",
+    "download": "artifacts/architecture/downloads/anklets.glb",
+    "used": false,
+    "reason": "Archaeological museum scan, heavy torcs and visible exhibit labels: incompatible with contemporary fine jewelry. Not copied to public or loaded."
+  },
+  "archiveAcknowledgment": "Sketchfab CC BY assets retrieved from Allen Institute for AI Objaverse public archive (Deitke et al.). Each model retains its own verified author and CC BY 4.0 license; the dataset license is not a substitute. Original metadata, source GLBs and archive paths retained in artifacts/architecture and artifacts/pilot-models."
+}

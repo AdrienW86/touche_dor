@@ -1,0 +1,1653 @@
+{
+  "gem": [
+    {
+      "name": "Case | horizontal panel",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          -0.6524999737739563,
+          -0.28949999809265137,
+          0.19200000166893005
+        ],
+        [
+          0.6524999737739563,
+          0.28949999809265137,
+          0.22099998593330383
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Case | horizontal panel.001",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          -0.6524999737739563,
+          -0.28949999809265137,
+          0.6340000033378601
+        ],
+        [
+          0.6524999737739563,
+          0.28949999809265137,
+          0.6630000472068787
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Case | inset back",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          -0.6524999737739563,
+          0.27149999141693115,
+          0.22100001573562622
+        ],
+        [
+          0.6524999737739563,
+          0.2835000157356262,
+          0.6340000033378601
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Case | side",
+      "vertices": 172,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          -0.6815000176429749,
+          -0.28949999809265137,
+          0.19200001657009125
+        ],
+        [
+          -0.6524999737739563,
+          0.28949999809265137,
+          0.6629999876022339
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Case | side.001",
+      "vertices": 172,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          0.6524999737739563,
+          -0.28949999809265137,
+          0.19200001657009125
+        ],
+        [
+          0.6815000176429749,
+          0.28949999809265137,
+          0.6629999876022339
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | slim drawer pull | grip",
+      "vertices": 324,
+      "faces": 508,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          -0.43149998784065247,
+          -0.3570000231266022,
+          0.30399999022483826
+        ],
+        [
+          -0.226500004529953,
+          -0.3449999988079071,
+          0.3160000145435333
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | slim drawer pull | grip.001",
+      "vertices": 324,
+      "faces": 508,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          -0.43149998784065247,
+          -0.3570000231266022,
+          0.5230000019073486
+        ],
+        [
+          -0.226500004529953,
+          -0.3449999988079071,
+          0.5349999666213989
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | slim drawer pull | grip.002",
+      "vertices": 324,
+      "faces": 508,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          0.226500004529953,
+          -0.3570000231266022,
+          0.30399999022483826
+        ],
+        [
+          0.43149998784065247,
+          -0.3449999988079071,
+          0.3160000145435333
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | slim drawer pull | grip.003",
+      "vertices": 324,
+      "faces": 508,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          0.226500004529953,
+          -0.3570000231266022,
+          0.5230000019073486
+        ],
+        [
+          0.43149998784065247,
+          -0.3449999988079071,
+          0.5349999666213989
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | slim drawer pull | mount",
+      "vertices": 244,
+      "faces": 380,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          -0.42100000381469727,
+          -0.3490000069141388,
+          0.30550000071525574
+        ],
+        [
+          -0.41200000047683716,
+          -0.32500001788139343,
+          0.31450000405311584
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | slim drawer pull | mount.001",
+      "vertices": 244,
+      "faces": 380,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          -0.2460000067949295,
+          -0.3490000069141388,
+          0.30550000071525574
+        ],
+        [
+          -0.2370000034570694,
+          -0.32500001788139343,
+          0.31450000405311584
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | slim drawer pull | mount.002",
+      "vertices": 244,
+      "faces": 380,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          -0.42100000381469727,
+          -0.3490000069141388,
+          0.5244999527931213
+        ],
+        [
+          -0.41200000047683716,
+          -0.32500001788139343,
+          0.5335000157356262
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | slim drawer pull | mount.003",
+      "vertices": 244,
+      "faces": 380,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          -0.2460000067949295,
+          -0.3490000069141388,
+          0.5244999527931213
+        ],
+        [
+          -0.2370000034570694,
+          -0.32500001788139343,
+          0.5335000157356262
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | slim drawer pull | mount.004",
+      "vertices": 244,
+      "faces": 380,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          0.2370000034570694,
+          -0.3490000069141388,
+          0.30550000071525574
+        ],
+        [
+          0.2460000067949295,
+          -0.32500001788139343,
+          0.31450000405311584
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | slim drawer pull | mount.005",
+      "vertices": 244,
+      "faces": 380,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          0.41200000047683716,
+          -0.3490000069141388,
+          0.30550000071525574
+        ],
+        [
+          0.42100000381469727,
+          -0.32500001788139343,
+          0.31450000405311584
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | slim drawer pull | mount.006",
+      "vertices": 244,
+      "faces": 380,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          0.2370000034570694,
+          -0.3490000069141388,
+          0.5244999527931213
+        ],
+        [
+          0.2460000067949295,
+          -0.32500001788139343,
+          0.5335000157356262
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | slim drawer pull | mount.007",
+      "vertices": 244,
+      "faces": 380,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          0.41200000047683716,
+          -0.3490000069141388,
+          0.5244999527931213
+        ],
+        [
+          0.42100000381469727,
+          -0.32500001788139343,
+          0.5335000157356262
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer bottom",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          -0.6180000305175781,
+          -0.27799999713897705,
+          0.22200000286102295
+        ],
+        [
+          -0.03999999165534973,
+          0.1980000138282776,
+          0.23199999332427979
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer bottom.001",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          -0.6180000305175781,
+          -0.27799999713897705,
+          0.4410000145435333
+        ],
+        [
+          -0.03999999165534973,
+          0.1980000138282776,
+          0.45100000500679016
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer bottom.002",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          0.03999999165534973,
+          -0.27799999713897705,
+          0.22200000286102295
+        ],
+        [
+          0.6180000305175781,
+          0.1980000138282776,
+          0.23199999332427979
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer bottom.003",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          0.03999999165534973,
+          -0.27799999713897705,
+          0.4410000145435333
+        ],
+        [
+          0.6180000305175781,
+          0.1980000138282776,
+          0.45100000500679016
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer rear",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          -0.6180000305175781,
+          0.1899999976158142,
+          0.22200000286102295
+        ],
+        [
+          -0.03999999165534973,
+          0.20600000023841858,
+          0.39800000190734863
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer rear.001",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          -0.6180000305175781,
+          0.1899999976158142,
+          0.44099998474121094
+        ],
+        [
+          -0.03999999165534973,
+          0.20600000023841858,
+          0.6169999837875366
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer rear.002",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          0.03999999165534973,
+          0.1899999976158142,
+          0.22200000286102295
+        ],
+        [
+          0.6180000305175781,
+          0.20600000023841858,
+          0.39800000190734863
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer rear.003",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          0.03999999165534973,
+          0.1899999976158142,
+          0.44099998474121094
+        ],
+        [
+          0.6180000305175781,
+          0.20600000023841858,
+          0.6169999837875366
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer side",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          -0.6305000185966492,
+          -0.28600001335144043,
+          0.22200000286102295
+        ],
+        [
+          -0.6144999861717224,
+          0.20600000023841858,
+          0.39800000190734863
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer side.001",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          -0.04350000247359276,
+          -0.28600001335144043,
+          0.22200000286102295
+        ],
+        [
+          -0.027499999850988388,
+          0.20600000023841858,
+          0.39800000190734863
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer side.002",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          -0.6305000185966492,
+          -0.28600001335144043,
+          0.44099998474121094
+        ],
+        [
+          -0.6144999861717224,
+          0.20600000023841858,
+          0.6169999837875366
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer side.003",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          -0.04350000247359276,
+          -0.28600001335144043,
+          0.44099998474121094
+        ],
+        [
+          -0.027499999850988388,
+          0.20600000023841858,
+          0.6169999837875366
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer side.004",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          0.027499999850988388,
+          -0.28600001335144043,
+          0.22200000286102295
+        ],
+        [
+          0.04350000247359276,
+          0.20600000023841858,
+          0.39800000190734863
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer side.005",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          0.6144999861717224,
+          -0.28600001335144043,
+          0.22200000286102295
+        ],
+        [
+          0.6305000185966492,
+          0.20600000023841858,
+          0.39800000190734863
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer side.006",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          0.027499999850988388,
+          -0.28600001335144043,
+          0.44099998474121094
+        ],
+        [
+          0.04350000247359276,
+          0.20600000023841858,
+          0.6169999837875366
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | drawer side.007",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          0.6144999861717224,
+          -0.28600001335144043,
+          0.44099998474121094
+        ],
+        [
+          0.6305000185966492,
+          0.20600000023841858,
+          0.6169999837875366
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | front",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          -0.6464999914169312,
+          -0.3199999928474426,
+          0.2094999998807907
+        ],
+        [
+          -0.011500000953674316,
+          -0.2919999957084656,
+          0.4104999899864197
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | front.001",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          -0.6464999914169312,
+          -0.3199999928474426,
+          0.4284999966621399
+        ],
+        [
+          -0.011500000953674316,
+          -0.2919999957084656,
+          0.6294999718666077
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | front.002",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          0.011500000953674316,
+          -0.3199999928474426,
+          0.2094999998807907
+        ],
+        [
+          0.6464999914169312,
+          -0.2919999957084656,
+          0.4104999899864197
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display case | velvet-lined drawer | front.003",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Walnut | satin open-pore finish"
+      ],
+      "bounds": [
+        [
+          0.011500000953674316,
+          -0.3199999928474426,
+          0.4284999966621399
+        ],
+        [
+          0.6464999914169312,
+          -0.2919999957084656,
+          0.6294999718666077
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display tray | flax divider",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Flax | woven upholstery"
+      ],
+      "bounds": [
+        [
+          -0.4169999957084656,
+          -0.21850000321865082,
+          0.6980000138282776
+        ],
+        [
+          -0.40299999713897705,
+          0.21850000321865082,
+          0.7299999594688416
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display tray | flax divider.001",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Flax | woven upholstery"
+      ],
+      "bounds": [
+        [
+          -0.007000000216066837,
+          -0.21850000321865082,
+          0.6980000138282776
+        ],
+        [
+          0.007000000216066837,
+          0.21850000321865082,
+          0.7299999594688416
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display tray | flax divider.002",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Flax | woven upholstery"
+      ],
+      "bounds": [
+        [
+          0.40299999713897705,
+          -0.21850000321865082,
+          0.6980000138282776
+        ],
+        [
+          0.4169999957084656,
+          0.21850000321865082,
+          0.7299999594688416
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display tray | retaining rail",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Flax | woven upholstery"
+      ],
+      "bounds": [
+        [
+          -0.6144999861717224,
+          -0.2329999953508377,
+          0.6980000138282776
+        ],
+        [
+          0.6144999861717224,
+          -0.21899999678134918,
+          0.7299999594688416
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display tray | retaining rail.001",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Flax | woven upholstery"
+      ],
+      "bounds": [
+        [
+          -0.6144999861717224,
+          0.21899999678134918,
+          0.6980000138282776
+        ],
+        [
+          0.6144999861717224,
+          0.2329999953508377,
+          0.7299999594688416
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Display | flax-lined presentation floor",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Flax | woven upholstery"
+      ],
+      "bounds": [
+        [
+          -0.637499988079071,
+          -0.2460000067949295,
+          0.675000011920929
+        ],
+        [
+          0.637499988079071,
+          0.2460000067949295,
+          0.7010000348091125
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Drawer | fixed flax liner",
+      "vertices": 176,
+      "faces": 188,
+      "materials": [
+        "Flax | woven upholstery"
+      ],
+      "bounds": [
+        [
+          -0.6154999732971191,
+          -0.22999998927116394,
+          0.2434999942779541
+        ],
+        [
+          -0.04249998927116394,
+          0.20600000023841858,
+          0.2524999976158142
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Drawer | fixed flax liner.001",
+      "vertices": 176,
+      "faces": 188,
+      "materials": [
+        "Flax | woven upholstery"
+      ],
+      "bounds": [
+        [
+          -0.6154999732971191,
+          -0.22999998927116394,
+          0.4625000059604645
+        ],
+        [
+          -0.04249998927116394,
+          0.20600000023841858,
+          0.4715000092983246
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Drawer | fixed flax liner.002",
+      "vertices": 176,
+      "faces": 188,
+      "materials": [
+        "Flax | woven upholstery"
+      ],
+      "bounds": [
+        [
+          0.04249998927116394,
+          -0.22999998927116394,
+          0.2434999942779541
+        ],
+        [
+          0.6154999732971191,
+          0.20600000023841858,
+          0.2524999976158142
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Drawer | fixed flax liner.003",
+      "vertices": 176,
+      "faces": 188,
+      "materials": [
+        "Flax | woven upholstery"
+      ],
+      "bounds": [
+        [
+          0.04249998927116394,
+          -0.22999998927116394,
+          0.4625000059604645
+        ],
+        [
+          0.6154999732971191,
+          0.20600000023841858,
+          0.4715000092983246
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Foot | protective glide",
+      "vertices": 204,
+      "faces": 316,
+      "materials": [
+        "Elastomer | pads and recesses"
+      ],
+      "bounds": [
+        [
+          -0.5809999704360962,
+          -0.210999995470047,
+          0.0
+        ],
+        [
+          -0.5429999828338623,
+          -0.1730000078678131,
+          0.00800000037997961
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Foot | protective glide.001",
+      "vertices": 204,
+      "faces": 316,
+      "materials": [
+        "Elastomer | pads and recesses"
+      ],
+      "bounds": [
+        [
+          -0.5809999704360962,
+          0.1730000078678131,
+          0.0
+        ],
+        [
+          -0.5429999828338623,
+          0.210999995470047,
+          0.00800000037997961
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Foot | protective glide.002",
+      "vertices": 204,
+      "faces": 316,
+      "materials": [
+        "Elastomer | pads and recesses"
+      ],
+      "bounds": [
+        [
+          0.5429999828338623,
+          -0.210999995470047,
+          0.0
+        ],
+        [
+          0.5809999704360962,
+          -0.1730000078678131,
+          0.00800000037997961
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Foot | protective glide.003",
+      "vertices": 204,
+      "faces": 316,
+      "materials": [
+        "Elastomer | pads and recesses"
+      ],
+      "bounds": [
+        [
+          0.5429999828338623,
+          0.1730000078678131,
+          0.0
+        ],
+        [
+          0.5809999704360962,
+          0.210999995470047,
+          0.00800000037997961
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glazing | bronze corner mullion",
+      "vertices": 188,
+      "faces": 188,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          -0.668999969959259,
+          -0.2750000059604645,
+          0.6654999852180481
+        ],
+        [
+          -0.6470000147819519,
+          -0.2529999911785126,
+          1.0125000476837158
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glazing | bronze corner mullion.001",
+      "vertices": 188,
+      "faces": 188,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          -0.668999969959259,
+          0.2529999911785126,
+          0.6654999852180481
+        ],
+        [
+          -0.6470000147819519,
+          0.2750000059604645,
+          1.0125000476837158
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glazing | bronze corner mullion.002",
+      "vertices": 188,
+      "faces": 188,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          0.6470000147819519,
+          -0.2750000059604645,
+          0.6654999852180481
+        ],
+        [
+          0.668999969959259,
+          -0.2529999911785126,
+          1.0125000476837158
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glazing | bronze corner mullion.003",
+      "vertices": 188,
+      "faces": 188,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          0.6470000147819519,
+          0.2529999911785126,
+          0.6654999852180481
+        ],
+        [
+          0.668999969959259,
+          0.2750000059604645,
+          1.0125000476837158
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glazing | bronze finger boss",
+      "vertices": 244,
+      "faces": 380,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          -0.09200000762939453,
+          -0.28600001335144043,
+          0.828000009059906
+        ],
+        [
+          -0.06599999964237213,
+          -0.27399998903274536,
+          0.8540000319480896
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glazing | bronze finger boss.001",
+      "vertices": 244,
+      "faces": 380,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          0.06599999964237213,
+          -0.2970000207424164,
+          0.828000009059906
+        ],
+        [
+          0.09200000762939453,
+          -0.2849999964237213,
+          0.8540000319480896
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glazing | polished glass canopy",
+      "vertices": 176,
+      "faces": 188,
+      "materials": [
+        "Glass | clear furniture glazing"
+      ],
+      "bounds": [
+        [
+          -0.6930000185966492,
+          -0.2980000078678131,
+          0.9954999685287476
+        ],
+        [
+          0.6930000185966492,
+          0.2980000078678131,
+          1.0084999799728394
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glazing | rear glass",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Glass | clear furniture glazing"
+      ],
+      "bounds": [
+        [
+          -0.6499999761581421,
+          0.2619999945163727,
+          0.6920000314712524
+        ],
+        [
+          0.6499999761581421,
+          0.27000001072883606,
+          0.9919999837875366
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glazing | side glass",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Glass | clear furniture glazing"
+      ],
+      "bounds": [
+        [
+          -0.6620000004768372,
+          -0.2554999887943268,
+          0.6920000314712524
+        ],
+        [
+          -0.6539999842643738,
+          0.2554999887943268,
+          0.9919999837875366
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glazing | side glass.001",
+      "vertices": 184,
+      "faces": 188,
+      "materials": [
+        "Glass | clear furniture glazing"
+      ],
+      "bounds": [
+        [
+          0.6539999842643738,
+          -0.2554999887943268,
+          0.6920000314712524
+        ],
+        [
+          0.6620000004768372,
+          0.2554999887943268,
+          0.9919999837875366
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glazing | sliding front glass",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Glass | clear furniture glazing"
+      ],
+      "bounds": [
+        [
+          -0.656000018119812,
+          -0.2735000252723694,
+          0.6920000314712524
+        ],
+        [
+          0.006000012159347534,
+          -0.26649999618530273,
+          0.9919999837875366
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glazing | sliding front glass.001",
+      "vertices": 168,
+      "faces": 188,
+      "materials": [
+        "Glass | clear furniture glazing"
+      ],
+      "bounds": [
+        [
+          -0.006000012159347534,
+          -0.28450000286102295,
+          0.6920000314712524
+        ],
+        [
+          0.656000018119812,
+          -0.2774999737739563,
+          0.9919999837875366
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glazing | top edge rail",
+      "vertices": 176,
+      "faces": 188,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          -0.6690000295639038,
+          -0.28299999237060547,
+          0.9819999933242798
+        ],
+        [
+          0.6690000295639038,
+          -0.26499998569488525,
+          1.0019999742507935
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Glazing | top edge rail.001",
+      "vertices": 176,
+      "faces": 188,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          -0.6690000295639038,
+          0.26499998569488525,
+          0.9819999933242798
+        ],
+        [
+          0.6690000295639038,
+          0.28299999237060547,
+          1.0019999742507935
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Leg | tapered furniture foot",
+      "vertices": 244,
+      "faces": 380,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          -0.587898313999176,
+          -0.21789833903312683,
+          0.00599999725818634
+        ],
+        [
+          -0.5361016392707825,
+          -0.16610166430473328,
+          0.17800000309944153
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Leg | tapered furniture foot.001",
+      "vertices": 244,
+      "faces": 380,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          -0.587898313999176,
+          0.16610166430473328,
+          0.00599999725818634
+        ],
+        [
+          -0.5361016392707825,
+          0.21789833903312683,
+          0.17800000309944153
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Leg | tapered furniture foot.002",
+      "vertices": 244,
+      "faces": 380,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          0.5361016392707825,
+          -0.21789833903312683,
+          0.00599999725818634
+        ],
+        [
+          0.587898313999176,
+          -0.16610166430473328,
+          0.17800000309944153
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "Leg | tapered furniture foot.003",
+      "vertices": 244,
+      "faces": 380,
+      "materials": [
+        "Bronze | satin hardware"
+      ],
+      "bounds": [
+        [
+          0.5361016392707825,
+          0.16610166430473328,
+          0.00599999725818634
+        ],
+        [
+          0.587898313999176,
+          0.21789833903312683,
+          0.17800000309944153
+        ]
+      ],
+      "modifiers": []
+    }
+  ],
+  "modern-sconce": [
+    {
+      "name": "Metals",
+      "vertices": 1558,
+      "faces": 1524,
+      "materials": [
+        "00-SocketMetal"
+      ],
+      "bounds": [
+        [
+          -0.0064863888546824455,
+          0.1383257955312729,
+          0.06954522430896759
+        ],
+        [
+          0.006486333906650543,
+          0.18748123943805695,
+          0.08251795172691345
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "lamp_body",
+      "vertices": 1053,
+      "faces": 1034,
+      "materials": [
+        "gold_sc",
+        "00-Ceramic"
+      ],
+      "bounds": [
+        [
+          -0.04842739552259445,
+          -0.14124885201454163,
+          -1.75304251115449e-08
+        ],
+        [
+          0.04842739924788475,
+          0.14537522196769714,
+          0.12445949763059616
+        ]
+      ],
+      "modifiers": [
+        {
+          "type": "BEVEL",
+          "name": "Bevel"
+        },
+        {
+          "type": "SUBSURF",
+          "name": "Subdivision"
+        },
+        {
+          "type": "WEIGHTED_NORMAL",
+          "name": "WeightedNormal"
+        }
+      ]
+    },
+    {
+      "name": "GlassBulb",
+      "vertices": 2504,
+      "faces": 2504,
+      "materials": [
+        "00-GlassBulb"
+      ],
+      "bounds": [
+        [
+          -0.015433857217431068,
+          0.13785621523857117,
+          0.06059766188263893
+        ],
+        [
+          0.015433935448527336,
+          0.19316507875919342,
+          0.09146545827388763
+        ]
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Solidify"
+        }
+      ]
+    },
+    {
+      "name": "glass_body",
+      "vertices": 144,
+      "faces": 128,
+      "materials": [
+        "glass_cy"
+      ],
+      "bounds": [
+        [
+          -0.046548835933208466,
+          0.10329951345920563,
+          0.029483254998922348
+        ],
+        [
+          0.04654884338378906,
+          0.33012333512306213,
+          0.12258091568946838
+        ]
+      ],
+      "modifiers": [
+        {
+          "type": "SOLIDIFY",
+          "name": "Solidify"
+        },
+        {
+          "type": "BEVEL",
+          "name": "Bevel"
+        },
+        {
+          "type": "SUBSURF",
+          "name": "Subdivision"
+        },
+        {
+          "type": "WEIGHTED_NORMAL",
+          "name": "WeightedNormal"
+        }
+      ]
+    },
+    {
+      "name": "Filaments",
+      "vertices": 872,
+      "faces": 870,
+      "materials": [
+        "emisson_filament"
+      ],
+      "bounds": [
+        [
+          -0.0059585291892290115,
+          0.1511348932981491,
+          0.07007311284542084
+        ],
+        [
+          0.00595851382240653,
+          0.1862126737833023,
+          0.08199016004800797
+        ]
+      ],
+      "modifiers": []
+    },
+    {
+      "name": "emission_body",
+      "vertices": 64,
+      "faces": 49,
+      "materials": [
+        "emisson"
+      ],
+      "bounds": [
+        [
+          -0.04805538430809975,
+          0.13042832911014557,
+          0.027976680546998978
+        ],
+        [
+          0.048055391758680344,
+          0.3322250247001648,
+          0.12408743798732758
+        ]
+      ],
+      "modifiers": [
+        {
+          "type": "SUBSURF",
+          "name": "Subdivision"
+        },
+        {
+          "type": "WEIGHTED_NORMAL",
+          "name": "WeightedNormal"
+        }
+      ]
+    },
+    {
+      "name": "bulb",
+      "vertices": 598,
+      "faces": 596,
+      "materials": [
+        "00-SocketMetal",
+        "00-Ceramic"
+      ],
+      "bounds": [
+        [
+          -0.006539126392453909,
+          0.12434236705303192,
+          0.06949277222156525
+        ],
+        [
+          0.006539132446050644,
+          0.13835398852825165,
+          0.08257105201482773
+        ]
+      ],
+      "modifiers": [
+        {
+          "type": "SUBSURF",
+          "name": "Subdivision"
+        }
+      ]
+    }
+  ]
+}

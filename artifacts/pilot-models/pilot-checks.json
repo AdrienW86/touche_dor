@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "envelopePreserved": true,
+  "centerPreserved": true,
+  "threeDownloadedBustInstances": true,
+  "fiveOtherShowcasesPreserved": true,
+  "onePilotSconce": true,
+  "threeGlbHashesVerified": true,
+  "commercialLicensesVerified": true,
+  "browserChecksPassed": 35,
+  "protectedSourcesPassed": 10,
+  "reviewRequired": true
+}

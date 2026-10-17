@@ -1,0 +1,66 @@
+{
+  "stage": "before",
+  "viewport": {
+    "width": 1780,
+    "height": 883
+  },
+  "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 (0x00002503) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "errors": [],
+  "networkErrors": [],
+  "bytesTransferred": 11551211,
+  "checkpoints": {
+    "entrance": {
+      "camera": [
+        0,
+        1.55,
+        11
+      ],
+      "frameSamples": 180,
+      "meanFrameMs": 6.944444444444445,
+      "p95FrameMs": 7.099999999998545,
+      "meanRenderMs": 1.77888888898823,
+      "meanDrawCalls": 302.5833333333333,
+      "meanTriangles": 232852.57777777777,
+      "geometries": 242,
+      "materials": 82,
+      "textures": 52,
+      "geometryBytes": 5703564
+    },
+    "firstShowcase": {
+      "camera": [
+        -0.7994110985277463,
+        1.55,
+        3.5000000000013003
+      ],
+      "frameSamples": 180,
+      "meanFrameMs": 6.943888888888887,
+      "p95FrameMs": 7,
+      "meanRenderMs": 1.5322222219573127,
+      "meanDrawCalls": 259.3222222222222,
+      "meanTriangles": 208333.5,
+      "geometries": 242,
+      "materials": 82,
+      "textures": 52,
+      "geometryBytes": 5703564
+    }
+  },
+  "sourceHashes": {
+    "maison-noire.html": "eabc4ef02fcd7ab7ac753906ab01a6916bfb7f77050fdc2a72491f0737d00422",
+    "entrance.js": "a7b69a922ee12970c14fd5511c01bd26020da6e2492e3089846ada22129e783d",
+    "entrance-textures.js": "94824db91d84572844989e4c09e90e18a342d889134cbc8b72d433e05d3b08ac",
+    "interior-materials.js": "30cee61e3535e210e36a3a6792731a8d95183bcc7d18a283414f4a4d8468597e",
+    "interior-lighting.js": "f89292e61527d511683c84aa1cafdc78376281d0cc2db80c7877edf9a2261adf",
+    "experience.js": "3c21e8c795a865378600aafdab9f54c6b0a98a1842d81dac3a83937d096f27e3",
+    "storefront.js": "504d50d77f7fdb2d95efac1603e34aff21ffeb768da81b12cd5153b2e40a0aa9",
+    "storefront.css": "2f498b4882cff3960892e44fdec50b03301cbcffc8333d3f4286f6b23885db26",
+    "collection-config.js": "b9607eee4d8abdfd3ba215695fa63d534475d0bc5bccc9aaf73e370c4680b2a2",
+    "showcases.js": "8f1f4958a173cc7c8738e69cb6148c85afd96732a264bbd45b5801d1d7a8a48c"
+  },
+  "adapter": {
+    "vendor": "Google Inc. (NVIDIA)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 (0x00002503) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "measuredTransferBytes": 11551211,
+  "reviewTransferBytes": 0,
+  "status": "baseline-recorded-models-not-replaced"
+}

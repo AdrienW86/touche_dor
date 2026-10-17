@@ -1,0 +1,15 @@
+{
+  "method": "SHA256 compared to pre-pilot snapshot, subtracting only three explicit integration lines",
+  "checks": {
+    "maison-noire.html": true,
+    "entrance.js": true,
+    "entrance-textures.js": true,
+    "interior-materials.js": true,
+    "interior-lighting.js": true,
+    "experience.js": true,
+    "storefront.js": true,
+    "storefront.css": true,
+    "collection-config.js": true,
+    "showcases.js": true
+  }
+}

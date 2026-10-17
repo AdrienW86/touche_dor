@@ -1,0 +1,35 @@
+/* Commercially licensed decorative meshes; never catalogue product geometry. */
+(function(){
+  const cache=new Map();window.maisonModelLoads=[];
+  function source(T,name){const path=name==='bust'?'/assets/models/pilot/necklace-bust.glb':'/assets/models/architecture/'+name+'.glb';if(!cache.has(path))cache.set(path,new Promise((resolve,reject)=>new T.GLTFLoader().load(path,g=>resolve(g.scene),undefined,reject)));return cache.get(path);}
+  function palette(T,architecture,m){const gold=m.brass.clone();gold.color.set(0xd1b17b).convertSRGBToLinear();gold.roughness=.27;gold.envMap=architecture.brass.envMap;gold.envMapIntensity=.75;gold.normalMap=null;const silver=gold.clone();silver.color.set(0xd3d0c7).convertSRGBToLinear();const gem=new T.MeshPhysicalMaterial({color:0xe7e4db,roughness:.09,metalness:.03,clearcoat:.7,envMap:architecture.brass.envMap,envMapIntensity:1});const velvet=m.velvet.clone();velvet.color.set(0x14151a).convertSRGBToLinear();velvet.normalScale.set(.008,.008);velvet.roughness=.96;return{gold,silver,gem,velvet};}
+  function dress(model,p,name){model.traverse(o=>{if(!o.isMesh)return;const mat=m=>{const n=m.name.toLowerCase();if(name==='pearls')return m;if(n.includes('diamond')||n.includes('gemstone'))return p.gem;if(n.includes('velvet')||n==='stand')return p.velvet;if(n.includes('walnut')||n.includes('wood'))return p.velvet;if(n.includes('platinum'))return p.silver;return p.gold;};o.material=Array.isArray(o.material)?o.material.map(mat):mat(o.material);o.castShadow=true;o.receiveShadow=true;});return model;}
+  function place(T,root,template,size,x,y,z,rx=0,ry=0,rz=0){const model=template.clone(true),holder=new T.Group();model.rotation.set(rx,ry,rz);holder.add(model);model.updateMatrixWorld(true);const b=new T.Box3().setFromObject(model),v=b.getSize(new T.Vector3()),c=b.getCenter(new T.Vector3()),scale=size/Math.max(v.x,v.y,v.z);model.position.sub(new T.Vector3(c.x,b.min.y,c.z));holder.scale.setScalar(scale);holder.position.set(x,y,z);root.add(holder);return holder;}
+  window.loadMaisonShowcaseComposition=function(T,scene,display,architecture,m,i,study){
+    const roles=[['bust'],['bracelet'],['ring'],['jewel-stand','earrings'],['jewel-stand','chain','pearls'],['bust','jewel-stand','ring','bracelet','earrings']][i];
+    const ready=Promise.all([architecture.ready,window.maisonDisplayAssetsReady,...roles.map(role=>source(T,role))]).then(([, ,...assets])=>{
+      const p=palette(T,architecture,m),models={};roles.forEach((name,k)=>models[name]=dress(assets[k].clone(true),p,name));
+      const decor=new T.Group();decor.name='Composition détaillée / '+MAISON.showcases[i].id;display.add(decor);
+      if([0,3,4,5].includes(i))study.visible=false;
+      if(i===0){[[0,.68,-.08,.21],[-.4,.48,.12,.28],[.4,.53,.1,.12]].forEach(([x,h,z,a])=>{const geo=display.children[0].geometry,dimensions=geo.boundingBox||(geo.computeBoundingBox(),geo.boundingBox),v=dimensions.getSize(new T.Vector3()),foot=new T.Mesh(geo,m.stone);foot.scale.set((h*.62)/v.x,.025/v.y,(h*.5)/v.z);foot.position.set(x,1.1025,z);foot.castShadow=foot.receiveShadow=true;foot.name='Embase biseautée du buste';decor.add(foot);place(T,decor,models.bust,h,x,1.115,z,0,a);});}
+      if(i===1){[-.16,.2].forEach((z,k)=>{for(let j=0;j<5;j++)place(T,decor,models.bracelet,.12,-.33+j*.165,1.09+.23+k*.18-.06,z,0,0,Math.PI/2);});}
+      if(i===2){study.children.filter(o=>o.isGroup).forEach(o=>o.visible=false);[[0,.18,0],[-.35,.07,.2],[.35,.1,.18],[-.27,.12,-.23],[.27,.08,-.24]].forEach(([x,h,z],k)=>place(T,decor,models.ring,k===0?.105:.08,x,1.09+h+.006,z,0,k%2?.22:-.12));}
+      if(i===3){place(T,decor,models['jewel-stand'],.64,0,1.09,-.05);place(T,decor,models.earrings,.18,-.16,1.41,.02,0,.12);place(T,decor,models.earrings,.16,.2,1.56,.02,0,-.12);}
+      if(i===4){place(T,decor,models['jewel-stand'],.58,0,1.09,-.07);place(T,decor,models.chain,.25,-.12,1.30,.05,0,.18);place(T,decor,models.pearls,.16,.17,1.50,.03);place(T,decor,models.chain,.2,.27,1.10,.19,Math.PI/2,.1);}
+      if(i===5){const geo=display.children[0].geometry;geo.computeBoundingBox();const v=geo.boundingBox.getSize(new T.Vector3()),foot=new T.Mesh(geo,m.stone);foot.scale.set(.37/v.x,.025/v.y,.30/v.z);foot.position.set(-.20,1.1025,-.10);foot.castShadow=foot.receiveShadow=true;decor.add(foot);place(T,decor,models.bust,.59,-.20,1.115,-.10,0,.2);place(T,decor,models['jewel-stand'],.46,.34,1.09,-.12);place(T,decor,models.earrings,.13,.36,1.38,-.02);place(T,decor,models.ring,.085,.3,1.105,.29,0,.1);place(T,decor,models.bracelet,.16,-.28,1.10,.31);}
+      display.userData.status='detailed-decorative-composition';display.userData.modelsPending=false;display.userData.decorativeOnly=true;display.userData.models=roles;
+      return display;
+    }).catch(error=>{console.error('Composition détaillée indisponible',i,error);throw error;});window.maisonModelLoads.push(ready);return ready;
+  };
+  window.installMaisonSconceFamily=function(T,scene,architecture,finish){return Promise.all([source(T,'vertical-sconce'),architecture.ready,finish]).then(([model])=>{
+    const group=new T.Group();group.name='Famille unique : appliques verticales montées';scene.add(group);
+    const metal=architecture.brass.clone();metal.roughness=.34;metal.envMapIntensity=.4;
+    const opal=new T.MeshStandardMaterial({color:0xe9dfcb,roughness:.55,emissive:0xffc88c,emissiveIntensity:.25});opal.color.convertSRGBToLinear();opal.emissive.convertSRGBToLinear();
+    const ceramic=new T.MeshStandardMaterial({color:0xcfc6b1,roughness:.6});ceramic.color.convertSRGBToLinear();
+    model.updateMatrixWorld(true);const size=new T.Box3().setFromObject(model).getSize(new T.Vector3()),scale=.78/size.y,mounts=[];
+    for(let k=0;k<8;k++)[-1,1].forEach(s=>{const transform=new T.Object3D();transform.rotation.y=-s*Math.PI/2;transform.scale.setScalar(scale);transform.position.set(s*(2.539+.01707742177*scale),2.6562694083,5-k*6);transform.updateMatrix();mounts.push({matrix:transform.matrix.clone(),side:s,z:5-k*6,backplate:[s*2.539,2.5,5-k*6]});});
+    model.traverse(o=>{if(!o.isMesh)return;const assign=m=>m.name==='glass_cy'?opal:m.name.includes('Ceramic')?ceramic:metal;const material=Array.isArray(o.material)?o.material.map(assign):assign(o.material);const mesh=new T.InstancedMesh(o.geometry,material,mounts.length);mesh.name='Appliques / '+o.name;mesh.frustumCulled=false;mesh.castShadow=false;mesh.receiveShadow=true;mounts.forEach((m,i)=>mesh.setMatrixAt(i,new T.Matrix4().multiplyMatrices(m.matrix,o.matrixWorld)));mesh.instanceMatrix.needsUpdate=true;group.add(mesh);});
+    scene.traverse(o=>{if(!o.isMesh||o.isInstancedMesh)return;const p=o.geometry.parameters||{};if(Math.abs(Math.abs(o.position.x)-2.52)<.001&&o.position.y===2.5&&((p.width===.5&&p.height===.5&&p.depth===.06)||(p.width===.14&&p.height===.38)))o.visible=false;});
+    group.userData={fixtureCount:16,mounts:mounts.map(({side,z,backplate})=>({side,z,backplate})),backGap:.001,approvedGeometry:'abd3d vertical-sconce',normalLeft:[1,0,0],normalRight:[-1,0,0]};return group;
+  });};
+})();

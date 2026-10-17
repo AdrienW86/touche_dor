@@ -1,0 +1,168 @@
+{
+  "stage": "before",
+  "viewport": {
+    "width": 1780,
+    "height": 883
+  },
+  "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 (0x00002503) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "errors": [],
+  "networkErrors": [],
+  "bytesTransferred": 13326745,
+  "checkpoints": {
+    "entrance": {
+      "camera": [
+        0,
+        1.55,
+        11
+      ],
+      "frameSamples": 180,
+      "meanFrameMs": 6.944444444444445,
+      "p95FrameMs": 7,
+      "meanRenderMs": 1.8605555560853746,
+      "meanDrawCalls": 447.5444444444444,
+      "meanTriangles": 820160.8,
+      "geometries": 343,
+      "materials": 87,
+      "textures": 52,
+      "geometryBytes": 11736474
+    },
+    "firstShowcase": {
+      "camera": [
+        -0.7994110985277463,
+        1.55,
+        3.5000000000013003
+      ],
+      "frameSamples": 180,
+      "meanFrameMs": 6.943888888888897,
+      "p95FrameMs": 7,
+      "meanRenderMs": 2.0061111118230555,
+      "meanDrawCalls": 410.7,
+      "meanTriangles": 803045.1666666666,
+      "geometries": 343,
+      "materials": 87,
+      "textures": 52,
+      "geometryBytes": 11736474
+    },
+    "station1": {
+      "camera": [
+        -0.7994110985277463,
+        1.55,
+        3.5000000000013003
+      ],
+      "frameSamples": 180,
+      "meanFrameMs": 6.944444444444445,
+      "p95FrameMs": 7,
+      "meanRenderMs": 1.720555555406544,
+      "meanDrawCalls": 412.55,
+      "meanTriangles": 806469.5833333334,
+      "geometries": 343,
+      "materials": 87,
+      "textures": 52,
+      "geometryBytes": 11736474
+    },
+    "station2": {
+      "camera": [
+        0.7994110985277461,
+        1.55,
+        -3.0000000000010405
+      ],
+      "frameSamples": 180,
+      "meanFrameMs": 6.944444444444445,
+      "p95FrameMs": 7,
+      "meanRenderMs": 1.5488888892862531,
+      "meanDrawCalls": 357.9277777777778,
+      "meanTriangles": 671232.9722222222,
+      "geometries": 343,
+      "materials": 87,
+      "textures": 52,
+      "geometryBytes": 11736474
+    },
+    "station3": {
+      "camera": [
+        -0.8,
+        1.55,
+        -9
+      ],
+      "frameSamples": 180,
+      "meanFrameMs": 6.944444444444445,
+      "p95FrameMs": 7,
+      "meanRenderMs": 1.9766666669812467,
+      "meanDrawCalls": 307.47777777777776,
+      "meanTriangles": 483670.0333333333,
+      "geometries": 343,
+      "materials": 87,
+      "textures": 52,
+      "geometryBytes": 11736474
+    },
+    "station4": {
+      "camera": [
+        0.7994110985277469,
+        1.55,
+        -14.999999999998959
+      ],
+      "frameSamples": 180,
+      "meanFrameMs": 6.943888888888877,
+      "p95FrameMs": 7,
+      "meanRenderMs": 1.2655555553734303,
+      "meanDrawCalls": 246.87222222222223,
+      "meanTriangles": 436211.3277777778,
+      "geometries": 343,
+      "materials": 87,
+      "textures": 52,
+      "geometryBytes": 11736474
+    },
+    "station5": {
+      "camera": [
+        -0.7994110985277478,
+        1.55,
+        -21.00000000000104
+      ],
+      "frameSamples": 180,
+      "meanFrameMs": 6.944999999999992,
+      "p95FrameMs": 7,
+      "meanRenderMs": 1.0500000000827843,
+      "meanDrawCalls": 183.9111111111111,
+      "meanTriangles": 384102.2111111111,
+      "geometries": 343,
+      "materials": 87,
+      "textures": 52,
+      "geometryBytes": 11736474
+    },
+    "station6": {
+      "camera": [
+        0.8,
+        1.55,
+        -27
+      ],
+      "frameSamples": 180,
+      "meanFrameMs": 6.944444444444445,
+      "p95FrameMs": 7.099999999998545,
+      "meanRenderMs": 0.8033333342108462,
+      "meanDrawCalls": 120.15555555555555,
+      "meanTriangles": 307585.5777777778,
+      "geometries": 343,
+      "materials": 87,
+      "textures": 52,
+      "geometryBytes": 11736474
+    }
+  },
+  "sourceHashes": {
+    "maison-noire.html": "166b5777c0eed4446f4a55c364be3bbf53140689d87d28f4357c7d74017b8ee4",
+    "entrance.js": "a7b69a922ee12970c14fd5511c01bd26020da6e2492e3089846ada22129e783d",
+    "entrance-textures.js": "94824db91d84572844989e4c09e90e18a342d889134cbc8b72d433e05d3b08ac",
+    "interior-materials.js": "30cee61e3535e210e36a3a6792731a8d95183bcc7d18a283414f4a4d8468597e",
+    "interior-lighting.js": "1d63d346d41e35fccd1b99fec3f3306428f9ef796f0208bf60fb688c03fb208b",
+    "experience.js": "3c21e8c795a865378600aafdab9f54c6b0a98a1842d81dac3a83937d096f27e3",
+    "storefront.js": "504d50d77f7fdb2d95efac1603e34aff21ffeb768da81b12cd5153b2e40a0aa9",
+    "storefront.css": "2f498b4882cff3960892e44fdec50b03301cbcffc8333d3f4286f6b23885db26",
+    "collection-config.js": "b9607eee4d8abdfd3ba215695fa63d534475d0bc5bccc9aaf73e370c4680b2a2",
+    "showcases.js": "de84f210e365357eb1e30c4e9de804726a2e84a4626d5f58185b5dcfb99617dc"
+  },
+  "adapter": {
+    "vendor": "Google Inc. (NVIDIA)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 (0x00002503) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "measuredTransferBytes": 13326745,
+  "reviewTransferBytes": 0,
+  "status": "baseline-recorded-models-not-replaced"
+}

@@ -1,0 +1,60 @@
+{
+  "stage": "before",
+  "viewport": {
+    "width": 1780,
+    "height": 883
+  },
+  "renderer": "SwiftShader software; not a physical GPU benchmark",
+  "errors": [],
+  "networkErrors": [],
+  "bytesTransferred": 7829492,
+  "checkpoints": {
+    "entrance": {
+      "camera": [
+        0,
+        1.55,
+        11
+      ],
+      "frameSamples": 22,
+      "meanFrameMs": 758.5227272727273,
+      "p95FrameMs": 777.7999999999993,
+      "meanRenderMs": 5.831818181682717,
+      "meanDrawCalls": 489,
+      "meanTriangles": 91904,
+      "geometries": 229,
+      "materials": 73,
+      "textures": 48,
+      "geometryBytes": 2911632
+    },
+    "firstShowcase": {
+      "camera": [
+        -0.7994110985277463,
+        1.55,
+        3.5000000000013003
+      ],
+      "frameSamples": 22,
+      "meanFrameMs": 565.0272727272727,
+      "p95FrameMs": 569.5,
+      "meanRenderMs": 4.618181818249551,
+      "meanDrawCalls": 418,
+      "meanTriangles": 82822,
+      "geometries": 229,
+      "materials": 73,
+      "textures": 48,
+      "geometryBytes": 2911632
+    }
+  },
+  "sourceHashes": {
+    "maison-noire.html": "91b7afbe78d0333337e00ce8844a21f1109b51ae62c4bebe8a90d6764578916d",
+    "entrance.js": "a7b69a922ee12970c14fd5511c01bd26020da6e2492e3089846ada22129e783d",
+    "entrance-textures.js": "94824db91d84572844989e4c09e90e18a342d889134cbc8b72d433e05d3b08ac",
+    "interior-materials.js": "30cee61e3535e210e36a3a6792731a8d95183bcc7d18a283414f4a4d8468597e",
+    "interior-lighting.js": "46b09bee61a45c22e9c43ce120829a61d746dc6e359dd0048187579b66071d52",
+    "experience.js": "3c21e8c795a865378600aafdab9f54c6b0a98a1842d81dac3a83937d096f27e3",
+    "storefront.js": "504d50d77f7fdb2d95efac1603e34aff21ffeb768da81b12cd5153b2e40a0aa9",
+    "storefront.css": "2f498b4882cff3960892e44fdec50b03301cbcffc8333d3f4286f6b23885db26",
+    "collection-config.js": "b9607eee4d8abdfd3ba215695fa63d534475d0bc5bccc9aaf73e370c4680b2a2",
+    "showcases.js": "0b4b22a3c9d36ca59fc9984b5a0de488140dcf470aa5b9744db3bbc573143279"
+  },
+  "status": "baseline-recorded-models-not-replaced"
+}

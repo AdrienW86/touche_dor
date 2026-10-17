@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": {
+    "fullHtmlRestoredWithOnlyAllowedReplacements": true,
+    "geometryDimensionsAndPositionsUnchanged": true,
+    "cameraScrollAndAnimationsByteIdentical": true,
+    "displayCasesJewelryCartAndLightingByteIdentical": true,
+    "existingSharedMaterialsByteIdentical": true,
+    "entranceAndFacadeModulesUnchanged": true,
+    "cssAndMarkupUnchanged": true
+  },
+  "sourceHashes": {
+    "before": "f02285fe6b760879bb20f4f1efbe562f194a5791338505fa91f3a075d8dfc623",
+    "after": "cc87379f1acdec8e41d49bb08caa0e6d0fa5a2600211f7d0cb4f6bda6ccad7f8",
+    "restored": "f02285fe6b760879bb20f4f1efbe562f194a5791338505fa91f3a075d8dfc623",
+    "cameraAndFrame": "0e0f34bbe43a2937d70b7971272b350a5ecd6a04fa30ea6dda63fc74afaf1235",
+    "displayCasesAndUi": "34ed303a88e4d8c691f4cd5348371ef6adbce2e713f6c7da4d325192b0d747a5",
+    "interiorModule": "30cee61e3535e210e36a3a6792731a8d95183bcc7d18a283414f4a4d8468597e"
+  }
+}

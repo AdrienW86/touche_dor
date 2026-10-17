@@ -1,0 +1,14 @@
+{
+  "uid": "94db5e5434d14a9f87bbf3e5a5fd7dce",
+  "source": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-150/94db5e5434d14a9f87bbf3e5a5fd7dce.glb",
+  "metadata": "94db5e5434d14a9f87bbf3e5a5fd7dce-metadata.json",
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "author": "Softmind Game Factory"
+}

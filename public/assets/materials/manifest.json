@@ -1,0 +1,72 @@
+[
+  {
+    "file": "public/assets/materials/velvet-color.webp",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/velour_velvet/velour_velvet_diff_1k.jpg",
+    "source": "https://polyhaven.com/a/velour_velvet",
+    "license": "CC0-1.0",
+    "bytes": 26892,
+    "sha256": "34f8b96bac10e3acf321241e43358d25080431022c8de906f8c7fcbdf7993028",
+    "modification": "512px WebP, desaturated"
+  },
+  {
+    "file": "public/assets/materials/velvet-normal.webp",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/velour_velvet/velour_velvet_nor_gl_1k.jpg",
+    "source": "https://polyhaven.com/a/velour_velvet",
+    "license": "CC0-1.0",
+    "bytes": 352864,
+    "sha256": "d05501a598271cc681c49eea287594868445082dfc3fe219b3cbee00011a0ba2",
+    "modification": "512px WebP"
+  },
+  {
+    "file": "public/assets/materials/velvet-roughness.webp",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/velour_velvet/velour_velvet_rough_1k.jpg",
+    "source": "https://polyhaven.com/a/velour_velvet",
+    "license": "CC0-1.0",
+    "bytes": 196368,
+    "sha256": "373ac269d8f68d65c6e6496a97af873d3e55dcdb28cb6866ea246d524679cf12",
+    "modification": "512px WebP"
+  },
+  {
+    "file": "public/assets/materials/walnut-color.webp",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/walnut_veneer/walnut_veneer_diff_1k.jpg",
+    "source": "https://polyhaven.com/a/walnut_veneer",
+    "license": "CC0-1.0",
+    "bytes": 20200,
+    "sha256": "6359f5ea5ad8b9dc38fef3eca99448b40e3df5007f2b61f9a1c57972f61ba906",
+    "modification": "512px WebP"
+  },
+  {
+    "file": "public/assets/materials/walnut-normal.webp",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/walnut_veneer/walnut_veneer_nor_gl_1k.jpg",
+    "source": "https://polyhaven.com/a/walnut_veneer",
+    "license": "CC0-1.0",
+    "bytes": 253624,
+    "sha256": "06c57e616e14aa6bf39057361d46637de7abf5574c76156a60569284fbe18d61",
+    "modification": "512px WebP"
+  },
+  {
+    "file": "public/assets/materials/walnut-roughness.webp",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/walnut_veneer/walnut_veneer_rough_1k.jpg",
+    "source": "https://polyhaven.com/a/walnut_veneer",
+    "license": "CC0-1.0",
+    "bytes": 110178,
+    "sha256": "78511f4a49c6cd858edcc557a20037b65312a4250aec76c29557cc6c784ecfa4",
+    "modification": "512px WebP"
+  },
+  {
+    "file": "public/assets/materials/brass-normal.webp",
+    "source": "https://ambientcg.com/view?id=Metal032",
+    "license": "CC0-1.0",
+    "bytes": 65104,
+    "sha256": "0668de1d5ccf6082c7175c089131f291b231ebac6f1820ae0c36b2376d27a2a1",
+    "modification": "512px lossless WebP, champagne tint in material"
+  },
+  {
+    "file": "public/assets/materials/brass-roughness.webp",
+    "source": "https://ambientcg.com/view?id=Metal032",
+    "license": "CC0-1.0",
+    "bytes": 79954,
+    "sha256": "4761cbae4328d7588a592bf2169dd09bd6193ca929c971297d9575645bda563d",
+    "modification": "512px lossless WebP, champagne tint in material"
+  }
+]
