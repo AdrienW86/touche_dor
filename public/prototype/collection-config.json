@@ -1,0 +1,460 @@
+{
+  "brand": {
+    "name": "Touche d'Or",
+    "logo": "/assets/branding/touche-dor.webp",
+    "aspect": 1.5,
+    "contact": null,
+    "legal": null,
+    "terms": null,
+    "privacy": null,
+    "shipping": null,
+    "returns": null,
+    "socials": []
+  },
+  "mode": "catalogue",
+  "products": [
+    {
+      "id": "td-col-001",
+      "reference": "TD-COL-001",
+      "name": "Collier Y doré à motifs ovales scintillants",
+      "slug": "td-col-001",
+      "cat": "Colliers",
+      "subcategory": "Colliers Y",
+      "price": 25,
+      "desc": "Collier Y doré à motifs ovales scintillants en acier inoxydable, couleur dorée.",
+      "description": "Collier Y doré à motifs ovales scintillants. Ce bijou est en acier inoxydable et de couleur dorée. Consultez les photographies pour découvrir le modèle et ses détails. La livraison est gratuite.",
+      "gallery": [
+        {
+          "src": "/produits/td-col-001/01.webp",
+          "thumbnail": "/produits/td-col-001/01-thumb.webp",
+          "alt": "Collier Y doré à motifs ovales scintillants — photographie 1",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-col-001/02.webp",
+          "thumbnail": "/produits/td-col-001/02-thumb.webp",
+          "alt": "Collier Y doré à motifs ovales scintillants — photographie 2",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-col-001/03.webp",
+          "thumbnail": "/produits/td-col-001/03-thumb.webp",
+          "alt": "Collier Y doré à motifs ovales scintillants — photographie 3",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-col-001/04.webp",
+          "thumbnail": "/produits/td-col-001/04-thumb.webp",
+          "alt": "Collier Y doré à motifs ovales scintillants — photographie 4",
+          "width": 1200,
+          "height": 1600
+        }
+      ],
+      "material": "Acier inoxydable",
+      "color": "Doré",
+      "showcaseId": "colliers",
+      "status": "published"
+    },
+    {
+      "id": "td-col-002",
+      "reference": "TD-COL-002",
+      "name": "Collier Y doré à chaîne perlée",
+      "slug": "td-col-002",
+      "cat": "Colliers",
+      "subcategory": "Colliers Y",
+      "price": 20,
+      "desc": "Collier Y doré à chaîne perlée en acier inoxydable, couleur dorée.",
+      "description": "Collier Y doré à chaîne perlée. Ce bijou est en acier inoxydable et de couleur dorée. Consultez les photographies pour découvrir le modèle et ses détails. La livraison est gratuite.",
+      "gallery": [
+        {
+          "src": "/produits/td-col-002/01.webp",
+          "thumbnail": "/produits/td-col-002/01-thumb.webp",
+          "alt": "Collier Y doré à chaîne perlée — photographie 1",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-col-002/02.webp",
+          "thumbnail": "/produits/td-col-002/02-thumb.webp",
+          "alt": "Collier Y doré à chaîne perlée — photographie 2",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-col-002/03.webp",
+          "thumbnail": "/produits/td-col-002/03-thumb.webp",
+          "alt": "Collier Y doré à chaîne perlée — photographie 3",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-col-002/04.webp",
+          "thumbnail": "/produits/td-col-002/04-thumb.webp",
+          "alt": "Collier Y doré à chaîne perlée — photographie 4",
+          "width": 1200,
+          "height": 1600
+        }
+      ],
+      "material": "Acier inoxydable",
+      "color": "Doré",
+      "showcaseId": "colliers",
+      "status": "published"
+    },
+    {
+      "id": "td-col-003",
+      "reference": "TD-COL-003",
+      "name": "Collier Y doré à sept motifs ovales",
+      "slug": "td-col-003",
+      "cat": "Colliers",
+      "subcategory": "Colliers Y",
+      "price": 20,
+      "desc": "Collier Y doré à sept motifs ovales en acier inoxydable, couleur dorée.",
+      "description": "Collier Y doré à sept motifs ovales. Ce bijou est en acier inoxydable et de couleur dorée. Consultez les photographies pour découvrir le modèle et ses détails. La livraison est gratuite.",
+      "gallery": [
+        {
+          "src": "/produits/td-col-003/01.webp",
+          "thumbnail": "/produits/td-col-003/01-thumb.webp",
+          "alt": "Collier Y doré à sept motifs ovales — photographie 1",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-col-003/02.webp",
+          "thumbnail": "/produits/td-col-003/02-thumb.webp",
+          "alt": "Collier Y doré à sept motifs ovales — photographie 2",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-col-003/03.webp",
+          "thumbnail": "/produits/td-col-003/03-thumb.webp",
+          "alt": "Collier Y doré à sept motifs ovales — photographie 3",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-col-003/04.webp",
+          "thumbnail": "/produits/td-col-003/04-thumb.webp",
+          "alt": "Collier Y doré à sept motifs ovales — photographie 4",
+          "width": 1200,
+          "height": 1600
+        }
+      ],
+      "material": "Acier inoxydable",
+      "color": "Doré",
+      "showcaseId": "colliers",
+      "status": "published"
+    },
+    {
+      "id": "td-sau-001",
+      "reference": "TD-SAU-001",
+      "name": "Sautoir doré à motifs ovales",
+      "slug": "td-sau-001",
+      "cat": "Colliers",
+      "subcategory": "Sautoirs",
+      "price": 25,
+      "desc": "Sautoir doré à motifs ovales en acier inoxydable, couleur dorée.",
+      "description": "Sautoir doré à motifs ovales. Ce bijou est en acier inoxydable et de couleur dorée. Consultez les photographies pour découvrir le modèle et ses détails. La livraison est gratuite.",
+      "gallery": [
+        {
+          "src": "/produits/td-sau-001/01.webp",
+          "thumbnail": "/produits/td-sau-001/01-thumb.webp",
+          "alt": "Sautoir doré à motifs ovales — photographie 1",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-sau-001/02.webp",
+          "thumbnail": "/produits/td-sau-001/02-thumb.webp",
+          "alt": "Sautoir doré à motifs ovales — photographie 2",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-sau-001/03.webp",
+          "thumbnail": "/produits/td-sau-001/03-thumb.webp",
+          "alt": "Sautoir doré à motifs ovales — photographie 3",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-sau-001/04.webp",
+          "thumbnail": "/produits/td-sau-001/04-thumb.webp",
+          "alt": "Sautoir doré à motifs ovales — photographie 4",
+          "width": 1200,
+          "height": 1600
+        }
+      ],
+      "material": "Acier inoxydable",
+      "color": "Doré",
+      "showcaseId": "colliers",
+      "status": "published"
+    },
+    {
+      "id": "td-bra-001",
+      "reference": "TD-BRA-001",
+      "name": "Bracelet Grains de Café Doré",
+      "slug": "td-bra-001",
+      "cat": "Bracelets",
+      "subcategory": "Bracelets grains de café",
+      "price": 20,
+      "desc": "Bracelet Grains de Café Doré en acier inoxydable, couleur dorée.",
+      "description": "Bracelet Grains de Café Doré. Ce bijou est en acier inoxydable et de couleur dorée. Consultez les photographies pour découvrir le modèle et ses détails. La livraison est gratuite.",
+      "gallery": [
+        {
+          "src": "/produits/td-bra-001/01.webp",
+          "thumbnail": "/produits/td-bra-001/01-thumb.webp",
+          "alt": "Bracelet Grains de Café Doré — photographie 1",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-bra-001/02.webp",
+          "thumbnail": "/produits/td-bra-001/02-thumb.webp",
+          "alt": "Bracelet Grains de Café Doré — photographie 2",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-bra-001/03.webp",
+          "thumbnail": "/produits/td-bra-001/03-thumb.webp",
+          "alt": "Bracelet Grains de Café Doré — photographie 3",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-bra-001/04.webp",
+          "thumbnail": "/produits/td-bra-001/04-thumb.webp",
+          "alt": "Bracelet Grains de Café Doré — photographie 4",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-bra-001/05.webp",
+          "thumbnail": "/produits/td-bra-001/05-thumb.webp",
+          "alt": "Bracelet Grains de Café Doré — photographie 5",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/produits/td-bra-001/06.webp",
+          "thumbnail": "/produits/td-bra-001/06-thumb.webp",
+          "alt": "Bracelet Grains de Café Doré — photographie 6",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/produits/td-bra-001/07.webp",
+          "thumbnail": "/produits/td-bra-001/07-thumb.webp",
+          "alt": "Bracelet Grains de Café Doré — photographie 7",
+          "width": 1200,
+          "height": 1600
+        }
+      ],
+      "material": "Acier inoxydable",
+      "color": "Doré",
+      "showcaseId": "bracelets",
+      "status": "published"
+    }
+  ],
+  "showcases": [
+    {
+      "id": "colliers",
+      "category": "Colliers",
+      "name": "Colliers & sautoirs",
+      "description": "Lignes fines et pendentifs, autour d’un buste central.",
+      "productIds": [
+        "td-col-001",
+        "td-col-002",
+        "td-col-003",
+        "td-sau-001"
+      ],
+      "decor": [
+        "neck",
+        "heart"
+      ],
+      "modelSlots": [
+        {
+          "role": "buste principal",
+          "url": null,
+          "height": 0.72,
+          "position": [
+            0,
+            0,
+            -0.08
+          ]
+        },
+        {
+          "role": "buste secondaire",
+          "url": null,
+          "height": 0.4,
+          "position": [
+            -0.35,
+            0,
+            0.12
+          ]
+        }
+      ],
+      "lighting": {
+        "intensity": 1.8,
+        "color": 16768688,
+        "angle": 0.42
+      }
+    },
+    {
+      "id": "bracelets",
+      "category": "Bracelets",
+      "name": "Bracelets & gourmettes",
+      "description": "Une composition horizontale sur plusieurs niveaux.",
+      "productIds": [
+        "td-bra-001"
+      ],
+      "decor": [
+        "brac"
+      ],
+      "modelSlots": [
+        {
+          "role": "rouleau velours double",
+          "url": null,
+          "height": 0.4,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "lighting": {
+        "intensity": 1.6,
+        "color": 16770244,
+        "angle": 0.52
+      }
+    },
+    {
+      "id": "bagues",
+      "category": "Bagues",
+      "name": "Bagues femme & homme",
+      "description": "Une pièce centrale et des bagues à différentes hauteurs.",
+      "productIds": [],
+      "decor": [
+        "ring",
+        "ring2"
+      ],
+      "modelSlots": [
+        {
+          "role": "plots individuels de joaillerie",
+          "url": null,
+          "height": 0.22,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "lighting": {
+        "intensity": 1.7,
+        "color": 16771798,
+        "angle": 0.38
+      }
+    },
+    {
+      "id": "boucles",
+      "category": "Boucles d’oreilles",
+      "name": "Boucles d’oreilles",
+      "description": "Des silhouettes suspendues sur de fines lignes champagne.",
+      "productIds": [],
+      "decor": [
+        "ear"
+      ],
+      "modelSlots": [
+        {
+          "role": "portants fins à boucles",
+          "url": null,
+          "height": 0.65,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "lighting": {
+        "intensity": 1.5,
+        "color": 16771533,
+        "angle": 0.48
+      }
+    },
+    {
+      "id": "chevilles",
+      "category": "Bijoux de cheville",
+      "name": "Bijoux de cheville",
+      "description": "Le support anatomique sera installé après sélection du modèle.",
+      "productIds": [],
+      "decor": [],
+      "modelSlots": [
+        {
+          "role": "pied anatomique de présentation professionnel",
+          "url": null,
+          "height": 0.65,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "lighting": {
+        "intensity": 1.5,
+        "color": 16768949,
+        "angle": 0.5
+      }
+    },
+    {
+      "id": "ensembles",
+      "category": "Ensembles",
+      "name": "Ensembles tendance",
+      "description": "Collier, boucles, bracelet et bagues dans une même composition.",
+      "productIds": [],
+      "decor": [
+        "neck",
+        "ear",
+        "brac",
+        "ring"
+      ],
+      "modelSlots": [
+        {
+          "role": "buste pour ensemble",
+          "url": null,
+          "height": 0.6,
+          "position": [
+            -0.15,
+            0,
+            -0.08
+          ]
+        },
+        {
+          "role": "portant et plots assortis",
+          "url": null,
+          "height": 0.35,
+          "position": [
+            0.3,
+            0,
+            0.12
+          ]
+        }
+      ],
+      "lighting": {
+        "intensity": 1.8,
+        "color": 16769981,
+        "angle": 0.54
+      }
+    }
+  ],
+  "shipping": {
+    "free": true
+  }
+}

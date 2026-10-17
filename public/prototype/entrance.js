@@ -280,6 +280,6 @@
         batch.name = 'Détails regroupés'; parent.add(batch);
       });
     });
-    return { doors, root };
+    return { doors, root, ready: stoneMaps.ready };
   };
 })();

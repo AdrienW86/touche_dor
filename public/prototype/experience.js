@@ -13,8 +13,8 @@
     const wall=new T.Mesh(new T.BoxGeometry(6,4,.15),architecture.wallBase);wall.position.set(0,2,-35.9);wall.name='Mur de marque';wall.receiveShadow=true;scene.add(wall);
     const warm=new T.MeshBasicMaterial({color:0xcaaa6a,toneMapped:false});warm.color.convertSRGBToLinear();
     [[4.02,.018,0,.48],[4.02,.018,0,3.22],[.018,2.76,-2,1.85],[.018,2.76,2,1.85]].forEach(([w,h,x,y])=>{const m=new T.Mesh(new T.BoxGeometry(w,h,.012),warm);m.position.set(x,y,-35.79);scene.add(m);});
-    document.querySelectorAll('[data-brand-image]').forEach(img=>{img.src=url;img.alt=MAISON.brand.name+' · Bijouterie';});
-    const bridge=$('logo-bridge'),image=$('bridge-logo'),background=$('bridge-background');image.src=url;image.alt='';
+    document.querySelectorAll('[data-brand-image]').forEach(img=>{img.crossOrigin='anonymous';img.src=url;img.alt=MAISON.brand.name+' · Bijouterie';});
+    const bridge=$('logo-bridge'),image=$('bridge-logo'),background=$('bridge-background');image.crossOrigin='anonymous';image.src=url;image.alt='';
     const reveal=document.createElement('div');reveal.className='bridge-discovery discovery';
     const copy=document.querySelector('.discovery .copy').cloneNode(true);
     copy.querySelectorAll('[id]').forEach(el=>el.removeAttribute('id'));

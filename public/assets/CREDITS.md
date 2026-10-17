@@ -47,3 +47,6 @@ Le pilote reste soumis à validation visuelle : le meuble est plus classique que
 ## Version architecturale active — 17 octobre 2026
 
 Les six meubles contemporains d’origine sont restaurés. Les GLB décoratifs et les 16 appliques verticales réellement chargés sont inventoriés avec auteurs, licences commerciales, transformations et SHA-256 dans [la notice active](/assets/models/architecture/ATTRIBUTION.html) et [son manifeste](/assets/models/architecture/manifest.json). Cette notice remplace les indications d’état actif des essais pilote et refinement ci-dessus ; leurs sources restent archivées, sans chargement des commodes ou armoires. Noyer, velours, marbre, enduit, laiton et HDRI existants sont réutilisés, sans nouveau téléchargement de textures. Les bijoux ne représentent pas les produits réels du catalogue.
+
+## Bibliothèque et polices locales
+Three.js r128 (MIT), distribution originale cdnjs inchangée : /prototype/vendor/three.r128.min.js. Italiana et Jost : Google Fonts, mêmes familles et graisses ; fichiers WOFF2 latin et licences SIL OFL conservés dans /assets/fonts/.

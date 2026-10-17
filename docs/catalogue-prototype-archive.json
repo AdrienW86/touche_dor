@@ -1,0 +1,297 @@
+{
+  "brand": {
+    "name": "Touche d’Or",
+    "logo": "/assets/branding/touche-dor.webp",
+    "aspect": 1.5,
+    "contact": null,
+    "legal": null,
+    "terms": null,
+    "privacy": null,
+    "shipping": null,
+    "returns": null,
+    "socials": []
+  },
+  "mode": "demo",
+  "products": [
+    {
+      "id": "aurore",
+      "name": "Bague Aurore",
+      "cat": "Bagues",
+      "desc": "Or rose, saphir rose",
+      "price": 890,
+      "type": "ring",
+      "metal": 15245966,
+      "gem": 16744368,
+      "demo": true,
+      "photo": null,
+      "stock": null
+    },
+    {
+      "id": "lune",
+      "name": "Collier Lune",
+      "cat": "Colliers",
+      "desc": "Or jaune, perle de culture",
+      "price": 640,
+      "type": "neck",
+      "metal": 15318379,
+      "gem": 16249322,
+      "demo": true,
+      "photo": null,
+      "stock": null
+    },
+    {
+      "id": "etoile",
+      "name": "Boucles Étoile",
+      "cat": "Boucles d’oreilles",
+      "desc": "Or blanc, topaze bleue",
+      "price": 420,
+      "type": "ear",
+      "metal": 15329778,
+      "gem": 7330047,
+      "demo": true,
+      "photo": null,
+      "stock": null
+    },
+    {
+      "id": "soleil",
+      "name": "Bracelet Soleil",
+      "cat": "Bracelets",
+      "desc": "Or jaune, citrines",
+      "price": 760,
+      "type": "brac",
+      "metal": 15318379,
+      "gem": 16761421,
+      "demo": true,
+      "photo": null,
+      "stock": null
+    },
+    {
+      "id": "nuit",
+      "name": "Bague Nuit",
+      "cat": "Bagues",
+      "desc": "Or blanc, saphir bleu",
+      "price": 1150,
+      "type": "ring2",
+      "metal": 15329778,
+      "gem": 6261759,
+      "demo": true,
+      "photo": null,
+      "stock": null
+    },
+    {
+      "id": "coeur",
+      "name": "Collier Cœur",
+      "cat": "Colliers",
+      "desc": "Or rose, rubis",
+      "price": 530,
+      "type": "heart",
+      "metal": 15245966,
+      "gem": 14692442,
+      "demo": true,
+      "photo": null,
+      "stock": null
+    }
+  ],
+  "showcases": [
+    {
+      "id": "colliers",
+      "category": "Colliers",
+      "name": "Colliers & sautoirs",
+      "description": "Lignes fines et pendentifs, autour d’un buste central.",
+      "productIds": [
+        "lune",
+        "coeur"
+      ],
+      "decor": [
+        "neck",
+        "heart"
+      ],
+      "modelSlots": [
+        {
+          "role": "buste principal",
+          "url": null,
+          "height": 0.72,
+          "position": [
+            0,
+            0,
+            -0.08
+          ]
+        },
+        {
+          "role": "buste secondaire",
+          "url": null,
+          "height": 0.4,
+          "position": [
+            -0.35,
+            0,
+            0.12
+          ]
+        }
+      ],
+      "lighting": {
+        "intensity": 1.8,
+        "color": 16768688,
+        "angle": 0.42
+      }
+    },
+    {
+      "id": "bracelets",
+      "category": "Bracelets",
+      "name": "Bracelets & gourmettes",
+      "description": "Une composition horizontale sur plusieurs niveaux.",
+      "productIds": [
+        "soleil"
+      ],
+      "decor": [
+        "brac"
+      ],
+      "modelSlots": [
+        {
+          "role": "rouleau velours double",
+          "url": null,
+          "height": 0.4,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "lighting": {
+        "intensity": 1.6,
+        "color": 16770244,
+        "angle": 0.52
+      }
+    },
+    {
+      "id": "bagues",
+      "category": "Bagues",
+      "name": "Bagues femme & homme",
+      "description": "Une pièce centrale et des bagues à différentes hauteurs.",
+      "productIds": [
+        "aurore",
+        "nuit"
+      ],
+      "decor": [
+        "ring",
+        "ring2"
+      ],
+      "modelSlots": [
+        {
+          "role": "plots individuels de joaillerie",
+          "url": null,
+          "height": 0.22,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "lighting": {
+        "intensity": 1.7,
+        "color": 16771798,
+        "angle": 0.38
+      }
+    },
+    {
+      "id": "boucles",
+      "category": "Boucles d’oreilles",
+      "name": "Boucles d’oreilles",
+      "description": "Des silhouettes suspendues sur de fines lignes champagne.",
+      "productIds": [
+        "etoile"
+      ],
+      "decor": [
+        "ear"
+      ],
+      "modelSlots": [
+        {
+          "role": "portants fins à boucles",
+          "url": null,
+          "height": 0.65,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "lighting": {
+        "intensity": 1.5,
+        "color": 16771533,
+        "angle": 0.48
+      }
+    },
+    {
+      "id": "chevilles",
+      "category": "Bijoux de cheville",
+      "name": "Bijoux de cheville",
+      "description": "Le support anatomique sera installé après sélection du modèle.",
+      "productIds": [],
+      "decor": [],
+      "modelSlots": [
+        {
+          "role": "pied anatomique de présentation professionnel",
+          "url": null,
+          "height": 0.65,
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "lighting": {
+        "intensity": 1.5,
+        "color": 16768949,
+        "angle": 0.5
+      }
+    },
+    {
+      "id": "ensembles",
+      "category": "Ensembles",
+      "name": "Ensembles tendance",
+      "description": "Collier, boucles, bracelet et bagues dans une même composition.",
+      "productIds": [
+        "lune",
+        "etoile",
+        "soleil",
+        "aurore"
+      ],
+      "decor": [
+        "neck",
+        "ear",
+        "brac",
+        "ring"
+      ],
+      "modelSlots": [
+        {
+          "role": "buste pour ensemble",
+          "url": null,
+          "height": 0.6,
+          "position": [
+            -0.15,
+            0,
+            -0.08
+          ]
+        },
+        {
+          "role": "portant et plots assortis",
+          "url": null,
+          "height": 0.35,
+          "position": [
+            0.3,
+            0,
+            0.12
+          ]
+        }
+      ],
+      "lighting": {
+        "intensity": 1.8,
+        "color": 16769981,
+        "angle": 0.54
+      }
+    }
+  ]
+}

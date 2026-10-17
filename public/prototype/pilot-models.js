@@ -31,7 +31,8 @@
   }
   window.loadMaisonShowcaseComposition=function(T,scene,display,architecture,m,i,study){
     const roles=[['bust'],['bracelet'],['ring'],['stud','drop','hoops'],['jewel-stand','chain'],['bust','ring','bracelet','stud']][i];
-    const ready=Promise.all([architecture.ready,window.maisonDisplayAssetsReady,...roles.map(role=>source(T,role))]).then(([, ,...assets])=>{
+    let start;const requested=new Promise(resolve=>{start=resolve;});
+    const ready=requested.then(()=>Promise.all([architecture.ready,window.maisonDisplayAssetsReady,...roles.map(role=>source(T,role))])).then(([, ,...assets])=>{
       const p=palette(T,architecture,m),models={};roles.forEach((name,k)=>models[name]=dress(assets[k].clone(true),p,name));
       if(i===4){const satin=p.gold.clone();satin.roughness=.62;satin.envMapIntensity=.2;satin.color.set(0xa58c66).convertSRGBToLinear();models['jewel-stand'].traverse(o=>{if(!o.isMesh)return;if(o.name.replace(/_/g,' ').startsWith('Earring cross rail'))o.visible=false;if(o.material===p.gold)o.material=satin;});}
       const decor=new T.Group();decor.name='Composition détaillée / '+MAISON.showcases[i].id;display.add(decor);
@@ -57,7 +58,7 @@
       instanceRepeats(T,decor);
       display.userData.status='detailed-decorative-composition';display.userData.modelsPending=false;display.userData.decorativeOnly=true;display.userData.models=roles;
       return display;
-    }).catch(error=>{console.error('Composition détaillée indisponible',i,error);throw error;});window.maisonModelLoads.push(ready);return ready;
+    }).catch(error=>{console.error('Composition détaillée indisponible',i,error);throw error;});ready.start=start;if(i<4)start();window.maisonModelLoads.push(ready);return ready;
   };
   window.installMaisonSconceFamily=function(T,scene,architecture,finish){return Promise.all([source(T,'vertical-sconce'),architecture.ready,finish]).then(([model])=>{
     const group=new T.Group();group.name='Famille unique : appliques verticales montées';scene.add(group);

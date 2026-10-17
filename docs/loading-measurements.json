@@ -1,0 +1,3751 @@
+{
+  "date": "2026-10-17",
+  "environment": "Next.js production local, Chromium 1243, WebGL SwiftShader, 1280x800, reduced-motion",
+  "slowNetwork": {
+    "latencyMs": 80,
+    "downloadBytesPerSecond": 1500000,
+    "uploadBytesPerSecond": 750000
+  },
+  "metrics": [
+    {
+      "network": "Local sans limitation",
+      "cache": "Froid",
+      "beforeMs": 4335.9000000059605,
+      "afterMs": 2622.6000000089407,
+      "reductionPercent": 40,
+      "transferCompletedBeforeFirstFrame": 10176499,
+      "compileMs": 625.5
+    },
+    {
+      "network": "Local sans limitation",
+      "cache": "Chaud",
+      "beforeMs": 13079.20000000298,
+      "afterMs": 9540.79999999702,
+      "reductionPercent": 27,
+      "transferCompletedBeforeFirstFrame": 14700,
+      "compileMs": 269.29999999701977
+    },
+    {
+      "network": "Réseau ralenti",
+      "cache": "Froid",
+      "beforeMs": 8599.5,
+      "afterMs": 7512.70000000298,
+      "reductionPercent": 13,
+      "transferCompletedBeforeFirstFrame": 10176499,
+      "compileMs": 367.40000000596046
+    },
+    {
+      "network": "Réseau ralenti",
+      "cache": "Chaud",
+      "beforeMs": 14226.5,
+      "afterMs": 11853.09999999404,
+      "reductionPercent": 17,
+      "transferCompletedBeforeFirstFrame": 14400,
+      "compileMs": 371.90000000596046
+    }
+  ],
+  "before": [
+    {
+      "slow": false,
+      "warm": false,
+      "firstFrame": 4335.9000000059605,
+      "resources": [
+        {
+          "url": "fonts.googleapis.com/css2?family=Italiana&family=Jost:wght@300;400&display=swap",
+          "duration": 75,
+          "start": 17,
+          "end": 92,
+          "transfer": 791,
+          "decoded": 2607
+        },
+        {
+          "url": "prototype/storefront.css",
+          "duration": 12.200000002980232,
+          "start": 17.100000008940697,
+          "end": 29.30000001192093,
+          "transfer": 3422,
+          "decoded": 10317
+        },
+        {
+          "url": "r128/three.min.js",
+          "duration": 89.20000000298023,
+          "start": 17.100000008940697,
+          "end": 106.30000001192093,
+          "transfer": 121159,
+          "decoded": 603445
+        },
+        {
+          "url": "prototype/scene-assets.js",
+          "duration": 11.299999997019768,
+          "start": 17.30000001192093,
+          "end": 28.600000008940697,
+          "transfer": 923,
+          "decoded": 623
+        },
+        {
+          "url": "prototype/entrance-textures.js",
+          "duration": 13.5,
+          "start": 17.400000005960464,
+          "end": 30.900000005960464,
+          "transfer": 2517,
+          "decoded": 6496
+        },
+        {
+          "url": "prototype/entrance.js",
+          "duration": 16,
+          "start": 17.5,
+          "end": 33.5,
+          "transfer": 5444,
+          "decoded": 15165
+        },
+        {
+          "url": "vendor/RGBELoader.r128.js",
+          "duration": 16.600000008940697,
+          "start": 17.5,
+          "end": 34.1000000089407,
+          "transfer": 3813,
+          "decoded": 12572
+        },
+        {
+          "url": "prototype/interior-materials.js",
+          "duration": 16.599999994039536,
+          "start": 17.600000008940697,
+          "end": 34.20000000298023,
+          "transfer": 2053,
+          "decoded": 4961
+        },
+        {
+          "url": "vendor/Reflector.r128.js",
+          "duration": 19,
+          "start": 17.600000008940697,
+          "end": 36.6000000089407,
+          "transfer": 2380,
+          "decoded": 6944
+        },
+        {
+          "url": "prototype/interior-lighting.js",
+          "duration": 20.099999994039536,
+          "start": 17.600000008940697,
+          "end": 37.70000000298023,
+          "transfer": 2849,
+          "decoded": 7000
+        },
+        {
+          "url": "vendor/RectAreaLightUniformsLib.r128.js",
+          "duration": 33,
+          "start": 17.600000008940697,
+          "end": 50.6000000089407,
+          "transfer": 107523,
+          "decoded": 313787
+        },
+        {
+          "url": "vendor/GLTFLoader.r128.js",
+          "duration": 23.299999997019768,
+          "start": 17.700000002980232,
+          "end": 41,
+          "transfer": 22314,
+          "decoded": 96649
+        },
+        {
+          "url": "prototype/collection-config.js",
+          "duration": 22.099999994039536,
+          "start": 17.80000001192093,
+          "end": 39.900000005960464,
+          "transfer": 1763,
+          "decoded": 3576
+        },
+        {
+          "url": "prototype/pilot-models.js",
+          "duration": 22.399999991059303,
+          "start": 17.80000001192093,
+          "end": 40.20000000298023,
+          "transfer": 4944,
+          "decoded": 12238
+        },
+        {
+          "url": "prototype/architecture-details.js",
+          "duration": 22.799999997019768,
+          "start": 17.80000001192093,
+          "end": 40.6000000089407,
+          "transfer": 2978,
+          "decoded": 6170
+        },
+        {
+          "url": "prototype/showcases.js",
+          "duration": 23.200000002980232,
+          "start": 17.900000005960464,
+          "end": 41.1000000089407,
+          "transfer": 4030,
+          "decoded": 9349
+        },
+        {
+          "url": "prototype/experience.js",
+          "duration": 24.700000002980232,
+          "start": 18,
+          "end": 42.70000000298023,
+          "transfer": 3373,
+          "decoded": 7443
+        },
+        {
+          "url": "prototype/storefront.js",
+          "duration": 24.600000008940697,
+          "start": 18,
+          "end": 42.6000000089407,
+          "transfer": 3570,
+          "decoded": 8863
+        },
+        {
+          "url": "interior/studio_small_09_1k.hdr",
+          "duration": 6.4000000059604645,
+          "start": 551.5,
+          "end": 557.9000000059605,
+          "transfer": 1615548,
+          "decoded": 1615248
+        },
+        {
+          "url": "pilot/necklace-bust.glb",
+          "duration": 55.900000005960464,
+          "start": 2389.4000000059605,
+          "end": 2445.300000011921,
+          "transfer": 1152621,
+          "decoded": 1721436
+        },
+        {
+          "url": "architecture/bracelet.glb",
+          "duration": 40.70000000298023,
+          "start": 2392.4000000059605,
+          "end": 2433.1000000089407,
+          "transfer": 622191,
+          "decoded": 1210128
+        },
+        {
+          "url": "architecture/ring.glb",
+          "duration": 16.700000002980232,
+          "start": 2394.4000000059605,
+          "end": 2411.1000000089407,
+          "transfer": 186710,
+          "decoded": 332176
+        },
+        {
+          "url": "showcase-finish/stud.glb",
+          "duration": 15.699999988079071,
+          "start": 2395.800000011921,
+          "end": 2411.5,
+          "transfer": 162878,
+          "decoded": 316408
+        },
+        {
+          "url": "showcase-finish/drop.glb",
+          "duration": 26.599999994039536,
+          "start": 2395.9000000059605,
+          "end": 2422.5,
+          "transfer": 364648,
+          "decoded": 970576
+        },
+        {
+          "url": "showcase-finish/hoops.glb",
+          "duration": 21.599999994039536,
+          "start": 2396.300000011921,
+          "end": 2417.9000000059605,
+          "transfer": 297498,
+          "decoded": 377672
+        },
+        {
+          "url": "architecture/jewel-stand.glb",
+          "duration": 21.399999991059303,
+          "start": 2397.300000011921,
+          "end": 2418.7000000029802,
+          "transfer": 48356,
+          "decoded": 194728
+        },
+        {
+          "url": "architecture/chain.glb",
+          "duration": 715.9000000059605,
+          "start": 2397.5,
+          "end": 3113.4000000059605,
+          "transfer": 762365,
+          "decoded": 2572340
+        },
+        {
+          "url": "architecture/vertical-sconce.glb",
+          "duration": 15.299999997019768,
+          "start": 3068.4000000059605,
+          "end": 3083.7000000029802,
+          "transfer": 233764,
+          "decoded": 334240
+        },
+        {
+          "url": "interior/marble-color.webp",
+          "duration": 9.5,
+          "start": 3069.800000011921,
+          "end": 3079.300000011921,
+          "transfer": 1324190,
+          "decoded": 1323890
+        },
+        {
+          "url": "interior/marble-normal.webp",
+          "duration": 4.899999991059303,
+          "start": 3069.800000011921,
+          "end": 3074.7000000029802,
+          "transfer": 291034,
+          "decoded": 290734
+        },
+        {
+          "url": "interior/marble-roughness.webp",
+          "duration": 5.700000002980232,
+          "start": 3069.9000000059605,
+          "end": 3075.6000000089407,
+          "transfer": 320596,
+          "decoded": 320296
+        },
+        {
+          "url": "interior/plaster-normal.webp",
+          "duration": 12.299999997019768,
+          "start": 3069.9000000059605,
+          "end": 3082.2000000029802,
+          "transfer": 520282,
+          "decoded": 519982
+        },
+        {
+          "url": "interior/plaster-roughness.webp",
+          "duration": 11.700000002980232,
+          "start": 3069.9000000059605,
+          "end": 3081.6000000089407,
+          "transfer": 318648,
+          "decoded": 318348
+        },
+        {
+          "url": "interior/plaster-color.webp",
+          "duration": 4.9000000059604645,
+          "start": 3069.9000000059605,
+          "end": 3074.800000011921,
+          "transfer": 201064,
+          "decoded": 200764
+        },
+        {
+          "url": "materials/brass-normal.webp",
+          "duration": 9.5,
+          "start": 3070,
+          "end": 3079.5,
+          "transfer": 65404,
+          "decoded": 65104
+        },
+        {
+          "url": "materials/brass-roughness.webp",
+          "duration": 13,
+          "start": 3070.1000000089407,
+          "end": 3083.1000000089407,
+          "transfer": 80254,
+          "decoded": 79954
+        },
+        {
+          "url": "materials/velvet-color.webp",
+          "duration": 13.299999997019768,
+          "start": 3070.1000000089407,
+          "end": 3083.4000000059605,
+          "transfer": 27192,
+          "decoded": 26892
+        },
+        {
+          "url": "materials/velvet-normal.webp",
+          "duration": 15.700000002980232,
+          "start": 3070.1000000089407,
+          "end": 3085.800000011921,
+          "transfer": 353164,
+          "decoded": 352864
+        },
+        {
+          "url": "materials/velvet-roughness.webp",
+          "duration": 15.399999991059303,
+          "start": 3070.1000000089407,
+          "end": 3085.5,
+          "transfer": 196668,
+          "decoded": 196368
+        },
+        {
+          "url": "materials/walnut-color.webp",
+          "duration": 16.299999997019768,
+          "start": 3070.1000000089407,
+          "end": 3086.4000000059605,
+          "transfer": 20500,
+          "decoded": 20200
+        },
+        {
+          "url": "materials/walnut-normal.webp",
+          "duration": 18.700000002980232,
+          "start": 3070.2000000029802,
+          "end": 3088.9000000059605,
+          "transfer": 253924,
+          "decoded": 253624
+        },
+        {
+          "url": "materials/walnut-roughness.webp",
+          "duration": 18.400000005960464,
+          "start": 3070.2000000029802,
+          "end": 3088.6000000089407,
+          "transfer": 110478,
+          "decoded": 110178
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 17.799999997019768,
+          "start": 3070.300000011921,
+          "end": 3088.1000000089407,
+          "transfer": 500268,
+          "decoded": 499968
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 18.799999997019768,
+          "start": 3070.300000011921,
+          "end": 3089.1000000089407,
+          "transfer": 300,
+          "decoded": 499968
+        },
+        {
+          "url": "localhost:3108/favicon.ico",
+          "duration": 11,
+          "start": 4388.600000008941,
+          "end": 4399.600000008941,
+          "transfer": 4686,
+          "decoded": 4363
+        }
+      ],
+      "stats": {
+        "phase": "visible",
+        "firstRenderAt": 4335.9000000059605
+      }
+    },
+    {
+      "slow": false,
+      "warm": true,
+      "firstFrame": 13079.20000000298,
+      "resources": [
+        {
+          "url": "fonts.googleapis.com/css2?family=Italiana&family=Jost:wght@300;400&display=swap",
+          "duration": 0,
+          "start": 9927.70000000298,
+          "end": 9927.70000000298,
+          "transfer": 0,
+          "decoded": 2607
+        },
+        {
+          "url": "prototype/storefront.css",
+          "duration": 4.899999991059303,
+          "start": 9927.70000000298,
+          "end": 9932.59999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "r128/three.min.js",
+          "duration": 0,
+          "start": 9927.79999999702,
+          "end": 9927.79999999702,
+          "transfer": 0,
+          "decoded": 603445
+        },
+        {
+          "url": "prototype/scene-assets.js",
+          "duration": 5,
+          "start": 9927.79999999702,
+          "end": 9932.79999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/entrance-textures.js",
+          "duration": 5.200000002980232,
+          "start": 9927.89999999106,
+          "end": 9933.09999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/entrance.js",
+          "duration": 5.700000002980232,
+          "start": 9927.89999999106,
+          "end": 9933.59999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/RGBELoader.r128.js",
+          "duration": 5.799999997019768,
+          "start": 9928,
+          "end": 9933.79999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/interior-materials.js",
+          "duration": 6.5999999940395355,
+          "start": 9928,
+          "end": 9934.59999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/Reflector.r128.js",
+          "duration": 6.700000002980232,
+          "start": 9928.09999999404,
+          "end": 9934.79999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/RectAreaLightUniformsLib.r128.js",
+          "duration": 6.9000000059604645,
+          "start": 9928.09999999404,
+          "end": 9935,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/interior-lighting.js",
+          "duration": 7.5,
+          "start": 9928.09999999404,
+          "end": 9935.59999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/GLTFLoader.r128.js",
+          "duration": 7.700000002980232,
+          "start": 9928.09999999404,
+          "end": 9935.79999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/collection-config.js",
+          "duration": 9.100000008940697,
+          "start": 9928.09999999404,
+          "end": 9937.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/pilot-models.js",
+          "duration": 9.299999997019768,
+          "start": 9928.09999999404,
+          "end": 9937.39999999106,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/architecture-details.js",
+          "duration": 9.5,
+          "start": 9928.09999999404,
+          "end": 9937.59999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/showcases.js",
+          "duration": 9.5,
+          "start": 9928.20000000298,
+          "end": 9937.70000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/storefront.js",
+          "duration": 9.599999994039536,
+          "start": 9928.29999999702,
+          "end": 9937.89999999106,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/experience.js",
+          "duration": 9.799999997019768,
+          "start": 9928.29999999702,
+          "end": 9938.09999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/studio_small_09_1k.hdr",
+          "duration": 4,
+          "start": 9971.29999999702,
+          "end": 9975.29999999702,
+          "transfer": 300,
+          "decoded": 1615248
+        },
+        {
+          "url": "interior/marble-color.webp",
+          "duration": 1.9000000059604645,
+          "start": 9971.59999999404,
+          "end": 9973.5,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/marble-normal.webp",
+          "duration": 1.8999999910593033,
+          "start": 9971.70000000298,
+          "end": 9973.59999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/marble-roughness.webp",
+          "duration": 2.0999999940395355,
+          "start": 9971.79999999702,
+          "end": 9973.89999999106,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/plaster-color.webp",
+          "duration": 2,
+          "start": 9972,
+          "end": 9974,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/plaster-normal.webp",
+          "duration": 2.2000000029802322,
+          "start": 9972,
+          "end": 9974.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/plaster-roughness.webp",
+          "duration": 2.9000000059604645,
+          "start": 9972.09999999404,
+          "end": 9975,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/brass-normal.webp",
+          "duration": 1.8999999910593033,
+          "start": 11721.70000000298,
+          "end": 11723.59999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/brass-roughness.webp",
+          "duration": 2,
+          "start": 11721.79999999702,
+          "end": 11723.79999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "v21/QldNNTtLsx4E__B0XQmWaXw.woff2",
+          "duration": 0,
+          "start": 11732.29999999702,
+          "end": 11732.29999999702,
+          "transfer": 0,
+          "decoded": 10100
+        },
+        {
+          "url": "v20/92zatBhPNqw73oTd4g.woff2",
+          "duration": 0,
+          "start": 11732.39999999106,
+          "end": 11732.39999999106,
+          "transfer": 0,
+          "decoded": 26576
+        },
+        {
+          "url": "materials/velvet-color.webp",
+          "duration": 1.7000000029802322,
+          "start": 11733.09999999404,
+          "end": 11734.79999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/velvet-normal.webp",
+          "duration": 1.7000000029802322,
+          "start": 11733.29999999702,
+          "end": 11735,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/velvet-roughness.webp",
+          "duration": 1.7000000029802322,
+          "start": 11733.39999999106,
+          "end": 11735.09999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/walnut-color.webp",
+          "duration": 1.7999999970197678,
+          "start": 11733.5,
+          "end": 11735.29999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/walnut-normal.webp",
+          "duration": 1.9000000059604645,
+          "start": 11733.59999999404,
+          "end": 11735.5,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/walnut-roughness.webp",
+          "duration": 2.5,
+          "start": 11733.70000000298,
+          "end": 11736.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "pilot/necklace-bust.glb",
+          "duration": 4.899999991059303,
+          "start": 11735.5,
+          "end": 11740.39999999106,
+          "transfer": 300,
+          "decoded": 1721436
+        },
+        {
+          "url": "architecture/bracelet.glb",
+          "duration": 11.599999994039536,
+          "start": 11737.5,
+          "end": 11749.09999999404,
+          "transfer": 300,
+          "decoded": 1210128
+        },
+        {
+          "url": "architecture/ring.glb",
+          "duration": 5.200000002980232,
+          "start": 11739.29999999702,
+          "end": 11744.5,
+          "transfer": 300,
+          "decoded": 332176
+        },
+        {
+          "url": "showcase-finish/stud.glb",
+          "duration": 5.699999988079071,
+          "start": 11740.20000000298,
+          "end": 11745.89999999106,
+          "transfer": 300,
+          "decoded": 316408
+        },
+        {
+          "url": "showcase-finish/drop.glb",
+          "duration": 9.099999994039536,
+          "start": 11740.20000000298,
+          "end": 11749.29999999702,
+          "transfer": 300,
+          "decoded": 970576
+        },
+        {
+          "url": "showcase-finish/hoops.glb",
+          "duration": 7.4000000059604645,
+          "start": 11740.29999999702,
+          "end": 11747.70000000298,
+          "transfer": 300,
+          "decoded": 377672
+        },
+        {
+          "url": "architecture/jewel-stand.glb",
+          "duration": 10.099999994039536,
+          "start": 11741.5,
+          "end": 11751.59999999404,
+          "transfer": 300,
+          "decoded": 194728
+        },
+        {
+          "url": "architecture/chain.glb",
+          "duration": 728.5,
+          "start": 11741.5,
+          "end": 12470,
+          "transfer": 300,
+          "decoded": 2572340
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 2,
+          "start": 12416.89999999106,
+          "end": 12418.89999999106,
+          "transfer": 300,
+          "decoded": 499968
+        },
+        {
+          "url": "architecture/vertical-sconce.glb",
+          "duration": 2.7999999970197678,
+          "start": 12447.70000000298,
+          "end": 12450.5,
+          "transfer": 300,
+          "decoded": 334240
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 2.0999999940395355,
+          "start": 12448.70000000298,
+          "end": 12450.79999999702,
+          "transfer": 300,
+          "decoded": 499968
+        },
+        {
+          "url": "localhost:3108/favicon.ico",
+          "duration": 1.6000000089406967,
+          "start": 13102.89999999106,
+          "end": 13104.5,
+          "transfer": 300,
+          "decoded": 4363
+        }
+      ],
+      "stats": {
+        "phase": "visible",
+        "firstRenderAt": 13079.20000000298
+      }
+    },
+    {
+      "slow": true,
+      "warm": false,
+      "firstFrame": 8599.5,
+      "resources": [
+        {
+          "url": "fonts.googleapis.com/css2?family=Italiana&family=Jost:wght@300;400&display=swap",
+          "duration": 138.6000000089407,
+          "start": 113.5,
+          "end": 252.1000000089407,
+          "transfer": 791,
+          "decoded": 2607
+        },
+        {
+          "url": "prototype/storefront.css",
+          "duration": 106.20000000298023,
+          "start": 113.70000000298023,
+          "end": 219.90000000596046,
+          "transfer": 3422,
+          "decoded": 10317
+        },
+        {
+          "url": "r128/three.min.js",
+          "duration": 264.79999999701977,
+          "start": 113.70000000298023,
+          "end": 378.5,
+          "transfer": 121159,
+          "decoded": 603445
+        },
+        {
+          "url": "prototype/scene-assets.js",
+          "duration": 89.80000001192093,
+          "start": 113.79999999701977,
+          "end": 203.6000000089407,
+          "transfer": 923,
+          "decoded": 623
+        },
+        {
+          "url": "prototype/entrance-textures.js",
+          "duration": 106,
+          "start": 113.79999999701977,
+          "end": 219.79999999701977,
+          "transfer": 2517,
+          "decoded": 6496
+        },
+        {
+          "url": "prototype/entrance.js",
+          "duration": 106.5,
+          "start": 113.90000000596046,
+          "end": 220.40000000596046,
+          "transfer": 5444,
+          "decoded": 15165
+        },
+        {
+          "url": "vendor/RGBELoader.r128.js",
+          "duration": 106.5,
+          "start": 113.90000000596046,
+          "end": 220.40000000596046,
+          "transfer": 3813,
+          "decoded": 12572
+        },
+        {
+          "url": "prototype/interior-materials.js",
+          "duration": 106.20000000298023,
+          "start": 114,
+          "end": 220.20000000298023,
+          "transfer": 2053,
+          "decoded": 4961
+        },
+        {
+          "url": "vendor/Reflector.r128.js",
+          "duration": 176.20000000298023,
+          "start": 114,
+          "end": 290.20000000298023,
+          "transfer": 2380,
+          "decoded": 6944
+        },
+        {
+          "url": "prototype/interior-lighting.js",
+          "duration": 202.1000000089407,
+          "start": 114,
+          "end": 316.1000000089407,
+          "transfer": 2849,
+          "decoded": 7000
+        },
+        {
+          "url": "vendor/RectAreaLightUniformsLib.r128.js",
+          "duration": 374.1000000089407,
+          "start": 114,
+          "end": 488.1000000089407,
+          "transfer": 107523,
+          "decoded": 313787
+        },
+        {
+          "url": "prototype/collection-config.js",
+          "duration": 201.69999998807907,
+          "start": 114.1000000089407,
+          "end": 315.79999999701977,
+          "transfer": 1763,
+          "decoded": 3576
+        },
+        {
+          "url": "prototype/pilot-models.js",
+          "duration": 207.8999999910593,
+          "start": 114.1000000089407,
+          "end": 322,
+          "transfer": 4944,
+          "decoded": 12238
+        },
+        {
+          "url": "vendor/GLTFLoader.r128.js",
+          "duration": 248.3999999910593,
+          "start": 114.1000000089407,
+          "end": 362.5,
+          "transfer": 22314,
+          "decoded": 96649
+        },
+        {
+          "url": "prototype/architecture-details.js",
+          "duration": 279.90000000596046,
+          "start": 114.20000000298023,
+          "end": 394.1000000089407,
+          "transfer": 2978,
+          "decoded": 6170
+        },
+        {
+          "url": "prototype/showcases.js",
+          "duration": 312,
+          "start": 114.20000000298023,
+          "end": 426.20000000298023,
+          "transfer": 4030,
+          "decoded": 9349
+        },
+        {
+          "url": "prototype/storefront.js",
+          "duration": 311.79999999701977,
+          "start": 114.20000000298023,
+          "end": 426,
+          "transfer": 3570,
+          "decoded": 8863
+        },
+        {
+          "url": "prototype/experience.js",
+          "duration": 312.20000000298023,
+          "start": 114.20000000298023,
+          "end": 426.40000000596046,
+          "transfer": 3373,
+          "decoded": 7443
+        },
+        {
+          "url": "interior/studio_small_09_1k.hdr",
+          "duration": 1171.2999999970198,
+          "start": 542.6000000089407,
+          "end": 1713.9000000059605,
+          "transfer": 1615548,
+          "decoded": 1615248
+        },
+        {
+          "url": "pilot/necklace-bust.glb",
+          "duration": 4434.0999999940395,
+          "start": 2301.2000000029802,
+          "end": 6735.29999999702,
+          "transfer": 1152621,
+          "decoded": 1721436
+        },
+        {
+          "url": "architecture/bracelet.glb",
+          "duration": 2445,
+          "start": 2303.7999999970198,
+          "end": 4748.79999999702,
+          "transfer": 622191,
+          "decoded": 1210128
+        },
+        {
+          "url": "architecture/ring.glb",
+          "duration": 842.0999999940395,
+          "start": 2305.6000000089407,
+          "end": 3147.7000000029802,
+          "transfer": 186710,
+          "decoded": 332176
+        },
+        {
+          "url": "showcase-finish/stud.glb",
+          "duration": 763.4000000059605,
+          "start": 2307,
+          "end": 3070.4000000059605,
+          "transfer": 162878,
+          "decoded": 316408
+        },
+        {
+          "url": "showcase-finish/drop.glb",
+          "duration": 1507,
+          "start": 2307.1000000089407,
+          "end": 3814.1000000089407,
+          "transfer": 364648,
+          "decoded": 970576
+        },
+        {
+          "url": "showcase-finish/hoops.glb",
+          "duration": 1245.5,
+          "start": 2307.2000000029802,
+          "end": 3552.7000000029802,
+          "transfer": 297498,
+          "decoded": 377672
+        },
+        {
+          "url": "architecture/jewel-stand.glb",
+          "duration": 1027.0999999940395,
+          "start": 2308.2000000029802,
+          "end": 3335.2999999970198,
+          "transfer": 48356,
+          "decoded": 194728
+        },
+        {
+          "url": "architecture/chain.glb",
+          "duration": 3835.9000000059605,
+          "start": 2308.2999999970198,
+          "end": 6144.20000000298,
+          "transfer": 762365,
+          "decoded": 2572340
+        },
+        {
+          "url": "architecture/vertical-sconce.glb",
+          "duration": 1490.199999988079,
+          "start": 2851.6000000089407,
+          "end": 4341.79999999702,
+          "transfer": 233764,
+          "decoded": 334240
+        },
+        {
+          "url": "interior/marble-color.webp",
+          "duration": 5124.100000008941,
+          "start": 2853.2999999970198,
+          "end": 7977.4000000059605,
+          "transfer": 1324190,
+          "decoded": 1323890
+        },
+        {
+          "url": "interior/marble-normal.webp",
+          "duration": 2193.9000000059605,
+          "start": 2853.5,
+          "end": 5047.4000000059605,
+          "transfer": 291034,
+          "decoded": 290734
+        },
+        {
+          "url": "interior/plaster-color.webp",
+          "duration": 2790,
+          "start": 2853.5,
+          "end": 5643.5,
+          "transfer": 201064,
+          "decoded": 200764
+        },
+        {
+          "url": "interior/marble-roughness.webp",
+          "duration": 2836.9000000059605,
+          "start": 2853.5,
+          "end": 5690.4000000059605,
+          "transfer": 320596,
+          "decoded": 320296
+        },
+        {
+          "url": "interior/plaster-normal.webp",
+          "duration": 4192.79999999702,
+          "start": 2853.6000000089407,
+          "end": 7046.4000000059605,
+          "transfer": 520282,
+          "decoded": 519982
+        },
+        {
+          "url": "materials/brass-normal.webp",
+          "duration": 3196.7000000029802,
+          "start": 2853.7000000029802,
+          "end": 6050.4000000059605,
+          "transfer": 65404,
+          "decoded": 65104
+        },
+        {
+          "url": "interior/plaster-roughness.webp",
+          "duration": 4068.4000000059605,
+          "start": 2853.7000000029802,
+          "end": 6922.100000008941,
+          "transfer": 318648,
+          "decoded": 318348
+        },
+        {
+          "url": "materials/velvet-color.webp",
+          "duration": 3506.300000011921,
+          "start": 2853.7999999970198,
+          "end": 6360.100000008941,
+          "transfer": 27192,
+          "decoded": 26892
+        },
+        {
+          "url": "materials/brass-roughness.webp",
+          "duration": 3584.7000000029802,
+          "start": 2853.7999999970198,
+          "end": 6438.5,
+          "transfer": 80254,
+          "decoded": 79954
+        },
+        {
+          "url": "materials/velvet-normal.webp",
+          "duration": 4781.20000000298,
+          "start": 2853.9000000059605,
+          "end": 7635.100000008941,
+          "transfer": 353164,
+          "decoded": 352864
+        },
+        {
+          "url": "materials/walnut-color.webp",
+          "duration": 4067.7000000029802,
+          "start": 2854,
+          "end": 6921.70000000298,
+          "transfer": 20500,
+          "decoded": 20200
+        },
+        {
+          "url": "materials/velvet-roughness.webp",
+          "duration": 4394.4000000059605,
+          "start": 2854,
+          "end": 7248.4000000059605,
+          "transfer": 196668,
+          "decoded": 196368
+        },
+        {
+          "url": "materials/walnut-roughness.webp",
+          "duration": 4565,
+          "start": 2854.1000000089407,
+          "end": 7419.100000008941,
+          "transfer": 110478,
+          "decoded": 110178
+        },
+        {
+          "url": "materials/walnut-normal.webp",
+          "duration": 4905.0999999940395,
+          "start": 2854.1000000089407,
+          "end": 7759.20000000298,
+          "transfer": 253924,
+          "decoded": 253624
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 5201.20000000298,
+          "start": 2854.2000000029802,
+          "end": 8055.4000000059605,
+          "transfer": 500268,
+          "decoded": 499968
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 5201.5,
+          "start": 2854.2000000029802,
+          "end": 8055.70000000298,
+          "transfer": 300,
+          "decoded": 499968
+        }
+      ],
+      "stats": {
+        "phase": "visible",
+        "firstRenderAt": 8599.5
+      }
+    },
+    {
+      "slow": true,
+      "warm": true,
+      "firstFrame": 14226.5,
+      "resources": [
+        {
+          "url": "fonts.googleapis.com/css2?family=Italiana&family=Jost:wght@300;400&display=swap",
+          "duration": 0,
+          "start": 10973.10000000894,
+          "end": 10973.10000000894,
+          "transfer": 0,
+          "decoded": 2607
+        },
+        {
+          "url": "prototype/storefront.css",
+          "duration": 107.40000000596046,
+          "start": 10973.29999999702,
+          "end": 11080.70000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "r128/three.min.js",
+          "duration": 0,
+          "start": 10973.40000000596,
+          "end": 10973.40000000596,
+          "transfer": 0,
+          "decoded": 603445
+        },
+        {
+          "url": "prototype/entrance.js",
+          "duration": 106.70000000298023,
+          "start": 10973.5,
+          "end": 11080.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/scene-assets.js",
+          "duration": 107.40000000596046,
+          "start": 10973.5,
+          "end": 11080.90000000596,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/entrance-textures.js",
+          "duration": 107.5,
+          "start": 10973.5,
+          "end": 11081,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/RGBELoader.r128.js",
+          "duration": 106.79999999701977,
+          "start": 10973.60000000894,
+          "end": 11080.40000000596,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/interior-materials.js",
+          "duration": 106.8999999910593,
+          "start": 10973.60000000894,
+          "end": 11080.5,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/Reflector.r128.js",
+          "duration": 217.09999999403954,
+          "start": 10973.60000000894,
+          "end": 11190.70000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/RectAreaLightUniformsLib.r128.js",
+          "duration": 217.19999998807907,
+          "start": 10973.60000000894,
+          "end": 11190.79999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/interior-lighting.js",
+          "duration": 217.3999999910593,
+          "start": 10973.60000000894,
+          "end": 11191,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/collection-config.js",
+          "duration": 216.59999999403954,
+          "start": 10973.70000000298,
+          "end": 11190.29999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/pilot-models.js",
+          "duration": 216.90000000596046,
+          "start": 10973.70000000298,
+          "end": 11190.60000000894,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/GLTFLoader.r128.js",
+          "duration": 217.40000000596046,
+          "start": 10973.70000000298,
+          "end": 11191.10000000894,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/architecture-details.js",
+          "duration": 327.70000000298023,
+          "start": 10973.70000000298,
+          "end": 11301.40000000596,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/showcases.js",
+          "duration": 327.90000000596046,
+          "start": 10973.70000000298,
+          "end": 11301.60000000894,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/storefront.js",
+          "duration": 327.8999999910593,
+          "start": 10973.90000000596,
+          "end": 11301.79999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/experience.js",
+          "duration": 327.8999999910593,
+          "start": 10973.90000000596,
+          "end": 11301.79999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "v21/QldNNTtLsx4E__B0XQmWaXw.woff2",
+          "duration": 0,
+          "start": 11082.20000000298,
+          "end": 11082.20000000298,
+          "transfer": 0,
+          "decoded": 10100
+        },
+        {
+          "url": "v20/92zatBhPNqw73oTd4g.woff2",
+          "duration": 0,
+          "start": 11082.29999999702,
+          "end": 11082.29999999702,
+          "transfer": 0,
+          "decoded": 26576
+        },
+        {
+          "url": "interior/studio_small_09_1k.hdr",
+          "duration": 111.79999999701977,
+          "start": 11317.70000000298,
+          "end": 11429.5,
+          "transfer": 300,
+          "decoded": 1615248
+        },
+        {
+          "url": "interior/marble-color.webp",
+          "duration": 109.79999999701977,
+          "start": 11318.10000000894,
+          "end": 11427.90000000596,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/marble-normal.webp",
+          "duration": 109.90000000596046,
+          "start": 11318.20000000298,
+          "end": 11428.10000000894,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/marble-roughness.webp",
+          "duration": 109.90000000596046,
+          "start": 11318.29999999702,
+          "end": 11428.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/plaster-color.webp",
+          "duration": 109.09999999403954,
+          "start": 11318.40000000596,
+          "end": 11427.5,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/plaster-normal.webp",
+          "duration": 109.20000000298023,
+          "start": 11318.40000000596,
+          "end": 11427.60000000894,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/plaster-roughness.webp",
+          "duration": 207.19999998807907,
+          "start": 11318.60000000894,
+          "end": 11525.79999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/brass-normal.webp",
+          "duration": 85.19999998807907,
+          "start": 13031.10000000894,
+          "end": 13116.29999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/brass-roughness.webp",
+          "duration": 86.40000000596046,
+          "start": 13031.29999999702,
+          "end": 13117.70000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/velvet-color.webp",
+          "duration": 97.8999999910593,
+          "start": 13041.60000000894,
+          "end": 13139.5,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/velvet-normal.webp",
+          "duration": 98,
+          "start": 13041.70000000298,
+          "end": 13139.70000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/velvet-roughness.webp",
+          "duration": 98.1000000089407,
+          "start": 13041.79999999702,
+          "end": 13139.90000000596,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/walnut-color.webp",
+          "duration": 97.20000000298023,
+          "start": 13042,
+          "end": 13139.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/walnut-normal.webp",
+          "duration": 287.70000000298023,
+          "start": 13042,
+          "end": 13329.70000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/walnut-roughness.webp",
+          "duration": 288.8999999910593,
+          "start": 13042.10000000894,
+          "end": 13331,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "pilot/necklace-bust.glb",
+          "duration": 189.6000000089407,
+          "start": 13043.79999999702,
+          "end": 13233.40000000596,
+          "transfer": 300,
+          "decoded": 1721436
+        },
+        {
+          "url": "architecture/bracelet.glb",
+          "duration": 183.79999999701977,
+          "start": 13045.70000000298,
+          "end": 13229.5,
+          "transfer": 300,
+          "decoded": 1210128
+        },
+        {
+          "url": "architecture/ring.glb",
+          "duration": 178,
+          "start": 13047.20000000298,
+          "end": 13225.20000000298,
+          "transfer": 300,
+          "decoded": 332176
+        },
+        {
+          "url": "showcase-finish/stud.glb",
+          "duration": 179.6000000089407,
+          "start": 13048,
+          "end": 13227.60000000894,
+          "transfer": 300,
+          "decoded": 316408
+        },
+        {
+          "url": "showcase-finish/drop.glb",
+          "duration": 184.6000000089407,
+          "start": 13048,
+          "end": 13232.60000000894,
+          "transfer": 300,
+          "decoded": 970576
+        },
+        {
+          "url": "showcase-finish/hoops.glb",
+          "duration": 182.40000000596046,
+          "start": 13048.20000000298,
+          "end": 13230.60000000894,
+          "transfer": 300,
+          "decoded": 377672
+        },
+        {
+          "url": "architecture/jewel-stand.glb",
+          "duration": 282.70000000298023,
+          "start": 13049,
+          "end": 13331.70000000298,
+          "transfer": 300,
+          "decoded": 194728
+        },
+        {
+          "url": "architecture/chain.glb",
+          "duration": 622.2999999970198,
+          "start": 13049.10000000894,
+          "end": 13671.40000000596,
+          "transfer": 300,
+          "decoded": 2572340
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 271.70000000298023,
+          "start": 13062,
+          "end": 13333.70000000298,
+          "transfer": 300,
+          "decoded": 499968
+        },
+        {
+          "url": "architecture/vertical-sconce.glb",
+          "duration": 218.70000000298023,
+          "start": 13114.5,
+          "end": 13333.20000000298,
+          "transfer": 300,
+          "decoded": 334240
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 325.8999999910593,
+          "start": 13115.90000000596,
+          "end": 13441.79999999702,
+          "transfer": 300,
+          "decoded": 499968
+        }
+      ],
+      "stats": {
+        "phase": "visible",
+        "firstRenderAt": 14226.5
+      }
+    }
+  ],
+  "after": [
+    {
+      "slow": false,
+      "warm": false,
+      "firstFrame": 2622.6000000089407,
+      "resources": [
+        {
+          "url": "prototype/collection-config.json",
+          "duration": 5.200000002980232,
+          "start": 18.400000005960464,
+          "end": 23.600000008940697,
+          "transfer": 2117,
+          "decoded": 13794
+        },
+        {
+          "url": "fonts/fonts.css",
+          "duration": 10.700000002980232,
+          "start": 18.700000002980232,
+          "end": 29.400000005960464,
+          "transfer": 581,
+          "decoded": 1091
+        },
+        {
+          "url": "vendor/three.r128.min.js",
+          "duration": 28.100000008940697,
+          "start": 18.799999997019768,
+          "end": 46.900000005960464,
+          "transfer": 150292,
+          "decoded": 603445
+        },
+        {
+          "url": "fonts/italiana-400.woff2",
+          "duration": 9.200000002980232,
+          "start": 18.900000005960464,
+          "end": 28.100000008940697,
+          "transfer": 10400,
+          "decoded": 10100
+        },
+        {
+          "url": "entrance/stone-color.webp",
+          "duration": 53.29999999701977,
+          "start": 18.900000005960464,
+          "end": 72.20000000298023,
+          "transfer": 602876,
+          "decoded": 602576
+        },
+        {
+          "url": "entrance/stone-roughness.webp",
+          "duration": 49.5,
+          "start": 19,
+          "end": 68.5,
+          "transfer": 247102,
+          "decoded": 246802
+        },
+        {
+          "url": "entrance/stone-normal.webp",
+          "duration": 50.8999999910593,
+          "start": 19.100000008940697,
+          "end": 70,
+          "transfer": 144640,
+          "decoded": 144340
+        },
+        {
+          "url": "interior/marble-color.webp",
+          "duration": 59.19999998807907,
+          "start": 19.100000008940697,
+          "end": 78.29999999701977,
+          "transfer": 1324190,
+          "decoded": 1323890
+        },
+        {
+          "url": "materials/walnut-color.webp",
+          "duration": 54.70000000298023,
+          "start": 19.200000002980232,
+          "end": 73.90000000596046,
+          "transfer": 20500,
+          "decoded": 20200
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 56.79999999701977,
+          "start": 19.200000002980232,
+          "end": 76,
+          "transfer": 500268,
+          "decoded": 499968
+        },
+        {
+          "url": "architecture/bracelet.glb",
+          "duration": 51.5,
+          "start": 19.299999997019768,
+          "end": 70.79999999701977,
+          "transfer": 622191,
+          "decoded": 1210128
+        },
+        {
+          "url": "pilot/necklace-bust.glb",
+          "duration": 73,
+          "start": 19.299999997019768,
+          "end": 92.29999999701977,
+          "transfer": 1152621,
+          "decoded": 1721436
+        },
+        {
+          "url": "architecture/vertical-sconce.glb",
+          "duration": 28,
+          "start": 19.400000005960464,
+          "end": 47.400000005960464,
+          "transfer": 233764,
+          "decoded": 334240
+        },
+        {
+          "url": "architecture/ring.glb",
+          "duration": 23.799999997019768,
+          "start": 19.400000005960464,
+          "end": 43.20000000298023,
+          "transfer": 186710,
+          "decoded": 332176
+        },
+        {
+          "url": "interior/studio_small_09_1k.hdr.gz",
+          "duration": 33,
+          "start": 19.400000005960464,
+          "end": 52.400000005960464,
+          "transfer": 1187846,
+          "decoded": 1615248
+        },
+        {
+          "url": "prototype/storefront.css",
+          "duration": 14.799999997019768,
+          "start": 19.5,
+          "end": 34.29999999701977,
+          "transfer": 3508,
+          "decoded": 10646
+        },
+        {
+          "url": "prototype/scene-assets.js",
+          "duration": 27.100000008940697,
+          "start": 19.5,
+          "end": 46.6000000089407,
+          "transfer": 923,
+          "decoded": 623
+        },
+        {
+          "url": "prototype/entrance.js",
+          "duration": 30.5,
+          "start": 19.600000008940697,
+          "end": 50.1000000089407,
+          "transfer": 5454,
+          "decoded": 15189
+        },
+        {
+          "url": "prototype/entrance-textures.js",
+          "duration": 29.799999997019768,
+          "start": 19.600000008940697,
+          "end": 49.400000005960464,
+          "transfer": 985,
+          "decoded": 685
+        },
+        {
+          "url": "vendor/RGBELoader.r128.js",
+          "duration": 30.799999997019768,
+          "start": 19.700000002980232,
+          "end": 50.5,
+          "transfer": 3813,
+          "decoded": 12572
+        },
+        {
+          "url": "prototype/interior-materials.js",
+          "duration": 32.20000000298023,
+          "start": 19.700000002980232,
+          "end": 51.900000005960464,
+          "transfer": 2056,
+          "decoded": 4964
+        },
+        {
+          "url": "vendor/Reflector.r128.js",
+          "duration": 32.6000000089407,
+          "start": 19.799999997019768,
+          "end": 52.400000005960464,
+          "transfer": 2380,
+          "decoded": 6944
+        },
+        {
+          "url": "prototype/interior-lighting.js",
+          "duration": 35.400000005960464,
+          "start": 19.799999997019768,
+          "end": 55.20000000298023,
+          "transfer": 2849,
+          "decoded": 7000
+        },
+        {
+          "url": "vendor/GLTFLoader.r128.js",
+          "duration": 38.900000005960464,
+          "start": 19.799999997019768,
+          "end": 58.70000000298023,
+          "transfer": 22314,
+          "decoded": 96649
+        },
+        {
+          "url": "vendor/RectAreaLightUniformsLib.r128.js",
+          "duration": 49.80000001192093,
+          "start": 19.799999997019768,
+          "end": 69.6000000089407,
+          "transfer": 107523,
+          "decoded": 313787
+        },
+        {
+          "url": "prototype/collection-config.js",
+          "duration": 35.8999999910593,
+          "start": 19.900000005960464,
+          "end": 55.79999999701977,
+          "transfer": 620,
+          "decoded": 320
+        },
+        {
+          "url": "prototype/pilot-models.js",
+          "duration": 38.20000000298023,
+          "start": 19.900000005960464,
+          "end": 58.1000000089407,
+          "transfer": 4991,
+          "decoded": 12361
+        },
+        {
+          "url": "prototype/architecture-details.js",
+          "duration": 38.400000005960464,
+          "start": 20,
+          "end": 58.400000005960464,
+          "transfer": 2978,
+          "decoded": 6170
+        },
+        {
+          "url": "prototype/cart.js",
+          "duration": 41.1000000089407,
+          "start": 20,
+          "end": 61.1000000089407,
+          "transfer": 1270,
+          "decoded": 970
+        },
+        {
+          "url": "prototype/showcases.js",
+          "duration": 41.6000000089407,
+          "start": 20,
+          "end": 61.6000000089407,
+          "transfer": 4082,
+          "decoded": 9509
+        },
+        {
+          "url": "prototype/storefront.js",
+          "duration": 41.400000005960464,
+          "start": 20,
+          "end": 61.400000005960464,
+          "transfer": 3498,
+          "decoded": 8137
+        },
+        {
+          "url": "prototype/experience.js",
+          "duration": 44.3999999910593,
+          "start": 20.100000008940697,
+          "end": 64.5,
+          "transfer": 3373,
+          "decoded": 7443
+        },
+        {
+          "url": "fonts/jost-300.woff2",
+          "duration": 42.3999999910593,
+          "start": 39.1000000089407,
+          "end": 81.5,
+          "transfer": 26876,
+          "decoded": 26576
+        },
+        {
+          "url": "fonts/jost-400.woff2",
+          "duration": 42.79999999701977,
+          "start": 39.5,
+          "end": 82.29999999701977,
+          "transfer": 26876,
+          "decoded": 26576
+        },
+        {
+          "url": "interior/marble-normal.webp",
+          "duration": 7.0999999940395355,
+          "start": 1560.1000000089407,
+          "end": 1567.2000000029802,
+          "transfer": 291034,
+          "decoded": 290734
+        },
+        {
+          "url": "interior/marble-roughness.webp",
+          "duration": 7.399999991059303,
+          "start": 1560.1000000089407,
+          "end": 1567.5,
+          "transfer": 320596,
+          "decoded": 320296
+        },
+        {
+          "url": "interior/plaster-color.webp",
+          "duration": 6,
+          "start": 1560.2000000029802,
+          "end": 1566.2000000029802,
+          "transfer": 201064,
+          "decoded": 200764
+        },
+        {
+          "url": "interior/plaster-normal.webp",
+          "duration": 8.900000005960464,
+          "start": 1560.2999999970198,
+          "end": 1569.2000000029802,
+          "transfer": 520282,
+          "decoded": 519982
+        },
+        {
+          "url": "interior/plaster-roughness.webp",
+          "duration": 8.100000008940697,
+          "start": 1560.2999999970198,
+          "end": 1568.4000000059605,
+          "transfer": 318648,
+          "decoded": 318348
+        },
+        {
+          "url": "materials/brass-normal.webp",
+          "duration": 4.800000011920929,
+          "start": 1560.2999999970198,
+          "end": 1565.1000000089407,
+          "transfer": 65404,
+          "decoded": 65104
+        },
+        {
+          "url": "materials/brass-roughness.webp",
+          "duration": 12.799999997019768,
+          "start": 1560.4000000059605,
+          "end": 1573.2000000029802,
+          "transfer": 80254,
+          "decoded": 79954
+        },
+        {
+          "url": "materials/velvet-color.webp",
+          "duration": 12.299999997019768,
+          "start": 1560.4000000059605,
+          "end": 1572.7000000029802,
+          "transfer": 27192,
+          "decoded": 26892
+        },
+        {
+          "url": "materials/velvet-normal.webp",
+          "duration": 15.399999991059303,
+          "start": 1560.4000000059605,
+          "end": 1575.7999999970198,
+          "transfer": 353164,
+          "decoded": 352864
+        },
+        {
+          "url": "materials/velvet-roughness.webp",
+          "duration": 17.299999997019768,
+          "start": 1560.5,
+          "end": 1577.7999999970198,
+          "transfer": 196668,
+          "decoded": 196368
+        },
+        {
+          "url": "materials/walnut-normal.webp",
+          "duration": 18,
+          "start": 1560.5,
+          "end": 1578.5,
+          "transfer": 253924,
+          "decoded": 253624
+        },
+        {
+          "url": "materials/walnut-roughness.webp",
+          "duration": 18.900000005960464,
+          "start": 1560.5,
+          "end": 1579.4000000059605,
+          "transfer": 110478,
+          "decoded": 110178
+        },
+        {
+          "url": "showcase-finish/stud.glb",
+          "duration": 18.600000008940697,
+          "start": 1561,
+          "end": 1579.6000000089407,
+          "transfer": 162878,
+          "decoded": 316408
+        },
+        {
+          "url": "showcase-finish/drop.glb",
+          "duration": 29.599999994039536,
+          "start": 1561.2000000029802,
+          "end": 1590.7999999970198,
+          "transfer": 364648,
+          "decoded": 970576
+        },
+        {
+          "url": "showcase-finish/hoops.glb",
+          "duration": 23.799999997019768,
+          "start": 1561.2000000029802,
+          "end": 1585,
+          "transfer": 297498,
+          "decoded": 377672
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 9.700000002980232,
+          "start": 1561.2999999970198,
+          "end": 1571,
+          "transfer": 300,
+          "decoded": 499968
+        },
+        {
+          "url": "architecture/jewel-stand.glb",
+          "duration": 8.299999997019768,
+          "start": 2623.1000000089407,
+          "end": 2631.4000000059605,
+          "transfer": 48356,
+          "decoded": 194728
+        }
+      ],
+      "stats": {
+        "phase": "visible",
+        "firstRenderAt": 2622.6000000089407,
+        "resourcesReadyAt": 1874.4000000059605,
+        "compileMs": 625.5
+      }
+    },
+    {
+      "slow": false,
+      "warm": true,
+      "firstFrame": 9540.79999999702,
+      "resources": [
+        {
+          "url": "prototype/collection-config.json",
+          "duration": 4.700000002980232,
+          "start": 8128.5,
+          "end": 8133.20000000298,
+          "transfer": 300,
+          "decoded": 13794
+        },
+        {
+          "url": "fonts/fonts.css",
+          "duration": 4.200000002980232,
+          "start": 8128.5999999940395,
+          "end": 8132.79999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/three.r128.min.js",
+          "duration": 4.299999997019768,
+          "start": 8128.79999999702,
+          "end": 8133.0999999940395,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "entrance/stone-color.webp",
+          "duration": 24.299999997019768,
+          "start": 8128.79999999702,
+          "end": 8153.0999999940395,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "entrance/stone-roughness.webp",
+          "duration": 24.400000005960464,
+          "start": 8128.79999999702,
+          "end": 8153.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "fonts/italiana-400.woff2",
+          "duration": 4.600000008940697,
+          "start": 8128.79999999702,
+          "end": 8133.4000000059605,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "entrance/stone-normal.webp",
+          "duration": 24.599999994039536,
+          "start": 8128.9000000059605,
+          "end": 8153.5,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/marble-color.webp",
+          "duration": 24.799999997019768,
+          "start": 8128.9000000059605,
+          "end": 8153.70000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/walnut-color.webp",
+          "duration": 25.299999997019768,
+          "start": 8128.9000000059605,
+          "end": 8154.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 25.599999994039536,
+          "start": 8129,
+          "end": 8154.5999999940395,
+          "transfer": 300,
+          "decoded": 499968
+        },
+        {
+          "url": "pilot/necklace-bust.glb",
+          "duration": 18.400000005960464,
+          "start": 8129,
+          "end": 8147.4000000059605,
+          "transfer": 300,
+          "decoded": 1721436
+        },
+        {
+          "url": "architecture/ring.glb",
+          "duration": 9.300000011920929,
+          "start": 8129.0999999940395,
+          "end": 8138.4000000059605,
+          "transfer": 300,
+          "decoded": 332176
+        },
+        {
+          "url": "architecture/bracelet.glb",
+          "duration": 14.900000005960464,
+          "start": 8129.0999999940395,
+          "end": 8144,
+          "transfer": 300,
+          "decoded": 1210128
+        },
+        {
+          "url": "prototype/storefront.css",
+          "duration": 20,
+          "start": 8129.20000000298,
+          "end": 8149.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "architecture/vertical-sconce.glb",
+          "duration": 10.399999991059303,
+          "start": 8129.20000000298,
+          "end": 8139.5999999940395,
+          "transfer": 300,
+          "decoded": 334240
+        },
+        {
+          "url": "interior/studio_small_09_1k.hdr.gz",
+          "duration": 18,
+          "start": 8129.20000000298,
+          "end": 8147.20000000298,
+          "transfer": 300,
+          "decoded": 1615248
+        },
+        {
+          "url": "prototype/scene-assets.js",
+          "duration": 20.100000008940697,
+          "start": 8129.29999999702,
+          "end": 8149.4000000059605,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/entrance-textures.js",
+          "duration": 20.200000002980232,
+          "start": 8129.29999999702,
+          "end": 8149.5,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/entrance.js",
+          "duration": 20.5,
+          "start": 8129.29999999702,
+          "end": 8149.79999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/RGBELoader.r128.js",
+          "duration": 20.599999994039536,
+          "start": 8129.4000000059605,
+          "end": 8150,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/interior-materials.js",
+          "duration": 21,
+          "start": 8129.5,
+          "end": 8150.5,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/Reflector.r128.js",
+          "duration": 21.099999994039536,
+          "start": 8129.5,
+          "end": 8150.5999999940395,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/RectAreaLightUniformsLib.r128.js",
+          "duration": 21.200000002980232,
+          "start": 8129.5,
+          "end": 8150.70000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/interior-lighting.js",
+          "duration": 21.599999994039536,
+          "start": 8129.5,
+          "end": 8151.0999999940395,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/GLTFLoader.r128.js",
+          "duration": 21.600000008940697,
+          "start": 8129.5999999940395,
+          "end": 8151.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/collection-config.js",
+          "duration": 22.100000008940697,
+          "start": 8129.5999999940395,
+          "end": 8151.70000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/pilot-models.js",
+          "duration": 22.200000002980232,
+          "start": 8129.5999999940395,
+          "end": 8151.79999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/architecture-details.js",
+          "duration": 22.100000008940697,
+          "start": 8129.79999999702,
+          "end": 8151.9000000059605,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/showcases.js",
+          "duration": 22.400000005960464,
+          "start": 8129.79999999702,
+          "end": 8152.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/cart.js",
+          "duration": 22.700000002980232,
+          "start": 8129.79999999702,
+          "end": 8152.5,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/storefront.js",
+          "duration": 22.799999997019768,
+          "start": 8129.9000000059605,
+          "end": 8152.70000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/experience.js",
+          "duration": 23.099999994039536,
+          "start": 8129.9000000059605,
+          "end": 8153,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "fonts/jost-300.woff2",
+          "duration": 0,
+          "start": 8158.29999999702,
+          "end": 8158.29999999702,
+          "transfer": 0,
+          "decoded": 26576
+        },
+        {
+          "url": "fonts/jost-400.woff2",
+          "duration": 0,
+          "start": 8158.29999999702,
+          "end": 8158.29999999702,
+          "transfer": 0,
+          "decoded": 26576
+        },
+        {
+          "url": "interior/marble-normal.webp",
+          "duration": 2,
+          "start": 8331.09999999404,
+          "end": 8333.09999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/marble-roughness.webp",
+          "duration": 2.0999999940395355,
+          "start": 8331.20000000298,
+          "end": 8333.29999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/plaster-color.webp",
+          "duration": 1.8999999910593033,
+          "start": 8331.40000000596,
+          "end": 8333.29999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/plaster-normal.webp",
+          "duration": 2.699999988079071,
+          "start": 8331.40000000596,
+          "end": 8334.09999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/plaster-roughness.webp",
+          "duration": 2.9000000059604645,
+          "start": 8331.5,
+          "end": 8334.40000000596,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/brass-normal.webp",
+          "duration": 1.7999999970197678,
+          "start": 8585.70000000298,
+          "end": 8587.5,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/brass-roughness.webp",
+          "duration": 2,
+          "start": 8585.70000000298,
+          "end": 8587.70000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/velvet-color.webp",
+          "duration": 1.7000000029802322,
+          "start": 8640.59999999404,
+          "end": 8642.29999999702,
+          "transfer": 300,
+          "decoded": 26892
+        },
+        {
+          "url": "materials/velvet-normal.webp",
+          "duration": 5.0999999940395355,
+          "start": 8640.70000000298,
+          "end": 8645.79999999702,
+          "transfer": 300,
+          "decoded": 352864
+        },
+        {
+          "url": "materials/velvet-roughness.webp",
+          "duration": 4,
+          "start": 8640.70000000298,
+          "end": 8644.70000000298,
+          "transfer": 300,
+          "decoded": 196368
+        },
+        {
+          "url": "materials/walnut-normal.webp",
+          "duration": 4.799999997019768,
+          "start": 8640.70000000298,
+          "end": 8645.5,
+          "transfer": 300,
+          "decoded": 253624
+        },
+        {
+          "url": "materials/walnut-roughness.webp",
+          "duration": 3.7999999970197678,
+          "start": 8640.90000000596,
+          "end": 8644.70000000298,
+          "transfer": 300,
+          "decoded": 110178
+        },
+        {
+          "url": "showcase-finish/stud.glb",
+          "duration": 6,
+          "start": 8641.20000000298,
+          "end": 8647.20000000298,
+          "transfer": 300,
+          "decoded": 316408
+        },
+        {
+          "url": "showcase-finish/drop.glb",
+          "duration": 7.799999997019768,
+          "start": 8641.29999999702,
+          "end": 8649.09999999404,
+          "transfer": 300,
+          "decoded": 970576
+        },
+        {
+          "url": "showcase-finish/hoops.glb",
+          "duration": 6.9000000059604645,
+          "start": 8641.5,
+          "end": 8648.40000000596,
+          "transfer": 300,
+          "decoded": 377672
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 6.9000000059604645,
+          "start": 8641.59999999404,
+          "end": 8648.5,
+          "transfer": 300,
+          "decoded": 499968
+        },
+        {
+          "url": "localhost:3108/favicon.ico",
+          "duration": 1.6000000089406967,
+          "start": 9233.79999999702,
+          "end": 9235.40000000596,
+          "transfer": 300,
+          "decoded": 4363
+        },
+        {
+          "url": "architecture/jewel-stand.glb",
+          "duration": 1.7000000029802322,
+          "start": 9541.09999999404,
+          "end": 9542.79999999702,
+          "transfer": 300,
+          "decoded": 194728
+        }
+      ],
+      "stats": {
+        "phase": "visible",
+        "firstRenderAt": 9540.79999999702,
+        "resourcesReadyAt": 9248.90000000596,
+        "compileMs": 269.29999999701977
+      }
+    },
+    {
+      "slow": true,
+      "warm": false,
+      "firstFrame": 7512.70000000298,
+      "resources": [
+        {
+          "url": "fonts/fonts.css",
+          "duration": 107.90000000596046,
+          "start": 113.90000000596046,
+          "end": 221.80000001192093,
+          "transfer": 581,
+          "decoded": 1091
+        },
+        {
+          "url": "prototype/collection-config.json",
+          "duration": 107.70000000298023,
+          "start": 113.90000000596046,
+          "end": 221.6000000089407,
+          "transfer": 2117,
+          "decoded": 13794
+        },
+        {
+          "url": "vendor/three.r128.min.js",
+          "duration": 609.1000000089407,
+          "start": 114,
+          "end": 723.1000000089407,
+          "transfer": 150292,
+          "decoded": 603445
+        },
+        {
+          "url": "fonts/italiana-400.woff2",
+          "duration": 137.70000000298023,
+          "start": 114.1000000089407,
+          "end": 251.80000001192093,
+          "transfer": 10400,
+          "decoded": 10100
+        },
+        {
+          "url": "entrance/stone-normal.webp",
+          "duration": 2383,
+          "start": 114.20000000298023,
+          "end": 2497.2000000029802,
+          "transfer": 144640,
+          "decoded": 144340
+        },
+        {
+          "url": "entrance/stone-roughness.webp",
+          "duration": 2731.6000000089407,
+          "start": 114.20000000298023,
+          "end": 2845.800000011921,
+          "transfer": 247102,
+          "decoded": 246802
+        },
+        {
+          "url": "entrance/stone-color.webp",
+          "duration": 3979.9000000059605,
+          "start": 114.20000000298023,
+          "end": 4094.1000000089407,
+          "transfer": 602876,
+          "decoded": 602576
+        },
+        {
+          "url": "interior/marble-color.webp",
+          "duration": 6947.5,
+          "start": 114.20000000298023,
+          "end": 7061.70000000298,
+          "transfer": 1324190,
+          "decoded": 1323890
+        },
+        {
+          "url": "materials/walnut-color.webp",
+          "duration": 2573.5,
+          "start": 114.30000001192093,
+          "end": 2687.800000011921,
+          "transfer": 20500,
+          "decoded": 20200
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 4574.29999999702,
+          "start": 114.30000001192093,
+          "end": 4688.600000008941,
+          "transfer": 500268,
+          "decoded": 499968
+        },
+        {
+          "url": "architecture/ring.glb",
+          "duration": 903.4000000059605,
+          "start": 114.40000000596046,
+          "end": 1017.8000000119209,
+          "transfer": 186710,
+          "decoded": 332176
+        },
+        {
+          "url": "architecture/bracelet.glb",
+          "duration": 2002.9000000059605,
+          "start": 114.40000000596046,
+          "end": 2117.300000011921,
+          "transfer": 622191,
+          "decoded": 1210128
+        },
+        {
+          "url": "pilot/necklace-bust.glb",
+          "duration": 4025.7999999970198,
+          "start": 114.40000000596046,
+          "end": 4140.20000000298,
+          "transfer": 1152621,
+          "decoded": 1721436
+        },
+        {
+          "url": "architecture/vertical-sconce.glb",
+          "duration": 1059.7000000029802,
+          "start": 114.5,
+          "end": 1174.2000000029802,
+          "transfer": 233764,
+          "decoded": 334240
+        },
+        {
+          "url": "prototype/storefront.css",
+          "duration": 215.3999999910593,
+          "start": 114.6000000089407,
+          "end": 330,
+          "transfer": 3508,
+          "decoded": 10646
+        },
+        {
+          "url": "prototype/scene-assets.js",
+          "duration": 998.8999999910593,
+          "start": 114.6000000089407,
+          "end": 1113.5,
+          "transfer": 923,
+          "decoded": 623
+        },
+        {
+          "url": "prototype/entrance-textures.js",
+          "duration": 1106.7000000029802,
+          "start": 114.6000000089407,
+          "end": 1221.300000011921,
+          "transfer": 985,
+          "decoded": 685
+        },
+        {
+          "url": "interior/studio_small_09_1k.hdr.gz",
+          "duration": 4432.20000000298,
+          "start": 114.6000000089407,
+          "end": 4546.800000011921,
+          "transfer": 1187846,
+          "decoded": 1615248
+        },
+        {
+          "url": "prototype/entrance.js",
+          "duration": 1122.2000000029802,
+          "start": 114.70000000298023,
+          "end": 1236.9000000059605,
+          "transfer": 5454,
+          "decoded": 15189
+        },
+        {
+          "url": "vendor/RGBELoader.r128.js",
+          "duration": 1169.2999999970198,
+          "start": 114.70000000298023,
+          "end": 1284,
+          "transfer": 3813,
+          "decoded": 12572
+        },
+        {
+          "url": "prototype/interior-materials.js",
+          "duration": 1215.0999999940395,
+          "start": 114.80000001192093,
+          "end": 1329.9000000059605,
+          "transfer": 2056,
+          "decoded": 4964
+        },
+        {
+          "url": "vendor/Reflector.r128.js",
+          "duration": 1230.5,
+          "start": 114.80000001192093,
+          "end": 1345.300000011921,
+          "transfer": 2380,
+          "decoded": 6944
+        },
+        {
+          "url": "prototype/interior-lighting.js",
+          "duration": 1324.699999988079,
+          "start": 114.80000001192093,
+          "end": 1439.5,
+          "transfer": 2849,
+          "decoded": 7000
+        },
+        {
+          "url": "vendor/RectAreaLightUniformsLib.r128.js",
+          "duration": 1589.3999999910593,
+          "start": 114.80000001192093,
+          "end": 1704.2000000029802,
+          "transfer": 107523,
+          "decoded": 313787
+        },
+        {
+          "url": "vendor/GLTFLoader.r128.js",
+          "duration": 1402,
+          "start": 114.90000000596046,
+          "end": 1516.9000000059605,
+          "transfer": 22314,
+          "decoded": 96649
+        },
+        {
+          "url": "prototype/collection-config.js",
+          "duration": 1417.5999999940395,
+          "start": 114.90000000596046,
+          "end": 1532.5,
+          "transfer": 620,
+          "decoded": 320
+        },
+        {
+          "url": "prototype/pilot-models.js",
+          "duration": 1511,
+          "start": 115,
+          "end": 1626,
+          "transfer": 4991,
+          "decoded": 12361
+        },
+        {
+          "url": "prototype/architecture-details.js",
+          "duration": 1526.2000000029802,
+          "start": 115,
+          "end": 1641.2000000029802,
+          "transfer": 2978,
+          "decoded": 6170
+        },
+        {
+          "url": "prototype/showcases.js",
+          "duration": 1605.9000000059605,
+          "start": 115,
+          "end": 1720.9000000059605,
+          "transfer": 4082,
+          "decoded": 9509
+        },
+        {
+          "url": "prototype/cart.js",
+          "duration": 1621.2000000029802,
+          "start": 115.1000000089407,
+          "end": 1736.300000011921,
+          "transfer": 1270,
+          "decoded": 970
+        },
+        {
+          "url": "prototype/storefront.js",
+          "duration": 1700,
+          "start": 115.20000000298023,
+          "end": 1815.2000000029802,
+          "transfer": 3498,
+          "decoded": 8137
+        },
+        {
+          "url": "prototype/experience.js",
+          "duration": 1715.6000000089407,
+          "start": 115.20000000298023,
+          "end": 1830.800000011921,
+          "transfer": 3373,
+          "decoded": 7443
+        },
+        {
+          "url": "fonts/jost-300.woff2",
+          "duration": 590.3999999910593,
+          "start": 333.6000000089407,
+          "end": 924,
+          "transfer": 26876,
+          "decoded": 26576
+        },
+        {
+          "url": "fonts/jost-400.woff2",
+          "duration": 779,
+          "start": 333.90000000596046,
+          "end": 1112.9000000059605,
+          "transfer": 26876,
+          "decoded": 26576
+        },
+        {
+          "url": "interior/marble-normal.webp",
+          "duration": 2578.7999999970198,
+          "start": 2761.2000000029802,
+          "end": 5340,
+          "transfer": 291034,
+          "decoded": 290734
+        },
+        {
+          "url": "interior/plaster-color.webp",
+          "duration": 2766.7999999970198,
+          "start": 2761.300000011921,
+          "end": 5528.100000008941,
+          "transfer": 201064,
+          "decoded": 200764
+        },
+        {
+          "url": "interior/marble-roughness.webp",
+          "duration": 3060.5,
+          "start": 2761.300000011921,
+          "end": 5821.800000011921,
+          "transfer": 320596,
+          "decoded": 320296
+        },
+        {
+          "url": "interior/plaster-normal.webp",
+          "duration": 4269.699999988079,
+          "start": 2761.300000011921,
+          "end": 7031,
+          "transfer": 520282,
+          "decoded": 519982
+        },
+        {
+          "url": "interior/plaster-roughness.webp",
+          "duration": 3819.5999999940395,
+          "start": 2761.4000000059605,
+          "end": 6581,
+          "transfer": 318648,
+          "decoded": 318348
+        },
+        {
+          "url": "materials/brass-normal.webp",
+          "duration": 2921.300000011921,
+          "start": 2761.5,
+          "end": 5682.800000011921,
+          "transfer": 65404,
+          "decoded": 65104
+        },
+        {
+          "url": "materials/brass-roughness.webp",
+          "duration": 3152.7000000029802,
+          "start": 2761.5,
+          "end": 5914.20000000298,
+          "transfer": 80254,
+          "decoded": 79954
+        },
+        {
+          "url": "materials/velvet-color.webp",
+          "duration": 3121.7000000029802,
+          "start": 2761.6000000089407,
+          "end": 5883.300000011921,
+          "transfer": 27192,
+          "decoded": 26892
+        },
+        {
+          "url": "materials/velvet-normal.webp",
+          "duration": 4331.0999999940395,
+          "start": 2761.6000000089407,
+          "end": 7092.70000000298,
+          "transfer": 353164,
+          "decoded": 352864
+        },
+        {
+          "url": "materials/velvet-roughness.webp",
+          "duration": 3990.1000000089407,
+          "start": 2761.7000000029802,
+          "end": 6751.800000011921,
+          "transfer": 196668,
+          "decoded": 196368
+        },
+        {
+          "url": "materials/walnut-normal.webp",
+          "duration": 4207.29999999702,
+          "start": 2761.800000011921,
+          "end": 6969.100000008941,
+          "transfer": 253924,
+          "decoded": 253624
+        },
+        {
+          "url": "materials/walnut-roughness.webp",
+          "duration": 4285,
+          "start": 2761.800000011921,
+          "end": 7046.800000011921,
+          "transfer": 110478,
+          "decoded": 110178
+        },
+        {
+          "url": "showcase-finish/stud.glb",
+          "duration": 830.7999999970198,
+          "start": 2762.300000011921,
+          "end": 3593.1000000089407,
+          "transfer": 162878,
+          "decoded": 316408
+        },
+        {
+          "url": "showcase-finish/drop.glb",
+          "duration": 2312.2999999970198,
+          "start": 2762.4000000059605,
+          "end": 5074.70000000298,
+          "transfer": 364648,
+          "decoded": 970576
+        },
+        {
+          "url": "showcase-finish/hoops.glb",
+          "duration": 2546.7000000029802,
+          "start": 2762.5,
+          "end": 5309.20000000298,
+          "transfer": 297498,
+          "decoded": 377672
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 4097.899999991059,
+          "start": 2762.6000000089407,
+          "end": 6860.5,
+          "transfer": 300,
+          "decoded": 499968
+        }
+      ],
+      "stats": {
+        "phase": "visible",
+        "firstRenderAt": 7512.70000000298,
+        "resourcesReadyAt": 7104.100000008941,
+        "compileMs": 367.40000000596046
+      }
+    },
+    {
+      "slow": true,
+      "warm": true,
+      "firstFrame": 11853.09999999404,
+      "resources": [
+        {
+          "url": "prototype/collection-config.json",
+          "duration": 107.5,
+          "start": 9917.79999999702,
+          "end": 10025.29999999702,
+          "transfer": 300,
+          "decoded": 13794
+        },
+        {
+          "url": "fonts/fonts.css",
+          "duration": 106.1000000089407,
+          "start": 9917.89999999106,
+          "end": 10024,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/three.r128.min.js",
+          "duration": 106.30000001192093,
+          "start": 9917.89999999106,
+          "end": 10024.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "fonts/italiana-400.woff2",
+          "duration": 106.3999999910593,
+          "start": 9918,
+          "end": 10024.39999999106,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "entrance/stone-color.webp",
+          "duration": 539.5999999940395,
+          "start": 9918,
+          "end": 10457.59999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "entrance/stone-roughness.webp",
+          "duration": 539.7999999970198,
+          "start": 9918,
+          "end": 10457.79999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "entrance/stone-normal.webp",
+          "duration": 538.9000000059605,
+          "start": 9918.09999999404,
+          "end": 10457,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/marble-color.webp",
+          "duration": 539.1000000089407,
+          "start": 9918.09999999404,
+          "end": 10457.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/walnut-color.webp",
+          "duration": 649.7999999970198,
+          "start": 9918.09999999404,
+          "end": 10567.89999999106,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "pilot/necklace-bust.glb",
+          "duration": 113.69999998807907,
+          "start": 9918.20000000298,
+          "end": 10031.89999999106,
+          "transfer": 300,
+          "decoded": 1721436
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 650.2999999970198,
+          "start": 9918.20000000298,
+          "end": 10568.5,
+          "transfer": 300,
+          "decoded": 499968
+        },
+        {
+          "url": "architecture/bracelet.glb",
+          "duration": 111.90000000596046,
+          "start": 9918.29999999702,
+          "end": 10030.20000000298,
+          "transfer": 300,
+          "decoded": 1210128
+        },
+        {
+          "url": "interior/studio_small_09_1k.hdr.gz",
+          "duration": 220.40000000596046,
+          "start": 9918.29999999702,
+          "end": 10138.70000000298,
+          "transfer": 300,
+          "decoded": 1615248
+        },
+        {
+          "url": "architecture/ring.glb",
+          "duration": 216.5,
+          "start": 9918.29999999702,
+          "end": 10134.79999999702,
+          "transfer": 300,
+          "decoded": 332176
+        },
+        {
+          "url": "architecture/vertical-sconce.glb",
+          "duration": 217,
+          "start": 9918.29999999702,
+          "end": 10135.29999999702,
+          "transfer": 300,
+          "decoded": 334240
+        },
+        {
+          "url": "prototype/scene-assets.js",
+          "duration": 213,
+          "start": 9918.39999999106,
+          "end": 10131.39999999106,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/storefront.css",
+          "duration": 213.30000001192093,
+          "start": 9918.39999999106,
+          "end": 10131.70000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/entrance-textures.js",
+          "duration": 213.20000000298023,
+          "start": 9918.39999999106,
+          "end": 10131.59999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/entrance.js",
+          "duration": 322.70000000298023,
+          "start": 9918.5,
+          "end": 10241.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/RGBELoader.r128.js",
+          "duration": 322.79999999701977,
+          "start": 9918.5,
+          "end": 10241.29999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/interior-materials.js",
+          "duration": 323,
+          "start": 9918.5,
+          "end": 10241.5,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/RectAreaLightUniformsLib.r128.js",
+          "duration": 322.1000000089407,
+          "start": 9918.59999999404,
+          "end": 10240.70000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/interior-lighting.js",
+          "duration": 322.40000000596046,
+          "start": 9918.59999999404,
+          "end": 10241,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/Reflector.r128.js",
+          "duration": 323,
+          "start": 9918.59999999404,
+          "end": 10241.59999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "vendor/GLTFLoader.r128.js",
+          "duration": 430.70000000298023,
+          "start": 9918.59999999404,
+          "end": 10349.29999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/collection-config.js",
+          "duration": 431,
+          "start": 9918.59999999404,
+          "end": 10349.59999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/pilot-models.js",
+          "duration": 431,
+          "start": 9918.70000000298,
+          "end": 10349.70000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/architecture-details.js",
+          "duration": 430.09999999403954,
+          "start": 9918.79999999702,
+          "end": 10348.89999999106,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/showcases.js",
+          "duration": 430.20000000298023,
+          "start": 9918.79999999702,
+          "end": 10349,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/cart.js",
+          "duration": 430.5,
+          "start": 9918.79999999702,
+          "end": 10349.29999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/storefront.js",
+          "duration": 538.5999999940395,
+          "start": 9918.79999999702,
+          "end": 10457.39999999106,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "prototype/experience.js",
+          "duration": 538.7000000029802,
+          "start": 9918.79999999702,
+          "end": 10457.5,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "fonts/jost-300.woff2",
+          "duration": 0,
+          "start": 10139.59999999404,
+          "end": 10139.59999999404,
+          "transfer": 0,
+          "decoded": 26576
+        },
+        {
+          "url": "fonts/jost-400.woff2",
+          "duration": 0,
+          "start": 10139.59999999404,
+          "end": 10139.59999999404,
+          "transfer": 0,
+          "decoded": 26576
+        },
+        {
+          "url": "interior/marble-normal.webp",
+          "duration": 95,
+          "start": 10473.89999999106,
+          "end": 10568.89999999106,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/marble-roughness.webp",
+          "duration": 110,
+          "start": 10474,
+          "end": 10584,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/plaster-color.webp",
+          "duration": 110.1000000089407,
+          "start": 10474.09999999404,
+          "end": 10584.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/plaster-normal.webp",
+          "duration": 110.19999998807907,
+          "start": 10474.20000000298,
+          "end": 10584.39999999106,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "interior/plaster-roughness.webp",
+          "duration": 204.59999999403954,
+          "start": 10474.29999999702,
+          "end": 10678.89999999106,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/brass-normal.webp",
+          "duration": 110.6000000089407,
+          "start": 10744.39999999106,
+          "end": 10855,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/brass-roughness.webp",
+          "duration": 110.70000000298023,
+          "start": 10744.5,
+          "end": 10855.20000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/velvet-color.webp",
+          "duration": 96.70000000298023,
+          "start": 10759.59999999404,
+          "end": 10856.29999999702,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/velvet-normal.webp",
+          "duration": 96.90000000596046,
+          "start": 10759.79999999702,
+          "end": 10856.70000000298,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/velvet-roughness.webp",
+          "duration": 110.20000000298023,
+          "start": 10759.89999999106,
+          "end": 10870.09999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/walnut-normal.webp",
+          "duration": 109.8999999910593,
+          "start": 10760,
+          "end": 10869.89999999106,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "materials/walnut-roughness.webp",
+          "duration": 202,
+          "start": 10760.09999999404,
+          "end": 10962.09999999404,
+          "transfer": 300,
+          "decoded": 0
+        },
+        {
+          "url": "showcase-finish/stud.glb",
+          "duration": 151.70000000298023,
+          "start": 10813.39999999106,
+          "end": 10965.09999999404,
+          "transfer": 300,
+          "decoded": 316408
+        },
+        {
+          "url": "showcase-finish/drop.glb",
+          "duration": 153.5,
+          "start": 10813.5,
+          "end": 10967,
+          "transfer": 300,
+          "decoded": 970576
+        },
+        {
+          "url": "showcase-finish/hoops.glb",
+          "duration": 152.70000000298023,
+          "start": 10813.5,
+          "end": 10966.20000000298,
+          "transfer": 300,
+          "decoded": 377672
+        },
+        {
+          "url": "branding/touche-dor.webp",
+          "duration": 152.40000000596046,
+          "start": 10813.59999999404,
+          "end": 10966,
+          "transfer": 300,
+          "decoded": 499968
+        }
+      ],
+      "stats": {
+        "phase": "visible",
+        "firstRenderAt": 11853.09999999404,
+        "resourcesReadyAt": 11459.09999999404,
+        "compileMs": 371.90000000596046
+      }
+    }
+  ],
+  "diagnostic": {
+    "models": [
+      {
+        "url": "/assets/models/architecture/vertical-sconce.glb",
+        "start": 1367.5999999940395,
+        "ready": 1551.3999999910593,
+        "elapsed": 183.79999999701977
+      },
+      {
+        "url": "/assets/models/pilot/necklace-bust.glb",
+        "start": 1369.5,
+        "ready": 1554.199999988079,
+        "elapsed": 184.69999998807907
+      },
+      {
+        "url": "/assets/models/architecture/bracelet.glb",
+        "start": 1369.5,
+        "ready": 1556.199999988079,
+        "elapsed": 186.69999998807907
+      },
+      {
+        "url": "/assets/models/architecture/ring.glb",
+        "start": 1369.5999999940395,
+        "ready": 1556.8999999910593,
+        "elapsed": 187.29999999701977
+      },
+      {
+        "url": "/assets/models/showcase-finish/stud.glb",
+        "start": 1369.5999999940395,
+        "ready": 1559.7999999970198,
+        "elapsed": 190.20000000298023
+      },
+      {
+        "url": "/assets/models/showcase-finish/drop.glb",
+        "start": 1370,
+        "ready": 1562.3999999910593,
+        "elapsed": 192.3999999910593
+      },
+      {
+        "url": "/assets/models/showcase-finish/hoops.glb",
+        "start": 1370.0999999940395,
+        "ready": 1564.7999999970198,
+        "elapsed": 194.70000000298023
+      }
+    ],
+    "scene": {
+      "phase": "visible",
+      "firstRenderAt": 2094.0999999940395,
+      "resourcesReadyAt": 1579,
+      "compileMs": 465.80000001192093
+    },
+    "resources": [
+      {
+        "url": "http://localhost:3108/prototype/collection-config.json",
+        "start": 13.099999994039536,
+        "duration": 16.299999997019768,
+        "transfer": 2117,
+        "decoded": 13794
+      },
+      {
+        "url": "http://localhost:3108/assets/fonts/fonts.css",
+        "start": 13.299999997019768,
+        "duration": 15.5,
+        "transfer": 581,
+        "decoded": 1091
+      },
+      {
+        "url": "http://localhost:3108/assets/fonts/italiana-400.woff2",
+        "start": 13.399999991059303,
+        "duration": 15.5,
+        "transfer": 10400,
+        "decoded": 10100
+      },
+      {
+        "url": "http://localhost:3108/prototype/vendor/three.r128.min.js",
+        "start": 13.399999991059303,
+        "duration": 27.600000008940697,
+        "transfer": 150292,
+        "decoded": 603445
+      },
+      {
+        "url": "http://localhost:3108/prototype/assets/entrance/stone-color.webp",
+        "start": 13.5,
+        "duration": 58.69999998807907,
+        "transfer": 602876,
+        "decoded": 602576
+      },
+      {
+        "url": "http://localhost:3108/prototype/assets/entrance/stone-roughness.webp",
+        "start": 13.5,
+        "duration": 60.5,
+        "transfer": 247102,
+        "decoded": 246802
+      },
+      {
+        "url": "http://localhost:3108/prototype/assets/entrance/stone-normal.webp",
+        "start": 13.599999994039536,
+        "duration": 60.29999999701977,
+        "transfer": 144640,
+        "decoded": 144340
+      },
+      {
+        "url": "http://localhost:3108/assets/branding/touche-dor.webp",
+        "start": 13.599999994039536,
+        "duration": 68.09999999403954,
+        "transfer": 500268,
+        "decoded": 499968
+      },
+      {
+        "url": "http://localhost:3108/assets/materials/walnut-color.webp",
+        "start": 13.599999994039536,
+        "duration": 68.5,
+        "transfer": 20500,
+        "decoded": 20200
+      },
+      {
+        "url": "http://localhost:3108/prototype/assets/interior/marble-color.webp",
+        "start": 13.599999994039536,
+        "duration": 64.79999999701977,
+        "transfer": 1324190,
+        "decoded": 1323890
+      },
+      {
+        "url": "http://localhost:3108/assets/models/architecture/bracelet.glb",
+        "start": 13.599999994039536,
+        "duration": 43.099999994039536,
+        "transfer": 622191,
+        "decoded": 1210128
+      },
+      {
+        "url": "http://localhost:3108/assets/models/architecture/ring.glb",
+        "start": 13.599999994039536,
+        "duration": 27.099999994039536,
+        "transfer": 186710,
+        "decoded": 332176
+      },
+      {
+        "url": "http://localhost:3108/assets/models/pilot/necklace-bust.glb",
+        "start": 13.599999994039536,
+        "duration": 62.29999999701977,
+        "transfer": 1152621,
+        "decoded": 1721436
+      },
+      {
+        "url": "http://localhost:3108/prototype/storefront.css",
+        "start": 13.699999988079071,
+        "duration": 20,
+        "transfer": 3508,
+        "decoded": 10646
+      },
+      {
+        "url": "http://localhost:3108/assets/models/architecture/vertical-sconce.glb",
+        "start": 13.699999988079071,
+        "duration": 30.100000008940697,
+        "transfer": 233764,
+        "decoded": 334240
+      },
+      {
+        "url": "http://localhost:3108/prototype/assets/interior/studio_small_09_1k.hdr.gz",
+        "start": 13.699999988079071,
+        "duration": 40.5,
+        "transfer": 1187846,
+        "decoded": 1615248
+      },
+      {
+        "url": "http://localhost:3108/prototype/scene-assets.js",
+        "start": 13.899999991059303,
+        "duration": 43.900000005960464,
+        "transfer": 923,
+        "decoded": 623
+      },
+      {
+        "url": "http://localhost:3108/prototype/entrance-textures.js",
+        "start": 13.899999991059303,
+        "duration": 44.29999999701977,
+        "transfer": 985,
+        "decoded": 685
+      },
+      {
+        "url": "http://localhost:3108/prototype/entrance.js",
+        "start": 13.899999991059303,
+        "duration": 44.900000005960464,
+        "transfer": 5454,
+        "decoded": 15189
+      },
+      {
+        "url": "http://localhost:3108/prototype/vendor/RGBELoader.r128.js",
+        "start": 14,
+        "duration": 46.19999998807907,
+        "transfer": 3813,
+        "decoded": 12572
+      },
+      {
+        "url": "http://localhost:3108/prototype/interior-materials.js",
+        "start": 14,
+        "duration": 48.099999994039536,
+        "transfer": 2056,
+        "decoded": 4964
+      },
+      {
+        "url": "http://localhost:3108/prototype/vendor/Reflector.r128.js",
+        "start": 14,
+        "duration": 48.8999999910593,
+        "transfer": 2380,
+        "decoded": 6944
+      },
+      {
+        "url": "http://localhost:3108/prototype/vendor/RectAreaLightUniformsLib.r128.js",
+        "start": 14,
+        "duration": 58.79999999701977,
+        "transfer": 107523,
+        "decoded": 313787
+      },
+      {
+        "url": "http://localhost:3108/prototype/vendor/GLTFLoader.r128.js",
+        "start": 14.099999994039536,
+        "duration": 42.29999999701977,
+        "transfer": 97258,
+        "decoded": 96958
+      },
+      {
+        "url": "http://localhost:3108/prototype/interior-lighting.js",
+        "start": 14.099999994039536,
+        "duration": 49.70000000298023,
+        "transfer": 2849,
+        "decoded": 7000
+      },
+      {
+        "url": "http://localhost:3108/prototype/collection-config.js",
+        "start": 14.199999988079071,
+        "duration": 49.70000000298023,
+        "transfer": 620,
+        "decoded": 320
+      },
+      {
+        "url": "http://localhost:3108/prototype/pilot-models.js",
+        "start": 14.199999988079071,
+        "duration": 51.5,
+        "transfer": 4991,
+        "decoded": 12361
+      },
+      {
+        "url": "http://localhost:3108/prototype/architecture-details.js",
+        "start": 14.199999988079071,
+        "duration": 52.5,
+        "transfer": 2978,
+        "decoded": 6170
+      },
+      {
+        "url": "http://localhost:3108/prototype/showcases.js",
+        "start": 14.199999988079071,
+        "duration": 53.30000001192093,
+        "transfer": 4082,
+        "decoded": 9509
+      },
+      {
+        "url": "http://localhost:3108/prototype/cart.js",
+        "start": 14.299999997019768,
+        "duration": 52.79999999701977,
+        "transfer": 1270,
+        "decoded": 970
+      },
+      {
+        "url": "http://localhost:3108/prototype/storefront.js",
+        "start": 14.299999997019768,
+        "duration": 53.3999999910593,
+        "transfer": 3498,
+        "decoded": 8137
+      },
+      {
+        "url": "http://localhost:3108/prototype/experience.js",
+        "start": 14.399999991059303,
+        "duration": 54.29999999701977,
+        "transfer": 3395,
+        "decoded": 7501
+      },
+      {
+        "url": "http://localhost:3108/assets/fonts/jost-300.woff2",
+        "start": 60.29999999701977,
+        "duration": 31.899999991059303,
+        "transfer": 26876,
+        "decoded": 26576
+      },
+      {
+        "url": "http://localhost:3108/assets/fonts/jost-400.woff2",
+        "start": 60.69999998807907,
+        "duration": 32,
+        "transfer": 26876,
+        "decoded": 26576
+      },
+      {
+        "url": "http://localhost:3108/prototype/assets/interior/marble-normal.webp",
+        "start": 1369.0999999940395,
+        "duration": 6.9000000059604645,
+        "transfer": 291034,
+        "decoded": 290734
+      },
+      {
+        "url": "http://localhost:3108/prototype/assets/interior/plaster-color.webp",
+        "start": 1369.0999999940395,
+        "duration": 7.9000000059604645,
+        "transfer": 201064,
+        "decoded": 200764
+      },
+      {
+        "url": "http://localhost:3108/prototype/assets/interior/marble-roughness.webp",
+        "start": 1369.0999999940395,
+        "duration": 8.700000002980232,
+        "transfer": 320596,
+        "decoded": 320296
+      },
+      {
+        "url": "http://localhost:3108/prototype/assets/interior/plaster-normal.webp",
+        "start": 1369.0999999940395,
+        "duration": 10.5,
+        "transfer": 520282,
+        "decoded": 519982
+      },
+      {
+        "url": "http://localhost:3108/assets/materials/brass-normal.webp",
+        "start": 1369.199999988079,
+        "duration": 9,
+        "transfer": 65404,
+        "decoded": 65104
+      },
+      {
+        "url": "http://localhost:3108/prototype/assets/interior/plaster-roughness.webp",
+        "start": 1369.199999988079,
+        "duration": 9.5,
+        "transfer": 318648,
+        "decoded": 318348
+      },
+      {
+        "url": "http://localhost:3108/assets/materials/brass-roughness.webp",
+        "start": 1369.199999988079,
+        "duration": 14.900000005960464,
+        "transfer": 80254,
+        "decoded": 79954
+      },
+      {
+        "url": "http://localhost:3108/assets/materials/velvet-color.webp",
+        "start": 1369.2999999970198,
+        "duration": 15.299999997019768,
+        "transfer": 27192,
+        "decoded": 26892
+      },
+      {
+        "url": "http://localhost:3108/assets/materials/velvet-normal.webp",
+        "start": 1369.2999999970198,
+        "duration": 16.700000002980232,
+        "transfer": 353164,
+        "decoded": 352864
+      },
+      {
+        "url": "http://localhost:3108/assets/materials/velvet-roughness.webp",
+        "start": 1369.2999999970198,
+        "duration": 19.399999991059303,
+        "transfer": 196668,
+        "decoded": 196368
+      },
+      {
+        "url": "http://localhost:3108/assets/materials/walnut-normal.webp",
+        "start": 1369.3999999910593,
+        "duration": 20,
+        "transfer": 253924,
+        "decoded": 253624
+      },
+      {
+        "url": "http://localhost:3108/assets/materials/walnut-roughness.webp",
+        "start": 1369.3999999910593,
+        "duration": 20.5,
+        "transfer": 110478,
+        "decoded": 110178
+      },
+      {
+        "url": "http://localhost:3108/assets/models/showcase-finish/stud.glb",
+        "start": 1369.8999999910593,
+        "duration": 15,
+        "transfer": 162878,
+        "decoded": 316408
+      },
+      {
+        "url": "http://localhost:3108/assets/models/showcase-finish/drop.glb",
+        "start": 1370.0999999940395,
+        "duration": 23.900000005960464,
+        "transfer": 364648,
+        "decoded": 970576
+      },
+      {
+        "url": "http://localhost:3108/assets/models/showcase-finish/hoops.glb",
+        "start": 1370.0999999940395,
+        "duration": 20,
+        "transfer": 297498,
+        "decoded": 377672
+      },
+      {
+        "url": "http://localhost:3108/favicon.ico",
+        "start": 1557.8999999910593,
+        "duration": 0.9000000059604645,
+        "transfer": 0,
+        "decoded": 0
+      }
+    ],
+    "renderer": "WebKit WebGL"
+  },
+  "commerce": [
+    {
+      "width": 375,
+      "fivePages": true,
+      "photos": true,
+      "zoom": true,
+      "cart": true,
+      "priceTotal": 110,
+      "quantityAndRemoval": true,
+      "cameraRestore": true,
+      "selectionRestore": true,
+      "sixStops": true,
+      "noFakeProducts": true,
+      "errors": [],
+      "broken": []
+    },
+    {
+      "width": 1440,
+      "fivePages": true,
+      "photos": true,
+      "zoom": true,
+      "cart": true,
+      "priceTotal": 110,
+      "quantityAndRemoval": true,
+      "cameraRestore": true,
+      "selectionRestore": true,
+      "sixStops": true,
+      "noFakeProducts": true,
+      "errors": [],
+      "broken": []
+    }
+  ],
+  "scene": [
+    {
+      "case": "blocked-critical-HDR",
+      "first": {
+        "t": 2209.2999999970198,
+        "pending": 2,
+        "studies": 0,
+        "materialReady": true
+      },
+      "errors": []
+    },
+    {
+      "case": "offscreen-chain-and-fast-scroll",
+      "first": {
+        "t": 1692.199999988079,
+        "pending": 2,
+        "studies": 0,
+        "materialReady": true
+      },
+      "resumed": true,
+      "errors": []
+    },
+    {
+      "case": "tour-375",
+      "first": {
+        "t": 1750.4000000059605,
+        "pending": 2,
+        "studies": 0,
+        "materialReady": true
+      },
+      "duplicateTextures": [],
+      "htmlPaused": true,
+      "returnWorks": true,
+      "errors": []
+    },
+    {
+      "case": "tour-1440",
+      "first": {
+        "t": 1820.0999999940395,
+        "pending": 2,
+        "studies": 0,
+        "materialReady": true
+      },
+      "duplicateTextures": [],
+      "htmlPaused": true,
+      "returnWorks": true,
+      "errors": []
+    },
+    {
+      "case": "critical-resource-failure",
+      "noPartialRender": true,
+      "errors": []
+    }
+  ],
+  "responsive": [
+    {
+      "width": 320,
+      "noOverflow": true,
+      "keyboardZoom": true,
+      "EscapeFocus": true
+    },
+    {
+      "width": 375,
+      "noOverflow": true,
+      "keyboardZoom": true,
+      "EscapeFocus": true
+    },
+    {
+      "width": 768,
+      "noOverflow": true,
+      "keyboardZoom": true,
+      "EscapeFocus": true
+    },
+    {
+      "width": 1024,
+      "noOverflow": true,
+      "keyboardZoom": true,
+      "EscapeFocus": true
+    },
+    {
+      "width": 1440,
+      "noOverflow": true,
+      "keyboardZoom": true,
+      "EscapeFocus": true
+    }
+  ],
+  "finalVerification": "Dernier garde-fou de changement des photos vérifié dans les parcours complets à 375 et 1440 px."
+}

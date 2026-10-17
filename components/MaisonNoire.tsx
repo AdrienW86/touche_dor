@@ -8,7 +8,7 @@ export default function MaisonNoire() {
     <iframe
       className="maison-frame"
       src="/prototype/maison-noire.html"
-      title="Maison noire — visite immersive"
+      title="Touche d'Or — boutique immersive"
       allow="fullscreen"
     />
   );

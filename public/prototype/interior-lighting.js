@@ -142,7 +142,7 @@
     architecture.ready.then(() => {
       reflection.material.uniforms.normalMap.value = architecture.floor.normalMap;
       flatNormal.dispose();
-    });
+    }).catch(()=>{});
     return { group, reflection };
   };
 })();

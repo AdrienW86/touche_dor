@@ -12,3 +12,5 @@ footer{background:#0d0d0c;color:#d6c8ae;padding:70px max(6vw,22px) 25px}.footer-
 .discovery .eyebrow{color:#c8aa71}#classic .discovery{background:radial-gradient(ellipse at 50% 26%,#292318,#0c0c0a 70%);color:#f1e7d7}.discovery p{color:#b7a68c}.discovery button{color:#e4d2b0}.discovery .gold{color:#1d180e}#bridge-background{background:#0c0c0a}
 #logo-bridge{z-index:4}.discovery .hero-logo{max-height:none}#gr{opacity:.035}
 #bridge-background{background:radial-gradient(ellipse at 50% 26%,#292318,#0c0c0a 70%)}.bridge-discovery{position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:center;text-align:center;padding:0 24px 10vh;color:#f1e7d7}.bridge-discovery .copy{max-width:680px}.bridge-discovery .eyebrow{color:#c8aa71}@media(max-width:750px){.bridge-discovery .copy{max-width:340px}}
+
+.cart-thumb{width:64px;flex:none}.cart-thumb img{width:64px;height:80px;object-fit:contain;border-radius:8px}.cart-line>div:nth-child(2){flex:1}.product-visual img{object-fit:contain}.card-photo{object-fit:contain;transition:opacity .16s ease}#nm{font-size:clamp(1.2rem,3vw,1.75rem)}@media(prefers-reduced-motion:reduce){.card,.card-photo{transition:none}}

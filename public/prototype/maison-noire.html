@@ -3,8 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Touche d'or – La Maison noire</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Italiana&family=Jost:wght@300;400&display=swap">
+<title>Touche d'Or — Bijoux en acier inoxydable</title>
+<link rel="preload" href="/prototype/collection-config.json" as="fetch" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/fonts/fonts.css">
+<link rel="preload" href="/prototype/vendor/three.r128.min.js" as="script" fetchpriority="high">
+<link rel="preload" href="/assets/fonts/italiana-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/prototype/assets/entrance/stone-color.webp" as="image" crossorigin="anonymous" fetchpriority="low">
+<link rel="preload" href="/prototype/assets/entrance/stone-roughness.webp" as="image" crossorigin="anonymous" fetchpriority="low">
+<link rel="preload" href="/prototype/assets/entrance/stone-normal.webp" as="image" crossorigin="anonymous" fetchpriority="low">
+<link rel="preload" href="/prototype/assets/interior/marble-color.webp" as="image" crossorigin="anonymous" fetchpriority="low">
+<link rel="preload" href="/assets/materials/walnut-color.webp" as="image" crossorigin="anonymous" fetchpriority="low">
+<link rel="preload" href="/assets/branding/touche-dor.webp" as="image" crossorigin="anonymous" fetchpriority="low">
+<link rel="preload" href="/assets/models/pilot/necklace-bust.glb" as="fetch" crossorigin="anonymous">
+<link rel="preload" href="/assets/models/architecture/bracelet.glb" as="fetch" crossorigin="anonymous">
+<link rel="preload" href="/assets/models/architecture/ring.glb" as="fetch" crossorigin="anonymous">
+<link rel="preload" href="/assets/models/architecture/vertical-sconce.glb" as="fetch" crossorigin="anonymous">
+<link rel="preload" href="/prototype/assets/interior/studio_small_09_1k.hdr.gz" as="fetch" crossorigin="anonymous">
 <style>
 /* ===== THÈME ===== */
 :root{--ink:#f1ebe0;--gold:#d9bf8a;--panel:rgba(8,8,8,.72);--gg:linear-gradient(120deg,#f6e9cc,#d9bf8a 45%,#8f7646);--fd:'Italiana',Georgia,serif;--fb:'Jost',system-ui,sans-serif}
@@ -38,27 +52,27 @@ button:focus-visible{outline:2px solid var(--gold);outline-offset:3px}.gold{back
 </head>
 <body>
 <a class="skip-link" href="#classic" data-classic>Passer la visite et découvrir les collections</a>
-<canvas id="c" aria-label="Visite décorative de la boutique Touche d’Or"></canvas><div id="fx"></div><div id="gr"></div><div id="bar"></div>
-<header class="top" id="top"><a class="logo gt" href="#" data-tour>Touche d’or</a><div class="right"><span class="demo-badge">Catalogue de démonstration</span><button id="allB">Toutes les pièces</button><button id="cartB">Panier démo (0)</button></div></header>
-<div id="intro"><span>Touche d’Or · Bijouterie</span><h1>Entrez dans <span class="gt">l'écrin.</span></h1><p>Laque noire, marbre et or champagne : poussez la porte de notre boutique et laissez-vous guider, vitrine après vitrine.</p><i>Faites défiler pour entrer ↓</i><div class="intro-links"><button data-classic>Accéder aux collections</button></div></div>
-<div class="card" id="card" inert style="opacity:0"><small id="ch"></small><img class="card-photo" id="card-photo" alt="" hidden><h2 id="nm"></h2><p id="mt"></p><div class="product-controls"><button id="card-prev" aria-label="Produit précédent">←</button><span id="card-count"></span><button id="card-next" aria-label="Produit suivant">→</button><button id="view-product">Voir le produit</button></div><div class="row"><span class="price" id="pr"></span><button class="gold" id="add">Ajouter · démo</button></div><p class="pending" id="card-pending"></p></div>
+<canvas id="c" aria-label="Visite décorative de la boutique Touche d'Or"></canvas><div id="fx"></div><div id="gr"></div><div id="bar"></div>
+<header class="top" id="top"><a class="logo gt" href="#" data-tour>Touche d'Or</a><div class="right"><span class="demo-badge">Livraison gratuite</span><button id="allB">Toutes les pièces</button><button id="cartB">Panier (0)</button></div></header>
+<div id="intro"><span>Touche d'Or · Bijouterie</span><h1>Entrez dans <span class="gt">l'écrin.</span></h1><p>Laque noire, marbre et or champagne : poussez la porte de notre boutique et laissez-vous guider, vitrine après vitrine.</p><i>Faites défiler pour entrer ↓</i><div class="intro-links"><button data-classic>Accéder aux collections</button></div></div>
+<div class="card" id="card" inert style="opacity:0"><small id="ch"></small><img class="card-photo" id="card-photo" alt="" hidden><h2 id="nm"></h2><p id="mt"></p><div class="product-controls"><button id="card-prev" aria-label="Produit précédent">←</button><span id="card-count"></span><button id="card-next" aria-label="Produit suivant">→</button><button id="view-product">Voir le produit</button></div><div class="row"><span class="price" id="pr"></span><button class="gold" id="add">Ajouter au panier</button></div><p class="pending" id="card-pending"></p></div>
 <p id="phase-label" aria-hidden="true">Entrée</p>
 <div id="tour-track" aria-hidden="true"></div>
 <div id="logo-bridge" aria-hidden="true"><div id="bridge-background"></div><img id="bridge-logo" alt=""></div>
 <main id="classic" tabindex="-1">
-  <section class="discovery" aria-labelledby="discovery-title"><img class="hero-logo" data-brand-image alt="Touche d’Or"><div class="copy"><span class="eyebrow">Touche d’Or · Bijouterie</span><h2 id="discovery-title">Des bijoux qui<br>vous ressemblent.</h2><p>Explorez six univers et découvrez les pièces de notre catalogue de démonstration.</p><div class="actions"><button class="gold" data-catalogue>Découvrir les collections</button><button data-tour>Revenir dans la boutique</button></div></div></section>
+  <section class="discovery" aria-labelledby="discovery-title"><img class="hero-logo" data-brand-image alt="Touche d'Or"><div class="copy"><span class="eyebrow">Touche d'Or · Bijouterie</span><h2 id="discovery-title">Des bijoux qui<br>vous ressemblent.</h2><p>Découvrez nos colliers, sautoirs et bracelets en acier inoxydable doré.</p><div class="actions"><button class="gold" data-catalogue>Découvrir les collections</button><button data-tour>Revenir dans la boutique</button></div></div></section>
   <section class="section" id="collections" aria-labelledby="collections-title"><div class="section-heading"><div><span class="eyebrow">Six univers, une signature</span><h2 id="collections-title">Nos collections</h2></div><p>Du collier au bracelet, choisissez l’univers qui vous attire.</p></div><div id="categories" class="category-grid"></div></section>
-  <section class="section selection" aria-labelledby="selection-title"><div class="section-heading"><div><span class="eyebrow">Catalogue de démonstration</span><h2 id="selection-title">Une première sélection</h2></div><p>Exemples issus du prototype. Photos, disponibilités et tarifs commerciaux restent à renseigner.</p></div><div class="product-grid" id="selection-grid"></div></section>
-  <section class="section brand-section" id="maison" aria-labelledby="brand-title"><div class="brand-panel"><img data-brand-image alt="Touche d’Or"></div><div><span class="eyebrow">La signature</span><h2 id="brand-title">Touche d’Or</h2><p>Une identité dorée, un écrin de marbre noir et six univers de bijoux à explorer.</p><button class="classic-button" data-tour style="margin-top:24px">Retrouver l’expérience immersive ↗</button></div></section>
-  <section class="section" aria-label="Informations pratiques à compléter"><div class="service-grid"><div><h3>Livraison</h3><p>Les destinations, délais et frais seront indiqués ici après confirmation.</p><span>Informations à renseigner</span></div><div><h3>Retours</h3><p>Les modalités et conditions de retour seront disponibles avant l’ouverture des ventes.</p><span>Conditions à confirmer</span></div><div><h3>Paiements</h3><p>La commande est désactivée dans cette démonstration.</p><span>Moyens de paiement à configurer</span></div></div></section>
-  <footer><div class="footer-grid"><div><img class="brand" data-brand-image alt="Touche d’Or"><p>Bijouterie · Maison noire<br>Expérience et catalogue de démonstration.</p><div id="socials"></div></div><nav aria-label="Navigation du pied de page"><h3>La Maison</h3><a href="#" data-tour>La boutique immersive</a><a href="#collections">Les collections</a><a href="#maison">Touche d’Or</a><a href="#collections" data-catalogue>Toutes les pièces</a></nav><nav aria-label="Catégories"><h3>Boutique</h3><div id="footer-categories"></div></nav><div><h3>Informations</h3><div id="footer-links"></div></div></div><div class="footer-note"><span>Touche d’Or · Démonstration, aucune commande réelle.</span><a href="/assets/CREDITS.md" target="_blank" rel="noopener">Ressources et licences</a></div></footer>
+  <section class="section selection" aria-labelledby="selection-title"><div class="section-heading"><div><span class="eyebrow">La sélection Touche d'Or</span><h2 id="selection-title">Une première sélection</h2></div><p>Cinq bijoux dorés à découvrir en images. Livraison gratuite.</p></div><div class="product-grid" id="selection-grid"></div></section>
+  <section class="section brand-section" id="maison" aria-labelledby="brand-title"><div class="brand-panel"><img data-brand-image alt="Touche d'Or"></div><div><span class="eyebrow">La signature</span><h2 id="brand-title">Touche d'Or</h2><p>Une identité dorée, un écrin de marbre noir et six univers de bijoux à explorer.</p><button class="classic-button" data-tour style="margin-top:24px">Retrouver l’expérience immersive ↗</button></div></section>
+  <section class="section" aria-label="Livraison"><div class="service-grid"><div><h3>Livraison gratuite</h3><p>La livraison est offerte sur les bijoux Touche d'Or.</p></div><div><h3>Acier inoxydable</h3><p>Une sélection de colliers, sautoirs et bracelets dorés.</p></div></div></section>
+  <footer><div class="footer-grid"><div><img class="brand" data-brand-image alt="Touche d'Or"><p>Touche d'Or<br>Bijoux en acier inoxydable doré.</p><div id="socials"></div></div><nav aria-label="Navigation du pied de page"><h3>La Maison</h3><a href="#" data-tour>La boutique immersive</a><a href="#collections">Les collections</a><a href="#maison">Touche d'Or</a><a href="#collections" data-catalogue>Toutes les pièces</a></nav><nav aria-label="Catégories"><h3>Boutique</h3><div id="footer-categories"></div></nav><div><h3>Informations</h3><div id="footer-links"></div></div></div><div class="footer-note"><span>Touche d'Or · Livraison gratuite</span><a href="/assets/CREDITS.md" target="_blank" rel="noopener">Ressources et licences</a></div></footer>
 </main>
-<dialog id="catalogue" aria-labelledby="catalogue-title"><div class="dialog-head"><span class="eyebrow">Le catalogue</span><button data-close>← Retour à la boutique</button></div><h2 id="catalogue-title">Toutes les pièces</h2><p class="notice">Démonstration : ces six exemples et leurs tarifs proviennent du prototype. Ils ne sont pas proposés à la vente. Les photos produit restent à renseigner.</p><div class="filters" id="filters" aria-label="Catégories"></div><div class="product-grid" id="list"></div></dialog>
-<dialog id="product-detail" aria-labelledby="detail-title"><div class="dialog-head"><span class="eyebrow">La pièce en détail</span><button data-close>← Retour à la boutique</button></div><div class="detail-grid"><div class="product-visual" id="detail-photo"></div><div><span class="eyebrow" id="detail-category"></span><h2 id="detail-title"></h2><p class="muted" id="detail-description"></p><p id="detail-price" style="margin-top:20px"></p><p class="notice">Exemple de démonstration, sans disponibilité commerciale confirmée. L’objet 3D est un décor et ne constitue pas une photo produit.</p><div class="product-controls"><button id="detail-prev" aria-label="Produit précédent">←</button><span id="detail-count"></span><button id="detail-next" aria-label="Produit suivant">→</button></div><button class="gold" id="detail-add">Ajouter au panier de démonstration</button></div></div></dialog>
-<dialog id="cart-dialog" aria-labelledby="cart-title"><div class="dialog-head"><span class="eyebrow">Votre sélection</span><button data-close>← Continuer la visite</button></div><h2 id="cart-title">Panier de démonstration</h2><p class="notice">Les ajouts sont conservés dans ce navigateur pour tester le parcours. Aucune commande ni aucun paiement ne sont effectués.</p><div id="cart-list"></div><div class="tot"><span>Total indicatif</span><b id="tot">0 €</b></div><button class="gold" id="out" disabled style="width:100%;margin-top:20px">Commande indisponible · démonstration</button></dialog>
+<dialog id="catalogue" aria-labelledby="catalogue-title"><div class="dialog-head"><span class="eyebrow">Le catalogue</span><button data-close>← Retour à la boutique</button></div><h2 id="catalogue-title">Toutes les pièces</h2><p class="notice">Bijoux en acier inoxydable, couleur dorée. Livraison gratuite.</p><div class="filters" id="filters" aria-label="Catégories"></div><div class="product-grid" id="list"></div></dialog>
+<dialog id="cart-dialog" aria-labelledby="cart-title"><div class="dialog-head"><span class="eyebrow">Votre sélection</span><button data-close>← Continuer la visite</button></div><h2 id="cart-title">Votre panier</h2><p class="notice">Votre sélection est conservée sur cet appareil. Livraison gratuite.</p><div id="cart-list"></div><div class="tot"><span>Total</span><b id="tot">0 €</b></div><button class="gold" id="out" disabled style="width:100%;margin-top:20px">Commande en ligne prochainement</button></dialog>
 <div id="toast" role="status"></div>
-<noscript><p>Cette visite nécessite JavaScript. Le catalogue commercial n’est pas encore disponible.</p></noscript>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<noscript><p>Cette visite nécessite JavaScript. Découvrez aussi les fiches de nos bijoux.</p></noscript>
+<script src="/prototype/vendor/three.r128.min.js"></script>
+<script src="/prototype/scene-assets.js"></script>
 <script src="/prototype/entrance-textures.js"></script>
 <script src="/prototype/entrance.js"></script>
 <script src="/prototype/vendor/RGBELoader.r128.js"></script>
@@ -71,25 +85,16 @@ button:focus-visible{outline:2px solid var(--gold);outline-offset:3px}.gold{back
 <script src="/prototype/pilot-models.js"></script>
 <script src="/prototype/architecture-details.js"></script>
 <script src="/prototype/showcases.js"></script>
+<script src="/prototype/cart.js"></script>
 <script src="/prototype/storefront.js"></script>
 <script src="/prototype/experience.js"></script>
 <script>
-(function(){
+window.maisonCatalogueReady.then(function(){
 /* ============ 1. DONNÉES — à remplacer par le vrai catalogue ============
    type: ring|ring2|neck|ear|brac|heart (modèle 3D de secours) · model: .glb (GLTFLoader à ajouter) · photo: image pour une fiche */
 
 /* ============ 2. TEXTURES NATURELLES GÉNÉRÉES (marbre, noyer, velours) ============ */
 const T=THREE,$=id=>document.getElementById(id),cl=(v,a,b)=>Math.max(a,Math.min(b,v)),mod=(a,n)=>((a%n)+n)%n;
-const hs=(x,y)=>{const s=Math.sin(x*127.1+y*311.7)*43758.5453;return s-Math.floor(s)};
-const vn=(x,y,P)=>{const i=Math.floor(x),j=Math.floor(y),f=x-i,g=y-j,u=f*f*(3-2*f),v=g*g*(3-2*g),h=(a,b)=>hs(mod(a,P),mod(b,P));return h(i,j)*(1-u)*(1-v)+h(i+1,j)*u*(1-v)+h(i,j+1)*(1-u)*v+h(i+1,j+1)*u*v};
-const fbm=(u,v,b)=>{let a=.5,s=0,P=b,x=u*b,y=v*b;for(let o=0;o<5;o++){s+=a*vn(x,y,P);x*=2;y*=2;P*=2;a*=.5}return s};
-function tex(n,fn,rx,ry){const c=document.createElement('canvas');c.width=c.height=n;const x=c.getContext('2d'),d=x.createImageData(n,n);
- for(let j=0;j<n;j++)for(let i=0;i<n;i++){const k=fn(i/n,j/n),o=(j*n+i)*4;d.data[o]=k[0];d.data[o+1]=k[1];d.data[o+2]=k[2];d.data[o+3]=255}
- x.putImageData(d,0,0);const t=new T.CanvasTexture(c);t.wrapS=t.wrapT=T.RepeatWrapping;t.repeat.set(rx,ry);t.anisotropy=8;t.encoding=T.sRGBEncoding;return t}
-const vein=(u,v,n,f,k)=>Math.pow(1-Math.abs(Math.sin(Math.PI*(f*u+f*.6*v+k*n))),14);
-const tBlack=tex(512,(u,v)=>{const n=fbm(u,v,3),g=vein(u,v,n,3,5)*.2+vein(u,v,fbm(v,u,4),2,4)*.09;return[10+n*10+g*200,10+n*10+g*170,11+n*10+g*120]},4,30);
-const tIvory=tex(256,(u,v)=>{const n=fbm(u,v,3),g=vein(u,v,n,2,4)*.4;return[238-n*20-g*80,230-n*20-g*80,214-n*20-g*76]},1,1);
-
 /* ============ 3. MOTEUR 3D + MATÉRIAUX ============ */
 const renderer=new T.WebGLRenderer({canvas:$('c'),antialias:true});
 renderer.setPixelRatio(Math.min(devicePixelRatio,1.75));renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;renderer.outputEncoding=T.sRGBEncoding;
@@ -99,7 +104,7 @@ scene.background=new T.Color(0x070707);scene.fog=new T.Fog(0x070707,8,34);
  [[0,9,0,12,.2,12],[-9,2,0,.2,7,9],[9,2,0,.2,7,9],[0,-1,9,9,3,.2],[0,3,-9,9,3,.2]].forEach(a=>{const m=new T.Mesh(new T.BoxGeometry(a[3],a[4],a[5]),new T.MeshBasicMaterial({color:new T.Color(.72,.49,.25)}));m.position.set(a[0],a[1],a[2]);es.add(m)});
  scene.environment=new T.PMREMGenerator(renderer).fromScene(es).texture})();
 const S=(o)=>new T.MeshStandardMaterial(o);
-const mBlack=S({map:tBlack,roughness:.1,metalness:.5,envMapIntensity:1.2}),mIvory=S({map:tIvory,roughness:.2,metalness:.05}),
+const mBlack=S({roughness:.1,metalness:.5,envMapIntensity:1.2}),mIvory=S({roughness:.2,metalness:.05}),
  mWood=S({color:0x0b0b0b,roughness:.14,metalness:.55,envMapIntensity:1.1}),mVel=S({color:0x141313,roughness:.92}),mRug=S({color:0x181614,roughness:.35,metalness:.4}),
  mCof=S({color:0x0a0a0a,roughness:.3,metalness:.5}),gold=S({color:0xd9bf8a,metalness:1,roughness:.24,envMapIntensity:1.4}),
  mirror=S({color:0x8a8a8a,metalness:1,roughness:.05,envMapIntensity:1.5}),glass=new T.MeshPhysicalMaterial({color:0xffffff,transparent:true,opacity:.1,roughness:0,metalness:0,envMapIntensity:2.5,side:T.DoubleSide,depthWrite:false}),
@@ -121,7 +126,7 @@ const entrance=window.createMaisonEntrance(T,scene,renderer);
 const sc=document.createElement('canvas');sc.width=1024;sc.height=256;const sx=sc.getContext('2d'),signT=new T.CanvasTexture(sc);signT.encoding=T.sRGBEncoding;
 function sign(){sx.clearRect(0,0,1024,256);const g=sx.createLinearGradient(0,0,1024,0);g.addColorStop(0,'#8f7646');g.addColorStop(.5,'#f6e9cc');g.addColorStop(1,'#8f7646');sx.fillStyle=g;sx.textAlign='center';sx.textBaseline='middle';
  sx.font='118px Italiana, Georgia, serif';sx.fillText("TOUCHE D'OR",512,105);sx.font='34px Jost, sans-serif';sx.fillText('J O A I L L E R I E',512,205);signT.needsUpdate=true}
-sign();if(document.fonts)document.fonts.load('118px Italiana').then(sign);
+const signReady=document.fonts?Promise.all([document.fonts.load('118px Italiana'),document.fonts.load('34px Jost')]).then(sign):Promise.resolve().then(sign);
 P(5.2,1.3,new T.MeshBasicMaterial({map:signT,transparent:true}),0,4,8.17);
 const doors=entrance.doors;
 // bandeaux lumineux au plafond
@@ -157,12 +162,13 @@ const dust=(()=>{const n=220,a=new Float32Array(n*3);for(let i=0;i<n;i++){a[i*3]
 
 /* ============ 6. INTERFACE ============ */
 const ui=window.createMaisonStorefront();
+ui.restoreVisit();
 function size(){renderer.setSize(innerWidth,innerHeight,false);const a=innerWidth/innerHeight;cam.aspect=a;cam.fov=a<.8?66:50;cam.updateProjectionMatrix()}
 addEventListener('resize',size);size();
 const experience=window.createMaisonExperience(T,scene,renderer,cam,architecture);
 window.refineMaisonArchitecture(T,scene,renderer,architecture);
 
-function frame(t){requestAnimationFrame(frame);const time=experience.isStill()?0:t*.001;
+function updateFrame(t){const time=experience.isStill()?0:t*.001;
  const state=experience.update(f=>{const i=Math.min(5,Math.floor(f)),q=f-i;let e=q*q*(3-2*q);e=e*e*(3-2*e);
  const z=Zs[i]+(Zs[i+1]-Zs[i])*e,ka=Math.round(f),w=cl(1-Math.abs(f-ka)*2.6,0,1),act=ka-1,mob=innerWidth<800;
  const sx=act>=0?side(act)*(mob?1.3:.8):0,cx=sx*w;
@@ -174,9 +180,67 @@ function frame(t){requestAnimationFrame(frame);const time=experience.isStill()?0
  $('intro').style.opacity=cl(1-f*2.2,0,1);$('intro').inert=f>.45;
  const show=act>=0&&act<6&&w>.45&&scrollY/innerHeight<=8.02;ui.setActive(act>=0&&act<6?act:-1,show);
  });
- if(state.render3D){renderer.render(scene,cam);window.maisonExperienceState.renderCount++;}}
-requestAnimationFrame(frame);
-})();
+ return state;
+}
+// Preparation -> essential resources -> final shaders -> complete first frame.
+// No provisional scene is submitted to the visible drawing buffer.
+let animation=0,prepared=false,waitingForView=false;
+const readiness=window.maisonSceneReadiness={phase:'loading',firstRenderAt:null,resourcesReadyAt:null,compileMs:null};
+const initialState=updateFrame(performance.now());
+function schedule(){if(prepared&&!document.hidden&&!animation)animation=requestAnimationFrame(frame);}
+function frame(t){
+ animation=0;
+ const state=updateFrame(t);
+ if(state.render3D&&displaySystem.isReadyForView(cam)){
+   renderer.render(scene,cam);window.maisonExperienceState.renderCount++;
+   if(readiness.firstRenderAt===null){readiness.firstRenderAt=performance.now();readiness.phase='visible';displaySystem.preloadRest();}
+ }else if(state.render3D){
+   if(!waitingForView){waitingForView=true;displaySystem.readyForView(cam).then(()=>{waitingForView=false;schedule();},fail);}
+   return;
+ }
+ if((state.render3D&&!experience.isStill())||experience.shouldTick())schedule();
+}
+function fail(error){
+ readiness.phase='error';prepared=false;cancelAnimationFrame(animation);animation=0;console.error('Préparation de la boutique impossible.',error);
+ // Keep the existing accessible HTML available; never reveal fallback 3D.
+ ui.toast('La visite 3D est indisponible. Le catalogue reste accessible.');
+ document.dispatchEvent(new CustomEvent('maison-scene-error'));
+}
+addEventListener('scroll',schedule,{passive:true});
+addEventListener('resize',schedule);
+addEventListener('visibilitychange',()=>{if(document.hidden){cancelAnimationFrame(animation);animation=0;}else schedule();});
+matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change',schedule);
+Promise.all([entrance.ready,architecture.ready,window.maisonArchitecturalReady,window.maisonDisplayAssetsReady,signReady,
+ displaySystem.readyForView(cam),...(initialState.render3D?[window.maisonLogoReady]:[])]).then(()=>{
+ updateFrame(performance.now());
+ return displaySystem.readyForView(cam);
+}).then(()=>{
+ readiness.resourcesReadyAt=performance.now();readiness.phase='compiling';scene.updateMatrixWorld(true);
+ const compilationStart=performance.now();
+ const textures=new Set();scene.traverse(object=>{
+   if(!object.material)return;
+   (Array.isArray(object.material)?object.material:[object.material]).forEach(material=>{
+     Object.values(material).forEach(value=>{if(value&&value.isTexture)textures.add(value);});
+   });
+ });
+ textures.forEach(texture=>renderer.initTexture(texture));
+ renderer.compile(scene,cam);readiness.compileMs=performance.now()-compilationStart;renderer.shadowMap.needsUpdate=true;
+ prepared=true;schedule();
+}).catch(fail);
+addEventListener('pagehide',event=>{
+ if(event.persisted)return;
+ prepared=false;cancelAnimationFrame(animation);
+ const geometries=new Set(),materials=new Set(),textures=new Set();
+ scene.traverse(o=>{if(o.geometry)geometries.add(o.geometry);if(o.getRenderTarget)o.getRenderTarget().dispose();
+   (Array.isArray(o.material)?o.material:[o.material]).filter(Boolean).forEach(m=>{materials.add(m);Object.values(m).forEach(v=>{if(v&&v.isTexture)textures.add(v);});});
+ });
+ if(scene.environment)textures.add(scene.environment);
+ geometries.forEach(g=>g.dispose());materials.forEach(m=>m.dispose());textures.forEach(t=>t.dispose());
+ renderer.dispose();renderer.forceContextLoss();
+});
+// Observe offscreen failures; readyForView rejects only when that display is needed.
+window.maisonPilotAssetsReady.catch(error=>console.error('Une ressource de la visite est indisponible.',error));
+}).catch(error=>{console.error('Initialisation impossible.',error);document.getElementById('toast').textContent='La boutique est momentanément indisponible.';document.getElementById('toast').classList.add('o');});
 </script>
 </body>
 </html>

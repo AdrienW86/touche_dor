@@ -2,7 +2,7 @@
 (function(){
   window.refineMaisonArchitecture=function(T,scene,renderer,architecture){
     const group=new T.Group();group.name='Habillages noyer, marbre et champagne';scene.add(group);
-    const loader=new T.TextureLoader(),load=(name,color)=>new Promise((resolve,reject)=>loader.load('/assets/materials/'+name+'.webp',map=>{map.encoding=color?T.sRGBEncoding:T.LinearEncoding;map.wrapS=map.wrapT=T.RepeatWrapping;map.anisotropy=4;resolve(map);},undefined,reject));
+    const load=(name,color)=>window.loadMaisonTexture(T,'/assets/materials/'+name+'.webp',color).then(map=>{map.wrapS=map.wrapT=T.RepeatWrapping;map.anisotropy=4;return map;});
     const wood=architecture.wallUpper,metal=architecture.brass;
     const batches=new Map();
     function box(w,h,d,x,y,z,mat){

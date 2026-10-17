@@ -2,17 +2,14 @@
 (function () {
   window.createMaisonInteriorMaterials = function (T, renderer) {
     const path = '/prototype/assets/interior/';
-    const loader = new T.TextureLoader();
+
     const materials = {};
     const cache = new Map();
     function texture(name, color) {
-      if (!cache.has(name)) cache.set(name, new Promise((resolve, reject) => {
-        loader.load(path + name, map => {
-          map.encoding = color ? T.sRGBEncoding : T.LinearEncoding;
-          map.wrapS = map.wrapT = T.RepeatWrapping;
-          map.anisotropy = Math.min(8, renderer.capabilities.getMaxAnisotropy());
-          resolve(map);
-        }, undefined, reject);
+      if (!cache.has(name)) cache.set(name, window.loadMaisonTexture(T, path + name, color).then(map => {
+        map.wrapS = map.wrapT = T.RepeatWrapping;
+        map.anisotropy = Math.min(8, renderer.capabilities.getMaxAnisotropy());
+        return map;
       }));
       return cache.get(name);
     }
@@ -39,7 +36,7 @@
     finish('wallInset', { color: 0x6c6558, metalness: 1, roughness: .12, envMapIntensity: .25 });
 
     const environment = new Promise((resolve, reject) => {
-      new T.RGBELoader().setDataType(T.UnsignedByteType).load(path + 'studio_small_09_1k.hdr', hdr => {
+      new T.RGBELoader().setDataType(T.UnsignedByteType).load(path + 'studio_small_09_1k.hdr.gz', hdr => {
         const generator = new T.PMREMGenerator(renderer);
         generator.compileEquirectangularShader();
         const target = generator.fromEquirectangular(hdr);
@@ -73,6 +70,7 @@
       });
     }).catch(error => {
       console.error('Chargement des matériaux architecturaux impossible.', error);
+      throw error;
     });
 
     // World-scaled UVs prevent stretching over 44m-long walls and keep the
